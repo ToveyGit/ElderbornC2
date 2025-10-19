@@ -1,0 +1,23 @@
+pdxmesh = {
+	name = "building_special_dragonsreach_walls_mesh"
+	file = "building_special_dragonsreach_walls.mesh"
+	scale = 1.4
+
+	
+	
+	meshsettings = {
+		name = "western_walls_03_a1Shape"
+		index = 0
+		texture_diffuse = "building_western_atlas_diffuse.dds"
+		texture_normal = "building_western_atlas_normal.dds"
+		texture_specular = "building_western_atlas_properties.dds"
+		texture = { file = "western_walls_03_unique.dds" index = 5 }
+		shader = "snap_to_terrain_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "building_special_dragonsreach_walls_entity"
+	pdxmesh = "building_special_dragonsreach_walls_mesh"
+}
