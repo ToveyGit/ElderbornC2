@@ -1,0 +1,18 @@
+﻿l_english:
+ create_alliance_interaction:0 "Create Alliance"
+ create_alliance_interaction_desc:0 "[recipient.GetShortUINameNoTooltip|U] will become your Ally"
+ break_alliance_interaction:0 "Remove Alliance"
+ break_alliance_interaction_desc:0 "[recipient.GetShortUINameNoTooltip|U] will no longer be your Ally"
+
+
+ dm_tool_alert:0 "DM Tool Alert"
+ dm_tool_alert_title:0 "DM Tool Used"
+ dm_tool_alert_desc:0 "This is a DM alert."  # Fallback only — not used if you use custom_tooltip
+ ep1_notifications.0012.t:0 "Divine Intervention!"
+ ep1_notifications.0012.desc:0 "[actor.GetTitledFirstName] has used a DM tool!"
+ notify_interaction_used_with_actor:0 "[CHARACTER.GetName] has used a special interaction!"
+
+ dm_tool_alert_created_alliance:0 "DM Tool - Created Alliance"
+ dm_tool_alert_created_alliance_desc:0 "[CHARACTER.GetTitledFirstName] has created an alliance with [GetGlobalVariable('dm_tool_new_ally').Char.GetTitledFirstName]!"
+ dm_tool_alert_broke_alliance:0 "DM Tool - Broken Alliance"
+ dm_tool_alert_broke_alliance_desc:0 "[CHARACTER.GetTitledFirstName] has broken an alliance with [GetGlobalVariable('dm_tool_new_ally').Char.GetTitledFirstName]!"

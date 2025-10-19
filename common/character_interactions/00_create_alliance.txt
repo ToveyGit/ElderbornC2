@@ -1,0 +1,100 @@
+﻿create_alliance_interaction = {
+	category = interaction_category_diplomacy
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	desc = create_alliance_interaction_desc
+	
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+			NOT = { 
+				is_allied_to = scope:recipient
+				scope:actor = scope:recipient
+			}
+		}
+		
+		scope:recipient = { 
+			is_landed = yes
+		}
+	}
+	
+	on_accept = {
+		save_scope_as = event_actor
+		scope:recipient = { # This opinion modifier controls the interaction, and is removed when breaking the alliance in any way (though on_actions)
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = scope:actor
+			}
+			set_global_variable = {
+				name = dm_tool_new_ally
+				value = scope:recipient
+			}
+		}
+		
+		scope:actor = {
+			allow_alliance = scope:recipient
+			create_alliance = {
+				target = scope:recipient
+				allied_through_owner = scope:actor
+				allied_through_target = scope:recipient
+			}
+		}
+
+		every_player = {
+			send_interface_message = {
+				type = dm_tool_alert_created_alliance
+				left_icon = scope:actor
+				right_icon = scope:recipient
+				seconds = 10
+			}
+		}
+	}
+	
+	auto_accept = yes
+	
+	ai_will_do = 0
+}
+
+break_alliance_interaction = {
+	category = interaction_category_diplomacy
+	common_interaction = yes
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	
+	desc = break_alliance_interaction_desc
+
+	is_shown = {
+		scope:actor = {
+			is_ai = no
+		}
+		scope:recipient = {
+			is_allied_to = scope:actor
+		}
+	}
+	on_accept = {
+		scope:actor = {
+			break_alliance = scope:recipient
+
+		}
+		scope:reipient = {
+			set_global_variable = {
+				name = dm_tool_new_ally
+				value = scope:recipient
+			}
+		}
+
+		every_player = {
+			send_interface_message = {
+				type = dm_tool_alert_broke_alliance
+				left_icon = scope:actor
+				right_icon = scope:recipient
+				seconds = 10
+			}
+		}
+	}
+	
+	auto_accept = yes
+	ai_will_do = 0
+}

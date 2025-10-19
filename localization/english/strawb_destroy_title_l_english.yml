@@ -1,0 +1,6 @@
+﻿l_english:
+ strawb_destroy_title:0 "Destroy Title"
+ NOT_TITLE_TIER_TRIGGER_THIRD:0 "Select a title #S greater than County #!"
+
+ dm_tool_alert_destroyed_title:0 "DM Tool - Destroyed Title"
+ dm_tool_alert_destroyed_title_desc:0 "[CHARACTER.GetTitledFirstName] has destroyed the title [GetGlobalVariable('dm_tool_destroyed_title').Title.GetName]!"
