@@ -1,0 +1,102 @@
+﻿
+
+##########
+# Ysgramor's Palace
+##########
+palace_of_kings_01 = {
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"skyrim_windhelm_mesh"
+		}
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "alcazar_segovia.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		powerful_vassal_opinion = 5
+		knight_limit = 2
+		knight_effectiveness_mult = 0.2
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_prestige_gain_per_happy_powerful_vassal_add = 0.1
+		tyranny_gain_mult = -0.2
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+}
+
+
+
+##########
+# Blue Palace
+##########
+blue_palace_01 = {
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"skyrim_solitude_mesh"
+		}
+	}
+
+	construction_time = very_slow_construction_time
+	effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_hagia_sophia.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		powerful_vassal_opinion = 5
+		knight_limit = 2
+		knight_effectiveness_mult = 0.2
+		monthly_prestige_gain_per_happy_powerful_vassal_add = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
