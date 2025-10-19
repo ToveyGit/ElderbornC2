@@ -1,9 +1,0 @@
-notify_all_players = {
-    every_player = {
-        send_interface_message = {
-            localization = notify_interaction_used_with_actor
-            duration = 5
-            notification_icon = event_alert
-        }
-    }
-}
