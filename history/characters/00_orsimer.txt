@@ -1,0 +1,6574 @@
+﻿##Igrun Dynasty (igrun)
+
+#Igrun House
+
+igrun_99 = {
+	name = "Igron"
+	dynasty = igrun
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	698.1.1 = { birth = yes }
+	754.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = igrun_100
+		}
+	}
+}
+
+igrun_100 = {
+	name = "Torug" #Lore
+	dynasty = igrun
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = igrun_99
+	
+	729.1.1 = { birth = yes }
+	807.1.1 = { death = yes }
+}
+
+igrun_line = {
+	name = "Torug"
+	dynasty = igrun
+	religion = code_of_malacath
+	culture = mountain_orc
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+	
+	father = igrun_100
+	
+	807.1.1 = { birth = yes }
+	900.1.1 = { give_nickname = nick_line_of }
+	930.1.1 = { death = yes }
+}
+
+igrun_101 = {
+	name = "Golkarr" #Lore
+	dynasty = igrun
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = igrun_line
+	
+	930.1.1 = { birth = yes }
+	970.3.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = shinji_1
+		} 
+	}
+}
+
+igrun_102 = {
+	name = "Golkarr"
+	female = yes
+	dynasty = igrun
+	religion = code_of_malacath
+	culture = mountain_orc
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+	
+	father = igrun_101
+	
+	979.1.1 = { birth = yes }
+	1300.1.1 = { give_nickname = nick_line_of }
+	3301.1.1 = { death = yes }
+}
+
+##Bloodtusk Dynasty (dyn_Bloodtusk)
+
+#Bloodtusk House
+
+bloodtusk_99 = {
+	name = "Bashag"
+	dynasty = dyn_Bloodtusk
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	
+	900.1.1 = { birth = yes }
+	950.3.1 = { 
+		death = { 
+			death_reason = death_old_age
+		} 
+	}
+}
+bloodtusk_99a = {
+	name = "Borgakh"
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	
+	900.1.1 = { birth = yes }
+	950.3.1 = { 
+		death = { 
+			death_reason = death_old_age
+		} 
+	}
+}
+bloodtusk_100 = {
+	name = "Baloth" #Lore
+	dynasty = dyn_Bloodtusk
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	father = bloodtusk_99
+	mother = bloodtusk_99a
+	
+	trait = twin
+	trait = brave
+	trait = content
+	trait = stubborn
+
+	trait = lifestyle_blademaster
+	trait = gallant
+	
+	
+	930.1.1 = { birth = yes }
+	970.7.1 = { death = { death_reason = death_murder_known killer = winterborn_100 } }
+}
+bloodtusk_101 = {
+	name = "Rokaug" #Lore
+	dynasty = dyn_Bloodtusk
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	father = bloodtusk_99
+	mother = bloodtusk_99a
+	
+	trait = twin
+	
+	930.1.1 = { birth = yes }
+	990.3.1 = { death = { death_reason = death_battle } }
+}
+bloodtusk_101a = {
+	name = "Rokaug"
+	dynasty = dyn_Bloodtusk
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	father = bloodtusk_101
+	
+	trait = line_of_x
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+
+	950.1.1 = { birth = yes }
+	990.1.1 = { give_nickname = nick_line_of }
+	3335.3.1 = { death = { death_reason = death_old_age } }
+}
+bloodtusk_102 = {
+	name = "Arakaul"
+	dynasty = dyn_Bloodtusk
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+
+	father = bloodtusk_101a
+	
+	trait = brave
+	trait = lustful
+	trait = fickle
+
+	trait = lifestyle_blademaster
+	trait = gallant
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	
+	3335.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #blood relative of Bloodtusk through his brother, Rokaug
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = fharun_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+	3397.7.1 = { death = { death_reason = death_battle } }
+}
+
+##Golzarga Dynasty (golzarga)
+
+#Golzarga House
+
+golzarga_99 = {
+	name = "Golzar"
+	dynasty = golzarga
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	3293.1.1 = { birth = yes }
+	3331.1.1 = { death = { death_reason = death_ill } }
+}
+
+golzarga_101 = {
+	name = "Bashag"
+	dynasty = golzarga
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = golzarga_99
+
+	trait = education_diplomacy_3
+	trait = stubborn
+	trait = patient
+	trait = paranoid
+	trait = sign_steed
+	stewardship = 8
+	
+	3314.6.3 = { birth = yes }
+	3342.1.1 = { add_spouse = morkul_1000_sister }
+	3351.10.13 = { 
+		death = {
+			death_reason = death_duel
+			killer = branquette_999
+		}
+	}
+}
+
+golzarga_102 = {
+	name = "Dagarha"
+	dynasty = golzarga
+	religion = code_of_malacath
+	culture = mountain_orc
+	trait = twin
+	female = yes
+	
+	father = golzarga_101
+	mother = morkul_1000_sister
+	
+	trait = sign_warrior
+	
+	3342.8.15 = { birth = yes }
+	3398.1.1 = { death = yes }
+}
+
+golzarga_103 = {
+	name = "Naroga"
+	dynasty = golzarga
+	religion = code_of_malacath
+	culture = mountain_orc
+	trait = twin
+	female = yes
+	
+	father = golzarga_101
+	mother = morkul_1000_sister
+
+	trait = sign_warrior
+	
+	3342.8.15 = { birth = yes }
+	3412.1.1 = { death = yes }
+}
+
+##Seamount Dynasty (dyn_Seamount)
+
+#Seamount House
+
+seamount_997 = {
+	name = "Targoth" #ESO
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	3280.1.1 = { birth = yes }
+	3320.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = copperfield_997
+		}
+	}
+}
+
+seamount_998 = {
+	name = "Yzzgol" #ESO
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_997
+	
+	3300.1.1 = { birth = yes }
+	3319.1.1 = { add_spouse = agluk_999b }
+	3350.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = seamount_999
+		}
+	}
+}
+
+seamount_999 = {
+	name = "Ushamph"
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	trait = education_martial_1
+	trait = gregarious
+	trait = stubborn
+	trait = wrathful
+	trait = sign_warrior
+	
+	father = seamount_998
+	mother = agluk_999b
+	
+	3320.8.16 = { birth = yes }
+	3339.6.1 = { add_spouse = seamount_999_wife }
+	3368.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = seamount_1000
+		}
+	}
+}
+seamount_999_wife = {
+	name = "Durida"
+	female = yes
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	trait = education_stewardship_2
+	trait = generous
+	trait = honest
+	trait = content
+	trait = sign_lover
+
+	3321.2.14 = { birth = yes }
+	3376.1.1 = { death = yes }
+}
+
+seamount_1000 = {
+	name = "Agdurz"
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	trait = education_intrigue_3
+	trait = lazy
+	trait = brave
+	trait = temperate
+	trait = sign_warrior
+	
+	father = seamount_999
+	mother = seamount_999_wife
+
+	3340.8.19 = { birth = yes }
+	3369.1.1 = { add_spouse = seamount_1000_wife }
+	3395.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = seamount_1001
+		}
+	}
+}
+seamount_1000_wife = {
+	name = "Lash"
+	female = yes
+	religion = code_of_malacath
+	culture = mountain_orc
+
+	trait = ambitious
+	trait = sign_atronach
+
+	3351.11.3 = { birth = yes }
+	3367.11.3  = {
+		trait = education_intrigue_2
+		trait = deceitful
+		trait = patient
+	}
+	3404.1.1 = { death = yes }
+}
+
+seamount_1001 = {
+	name = "Bagamul"
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_1000
+	mother = seamount_1000_wife
+	
+	3378.1.1 = { birth = yes }
+	3431.1.1 = { 
+		death = {
+				death_reason = death_duel
+				killer = seamount_1002
+		}
+	}
+}
+
+seamount_1002 = {
+	name = "Yatur"
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_1001
+	
+	3406.1.1 = { birth = yes }
+	3462.1.1 = { 
+		death = {
+				death_reason = death_duel
+				killer = seamount_1003
+		}
+	}
+}
+
+seamount_1003 = {
+	name = "Kradauk"
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_1002
+	
+	3435.1.1 = { birth = yes }
+	3465.1.1 = { add_spouse = seamount_1003b }
+	3489.1.1 = { 
+		death = {
+				death_reason = death_duel
+				killer = seamount_1004
+		}
+	}
+}
+
+seamount_1003b = {
+	name = "Glurala" #ESO
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	3440.1.1 = { birth = yes }
+	3495.1.1 = { give_nickname = nick_the_wise }
+	3515.1.1 = { death = yes }
+}
+
+seamount_1004 = {
+	name = "Tazgol" #ESO
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_1003
+	mother = seamount_1003b
+	
+	3460.1.1 = { birth = yes }
+	3480.1.1 = { add_spouse = seamount_1004b }
+	3482.1.1 = { effect = { make_concubine = character:seamount_1004c } }
+	3484.1.1 = { effect = { make_concubine = character:seamount_1004d } }
+	3512.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = seamount_1006
+		}
+	}
+}
+
+seamount_1004b = {
+	name = "Sholg" #ESO
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	3462.1.1 = { birth = yes }
+	3518.1.1 = { death = yes }
+}
+
+seamount_1004c = {
+	name = "Glesh" #ESO
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	3471.1.1 = { birth = yes }
+	3523.1.1 = { death = yes }
+}
+
+seamount_1004d = {
+	name = "Lurgush" #ESO
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	3475.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+seamount_1005 = {
+	name = "Lokra" #ESO
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	father = seamount_1004
+	mother = seamount_1004b
+	
+	3485.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+seamount_1006 = {
+	name = "Gruzdash"
+	dynasty = dyn_Seamount
+	religion = code_of_malacath
+	culture = mountain_orc
+	
+	father = seamount_1004
+	mother = seamount_1004c
+	
+	3488.1.1 = { birth = yes }
+	3540.1.1 = { death = yes }
+}
+
+##Khazor Dynasty
+
+#House Khazor
+khazor_ancestor = {
+	name = "Khazor"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+	2.1.1 = { birth = yes }
+	10.1.1 = { give_nickname = nick_ancestors_of }
+	1000.1.1 = { death = yes }
+}
+khazor_line = {
+	name = "Khazor"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_ancestor
+
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	999.1.1 = { birth = yes }
+	1000.1.1 = { give_nickname = nick_line_of }
+	3203.1.1 = { death = yes }
+}
+khazor_996 = {
+	name = "Gula"
+	female = yes
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_line
+
+	3202.1.1 = { birth = yes }
+	3269.1.1 = {
+		death = { 
+			death_reason = death_duel
+			killer = khazor_997
+		}  
+	}
+}
+khazor_997 = {
+	name = "Zhagush"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	mother = khazor_996
+
+	3251.1.1 = { birth = yes }
+	3316.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_998
+		}  
+	}
+}
+khazor_998 = {
+	name = "Kazok"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_997
+	
+	3285.1.1 = { birth = yes }
+	3305.1.1 = { add_spouse = khazor_998_wife }
+	3350.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1000
+		}  
+	}
+}
+khazor_998_wife = {
+	name = "Lokra"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = sign_tower
+
+	3286.10.23 = { birth = yes }
+	3359.1.1 = { death = yes }
+}
+khazor_999 = {
+	name = "Mazgro"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_998
+	mother = khazor_998_wife
+	
+	3320.1.1 = { birth = yes }
+	3340.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_998
+		}  
+	}
+}
+khazor_999b = {
+	name = "Mazga"
+	dna = khazor_mazga_dna_entry
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_998
+	mother = khazor_998_wife
+	female = yes
+
+	trait = education_martial_1
+	trait = greedy
+	trait = calm
+	trait = callous
+	trait = sign_lord
+	
+	3304.3.16 = { birth = yes }
+	3372.1.1 = { death = yes }  
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_02
+			custom_beards=female_empty
+		}
+	}
+}
+khazor_1000 = {
+	name = "Muzgu"
+	dna = khazor_muzgu_dna_entry
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_998
+	mother = khazor_998_wife
+
+	trait = education_diplomacy_1
+	trait = lazy
+	trait = arbitrary
+	trait = arrogant
+	trait = sign_atronach
+	
+	3329.11.15 = { birth = yes }
+	3357.1.1 = {
+		add_spouse = fharun_1000_sister
+		effect = {
+			if = {
+				limit = { character:fharun_1000 = { is_alive = yes } }
+				create_alliance = {
+					target = character:fharun_1000
+					allied_through_owner = character:khazor_1000
+					allied_through_target = character:fharun_1000_sister
+				}
+			}
+		}
+	}
+	3380.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1001
+		}  
+	}
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp1_08
+			custom_beards=male_beard_western_01
+		}
+	}
+}
+khazor_1001 = {
+	name = "Grushnag"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1000
+	mother = fharun_1000_sister
+
+	trait = sign_warrior
+	
+	3358.9.21 = { birth = yes }
+	3380.1.1 = { add_spouse = burzag_100_sister }
+	3405.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1002
+		}  
+	}
+}
+khazor_1002 = {
+	name = "Bulg"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1001
+	mother = burzag_100_sister
+	
+	3392.1.1 = { birth = yes }
+	3437.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1003
+		}  
+	}
+}
+khazor_1003 = {
+	name = "Unrahg"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1002
+	
+	3420.1.1 = { birth = yes }
+	3483.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1004
+		}  
+	}
+}
+khazor_1004 = {
+	name = "Thulsgreg" #ESO
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1003
+	
+	3460.1.1 = { birth = yes }
+	#3484.1.1 = { effect = { set_special_character_title = overseer } }
+	3502.1.1 = { death = { death_reason = death_battle } }  
+}
+khazor_1005 = {
+	name = "Khagral"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes	
+	father = khazor_1004
+	
+	3485.1.1 = { birth = yes }
+	3560.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1006
+		}  
+	}
+}
+khazor_1006 = {
+	name = "Ghobargh"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1004
+	
+	3490.1.1 = { birth = yes }
+	3557.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1007
+		}  
+	}    
+}
+khazor_1007 = {
+	name = "Yggoz"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1006
+	
+	3520.1.1 = { birth = yes }
+	3570.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1008
+		}  
+	}    
+}
+khazor_1008 = {
+	name = "Zhosh"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = khazor_1002
+	
+	3430.1.1 = { birth = yes }
+	3480.1.1 = { death = { death_reason = death_battle } }
+}
+khazor_1009 = {
+	name = "Urzikh"
+	dynasty = dyn_Khazor
+	culture = mountain_orc
+	religion = code_of_malacath
+	sexuality = bisexual
+	female = yes	
+	father = khazor_1008
+	
+	3460.1.1 = { birth = yes }
+	3535.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = khazor_1005
+		} 
+	}  
+}
+
+#Buzga Dynasty (dyn_Buzga)
+
+#Mountain Orcs of Skyrim, Count of Bruca? Also Bard in Morrowind during 3e, granted by Khazor at start
+buzga_998 = {
+	name = "Grul"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3291.1.1 = { birth = yes }
+	3319.1.1 = { add_spouse = buzga_998_wife }
+	3340.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = buzga_999
+		}  
+	}
+}
+buzga_998_wife = {
+	name = "Tamozag"
+	dynasty = dynn_yarzarz
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_102
+	mother = frostvault_102_wife
+
+	3292.5.21 = { birth = yes }
+	3356.11.9 = { death = { death_reason = death_old_age } }
+}
+buzga_999 = {
+	name = "Dular"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = buzga_998
+	mother = buzga_998_wife
+
+	trait = education_intrigue_2
+	trait = wrathful
+	trait = brave
+	trait = generous
+	trait = sign_lady
+	prowess = 7
+	
+	3320.9.13 = { birth = yes }
+	3349.1.1 = { add_spouse = buzga_999_wife }
+	3383.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = buzga_1000
+		}  
+	}
+}
+buzga_999_wife = {
+	name = "Rakuga"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_2
+	trait = paranoid
+	trait = patient
+	trait = honest
+	trait = sign_lord
+
+	3321.3.21 = { birth = yes }
+	3389.1.1 = { death = yes }
+}
+buzga_1000 = {
+	name = "Luga"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = buzga_999
+	mother = buzga_999_wife
+
+	trait = paranoid
+	trait = rowdy
+	trait = sign_ritual
+
+	disallow_random_traits = yes
+	
+	3350.1.20 = { birth = yes }
+	3383.5.11 = { add_matrilineal_spouse = yashnag_103 }
+	3404.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = buzga_1001
+		}  
+	}
+}
+buzga_1001 = {
+	name = "Ungruk"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+	mother = buzga_1000
+	father = yashnag_103
+
+	trait = wild_oat #Parents marry later anyway
+	
+	3382.1.1 = { birth = yes }
+	3441.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = buzga_1002
+		}  
+	}
+}
+
+#Independence from Khazor, Count of Bruca
+buzga_1002 = {
+	name = "Ghorza"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = buzga_1001
+	female=yes
+	
+	3422.1.1 = { birth = yes }
+	3486.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = buzga_1003
+		}  
+	}
+}
+buzga_1003 = {
+	name = "Ghaknag"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+	mother = buzga_1002
+	
+	3454.1.1 = { birth = yes }
+	3512.1.1 = { 
+		death = { 
+			death_reason = death_duel
+			killer = buzga_1004
+		}  
+	}
+}
+buzga_1004 = {
+	name = "Urbalash"
+	dynasty = dyn_Buzga
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = buzga_1003
+	
+	3490.1.1 = { birth = yes }
+	3551.1.1 = { 
+		death = { 
+			death_reason = death_duel
+		#	killer = buzga_1004
+		}  
+	}
+}
+
+##Yal Dynasty, Future Dushnik Yal
+yashnag_98 = {
+	name = "Mulush"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3280.1.1 = { birth = yes }
+	3300.1.1 = { add_spouse = yashnag_98_wife }
+	3340.1.1 = { death = {
+		death_reason = death_duel
+		killer = yashnag_99
+		}
+	}
+}
+yashnag_98_wife = {
+	name = "Bolgar"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3281.1.1 = { birth = yes }
+	3344.1.1 = { death = yes }
+}
+yashnag_99 = {
+	name = "Yazgu"
+	dna = yashnag_yazgu_dna_entry
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = yashnag_98
+	mother = yashnag_98_wife
+	
+	3300.1.1 = { birth = yes }
+	3330.1.1 = { add_spouse = khazor_999b }
+	3351.10.13 = { death = {
+			death_reason = death_orsinium
+		}
+	}
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_byzantine_02
+			custom_beards=male_beard_fp2_iberian_christian_02
+		}
+	}
+}
+yashnag_99_sister = {
+	name = "Glurmghal"
+	female = yes
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = yashnag_98
+	mother = yashnag_98_wife
+
+	3302.1.1 = { birth = yes }
+	3364.1.1 = { death = yes }
+}
+
+yashnag_100 = {
+	name = "Yashnag" #Establishes Orsimer Kingdom in Falkreath
+	dna = yashnag_dna_entry
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = yashnag_99
+	mother = khazor_999b
+
+	prowess = 0 # his traits give him a shitton of prowess + during gameplay he quickly collects more prowess. this ensures Hakkvild has a fighting chance
+	disallow_random_traits = yes
+	
+	portrait_override = {	# Will override the character's appearance
+		portrait_modifier_overrides={
+			custom_headgear=male_headgear_secular_steppe_royalty_01
+			custom_cloaks=male_furs_secular_fp1_nobility_03
+			custom_beards=male_beard_steppe_02
+			custom_hair=male_hair_western_09
+		}
+	}
+
+	3322.1.1 = { birth = yes }
+	3338.1.1 = {
+		trait = education_martial_4
+		trait = lifestyle_blademaster
+		trait = wrathful
+		trait = just
+		trait = ambitious
+		trait = scarred
+		trait = strong
+		trait = berserker
+		effect = {  #for error purposes, perks gotta be given like this
+			if = { limit = { NOT = { has_perk = taking_it_all_perk }}
+				add_perk = taking_it_all_perk
+			}
+			if = { limit = { NOT = { has_perk = open_seas_perk }}
+				add_perk = open_seas_perk
+			}			if = { limit = { NOT = { has_perk = bountiful_offerings_perk }}
+				add_perk = bountiful_offerings_perk
+			}
+			if = { limit = { NOT = { has_perk = hard_bitten_perk }}
+				add_perk = hard_bitten_perk
+			}
+			if = { limit = { NOT = { has_perk = prisoners_and_loot_perk }}
+				add_perk = prisoners_and_loot_perk
+			}
+			if = { limit = { NOT = { has_perk = loot_and_prisoners_perk }}
+				add_perk = loot_and_prisoners_perk
+			}
+		}	
+	}
+	3340.1.1 = { add_spouse = yashnag_100_wife_1 }
+	3342.1.1 = { add_spouse = yashnag_100_wife_2 }
+	3354.1.1 = { effect = { set_relation_lover = { reason = lover_history target = character:yashnag_100_wife_3 } } }
+	3354.1.1 = { add_spouse = yashnag_100_wife_3 }
+	#3354.1.1 = {
+	#	create_bloodline = { type = bloodline_yashnag }
+	#	effect = {
+	#		add_artifact = armor_orcish_superior
+	#		add_artifact = weapon_axe_orcish
+	#		new_artifact = {
+	#			set_name = "Glushun Zugka"
+	#			set_description = "An Orcish Axe. Glushun Zugka, Sorrow's Kiss, has been engraved in old orcish script upon the hilt."
+	#		}
+	#	}
+	#}
+	3359.12.30 = {
+		death = {
+			death_reason = death_duel
+			killer = skjoralmor_100
+		}
+	}
+}
+yashnag_100_wife_1 = { #sister of Shardbrok
+	name = "Yatmalah"
+	dynasty = shardbrok
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shardbrok_999
+	mother = shardbrok_999_wife
+
+
+	3323.1.1 = { birth = yes }
+	3391.1.1 = { death = yes }
+}
+yashnag_100_wife_2 = {
+	name = "Durzakh"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+
+	3331.1.1 = { birth = yes }
+	3389.1.1 = { death = yes }
+}
+yashnag_100_wife_3 = {
+	name = "Rogbha"
+	female = yes
+	sexuality = heterosexual
+	culture = mountain_orc
+	religion = code_of_malacath
+		trait = education_martial_2
+		trait = brave
+		trait = just
+		trait = honest
+		trait = scarred
+		trait = physique_good_2 #I wonder why Yashnag favors her
+		trait = viking
+
+	3327.1.1 = { birth = yes }
+	3387.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = skjoralmor_100
+		}
+	}
+}
+yashnag_101 = {
+	name = "Mahk"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = yashnag_100
+	mother = yashnag_100_wife_1
+
+	trait = cynical #More cynical about the Code rather than Malacath himself
+	trait = brave
+	trait = just
+	
+	3341.1.1 = { birth = yes }
+	3359.1.1 = { effect = { set_relation_soulmate = { reason = lover_history target = character:golzarga_102 } } } #Doesn't take more wives
+	3360.1.1 = { add_spouse = golzarga_102 }
+	3367.1.1 = {
+		religion = malacath_cult #Finally gives up on the Code, still worships Malacath though
+		remove_trait = cynical
+		add_trait = content
+	}
+	3410.1.1 = { death = yes }
+}
+yashnag_102 = {
+	name = "Murzog"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = yashnag_100
+	mother = yashnag_100_wife_1
+
+	disallow_random_traits = yes
+
+	3344.1.1 = { birth = yes }
+	3360.1.1 = {
+		add_trait = education_martial_3
+		trait = strong
+		trait = stubborn
+		trait = trusting
+		trait = brave
+	}
+	3387.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = skjoralmor_100
+		}
+	}
+}
+yashnag_102_lover = {
+	name = "Lazgza"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3346.6.24 = { birth = yes }
+	3374.4.7 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+yashnag_102_wild_oat = { #Spared by Hakkvild because he was a child, claims Faldar's Tooth
+	name = "Yazgu"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = yashnag_102
+	mother = yashnag_102_lover
+
+	trait = wild_oat
+	trait = viking #Was said to raid Faldar's Tooth, but for our purpose he holds it for a short time
+	
+	3374.4.7 = { birth = yes }
+	3421.1.13 = {
+		death = {
+			death_reason = death_duel
+			killer = darkhammer_102
+		}
+	}
+}
+yashnag_103 = { #Marries buzga_1000 in 3383.5.11
+	name = "Ghorn"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = yashnag_100
+	mother = yashnag_100_wife_2
+
+	trait = wrathful
+	trait = rowdy
+	disallow_random_traits = yes
+	
+	3352.1.1 = { birth = yes }
+	3368.1.1 = {
+		add_trait = vengeful
+		add_trait = arrogant
+		add_trait = education_martial_1
+		remove_trait = rowdy
+	}
+	3387.1.1 = { #Still returns to Falkreath to defend his father
+		death = {
+			death_reason = death_duel
+			killer = skjoralmor_100
+		}
+	}
+}
+yashnag_104 = {
+	name = "Zuuthag"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = yashnag_100
+	mother = yashnag_100_wife_1
+	
+	3356.1.1 = { birth = yes }
+	3421.1.1 = { death = yes }
+}
+yashnag_105 = { #Marries ghorak_101 TODO
+	name = "Ulgush"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = twin
+	female = yes
+	
+	father = yashnag_100
+	mother = yashnag_100_wife_2
+	
+	3368.1.1 = { birth = yes }
+	3419.1.1 = { death = yes }
+}
+yashnag_106 = {
+	name = "Grognak"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = twin
+	
+	father = yashnag_100
+	mother = yashnag_100_wife_2
+	
+	3368.1.1 = { birth = yes }
+	3384.1.1 = {
+		trait = education_martial_3
+		trait = strong
+	}
+	3426.1.1 = { death = yes }
+}
+yashnag_107 = {
+	name = "Durhaz"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	father = yashnag_100
+	mother = yashnag_100_wife_3
+	
+	3355.1.1 = { birth = yes }
+	3384.1.1 = {
+		trait = education_martial_3
+		trait = strong
+	}
+	3387.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = skjoralmor_100
+		}
+	}
+}
+
+dushnik_100 = { #Family wanders for a bit until time of alliance war
+	name = "Brabuk"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = yashnag_101
+	mother = golzarga_102
+
+	trait = craven #Flees from Hakkvild and seeks sanctuary with his cousin in Bangkorai
+
+	3363.9.21 = { birth = yes }
+	3387.2.5 = { add_spouse = dushnik_100_wife }
+	3417.8.13 = { death = yes }
+}
+
+dushnik_100_brother = {
+	name = "Shazagog"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = yashnag_101
+	mother = golzarga_102
+
+	3368.3.12 = { birth = yes }
+	3387.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = skjoralmor_100
+		}
+	}
+}
+
+dushnik_100_sister = { #Marries someone
+	name = "Brabuk"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	father = yashnag_101
+	mother = golzarga_102
+
+	3365.9.21 = { birth = yes }
+	3421.8.13 = { death = yes }
+}
+
+forsaken_stronghold_100 = { #Family later killed off by the Knahaten Flu
+	name = "Dulanarz"
+	dynasty = dyn_Yal
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = yashnag_101
+	mother = golzarga_102
+
+	3369.12.22 = { birth = yes }
+	3423.8.13 = { death = yes } #Placeholder, slain by son
+}
+
+##Ghorak Dynasty
+
+#Ghorak House
+ghorak_98 = { #Started as a normal Orcish family living in Orsinium
+	name = "Yaturg"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = diligent
+	trait = craven
+	trait = honest
+
+	3281.3.7 = { birth = yes }
+	3302.2.11 = { add_spouse = ghorak_98_wife }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+ghorak_98_wife = {
+	name = "Rolash"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3280.6.13 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+ghorak_99_sister = {
+	name = "Shadtharz"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = ghorak_98
+	mother = ghorak_98_wife
+
+	trait = craven
+	trait = calm
+	trait = compassionate
+	trait = family_first
+
+	3322.6.13 = { birth = yes }
+	3358.12.28 = { effect = { set_relation_soulmate = { reason = lover_history target = character:ghorak_99_sister_husband } } }
+	3359.1.1 = { effect = { learn_language = language_nordic } }
+	3359.1.2 = { add_spouse = ghorak_99_sister_husband }
+	3359.1.3 = {
+		effect = { #Rhosh isn't a fan of the Nord
+			if = {
+				limit = { character:ghorak_100 = { is_alive = yes } }
+				set_relation_rival = { reason = rival_historical target = character:ghorak_100 } 
+			}
+		}
+	}
+	3367.3.6 = { #ghorak_100 orders execution when he gets in charge
+		death = {
+			death_reason = death_execution
+			killer = ghorak_100
+		}
+	}
+}
+ghorak_99_sister_husband = {
+	name = "Arnfreyr"
+	culture = eastmarcher
+	religion = nord_cult
+
+	trait = brave
+	trait = content
+	trait = calm
+	trait = education_martial_3
+	prowess = 13
+
+	3321.2.19 = { birth = yes }
+	3359.1.1 = { effect = { learn_language = language_orcish } }
+	3359.1.3 = { 
+		effect = { #Rhosh isn't a fan of the Nord
+			if = {
+				limit = { character:ghorak_100 = { is_alive = yes } }
+				set_relation_rival = { reason = rival_historical target = character:ghorak_100 } 
+			}
+		}
+	}
+	3359.12.1 = { employer = ghorak_99 }
+	3367.3.6 = { #ghorak_100 orders execution when he gets in charge
+		death = {
+			death_reason = death_execution
+			killer = ghorak_100
+		}
+	}
+}
+ghorak_99_nephew = {
+	name = "Laranag"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_99_sister_husband
+	mother = ghorak_99_sister
+
+	3359.11.27 = { birth = yes }
+	3359.11.28 = {
+		effect = { #Rhosh isn't a fan of the Nord
+			if = {
+				limit = { character:ghorak_100 = { is_alive = yes } }
+				set_relation_rival = { reason = rival_historical target = character:ghorak_100 } 
+			}
+		}
+	}
+	3359.12.1 = { employer = ghorak_99 }
+	3360.1.1 = { effect = { learn_language = language_nordic } }
+	3367.3.6 = { #ghorak_100 orders execution when he gets in charge
+		death = {
+			death_reason = death_execution #Not a fan of Norcs :(
+			killer = ghorak_100
+		}
+	}
+}
+ghorak_99 = {
+	name = "Duluk"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_98
+	mother = ghorak_98_wife
+
+	trait = brave
+	trait = just
+	trait = ambitious
+	prowess = 12
+	
+	3303.1.1 = { birth = yes }
+	3342.8.30 = { add_spouse = ghorak_99_wife_1 }
+	3344.4.23 = { add_spouse = ghorak_99_wife_2 }
+	3347.1.3 = { add_spouse = ghorak_99_wife_3 }
+	3358.5.21 = { effect = { learn_language = language_nordic } }
+	3359.1.2 = {
+		effect = { #Bested him in a duel to marry his sister, became friends afterwards
+			if = {
+				limit = { character:ghorak_99_sister_husband = { is_alive = yes } }
+				set_relation_friend = { reason = friend_generic_history target = character:ghorak_99_sister_husband } 
+			}
+		}
+	}
+	3359.11.27 = {
+		effect = { #Gave him land
+			if = {
+				limit = { character:bjorga_99 = { is_alive = yes } }
+				set_relation_friend = { reason = friend_generic_history target = character:bjorga_99 } 
+			}
+		}
+	}
+	3360.1.1 = {
+		effect = {
+			if = {
+				limit = { is_independent_ruler = no }
+				vassal_contract_set_obligation_level = {
+					type = cultural_rights
+					level = 1
+				}
+			}
+		}
+	}
+	3367.3.6 = {
+		death = {
+			death_reason = death_duel
+			killer = ghorak_100
+		}
+	}
+}
+ghorak_99_wife_1 = {
+	name = "Shubak"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = chaste
+	trait = gregarious
+	trait = patient
+
+	3308.2.16 = { birth = yes }
+	3367.5.8 = { death = { death_reason = death_old_age } }
+}
+ghorak_99_wife_2 = {
+	name = "Shega"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = impatient
+	trait = diligent
+	trait = greedy
+
+	3312.7.12 = { birth = yes }
+	3369.2.6 = { death = { death_reason = death_old_age } }
+}
+ghorak_99_wife_3 = {
+	name = "Urzr"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = infertile
+	trait = patient
+	trait = paranoid
+	trait = deceitful
+
+	3314.1.8 = { birth = yes }
+	3373.6.16 = { death = { death_reason = death_old_age } }
+}
+ghorak_100_brother_1 = {
+	name = "Ghorak"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_99
+	mother = ghorak_99_wife_1
+	
+	3346.6.19 = { birth = yes }
+	3367.3.6 = {
+		death = {
+			death_reason = death_duel
+			killer = ghorak_100
+		}
+	}
+}
+ghorak_100_brother_2 = {
+	name = "Gramgonk"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_99
+	mother = ghorak_99_wife_2
+	
+	3349.2.17 = { birth = yes }
+	3367.3.6 = {
+		death = {
+			death_reason = death_duel
+			killer = ghorak_100
+		}
+	}
+}
+ghorak_100_sister_1 = { #Marries forsaken_stronghold_100 TODO
+	name = "Baggol"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = ghorak_99
+	mother = ghorak_99_wife_3
+	
+	3359.7.12 = { birth = yes }
+	3411.1.1 = { death = { death_reason = death_old_age } }
+}
+ghorak_100_sister_2 = { #Marries to Narzulbur in 3365.8.27, starts betrothed
+	name = "Ugakronk"
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = ghorak_99
+	mother = ghorak_99_wife_2
+
+	3345.7.12 = { birth = yes }
+	3401.1.1 = { death = { death_reason = death_old_age } }
+}
+ghorak_100 = {
+	name = "Rhosh" #Duke of Heartwood (Largash Bur)
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_99
+	mother = ghorak_99_wife_1
+
+	trait = callous
+	trait = ambitious
+	trait = deceitful
+	trait = education_martial_3
+
+	disallow_random_traits = yes
+
+	3343.3.16 = { birth = yes }
+	3359.2.8 = { 
+		effect = {
+			if = {
+				limit = { character:ghorak_100_wife_1 = { is_alive = yes } }
+				set_relation_lover = { reason = lover_history target = character:ghorak_100_wife_1 }
+			}
+		}
+	}
+	3367.3.6 = { add_spouse = ghorak_100_wife_1 } #Marries her now that he is landed
+	3367.7.24 = { add_spouse = ghorak_100_wife_2 }
+	3368.2.16 = { add_spouse = ghorak_100_wife_3 }
+	3386.6.21 = { 
+		death = {
+			death_reason = death_duel
+			killer = ghorak_101
+		}
+	}
+}
+ghorak_100_wife_1 = { #Becomes Rhosh's favorite wife
+	name = "Yazgash"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = shy
+	trait = temperate
+	trait = fickle
+
+	3343.5.7 = { birth = yes }
+	3367.7.24 = { set_relation_rival = { reason = rival_historical target = character:ghorak_100_wife_2 } } #Thought she would be his only wife
+	3413.7.3 = { death = { death_reason = death_old_age } }
+}
+ghorak_100_wife_2 = {
+	name = "Orazush"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = strong
+	trait = vengeful
+	trait = ambitious
+	trait = gluttonous
+
+	3341.2.15 = { birth = yes }
+	3409.11.25 = { death = { death_reason = death_old_age } }
+}
+ghorak_100_wife_3 = {
+	name = "Durgash"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3346.6.3 = { birth = yes }
+	3418.10.13 = { death = { death_reason = death_old_age } }
+}
+ghorak_101_sister = {
+	name = "Yazgash" #After mom
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = ghorak_100
+	mother = ghorak_100_wife_1
+	
+	3367.9.29 = { birth = yes }
+	3423.2.9 = { death = { death_reason = death_old_age } }
+}
+ghorak_101 = {
+	name = "Tharkul" #Duke of Heartwood (Largash Bur)
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_100
+	mother = ghorak_100_wife_1
+
+	trait = wild_oat
+	
+	3359.11.27 = { birth = yes }
+	3386.6.22 = { 
+		death = {
+			death_reason = death_duel
+			killer = ghorak_102
+		}
+	}
+}
+ghorak_102 = {
+	name = "Skalguth" #Duke of Heartwood (Largash Bur)
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_100
+	mother = ghorak_100_wife_2
+	
+	3368.1.1 = { birth = yes }
+	3386.6.23 = { add_spouse = yashnag_105 }
+	3421.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = ghorak_103
+		}
+	}
+}
+ghorak_103 = {
+	name = "Garnag" #Duke of Heartwood (Largash Bur)
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_102
+	mother = yashnag_105
+	
+	3400.1.1 = { birth = yes }
+	3466.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = ghorak_104
+		}
+	}
+}
+ghorak_104 = {
+	name = "Azabesh" #Duke of Heartwood (Largash Bur)
+	female = yes
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_103
+	
+	3448.1.1 = { birth = yes }
+	3490.1.1 = { 
+		death = {
+			death_reason = death_battle
+			killer = bjorga_102
+		}
+	}
+}
+ghorak_105 = {
+	name = "Ghorza" #Count of Largash Bur
+	female = yes
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = ghorak_103
+	
+	3450.1.1 = { birth = yes }
+	3501.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = ghorak_106
+		}
+	}
+}
+ghorak_106 = {
+	name = "Morbash" #Count of Largash Bur (Alliance War)
+	dynasty = dyn_Ghorak
+	culture = mountain_orc
+	religion = code_of_malacath
+	mother = ghorak_105
+	
+	3478.1.1 = { birth = yes }
+	3539.1.1 = { death = yes }
+}
+
+##Fharun Dynasty (dyn_Fharun)
+
+#Fharun House
+fharun_founder = {
+	name = "Fharun"
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_learning_3
+	trait = craven
+	trait = patient
+	trait = temperate
+	trait = sign_mage
+
+	908.4.25 = { birth = yes }
+	930.1.1 = { give_nickname = nick_the_scholar_orsinium }
+	1000.1.1 = { death = yes }
+}
+fharun_line = {
+	name = "Fharun"
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	father = fharun_founder
+
+	999.1.1 = { birth = yes }
+	1000.1.1 = { give_nickname = nick_line_of }
+	3256.1.1 = { death = yes }
+}
+fharun_998 = {
+	name = "Ilg"
+	female = yes
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = fharun_line
+
+	3254.1.1 = { birth = yes }
+	3286.1.1 = { add_matrilineal_spouse = fharun_998_husband }
+	3305.1.1 = { death = yes }
+}
+fharun_998_husband = {
+	name = "Ogumalg"
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3262.1.1 = { birth = yes }
+	3305.1.1 = { death = yes }
+}
+fharun_999 = {
+	name = "Voloth"
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_diplomacy_2
+	trait = just
+	trait = wrathful
+	trait = compassionate
+	stewardship = 5
+
+	mother = fharun_998
+	father = fharun_998_husband
+
+	3287.1.1 = { birth = yes }
+	3319.1.1 = { add_spouse = bagrakh_997_daughter }
+	3355.1.1 = {
+		death = {
+			death_reason = death_hunting_accident
+		}
+	}
+}
+fharun_999_sister = {
+	name = "Barazal"
+	female = yes
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_learning_3
+	trait = generous
+	trait = lazy
+	trait = forgiving
+
+	mother = fharun_998
+	father = fharun_998_husband
+
+	3289.1.1 = { birth = yes }
+	#3319 marries shatul_999
+	3355.1.1 = { death = yes }
+}
+fharun_1000 = {
+	name = "Garothmuk"
+	dna = fharun_garothmuk_dna_entry
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = fharun_999
+	mother = bagrakh_997_daughter
+
+	trait = education_learning_2 #Fharun is the site of the 'archivists of malacath'
+	trait = just
+	trait = calm
+	trait = humble
+	trait = sign_apprentice
+	diplomacy = 9
+	martial = 6
+	stewardship = 7
+	intrigue = 0
+	learning = 5
+	prowess = 6
+	
+	3321.7.5 = { birth = yes }
+	3356.6.13 = { add_spouse = fharun_1000_spouse }
+	3359.1.1 = {
+		effect = {
+			add_gold = 100
+			if = {
+				limit = { character:ironbeak_1000 = { is_alive = yes } }
+				add_opinion = {
+					target = character:ironbeak_1000
+					modifier = declared_war
+					opinion = -25
+				}
+			}
+			if = {
+				limit = { character:morkul_1000 = { is_alive = yes } }
+				set_relation_rival = { reason = rival_historical target = character:morkul_1000 }
+			}
+			if = {
+				limit = { character:sorrowsower_1000 = { is_alive = yes } }
+				set_relation_rival = { reason = rival_historical target = character:sorrowsower_1000 }
+			}
+		}
+	}
+	3368.3.12 = { 
+		death = {
+			death_reason = death_duel
+			killer = fharun_1001
+		}
+	}
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_empty
+			custom_hair=male_hair_fp1_05
+		}
+	}
+}
+fharun_1000_sister = {
+	name = "Kuhlon"
+	female = yes
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = fharun_999
+	mother = bagrakh_997_daughter
+
+	trait = education_intrigue_2
+	trait = ambitious
+	trait = patient
+	trait = arbitrary
+	trait = sign_atronach
+
+	3322.11.17 = { birth = yes }
+	# 3357 marries khazor_1000
+	3385.1.1 = { death = yes }
+}
+fharun_1000_spouse = {
+	name = "Mazoga"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = education_diplomacy_1
+	trait = patient
+	trait = forgiving
+	trait = chaste
+	trait = sign_steed
+
+	3327.6.9 = { birth = yes }
+	3399.1.1 = { death = yes }
+}
+fharun_1001_mother = {
+	name = "Lagruda"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = education_martial_2
+	trait = brave
+	trait = sadistic
+	trait = stubborn
+	trait = sign_warrior
+
+	3323.8.25 = { birth = yes }
+	3353.2.9 = { death = { death_reason = death_battle }}
+}
+fharun_1001 = {
+	name = "Ulmug"
+	dna = fharun_ulmug_dna_entry
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = wild_oat
+	trait = education_martial_2
+	trait = ambitious
+	trait = sadistic
+	trait = sign_warrior
+	prowess = 9
+
+	trait = rowdy
+
+	disallow_random_traits = yes
+	
+	father = fharun_1000
+	mother = fharun_1001_mother
+	
+	3346.8.13 = { birth = yes }
+	3368.3.12 = {
+		remove_trait = rowdy
+		trait = brave
+		add_spouse = tumnosh_1001
+		effect = {
+			if = { limit = { NOT = { has_perk = taking_it_all_perk }}
+				add_perk = taking_it_all_perk
+			}
+			if = { limit = { NOT = { has_perk = bountiful_offerings_perk }}
+				add_perk = bountiful_offerings_perk
+			}
+			if = { 
+				limit = { character:tumnosh_1000 = { is_alive = yes } }
+				create_alliance = {
+					target = character:tumnosh_1000
+					allied_through_owner = character:fharun_1001
+					allied_through_target = character:tumnosh_1001
+				} 
+			}
+			if = { 
+				limit = { character:fharun_1000_lurkul = { is_alive = yes } }
+				set_relation_rival = { reason = rival_scrounger_kicked_out_of_court target = character:fharun_1000_lurkul }
+			}
+		}
+	}
+	3402.1.1 = { death = yes }
+}
+# House Lurkul
+fharun_1000_lurkul = {
+	name = "Mulush"
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = fharun_999
+
+	trait = education_diplomacy_2
+	trait = just
+	trait = diligent
+	trait = shy
+	trait = wild_oat
+	trait = sign_lover
+
+	3334.2.26 = { birth = yes }
+	3368.3.12 = {
+		employer = morkul_1000
+
+		dynasty_house = fharun_lurkul
+		remove_trait = diligent
+		trait = content
+	}
+	3391.1.1 = { death = yes }
+}
+fharun_lurkul_spouse = {
+	name = "Razbela"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_1
+	trait = diligent
+	trait = calm
+	trait = stubborn
+	trait = sign_mage
+
+	3335.4.5 = { birth = yes }
+	3395.1.1 = { death = yes }
+}
+fharun_lurkul_10 = {
+	name = "Ghamonk"
+	dynasty = dyn_Fharun
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = fharun_1000_lurkul
+	mother = fharun_lurkul_spouse
+
+	trait = sign_tower
+	trait = bossy
+	trait = wild_oat
+	disallow_random_traits = yes
+	
+	3357.10.28 = { birth = yes }
+	3368.3.12 = {
+		dynasty_house = fharun_lurkul
+	}
+	3369.10.29 = {
+		trait = paranoid
+		trait = brave
+	}
+	3373.10.29 = {
+		remove_trait = bossy
+		trait = education_martial_2
+	}
+	3403.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = fharun_lurkul_11
+		}
+	}
+}
+fharun_lurkul_11 = {
+	name = "Azabesh"
+	female = yes
+	dynasty_house = fharun_lurkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = fharun_lurkul_10
+
+	3380.1.1 = { birth = yes }
+	3425.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = fharun_lurkul_12
+		}
+	}
+}
+fharun_lurkul_12 = {
+	name = "Ghamonk"
+	dynasty_house = fharun_lurkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	mother = fharun_lurkul_11
+	
+	3420.1.1 = { birth = yes }
+	3466.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = fharun_lurkul_13
+		}
+	}
+}
+fharun_lurkul_13 = {
+	name = "Khadba"
+	dynasty_house = fharun_lurkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = fharun_lurkul_12
+	
+	3450.1.1 = { birth = yes }
+	3501.1.1 = { death = yes }
+}
+
+##Morkul Dynasty (dyn_morkul)
+
+#Morkul House
+morkul_founder = {
+	name = "Morkul"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_3
+	trait = brave
+	trait = just
+	trait = diligent
+	trait = sign_warrior
+
+	908.8.13 = { birth = yes }
+	930.1.1 = { give_nickname = nick_the_blacksmith_orsinium }
+	1000.1.1 = { death = yes }
+}
+morkul_line = {
+	name = "Morkul"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	father = morkul_founder
+
+	999.1.1 = { birth = yes }
+	1000.1.1 = { give_nickname = nick_line_of }
+	3251.1.1 = { death = yes }
+}
+morkul_997 = {
+	name = "Lagra"
+	female = yes
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = morkul_line
+
+	3250.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+morkul_998 = {
+	name = "Tugam"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	mother = morkul_997
+
+	3278.1.1 = { birth = yes }
+	3299.1.1 = { add_spouse = morkul_998_wife }
+	3349.1.1 = { death = yes }
+}
+morkul_998_wife = {
+	name = "Pruzga"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3273.1.1 = { birth = yes }
+	3344.1.1 = { death = yes }
+}
+morkul_999 = {
+	name = "Igruk"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_diplomacy_3
+	trait = just
+	trait = honest
+	trait = gregarious
+	diplomacy = 9
+
+	father = morkul_998
+	mother = morkul_998_wife
+
+	3300.1.1 = { birth = yes }
+	3330.1.1 = { add_spouse = yashnag_99_sister }
+	3351.10.13 = { 
+		death = {
+			death_reason = death_orsinium # died as he tried to evacuate his daughter from Orsinium
+		}
+	}
+}
+morkul_999_sister = {
+	name = "Yazoga"
+	female = yes
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_1
+	trait = gregarious
+	trait = compassionate
+	trait = honest
+	trait = sign_lover
+
+	father = morkul_998
+	mother = morkul_998_wife
+
+	3291.2.30 = { birth = yes }
+	# 3313 marries bagrakh_998
+	3369.1.1 = { death = yes }
+}
+morkul_1000 = {
+	name = "Moghakh"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = morkul_999
+	mother = yashnag_99_sister
+
+	trait = education_martial_2
+	trait = winter_soldier
+	trait = deceitful
+	trait = vengeful
+	trait = compassionate
+	trait = sign_serpent
+	diplomacy = 9
+	martial = 2
+	stewardship = 7
+	intrigue = 2
+	learning = 2
+	prowess = 7
+	
+	3330.12.30 = { birth = yes }
+	3350.1.1 = { add_spouse = brohbrokh_ulumpha }
+	3371.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = morkul_1001
+		}
+	}
+}
+morkul_1000_sister = {
+	name = "Lazgua"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	father = morkul_999
+
+	trait = education_stewardship_2
+	trait = compassionate
+	trait = calm
+	trait = stubborn
+
+	3325.1.1 = { birth = yes }
+	3351.10.13 = { 
+		death = {
+			death_reason = death_orsinium
+		}
+	}
+}
+
+morkul_1001 = {
+	name = "Sharkub"
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = twin
+	
+	father = morkul_1000
+	mother = brohbrokh_ulumpha
+	
+	3359.1.1 = { birth = yes }
+	3376.1.1 = { add_spouse = bragosh_1001 }
+	3412.1.1 = { death = yes }
+}
+morkul_1002 = {
+	name = "Badbog"
+	female = yes
+	dynasty = dyn_morkul
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = twin
+	
+	father = morkul_1000
+	mother = brohbrokh_ulumpha
+	
+	3359.1.1 = { birth = yes }
+	3412.1.1 = { death = yes }
+}
+
+#Brohbrokh Dynasty, former Counts of Bonerock
+brohbrokh_dumag = {
+	name = "Dumag" #Former Count of Bonerock
+	dynasty = dyn_brohbrokh
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3300.1.1 = { birth = yes }
+	3332.1.1 = { add_spouse = brohbrokh_dumag_wife }
+	3356.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = knotbeard_1000
+		}
+	}
+}
+brohbrokh_dumag_wife = {
+	name = "Ghak"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	3306.1.1 = { birth = yes }
+	3356.1.1 = { death = yes }
+}
+brohbrokh_ulumpha = {
+	name = "Ulumpha"
+	dynasty = dyn_brohbrokh
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = brohbrokh_dumag
+	mother = brohbrokh_dumag_wife
+
+	trait = education_learning_3
+	trait = gregarious
+	trait = forgiving
+	trait = compassionate
+	trait = sign_mage
+	
+	3333.4.19 = { birth = yes }
+	3391.1.1 = { death = yes }
+}
+brohbrokh_yashnarz = {
+	name = "Yashnarz" #Former Count of Bonerock
+	dynasty = dyn_brohbrokh
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = brohbrokh_dumag
+	mother = brohbrokh_dumag_wife
+	
+	3336.1.1 = { birth = yes }
+	3389.1.1 = {
+		death = yes
+		#death = {
+		#	death_reason = death_duel
+		#	killer = 42053
+		#}
+	}
+}
+
+##Tumnosh Dynasty (dyn_Tumnosh)
+
+#Tumnosh House
+tumnosh_founder = {
+	name = "Tumnosh"
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_3
+	trait = brave
+	trait = just
+	trait = diligent
+	trait = sign_tower
+
+	903.10.5 = { birth = yes }
+	930.1.1 = { give_nickname = nick_the_builder_orsinium }
+	1000.1.1 = { death = yes }
+}
+tumnosh_line = {
+	name = "Tumnosh"
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	father = tumnosh_founder
+
+	999.1.1 = { birth = yes }
+	1000.1.1 = { give_nickname = nick_line_of }
+	3259.1.1 = { death = yes }
+}
+tumnosh_998 = {
+	name = "Golg"
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = tumnosh_line
+
+	3258.1.1 = { birth = yes }
+	3280.1.1 = { add_spouse = tumnosh_998_wife }
+	3331.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = tumnosh_999
+		}
+	}
+}
+tumnosh_998_wife = {
+	name = "Dulfraga"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+	3260.1.1 = { birth = yes }
+	3329.1.1 = { death = yes }
+}
+tumnosh_999 = {
+	name = "Ghorbog"
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_3
+	trait = content
+	trait = gregarious
+	trait = stubborn
+	prowess = 4
+
+	father = tumnosh_998
+	mother = tumnosh_998_wife
+
+	3281.1.1 = { birth = yes }
+	3323.1.1 = { add_spouse = orgak_999_sister }
+	3356.3.17 = {
+		death = {
+			death_reason = death_duel
+			killer = winterborn_999
+		}
+	}
+}
+tumnosh_1000 = {
+	name = "Kargnuth"
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_2
+	trait = organizer
+	trait = paranoid
+	trait = honest
+	trait = wrathful
+	trait = sign_lover
+
+	father = tumnosh_999
+	mother = orgak_999_sister
+
+	3332.2.11 = { birth = yes }
+	3356.1.1 = { add_unpressed_claim = title:c_scarp }
+	3357.1.1 = { add_spouse = tumnosh_1000_wife }
+	3376.1.1 = { death = yes }
+}
+tumnosh_1000_wife = {
+	name = "Argulla"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = calm
+	trait = chaste
+	trait = deceitful
+	trait = education_martial_3
+	trait = flexible_leader
+	trait = fecund
+	trait = giant
+	trait = sign_serpent
+
+	3338.12.31 = { birth = yes }
+	3379.1.1 = { death = yes }
+}
+tumnosh_1001 = {
+	name = "Ghorza"
+	female = yes
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = tumnosh_999
+	mother = orgak_999_sister
+
+	trait = education_intrigue_2
+	trait = deceitful
+	trait = paranoid
+	trait = stubborn
+	trait = sign_shadow
+
+	3341.5.2 = { birth = yes }
+	# 3368 marries fharun_1001
+	3399.1.1 = { death = yes }
+}
+tumnosh_1002 = {
+	name = "Shamar"
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = sign_steed
+
+	father = tumnosh_1000
+	mother = tumnosh_1000_wife
+
+	3359.6.17 = { birth = yes }
+	3409.1.1 = { death = yes }
+}
+tumnosh_1003 = {
+	name = "Gondubaga"
+	female = yes
+	dynasty = dyn_Tumnosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = sign_shadow
+
+	father = tumnosh_1000
+	mother = tumnosh_1000_wife
+
+	3364.5.23 = { birth = yes }
+	3412.1.1 = { death = yes }
+}
+
+##Shatul Dynasty (dyn_Shatul)
+
+#Shatul House
+shatul_founder = {
+	name = "Shatul"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_3
+	trait = brave
+	trait = just
+	trait = diligent
+	trait = sign_steed
+
+	903.6.14 = { birth = yes }
+	930.1.1 = { give_nickname = nick_the_shepherd_orsinium }
+	1000.1.1 = { death = yes }
+}
+shatul_line = {
+	name = "Shatul"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	father = shatul_founder
+
+	999.1.1 = { birth = yes }
+	1000.1.1 = { give_nickname = nick_line_of }
+	3256.1.1 = { death = yes }
+}
+shatul_998 = {
+	name = "Yak"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = shatul_line
+	
+	3275.1.1 = { birth = yes }
+	3328.1.1 = { death = yes }
+}
+shatul_999 = {
+	name = "Khar"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = shatul_998
+	
+	3300.1.1 = { birth = yes }
+	3319.1.1 = { add_spouse = fharun_999_sister }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+shatul_999_sister = {
+	name = "Atzurbesh"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = shatul_998
+
+	female = yes
+
+	trait = education_stewardship_3
+	trait = stubborn
+	trait = generous
+	trait = diligent
+	trait = depressed_1
+	trait = sign_shadow
+
+	3302.5.13 = { birth = yes }
+	3372.1.1 = { death = yes }
+}
+
+shatul_1000 = {
+	name = "Ghorbog"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shatul_999
+	mother = fharun_999_sister
+
+	trait = education_diplomacy_4
+	trait = content
+	trait = stubborn
+	trait = generous
+	trait = sign_steed
+	
+	3322.6.17 = { birth = yes }
+	3352.1.1 = {
+		effect = {
+			if = {
+				limit = { character:fharun_1000 = { is_alive = yes } }
+				set_relation_friend = { reason = friend_generic_history target = character:fharun_1000 }
+			}
+		}
+	}
+	3355.1.1 = { add_spouse = shatul_1000_spouse }
+	3368.3.12 = { 
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = vassal_contribution_group
+				level = 5
+			}
+		}
+	}
+	3371.1.1 = { death = yes }
+}
+shatul_1000_spouse = {
+	name = "Rogmesh"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_intrigue_2
+	trait = content
+	trait = gregarious
+	trait = fickle
+	trait = sign_thief
+
+	3330.12.3 = { birth = yes }
+	3392.1.1 = { death = yes }
+}
+shatul_1000_son = {
+	name = "Urak"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shatul_1000
+	mother = shatul_1000_spouse
+
+	trait = sign_apprentice
+
+	3358.7.3 = { birth = yes }
+	3404.1.1 = { death = yes }
+}
+shatul_1000_daughter = {
+	name = "Dulroi"
+	female = yes
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shatul_1000
+	mother = shatul_1000_spouse
+
+	trait = sign_lady
+
+	3363.9.10 = { birth = yes }
+	3408.1.1 = { death = yes }
+}
+shatul_1000_son_2 = {
+	name = "Tholog"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shatul_1000
+	mother = shatul_1000_spouse
+
+	trait = sign_atronach
+
+	3366.11.25 = { birth = yes }
+	3417.1.1 = { death = yes }
+}
+
+shatul_1001 = {
+	name = "Kharag"
+	dynasty = dyn_Shatul
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shatul_999
+	mother = fharun_999_sister
+	
+	trait = deceitful
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	trait = education_martial_prowess_4
+	trait = adventurer
+	
+	3330.1.1 = { birth = yes }
+	3360.1.1 = { employer = bearclaw_2 }
+	3388.1.1 = { death = yes }
+}
+
+#Frostwall House
+frostwall_1000 = {
+	name = "Ghor"
+	dynasty_house = shatul_frostwall
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_magic_2
+	trait = education_learning_2
+	trait = sign_tower
+
+	father = shatul_998
+	
+	3308.10.8 = { birth = yes }
+	3225.1.1 = { add_spouse = frostwall_1000_wife }
+	3374.3.12 = { death = yes }
+}
+frostwall_1000_wife = {
+	name = "Bolga"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = education_diplomacy_1
+	trait = sign_mage
+	
+	3310.4.12 = { birth = yes }
+	3373.6.24 = { death = yes }
+}
+frostwall_1001 = {
+	name = "Badush"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_3
+	trait = sign_apprentice
+
+	father = frostwall_1000
+	mother = frostwall_1000_wife
+
+	3326.7.15 = { birth = yes }
+	3392.3.19 = { death = yes }
+}
+frostwall_1002 = {
+	name = "Muglugd"
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_intrigue_2
+	trait = physique_bad_1
+	trait = sign_lover
+
+	father = frostwall_1000
+	mother = frostwall_1000_wife
+
+	3336.2.8 = { birth = yes }
+	3397.11.16 = { death = yes }
+}
+
+##Orgak Dynasty (dyn_Orgak)
+
+#Orgak House
+
+orgak_100 = {
+	name = "Kloth"
+	dynasty = dyn_Orgak
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	1500.1.1 = { birth = yes }
+	1556.1.1 = { death = yes }
+}
+
+orgak_101 = {
+	name = "Kloth"
+	dynasty = dyn_Orgak
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+	
+	father = orgak_100
+	
+	1555.1.1 = { birth = yes }
+	3000.1.1 = { give_nickname = nick_line_of }
+	3264.1.1 = { death = yes }
+}
+orgak_998 = {
+	name = "Kogaz"
+	dynasty = dyn_Orgak
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = orgak_101
+
+	3263.1.1 = { birth = yes }
+	3323.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = orgak_999
+		}
+	}
+}
+orgak_999 = {
+	name = "Abzrolg"
+	dynasty = dyn_Orgak
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = orgak_998
+	
+	3300.1.1 = { birth = yes }
+	3354.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = sorrowsower_1000
+		}
+	}
+}
+orgak_999_sister = {
+	name = "Sholg"
+	female = yes
+	dynasty = dyn_Orgak
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = orgak_998
+
+	3301.1.1 = { birth = yes }
+	3361.1.1 = { death = yes }
+}
+
+orgak_1000 = {
+	name = "Ghorbog"
+	dynasty = dyn_Orgak
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = orgak_999
+	
+	3320.1.1 = { birth = yes }
+	3383.1.1 = { death = yes }
+}
+
+##Agluk Dynasty (dyn_Agluk)
+
+#Agluk House
+agluk_998 = {
+	name = "Urdbug"
+	dynasty = dyn_Agluk
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3240.1.1 = { birth = yes }
+	3275.1.1 = { add_spouse = agluk_998_wife }
+	3300.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = agluk_999
+		}
+	}
+}
+agluk_998_wife = {
+	name = "Mor"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3252.1.1 = { birth = yes }
+	3321.1.1 = { death = yes }
+}
+agluk_999 = {
+	name = "Ogol"
+	dynasty = dyn_Agluk
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = agluk_998
+	mother = agluk_998_wife
+	
+	3280.1.1 = { birth = yes }
+	3300.1.1 = { add_spouse = agluk_999_wife }
+	3345.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = agluk_1000
+		}
+	}
+}
+agluk_999_wife = {
+	name = "Sharamph"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3282.1.1 = { birth = yes }
+	3342.1.1 = { death = yes }
+}
+
+agluk_999b = {
+	name = "Othikha" #ESO
+	dynasty = dyn_Agluk
+	religion = code_of_malacath
+	culture = mountain_orc
+	female = yes
+	
+	father = agluk_999
+	mother = agluk_999_wife
+
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter # was Hunt-Wife
+	trait = honest
+	trait = humble
+	trait = compassionate
+	trait = sign_ritual
+	
+	3301.1.12 = { birth = yes }
+	# 3319.1.1 marries seamount_998
+	3350.1.1 = { employer = seamount_999 } # stays at the court of her son
+	3372.1.1 = { death = yes }
+}
+
+agluk_1000 = {
+	name = "Zgog"
+	dynasty = dyn_Agluk
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = agluk_999
+	mother = agluk_999_wife
+
+	trait = education_diplomacy_2
+	trait = craven
+	trait = cynical
+	trait = content
+	trait = sign_lord
+	
+	3314.3.2 = { birth = yes }
+	3331.1.1 = { add_spouse = ruskahr_1001 }
+	3350.9.13 = {
+		religion = trinimac_cult # oh no the breton armies are marching through my territory, better appease them cause i'm a devout follower of the aedra haha
+	}
+	3368.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = agluk_1001
+		}
+	}
+}
+
+agluk_1001 = {
+	name = "Mulgargh"
+	dynasty = dyn_Agluk
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = agluk_1000
+	mother = ruskahr_1001
+	
+	trait = education_learning_3
+	trait = diligent
+	trait = trusting
+	trait = brave
+	trait = sign_tower
+
+	3331.10.6 = { birth = yes }
+	3350.9.13 = {
+		religion = trinimac_cult
+	}
+	3351.10.13 = { 
+		add_pressed_claim = title:c_watcher_hold
+	}
+	3362.1.1 = {
+		trait = cynical
+	}
+	3367.1.1 = {
+		remove_trait = cynical
+		religion = code_of_malacath
+	}
+	3368.1.1 = { add_spouse = agluk_1001_wife }
+	3387.1.1 = { death = yes }
+}
+agluk_1001_wife = {
+	name = "Bulag"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_diplomacy_1
+	trait = diligent
+	trait = content
+	trait = eccentric
+	trait = sign_lord
+
+	3332.3.18 = { birth = yes }
+	3350.9.13 = { religion = trinimac_cult }
+	3367.1.1 = { religion = code_of_malacath }
+	3387.1.1 = { death = yes }
+}
+agluk_1002 = {
+	name = "Grashla"
+	female = yes
+	dynasty = dyn_Agluk
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = agluk_1001
+	mother = agluk_1001_wife
+
+	trait = sign_mage
+
+	3368.4.13 = { birth = yes }
+	3434.1.1 = { death = yes }
+}
+agluk_1003 = {
+	name = "Ogumalg"
+
+	dynasty = dyn_Agluk
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = agluk_1001
+	mother = agluk_1001_wife
+
+	trait = sign_atronach
+
+	3369.11.5 = { birth = yes }
+	3437.1.1 = { death = yes }
+}
+
+##Bagrakh Dynasty (dyn_Bagrakh)
+
+#Bagrakh House
+bagrakh_founder = {
+	name = "Bagrakh"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_3
+	trait = craven
+	trait = wrathful
+	trait = sadistic
+	trait = sign_warrior
+
+	908.8.13 = { birth = yes }
+	930.1.1 = { give_nickname = nick_the_warrior_orsinium }
+	1000.1.1 = { death = yes }
+}
+bagrakh_line = {
+	name = "Bagrakh"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	father = bagrakh_founder
+	mother = igrun_102
+
+	999.1.1 = { birth = yes }
+	1000.1.1 = { give_nickname = nick_line_of }
+	3251.1.1 = { death = yes }
+}
+bagrakh_997 = {
+	name = "Ghak"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = bagrakh_line
+
+	3250.1.1 = { birth = yes }
+	3280.1.1 = { add_spouse = bagrakh_997_spouse }
+	3323.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = bagrakh_998
+		}
+	}
+}
+bagrakh_997_spouse = {
+	name = "Haghai"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3251.1.1 = { birth = yes }
+	3318.1.1 = { death = yes }
+}
+bagrakh_997_first_son = {
+	name = "Zagrakh"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = bagrakh_997
+	mother = bagrakh_997_spouse
+
+	3281.1.1 = { birth = yes }
+	3323.1.1 = {
+		death = {
+			death_reason = death_hunting_accident
+		}
+	}
+}
+bagrakh_997_daughter = {
+	name = "Lashgikh"
+	female = yes
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_intrigue_1
+	trait = deceitful
+	trait = stubborn
+	trait = impatient
+	trait = sign_shadow
+
+	father = bagrakh_997
+	mother = bagrakh_997_spouse
+
+	3285.5.4 = { birth = yes }
+	# 3319 marries fharun_999
+	3361.1.1 = { death = yes }
+}
+bagrakh_998 = {
+	name = "Bugrash"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = bagrakh_997
+	mother = bagrakh_997_spouse
+	
+	3290.1.1 = { birth = yes }
+	3313.1.1 = { add_spouse = morkul_999_sister }
+	3344.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = bagrakh_999
+		}
+	}
+}
+
+bagrakh_999 = {
+	name = "Horak"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = bagrakh_998
+	mother = morkul_999_sister
+	
+	3314.1.1 = { birth = yes }
+	3332.1.1 = { add_spouse = bagrakh_999_wife_1 }
+	3334.1.1 = { add_spouse = bagrakh_999_wife_2 }
+	3350.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = bagrakh_1000
+		}
+	}
+}
+bagrakh_999_wife_1 = {
+	name = "Sluz"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_diplomacy_1
+	trait = patient
+	trait = forgiving
+	trait = lustful
+	trait = sign_thief
+
+	3310.12.4 = { birth = yes }
+	3362.1.1 = { death = { death_reason = death_execution killer = bagrakh_1001 } }
+}
+bagrakh_999_wife_2 = {
+	name = "Grubesha"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3314.1.1 = { birth = yes }
+	3350.1.1 = { death = { death_reason = death_execution killer = bagrakh_1000 } }
+}
+
+bagrakh_1000 = {
+	name = "Mordularg"
+	dna = bagrakh_mordularg_dna_entry
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_1
+	trait = cynical
+	trait = shy
+	trait = arrogant
+	trait = sign_lady
+	
+	father = bagrakh_999
+	mother = bagrakh_999_wife_1
+	
+	3334.9.16 = { birth = yes }
+	3351.1.1 = { religion = malacath_brutal_breed }
+	3359.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = vassal_contribution_group
+				level = 5
+			}
+		}
+	}
+	3362.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = bagrakh_1001
+		}	
+	}
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_fp1_02
+			custom_hair=male_hair_fp1_03
+		}
+	}
+}
+
+bagrakh_1001 = {
+	name = "Horak"
+	dynasty = dyn_Bagrakh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_3
+	trait = zealous
+	trait = vengeful
+	trait = fickle
+	trait = sign_lord
+
+	father = bagrakh_999
+	mother = bagrakh_999_wife_2
+	
+	3336.3.6 = { birth = yes }
+	3350.1.1 = { employer = morkul_999 }
+	3351.10.13 = {
+		religion = malacath_brutal_breed
+		employer = morkul_1000
+	}
+	3363.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = vassal_contribution_group
+				level = 5
+			}
+		}
+	}
+	3363.8.10 = {
+        add_spouse = bagrakh_1002
+    }
+	3382.1.1 = { death = yes }
+}
+bagrakh_1002 = {
+    name = "Mazoga" 
+    female = yes
+
+    religion = code_of_malacath
+    culture = mountain_orc
+
+    sexuality = homosexual
+
+	trait = education_intrigue_4
+    trait = cynical
+    trait = paranoid
+    trait = brave
+	trait = sign_tower
+
+    3346.10.5 = { birth = yes }
+    3416.12.22 = { death = { death_reason = death_natural_causes }}
+}
+
+bagrakh_1003 = {
+    name = "Undugar" 
+    dynasty = dyn_Bagrakh
+    religion = code_of_malacath
+    culture = mountain_orc
+    father = bagrakh_1001
+    mother = bagrakh_1002
+
+    sexuality = heterosexual
+
+    
+	trait = sign_apprentice
+
+    3366.7.12 = { birth = yes }
+	3390.1.1 = {
+		trait = arbitrary
+		trait = shy
+		trait = forgiving
+	}
+    3404.1.27 = {
+        add_spouse = bagrakh_1004
+    }
+    3458.5.9 = {
+        death = {
+			death_reason = death_duel
+			killer = bagrakh_1005
+		}	
+    }
+}
+
+bagrakh_1004 = {
+    name = "Lashdura" 
+    female = yes
+    religion = code_of_malacath
+    culture = mountain_orc
+
+    sexuality = heterosexual
+
+    trait = craven
+    trait = diligent
+    trait = sadistic
+	trait = sign_lady
+
+    3387.9.28 = { birth = yes }
+    3450.8.6 = { death = { death_reason = death_natural_causes }}
+}
+
+bagrakh_1005 = {
+    name = "Glesh" 
+    female = yes
+    religion = code_of_malacath
+    culture = mountain_orc
+
+    father = bagrakh_1003
+    mother = bagrakh_1004
+
+    sexuality = heterosexual
+
+    trait = shy
+    trait = lustful
+    trait = lazy
+	trait = sign_lover
+
+    3416.2.28 = { birth = yes }
+    3484.4.27 = { death = { death_reason = death_natural_causes }}
+}
+
+bagrakh_1006 = {
+    name = "Berbog" 
+    dynasty = dyn_Bagrakh
+    religion = code_of_malacath
+    culture = mountain_orc
+
+    father = bagrakh_1003
+    mother = bagrakh_1004
+
+    sexuality = heterosexual
+
+    trait = compassionate
+    trait = just
+    trait = shy
+	trait = sign_lover
+
+    3419.2.21 = { birth = yes }
+    3442.10.12 = {
+        add_spouse = bagrakh_1007
+    }
+    3493.11.11 = { death = { death_reason = death_natural_causes }}
+}
+
+bagrakh_1007 = {
+    name = "Shamush" 
+    female = yes
+    religion = code_of_malacath
+    culture = mountain_orc
+
+    sexuality = heterosexual
+
+    trait = gluttonous
+    trait = gregarious
+    trait = humble
+	trait = sign_mage
+
+    3425.4.18 = { birth = yes }
+    3485.4.8 = { death = { death_reason = death_natural_causes }}
+}
+
+bagrakh_1008 = {
+    name = "Loghorz" 
+    dynasty = dyn_Bagrakh
+    religion = code_of_malacath
+    culture = mountain_orc
+
+    father = bagrakh_1006
+    mother = bagrakh_1007
+
+    sexuality = heterosexual
+
+    trait = wrathful
+    trait = stubborn
+    trait = chaste
+	trait = sign_lover
+
+    3459.2.23 = { birth = yes }
+    3483.12.2 = {
+        add_spouse = bagrakh_1009
+    }
+    3519.11.2 = {
+        death = { death_reason = death_battle }
+    }
+}
+
+## Bragosh Dynasty (dynn_Bragosh)
+# the Hammer Clan - Lore, Clan who defended 2nd Orsinium
+# eventually absorbed by the Morkul Clan
+bragosh_1000 = {
+	name = "Zegol"
+	dynasty = dynn_Bragosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_1
+	trait = brave
+
+	3300.1.1 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } } # died in Orsinium	
+}
+bragosh_1001 = {
+	name = "Ghora"
+	female = yes
+	dynasty = dynn_Bragosh
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = bragosh_1000
+
+	trait = beauty_good_1
+	trait = sign_lady
+
+	3350.9.2 = { birth = yes }
+	3351.10.14 = {
+		employer = morkul_1000
+		set_relation_guardian = character:morkul_1000
+	}
+	# 3376 marries morkul_1001
+	3401.1.1 = { death = yes }
+}
+## Pandrum Dynasty (dynn_Pandrum)
+# the Fire Clan - Lore
+# mages, last die in Siege of Orsinium
+pandrum_1000 = {
+	name = "Tharag"
+	dynasty = dynn_Pandrum
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_learning_2
+	trait = education_magic_2
+	trait = brave
+
+	3300.1.1 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } } # died in Orsinium	
+}
+## Enclave Dynasty (dynn_Enclave)
+# the Star Clan - Lore
+# exist in 2E 582, location unknown/hidden
+enclave_1000 = {
+	name = "Lugolg"
+	dynasty = dynn_Enclave
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_intrigue_2
+	trait = deceitful
+	trait = craven
+	trait = vengeful
+	intrigue = 4
+
+	3300.1.1 = { birth = yes }
+	3364.1.1 = { death = yes } #fled the Siege of Orsinium, thus lived a few years longer
+}
+## Luccin Dynasty (dynn_Luccin)
+# the Wolf Clan - Lore, Clan who defended 2nd Orsinium
+# eventually absorbed by the Shatul Clan
+luccin_1000 = {
+	name = "Narazz"
+	dynasty = dynn_Luccin
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	3300.1.1 = { birth = yes }
+	3321.1.1 = { add_spouse = shatul_999_sister }
+	3351.10.13 = { death = { death_reason = death_orsinium } } # died in Orsinium	
+}
+luccin_1001 = {
+	name = "Ogol"
+	dynasty = dynn_Luccin
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = luccin_1000
+	mother = shatul_999_sister
+
+	prowess = 1
+
+	3323.1.1 = { birth = yes }
+	3355.1.1 = { death = { death_reason = death_battle } }
+}
+luccin_1002 = {
+	name = "Ungruk"
+	dynasty = dynn_Luccin
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = luccin_1000
+	mother = shatul_999_sister
+
+	trait = craven
+	trait = lustful
+	trait = content
+	trait = education_martial_1
+	trait = logistician
+	trait = sign_shadow
+
+	3326.5.3 = { birth = yes }
+	3352.2.1 = { employer = shatul_1000 }
+	3376.1.1 = { death = yes }
+}
+## Murtag Dynasty (dynn_Murtag)
+# the Rock Clan - Lore
+# exist in 2E 582, their stronghold is close to Jehanna
+murtag_1000 = {
+	name = "Gloth"
+	dynasty = dynn_Murtag
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_1
+	trait = vengeful
+	trait = shy
+	trait = patient
+	trait = sign_lover
+
+	3300.3.25 = { birth = yes }
+	3351.10.14 = { # doesn't die at the Siege of Orsinium but gets imprisoned by hearthon_1000
+		effect = {
+			character:hearthon_1000 = {
+				imprison = {
+					target = ROOT
+					type = house_arrest
+				}
+			}
+		}
+	}
+	3352.1.1 = { trait = scarred }
+	3365.1.1 = {
+		effect = {
+			release_from_prison = yes
+		}
+	}
+	3568.1.1 = { employer = fharun_1000 }
+	3369.1.1 = {
+		employer = fharun_1001
+		add_spouse = murtag_1000_wife
+	}
+	3372.1.1 = { death = yes }
+}
+murtag_1000_wife = {
+	name = "Batara"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = education_intrigue_2
+	trait = sign_lady
+	trait = deceitful
+	trait = paranoid
+	trait = ambitious # she will be a driving factor in her son rebuilding clan murtag
+
+	3335.9.12 = { birth = yes }
+	3399.1.1 = { death = yes }
+}
+murtag_1001 = {
+	name = "Ghor"
+	dynasty = dynn_Murtag
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = murtag_1000
+	mother = murtag_1000_wife
+
+	trait = sign_atronach
+
+	3369.11.29 = { birth = yes }
+	# HistoryToDoHR this guy will reestablish the Murtag Clan somewhere near Jehanna
+	3401.1.1 = { death = yes }
+}
+## Ruskahr Dynasty (dynn_Ruskahr)
+# the Owl Clan - Lore, Clan who defended 2nd Orsinium
+# used to be archers
+ruskahr_999 = {
+	name = "Ghor"
+	dynasty = dynn_Ruskahr
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = lifestyle_hunter
+
+	3230.1.1 = { birth = yes }
+	3320.1.1 = { death = yes }
+}
+ruskahr_1000 = {
+	name = "Both"
+	dynasty = dynn_Ruskahr
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = lifestyle_hunter
+
+	father = ruskahr_999
+
+	3300.1.1 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } } # died in Orsinium	
+}
+ruskahr_1001 = {
+	name = "Rulfala"
+	female = yes
+	dynasty = dynn_Ruskahr
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = ruskahr_999
+
+	3309.1.1 = { birth = yes }
+	# 3331 marries agluk_1000
+	3351.10.13 = { death = { death_reason = death_orsinium } } # died in Orsinium
+}
+
+##Galatite Dynasty (dyn_Galatite)
+
+#Galatite House
+
+galatite_1000 = {
+	name = "Lurbozog"
+	dynasty = dyn_Galatite
+	culture = iron_orc
+	religion = osh_ornim
+	
+	3331.1.1 = { birth = yes }
+	3372.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = stonefriend_1001
+		}
+	}
+}
+
+galatite_1002 = {
+	name = "Snaglak"
+	dynasty = dyn_Galatite
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = galatite_1000
+	
+	3352.1.1 = { birth = yes }
+	3389.1.1 = { death = yes }
+}
+
+##Orichalc Dynasty (dyn_orichalc)
+#Orichalc House
+orichalc_998 = {
+	name = "Skagurn"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	trait = sign_apprentice
+	3267.7.22 = { birth = yes }
+	3288.1.1 = { add_matrilineal_spouse = orichalc_998_wife }
+	3310.5.28 = { death = { death_reason = death_duel killer = orichalc_999 } }
+}
+orichalc_998_wife = {
+	name = "Bula"
+	culture = iron_orc
+	religion = osh_ornim
+	female = yes
+	3272.1.1 = { birth = yes }
+	3318.1.1 = { death = { death_reason = death_maimed_by_wild_beast } }
+}
+orichalc_999 = {
+	name = "Narkhozikh"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	father = orichalc_998
+	mother = orichalc_998_wife
+	trait = compassionate #Didn't kill his sister
+	trait = ambitious #Still killed other siblings
+	trait = sign_shadow
+	3290.5.1 = { birth = yes }
+	3310.1.1 = { add_spouse = orichalc_999_wife }
+	3332.11.8 = { death = { death_reason = death_duel killer = orichalc_1000 } }
+}
+orichalc_999_wife = {
+	name = "Zagla"
+	culture = iron_orc
+	religion = osh_ornim
+	female = yes
+	3288.1.1 = { birth = yes }
+	3340.1.1 = { death = { death_reason = death_natural_causes } }
+}
+orichalc_999b = {
+	name = "Igruk"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	father = orichalc_998
+	mother = orichalc_998_wife
+	3284.1.1 = { birth = yes }
+	3310.5.28 = { death = { death_reason = death_duel killer = orichalc_999 } }
+}
+orichalc_1000 = {
+	name = "Gronov"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	father = orichalc_999
+	mother = orichalc_999_wife
+	trait = brave #Besiegied Elinhir
+	trait = trusting #Trusted Felix Blackcaster that he would be able to sack it
+	trait = greedy #Really wanted loot
+	trait = education_martial_2 #Not that good at war
+	trait = sign_steed
+	3316.6.14 = { birth = yes }
+	3332.1.1 = { add_spouse = orichalc_1000_wife }
+	#Driven away from Elinhir by Blackcaster, also lost his son
+	3350.6.20 = { set_relation_rival = { reason = rival_historical target = character:blackcaster_1000 } }
+	#Finally murdered by Blackcaster
+	3368.7.17 = { death = { death_reason = death_murder killer = blackcaster_1000 } }
+}
+orichalc_1000_wife = {
+	name = "Dagarha"
+	culture = iron_orc
+	religion = osh_ornim
+	female = yes
+	trait = depressed_1 #Son died
+	3312.1.1 = { birth = yes } 
+	3364.1.1 = { death = { death_reason = death_depressed } }
+}
+orichalc_1000_son = {
+	name = "Guarg"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	trait = brave
+	trait = sign_lover
+	father = orichalc_1000
+	mother = orichalc_1000_wife
+	3333.2.3 = { birth = yes }
+	#Killed by Blackcaster during attempt to raid Elinhir
+	3350.6.20 = { death = { death_reason = death_fire_magic killer = blackcaster_1000 } }
+}
+
+orichalc_1000b = {
+	name = "Morotub"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	father = orichalc_999
+	mother = orichalc_999_wife
+	3311.1.1 = { birth = yes }
+	3332.11.8 = { death = { death_reason = death_duel killer = orichalc_1000 } }
+}
+
+orichalc_1000c = {
+	name = "Orcolag"
+	dynasty = dyn_orichalc
+	culture = iron_orc
+	religion = osh_ornim
+	father = orichalc_999
+	mother = orichalc_999_wife
+	female = yes
+	3313.1.1 = { birth = yes }
+	3332.11.8 = { death = { death_reason = death_duel killer = orichalc_1000 } }
+}
+
+
+#Rubedite House - Branch of Orichalc
+rubedite_999 = {
+	name = "Urzoga"
+	dynasty_house = dyn_rubedite
+	culture = iron_orc
+	religion = osh_ornim
+	father = orichalc_998
+	mother = orichalc_998_wife
+	female = yes
+	trait = diligent
+	trait = wrathful
+	trait = sign_tower
+	3300.10.12 = { birth = yes }
+	3322.1.1 = { add_matrilineal_spouse = rubedite_999_husband }
+	3356.11.2 = { death = { death_reason = death_duel killer = rubedite_1000 } }
+}
+
+rubedite_999_husband = {
+	name = "Ogzor"
+	culture = iron_orc
+	religion = osh_ornim
+	3304.1.1 = { birth = yes }
+	3344.1.1 = { death = { death_reason = death_vanished } }
+}
+
+rubedite_1000 = {
+	name = "Brog"
+	dynasty_house = dyn_rubedite
+	culture = iron_orc
+	religion = osh_ornim
+	mother = rubedite_999
+	father = rubedite_999_husband
+
+	trait = strong
+	trait = wrathful
+	trait = paranoid
+	trait = chaste
+	trait = education_martial_2
+	trait = sign_lady
+	
+	3326.9.14 = { birth = yes }
+	3345.1.1 = { add_spouse = rubedite_1000_wife }
+	3366.1.4 = { death = { death_reason = death_accident } }
+}
+
+rubedite_1000_wife = {
+	name = "Agrulla"
+	culture = iron_orc
+	religion = osh_ornim
+	female = yes
+	3329.1.1 = { birth = yes }
+	3386.1.1 = { death = { death_reason = death_old_age } }
+}
+
+rubedite_1001 = {
+	name = "Torg"
+	dna = rubedite_1001_dna_entry
+	dynasty_house = dyn_rubedite
+	culture = iron_orc
+	religion = osh_ornim
+	father = rubedite_1000
+	mother = rubedite_1000_wife
+	sexuality = bisexual
+
+	trait = rowdy
+	trait = stubborn
+	trait = paranoid
+	trait = sign_ritual
+	disallow_random_traits = yes
+	
+	3346.1.10 = { birth = yes }
+	3362.1.1 = {
+		remove_trait = rowdy
+		trait = lustful
+		trait = education_martial_4
+	}
+	3364.1.1 = { add_spouse = rubedite_1001_wife }
+	3365.1.1 = { add_same_sex_spouse = rubedite_1001_husband }
+	3390.1.1 = { death = yes }
+}
+rubedite_1001_wife = {
+	name = "Orgotha"
+	culture = iron_orc
+	religion = osh_ornim
+	female = yes
+	trait = arcana_good_1
+	trait = intellect_good_2
+	3340.1.1 = { birth = yes }
+	3413.1.1 = { death = { death_reason = death_old_age } }
+}
+
+rubedite_1001_husband = {
+	name = "Grashbag"
+	culture = iron_orc
+	religion = osh_ornim
+	sexuality = homosexual
+	3344.1.1 = { birth = yes }
+	3399.1.1 = { death = { death_reason = death_natural_causes } }
+}
+
+##Malachite Dynasty (dyn_Malachite)
+
+#Malachite House
+
+malachite_1000 = {
+	name = "Yatur"
+	dynasty = dyn_Malachite
+	culture = iron_orc
+	religion = osh_ornim
+	
+	3340.1.1 = { birth = yes }
+	3393.1.1 = { death = yes }
+}
+
+##Zircon Dynasty (dyn_Zircon)
+
+#Zircon House
+
+zircon_1000 = {
+	name = "Ulang"
+	dynasty = dyn_Zircon
+	culture = iron_orc
+	religion = osh_ornim
+	
+	3340.1.1 = { birth = yes }
+	3393.1.1 = { death = yes }
+}
+
+## Lurgash Dynasty
+lhurgash_001 = {
+	name = "Duluk"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	3280.1.1 = { birth = yes }
+	3328.1.1 = { death = { death_reason = death_bear } }
+}
+lhurgash_002 = {
+	name = "Igruk"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_001
+	trait = education_diplomacy_3
+	trait = cynical
+	trait = calm
+	trait = compassionate
+	3300.1.1 = { birth = yes }
+	#Father dies, his brother challenges him and dies. He spares his nephew
+	#Married Bosmer
+	3328.1.1 = { add_spouse = lhurgash_wife_002 }
+	#Killed by his nephew along with his son and Bosmer wife
+	3351.1.1 = { death = { death_reason = death_duel killer = lhurgash_004 }}
+}
+lhurgash_wife_002 = {
+	name = "Adandora"
+	culture = bosmer
+	religion = wilderking
+	female = yes
+	trait = lifespan_3
+	3270.1.1 = { birth = yes }
+	3351.1.1 = { death = { death_reason = death_execution killer = lhurgash_004 } }
+}
+lhurgash_son_002 = {
+	name = "Ghobargh"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_002
+	mother = lhurgash_wife_002
+	trait = lifespan_1
+	3334.1.1 = { birth = yes }
+	3351.1.1 = { death = { death_reason = death_execution killer = lhurgash_004 } }
+}
+lhurgash_003 = {
+	name = "Logbur"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_001
+	3302.1.1 = { birth = yes }
+	3328.1.1 = { death = { death_reason = death_duel killer = lhurgash_002 } }
+}
+lhurgash_004 = {
+	name = "Azbag"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_003
+	trait = wild_oat
+	trait = vengeful
+	trait = zealous
+	trait = paranoid
+	trait = education_martial_3
+	3327.1.1 = { birth = yes }
+	3351.1.1 = { add_spouse = lhurgash_wife_004 }
+	3381.1.1 = { death = { death_reason = death_duel killer = lhurgash_005 } }
+}
+
+lhurgash_wife_004 = {
+	name = "Ordatha"
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	3334.1.1 = { birth = yes }
+	3402.1.1 = { death = { death_reason = death_old_age } }
+}
+
+lhurgash_005 = {
+	name = "Narkhozikh"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_004
+	mother = lhurgash_wife_004
+	3354.1.1 = { birth = yes }
+	#Killed by Bosmers
+	3407.1.1 = { death = { death_reason = death_battle } }
+}
+
+lhurgash_006 = {
+	name = "Narkhozikh"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_005
+	3384.1.1 = { birth = yes }
+	3434.1.1 = { death = { death_reason = death_duel killer = lhurgash_007 } }
+}
+
+lhurgash_007 = {
+	name = "Zaghurbak"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_006
+	trait = vengeful
+	trait = sadistic
+	trait = paranoid
+	trait = education_intrigue_3
+	3409.1.1 = { birth = yes }
+	3458.1.1 = { death = { death_reason = death_duel killer = lhurgash_008 } }
+}
+
+lhurgash_008 = {
+	name = "Othigu"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_007
+	trait = vengeful
+	trait = rowdy
+	trait = twin
+	disallow_random_traits = yes
+	3436.1.1 = { birth = yes }
+	3446.1.1 = { set_relation_rival = { reason = rival_historical target = character:lhurgash_008b } }
+	3452.1.1 = {
+		remove_trait = rowdy
+		trait = brave
+		trait = wrathful
+		trait = education_martial_2
+	}
+	3458.1.2 = { death = { death_reason = death_duel killer = lhurgash_008b } }
+}
+lhurgash_008b = {
+	name = "Bula"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_007
+	female = yes
+	trait = vengeful
+	trait = rowdy
+	trait = twin
+	disallow_random_traits = yes
+	3436.1.1 = { birth = yes }
+	3446.1.1 = { set_relation_rival = { reason = rival_historical target = character:lhurgash_008 } }
+	3452.1.1 = {
+		remove_trait = rowdy
+		trait = brave
+		trait = wrathful
+		trait = education_martial_2
+	}
+	3458.1.2 = { death = { death_reason = death_duel killer = lhurgash_008 } }
+}
+
+lhurgash_008c = {
+	name = "Gorak"
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_007
+	trait = patient
+	trait = pensive
+	disallow_random_traits = yes
+	3438.1.1 = { birth = yes }
+	3454.1.1 = {
+		remove_trait = pensive
+		trait = calm
+		trait = trusting
+		trait = education_learning_3
+	}
+	3480.1.1 = { death = { death_reason = death_natural_causes } }
+}
+lhurgash_009 = { #Warchief from ESO
+	name = "Gorzesh" #Lore
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_008c
+	3464.1.1 = { birth = yes }
+	3481.1.1 = { add_spouse = lhurgash_wife1_009 }
+	3482.1.1 = { add_spouse = lhurgash_wife2_009 }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+lhurgash_wife1_009 = { #Hunt-wife
+	name = "Thushleg" #Lore
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	trait = lifestyle_hunter
+	3461.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+lhurgash_wife2_009 = { #Forge-wife
+	name = "Grashla" #Lore
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	3460.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+lhurhash_010 = { #Son of Warchief Gorzesh
+	name = "Roog" #Lore
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_009
+	mother = lhurgash_wife1_009
+	3482.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+lhurgash_009b = { #Chieftain from ESO
+	name = "Thragdosh" #Lore
+	dynasty = dyn_lhurgash
+	culture = wood_orc
+	religion = code_of_malacath
+	father = lhurgash_008c
+	3469.1.1 = { birth = yes }
+	3502.5.1 = { death = yes } #Killed by Vestige
+}
+
+## Bloodmist Dynasty
+bloodmist_001 = {
+	name = "Logbur"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	3260.1.1 = { birth = yes }
+	3320.1.1 = { death = yes }
+}
+bloodmist_002 = {
+	name = "Lurbozog"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_001
+	3290.1.1 = { birth = yes }
+	3334.1.1 = { death = yes }
+}
+bloodmist_003 = {
+	name = "Durak"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_002
+	3310.1.1 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			if = {
+				limit = { is_independent_ruler = no }
+				vassal_contract_set_obligation_level = {
+					type = cultural_rights
+					level = 1
+				}		
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1
+				}
+			}
+		}
+	}
+	3361.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = bloodmist_004
+		}
+	}
+}
+
+bloodmist_004 = {
+	name = "Shamar"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_003
+	
+	3335.1.1 = { birth = yes }
+	3362.1.1 = {
+		effect = {
+			if = {
+				limit = { is_independent_ruler = no }
+				vassal_contract_set_obligation_level = {
+					type = cultural_rights
+					level = 1
+				}		
+				vassal_contract_set_obligation_level = {
+					type = religious_rights
+					level = 1
+				}
+			}
+		}
+	}
+	3388.1.1 = { death = yes }
+}
+
+bloodmist_005 = {
+	name = "Bargrug"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_004
+	3362.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+
+bloodmist_006 = {
+	name = "Tharag"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_005
+	3390.1.1 = { birth = yes }
+	3444.1.1 = { death = yes }
+}
+
+bloodmist_007 = {
+	name = "Snegbug"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_006
+	3421.1.1 = { birth = yes }
+	3476.1.1 = { death = yes }
+}
+
+bloodmist_008 = {
+	name = "Mauhulakh"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_007
+	3445.1.1 = { birth = yes }
+	3489.1.1 = { death = { death_reason = death_vampire killer = bloodmist_008b } }
+}
+
+bloodmist_008b = { #Vampire, killed most of his clan
+	name = "Otholug" #Lore
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_007
+	3448.1.1 = { birth = yes }
+	3479.1.1 = { 
+		trait = vampire_character
+		effect = {
+			set_immortal_age = 30
+			substitute_lifespan_by_immortality_effect = yes
+		}
+	}
+	3503.1.1 = { death = yes } #Killed in ESO
+}
+
+bloodmist_008c = {
+	name = "Multa"
+	dynasty = dyn_bloodmist
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodmist_007
+	female = yes
+	3454.1.1 = { birth = yes }
+	3490.1.1 = { death = { death_reason = death_wounds } }
+}
+
+bloodmist_009 = { #ESO cut content
+	name = "Zoragag" #Lore
+	dynasty = dyn_bloodmist #History TODO: give him a new one
+	culture = wood_orc
+	religion = code_of_malacath
+	mother = bloodmist_008c
+	3472.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }
+}
+
+## Barkbite Dynasty
+barkbite_001 = {
+	name = "Goragol"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	trait = varangian
+	trait = ambitious
+	3285.1.1 = { birth = yes }
+	3305.1.1 = { add_spouse = barkbite_wife_001 }
+	3333.1.1 = { death = { death_reason = death_duel killer = barkbite_002 }}
+}
+barkbite_wife_001 = {
+	name = "Atzurbesh"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	3282.1.1 = { birth = yes }
+	3354.1.1 = { death = { death_reason = death_old_age } }
+}
+barkbite_002 = {
+	name = "Glothozug"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_001
+	mother = barkbite_wife_001
+	3305.1.1 = { birth = yes }
+	3333.1.1 = { add_spouse = barkbite_002_wife }
+	3352.1.1 = { death = { death_reason = death_ill } }
+}
+barkbite_002_wife = {
+	name = "Gluthesh"
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	3310.1.1 = { birth = yes }
+	3371.1.1 = { death = { death_reason = death_old_age } }
+}
+barkbite_003 = {
+	name = "Gowron"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_002
+	mother = barkbite_002_wife
+	trait = wrathful
+	trait = cynical
+	trait = greedy
+	trait = education_martial_3
+	3334.1.1 = { birth = yes }
+	3352.1.1 = { add_spouse = barkbite_003_wife_1 }
+	3356.1.1 = { add_spouse = barkbite_003_wife_2 }
+	#3356 - killed neighbouring Imga ruler
+	3372.1.1 = { death = { death_reason = death_duel killer = barkbite_004 } }
+}
+barkbite_003_wife_1 = {
+	name = "Lagra"
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	3328.1.1 = { birth = yes }
+	3372.1.1 = { death = { death_reason = death_stress } }
+}
+barkbite_003_wife_2 = {
+	name = "Guzmara"
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	trait = calm
+	trait = zealous
+	trait = arbitrary
+	trait = education_diplomacy_2
+	disallow_random_traits = yes
+	3340.1.1 = { birth = yes }
+	#Blames her husband's son for killing her son
+	3367.1.1 = { 
+		set_relation_rival = { reason = rival_historical target = character:barkbite_004 } 
+		remove_trait = calm
+		trait = vengeful
+		remove_trait = arbitrary
+		add_trait = wrathful
+	}
+	3401.1.1 = { death = { death_reason = death_execution killer = barkbite_005 } }
+}
+barkbite_004 = {
+	name = "Garnag"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_003
+	mother = barkbite_003_wife_1
+	trait = pensive
+	trait = temperate
+	disallow_random_traits = yes
+	3353.1.1 = { birth = yes }
+	3369.1.1 = {
+		remove_trait = pensive
+		trait = arbitrary
+		trait = calm
+		trait = education_stewardship_2
+	}
+	3400.1.1 = { death = { death_reason = death_murder_known killer = barkbite_003_wife_2 } }
+}
+barkbite_004b = { #Dead half-brother
+	name = "Ogzor"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_003
+	mother = barkbite_003_wife_2
+	3358.1.1 = { birth = yes }
+	#Died in an accident, his mother blames his half-brother
+	3367.1.1 = { death = { death_reason = death_accident } }
+}
+barkbite_005 = {
+	name = "Garmeg"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_004
+	3374.1.1 = { birth = yes }
+	3425.1.1 = { death = yes }
+}
+barkbite_006 = {
+	name = "Golg"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_005
+	3401.1.1 = { birth = yes }
+	3444.1.1 = { death = yes }
+}
+barkbite_007 = {
+	name = "Garothmuk"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_006
+	3428.1.1 = { birth = yes }
+	3464.1.1 = { death = yes }
+}
+barkbite_008 = {
+	name = "Grezgor"
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_007
+	3445.1.1 = { birth = yes }
+	3495.1.1 = { death = yes }
+}
+barkbite_009 = { #Older brother of Barkbite chief in ESO
+	name = "Gargak" #Lore
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_008
+	trait = disinherited
+	3465.1.1 = { birth = yes }
+	3515.1.1 = { death = yes } #Placeholder
+}
+barkbite_010 = { #Barkbite chief in ESO
+	name = "Dushkul" #Lore
+	dynasty = dyn_barkbite
+	culture = wood_orc
+	religion = code_of_malacath
+	father = barkbite_008
+	trait = disinherited
+	3468.1.1 = { birth = yes }
+	3515.1.1 = { death = yes } #Placeholder
+}
+## Drublog Dynasty
+drublog_001 = {
+	name = "Obdeg"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	trait = wrathful
+	trait = irritable
+	trait = impatient
+	3310.1.1 = { birth = yes }
+	3326.1.1 = { add_spouse = drublog_wife_001 }
+	3350.1.1 = { death = { death_reason = death_choked } } 
+}
+
+drublog_wife_001 = {
+	name = "Adlugbuk"
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	trait = education_martial_3
+	trait = lifestyle_hunter #Hunt-wife
+	3308.1.1 = { birth = yes }
+	3356.1.1 = { death = { death_reason = death_hunting_accident } }
+}
+
+#Drabul branch of Drublogs
+drublog_002 = {
+	name = "Yamukuz"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	father = drublog_001
+	mother = drublog_wife_001
+	trait = twin
+	trait = calm
+	trait = cynical
+	trait = gregarious
+	trait = education_diplomacy_3
+	trait = sign_ritual
+	3334.1.23 = { birth = yes }
+	3348.1.1 = { set_relation_friend = { reason = friend_generic_history target = character:drublog_bloodtoil_001 } }
+	3351.1.1 = { 
+		effect = {
+			if = {
+				limit = { is_independent_ruler = no }
+				vassal_contract_set_obligation_level = {
+					type = cultural_rights
+					level = 1
+				}
+			}
+		}
+	}
+	3359.6.1 = { add_character_flag = should_become_independent }
+	3385.1.1 = { death = { death_reason = death_accident } }
+}
+
+drublog_003 = {
+	name = "Ghorkul"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	father = drublog_002
+	trait = pensive
+	trait = honest
+	disallow_random_traits = yes
+	3358.1.1 = { birth = yes }
+	3369.1.1 = { trait = just }
+	3376.1.1 = {
+		remove_trait = bossy
+		trait = chaste
+		trait = education_learning_2
+		trait = journaller
+	}
+	3385.1.2 = { death = { death_reason = death_duel killer = drublog_003b } }
+}
+
+drublog_003b = {
+	name = "Lugolg"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_002
+	trait = callous
+	trait = rowdy
+	disallow_random_traits = yes
+	3363.1.1 = { birth = yes }
+	3379.1.1 = {
+		remove_trait = rowdy
+		trait = wrathful
+		trait = arbitrary
+		trait = education_martial_3
+	}
+	3410.1.1 = { death = { death_reason = death_duel killer = drublog_004 } }
+}
+
+drublog_004 = {
+	name = "Yamukuz"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_003b
+	trait = zealous
+	trait = paranoid
+	trait = lustful
+	trait = education_intrigue_2
+	3390.1.1 = { birth = yes }
+	3442.1.1 = { death = { death_reason = death_duel killer = drublog_005 } }
+}
+
+drublog_005 = {
+	name = "Ghorkul"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_004
+	trait = paranoid #Kills his entire family
+	trait = greedy
+	trait = diligent
+	trait = education_intrigue_2
+	trait = murderer
+	trait = reclusive
+	3411.1.1 = { birth = yes }
+	3460.1.1 = { death = { death_reason = death_stress } }
+}
+
+drublog_005b = {
+	name = "Lugolg"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_004
+
+	3411.1.1 = { birth = yes }
+	3442.1.1 = { death = { death_reason = death_duel killer = drublog_004 } }
+}
+
+drublog_005c = {
+	name = "Moramat"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	
+	father = drublog_004
+
+	3414.1.1 = { birth = yes }
+	3442.1.1 = { death = { death_reason = death_duel killer = drublog_004 } }
+}
+
+drublog_005d = {
+	name = "Yamukuz"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_005b
+
+	3433.1.1 = { birth = yes }
+	3442.1.1 = { death = { death_reason = death_murder_known killer = drublog_004 } }
+}
+
+drublog_005e = {
+	name = "Ghorkul"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_005b
+
+	3434.1.1 = { birth = yes }
+	3442.1.1 = { death = { death_reason = death_murder_known killer = drublog_004 } }
+}
+
+drublog_006 = {
+	name = "Ghorkul"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	father = drublog_005
+	trait = pensive
+	trait = diligent
+	disallow_random_traits = yes
+	3443.1.1 = { birth = yes }
+	3459.1.1 = {
+		trait = calm
+		trait = content
+		trait = poet
+		trait = education_stewardship_3
+	}
+	3488.1.1 = { death = { death_reason = death_duel killer = drublog_007 } }
+}
+
+drublog_007 = {
+	name = "Agrakh" #Lore - chief in ESO
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	father = drublog_006
+	trait = deceitful
+	trait = vengeful
+	trait = wrathful
+	trait = education_martial_2
+	3464.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+
+drublog_008 = {
+	name = "Glazulg" #Lore - shaman in ESO
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	father = drublog_006
+	trait = zealous
+	trait = stubborn
+	trait = trusting
+	trait = education_learning_2
+	3464.1.1 = { birth = yes }
+	3510.1.1 = { death = yes } #Survives ESO
+}
+
+drublog_009 = {
+	name = "Roku" #Lore
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	father = drublog_008
+	trait = trusting
+	trait = bossy
+	disallow_random_traits = yes
+	3484.1.1 = { birth = yes }
+	3500.1.1 = {
+		remove_trait = bossy
+		trait = cynical
+		trait = brave
+		trait = education_martial_2
+	}
+	3503.1.1 = { death = yes } #Killed during ESO
+}
+
+#Bloodtoil and Jathosgur branch of Drublogs
+drublog_bloodtoil_001 = { #Didn't want to kill his brother, went to other tribe instead
+	name = "Ghorkul"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_001
+	mother = drublog_wife_001
+	trait = twin
+	trait = ambitious
+	trait = brave
+	trait = fickle
+	trait = education_martial_3
+	trait = sign_ritual
+	3334.1.23 = { birth = yes }
+	3352.1.1 = { add_spouse = bloodtoil_002 }
+	3389.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_002 } }
+}
+
+drublog_bloodtoil_002 = { #Zealous chief, kills ruling family of Ayleid neighbours
+	name = "Yamukuz"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_bloodtoil_001
+	mother = bloodtoil_002
+	trait = zealous
+	trait = bossy
+	disallow_random_traits = yes
+
+	3359.1.1 = { birth = yes }
+	3368.1.1 = { trait = wrathful }
+	3375.1.1 = {
+		remove_trait = bossy
+		trait = aggressive_attacker
+		trait = education_martial_3
+		trait = arbitrary
+	}
+	3415.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_003 } }
+}
+
+drublog_bloodtoil_003 = {
+	name = "Yamukuz"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_bloodtoil_002
+
+	3380.1.1 = { birth = yes }
+	#Killed by his sister
+	3415.1.2 = { death = { death_reason = death_duel killer = drublog_bloodtoil_003b } }
+}
+
+drublog_bloodtoil_003b = {
+	name = "Bagula" #Becomes chief after killing her brother
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	
+	father = drublog_bloodtoil_002
+	trait = brave
+	trait = ambitious
+	trait = forgiving
+	trait = education_martial_3
+
+	3382.1.1 = { birth = yes }
+	3440.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_004 } }
+}
+
+drublog_bloodtoil_003c = {
+	name = "Yarnag" #Refuses to acknowledge his sister's claim
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_bloodtoil_002
+	trait = stubborn
+	trait = craven
+	trait = zealous
+	trait = education_intrigue_2
+
+	3384.1.1 = { birth = yes }
+	#Killed by his brother
+	3416.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_003d } }
+}
+
+drublog_bloodtoil_003d = {
+	name = "Ogol" #Kills his brother for cowardice and negotiates peace with his sister
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_bloodtoil_002
+	trait = brave
+	trait = zealous
+	trait = calm
+	trait = education_diplomacy_3
+
+	3388.1.1 = { birth = yes }
+	3437.1.1 = { death = { death_reason = death_duel killer = drublog_jathosgur_001 } } 
+}
+
+#Women chiefs of Bloodtoil
+drublog_bloodtoil_004 = {
+	name = "Korgha"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	trait = wrathful
+	trait = arrogant
+	trait = just
+	trait = comfort_eater
+	trait = education_martial_3
+	mother = drublog_bloodtoil_003b
+	3405.1.1 = { birth = yes }
+	3460.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_005b } } 
+}
+
+drublog_bloodtoil_005 = {
+	name = "Bagula"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	mother = drublog_bloodtoil_004
+	3430.1.1 = { birth = yes }
+	3460.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_005b } }
+}
+
+drublog_bloodtoil_005b = {
+	name = "Lurz"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	mother = drublog_bloodtoil_004
+	3432.1.1 = { birth = yes }
+	3481.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_006 } } 
+}
+
+drublog_bloodtoil_006 = {
+	name = "Ulukhaz" #Lore - chief in ESO
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	female = yes
+	mother = drublog_bloodtoil_005b
+	trait = vengeful
+	trait = zealous
+	3460.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+
+#Jathosgur branch
+drublog_jathosgur_001 = {
+	name = "Gogbag"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_bloodtoil_003d
+	trait = greedy
+	trait = cynical
+	trait = patient
+	trait = education_learning_3
+
+	3413.1.1 = { birth = yes }
+	3464.1.1 = { death = { death_reason = death_duel killer = drublog_jathosgur_002 } } 
+}
+
+drublog_jathosgur_002 = {
+	name = "Farbalg"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_jathosgur_001
+
+	3434.1.1 = { birth = yes }
+	3482.1.1 = { death = { death_reason = death_duel killer = drublog_jathosgur_003 } }
+}
+
+drublog_jathosgur_003 = {
+	name = "Namoroth"
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	
+	father = drublog_jathosgur_002
+
+	3451.1.1 = { birth = yes }
+	3495.1.1 = { death = { death_reason = death_duel killer = drublog_jathosgur_004 } }
+}
+
+drublog_jathosgur_004 = {
+	name = "Nagoth" #Lore - chief in ESO
+	dynasty = dyn_drublog
+	culture = wood_orc
+	religion = code_of_malacath
+	father = drublog_jathosgur_003
+	3473.1.1 = { birth = yes }
+	3503.1.1 = { death = yes } #Killed by Vestige
+}
+
+#Old Bloodtoil chief
+bloodtoil_001 = {
+	name = "Mauhul"
+	dynasty = dyn_bagrat
+	culture = wood_orc
+	religion = code_of_malacath
+	3312.1.1 = { birth = yes }
+	3352.1.1 = { death = { death_reason = death_duel killer = drublog_bloodtoil_001 } }
+}
+
+bloodtoil_002 = {
+	name = "Glolbikla" #Married to new Drublog chief
+	dynasty = dyn_bagrat
+	culture = wood_orc
+	religion = code_of_malacath
+	father = bloodtoil_001
+	female = yes
+	3336.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+#Old Barkbite chiefs, unrelated to current dynasty
+barkbite_ancient_001 = {
+	name = "Dumag"
+	culture = wood_orc
+	religion = code_of_malacath
+	2680.1.1 = { birth = yes }
+	2730.1.1 = { death = yes }
+}
+barkbite_ancient_002 = {
+	name = "Zaghurbak"
+	culture = wood_orc
+	religion = code_of_malacath
+	3283.1.1 = { birth = yes }
+	3313.1.1 = { death = { death_reason = death_duel killer = barkbite_001 }}
+} 
+
+## Kaval Dynasty
+
+kaval_1 = {
+	name = "Garnikh"
+	dynasty = dyn_Kaval
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3322.1.1 = { birth = yes }
+	3371.1.1 = { death = yes }
+
+}
+
+#Burzag Dynasty, Chiefs of Narzulbur (Gloombound)
+burzag_98 = {
+	name = "Mauhulakh"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3282.2.13 = { birth = yes }
+	3308.12.2 = { add_spouse = burzag_98_wife }
+	3332.8.12 = { death = { death_reason = death_accident } }
+}
+burzag_98_wife = {
+	name = "Rogakh"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3283.6.2 = { birth = yes }
+	3342.9.2 = { death = { death_reason = death_old_age } }
+}
+burzag_99_brother = { #Moved to Orsinium to avoid dueling brother
+	name = "Glusil"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_98
+	mother = burzag_98_wife
+	
+	3311.7.15 = { birth = yes }
+	3334.5.24 = { add_spouse = burzag_99_brother_wife }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+burzag_99_brother_wife = {
+	name = "Rogakh"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3313.10.13 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+burzag_99_nephew = {
+	name = "Maknc"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_99_brother
+	mother = burzag_99_brother_wife
+	
+	3335.7.15 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+burzag_99_nephew_2 = {
+	name = "Mauhulakh"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_99_brother
+	mother = burzag_99_brother_wife
+	
+	3338.4.22 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+burzag_99_niece = {
+	name = "Lazgar"
+	dynasty = burzag
+	culture = mountain_orc
+	female = yes
+	religion = code_of_malacath
+	father = burzag_99_brother
+	mother = burzag_99_brother_wife
+	
+	3342.2.13 = { birth = yes }
+	3351.10.13 = { death = { death_reason = death_orsinium } }
+}
+burzag_99 = {
+	name = "Mauhulakh"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_98
+	mother = burzag_98_wife
+	
+	3309.8.3 = { birth = yes }
+	3339.11.24 = { add_spouse = frostvault_104_sister }
+	3341.4.13 = { add_spouse = burzag_99_wife_2 }
+	3359.12.7 = {
+		death = {
+			death_reason = death_duel
+			killer = burzag_100
+		}
+	}
+}
+burzag_99_wife_2 = {
+	name = "Ugakraz"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3317.6.2 = { birth = yes }
+	3381.5.22 = { death = { death_reason = death_old_age } }
+}
+burzag_100_dead_brother = {
+	name = "Bothurn"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_99
+	mother = frostvault_104_sister
+	
+	3343.4.22 = { birth = yes }
+	3359.12.7 = {
+		death = {
+			death_reason = death_duel
+			killer = burzag_100
+		}
+	}
+}
+burzag_100_sister = { #Marries khazor_1001 in 3380.1.1 (Will change slightly)
+	name = "Rogha"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = burzag_99
+	mother = burzag_99_wife_2
+
+	3357.8.21 = { birth = yes }
+	3402.7.13 = { death = { death_reason = death_old_age } }
+}
+burzag_100 = {
+	name = "Burzgrag"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_99
+	mother = frostvault_104_sister
+
+	trait = shy
+	trait = arbitrary
+	trait = lustful
+
+	3340.10.14 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			if = {
+				limit = { is_independent_ruler = no }
+				vassal_contract_set_obligation_level = {
+					type = cultural_rights
+					level = 1
+				}
+			}
+		}
+	}
+	3359.12.9 = { add_spouse = burzag_100_wife_1 }
+	3359.12.9 = { add_spouse = burzag_100_wife_2 }
+	3359.12.25 = {
+		effect = {
+			if = {
+				limit = { is_married = no }
+				create_betrothal = character:ghorak_100_sister_2
+			}
+		}
+	}
+	3365.8.27 = { add_spouse = ghorak_100_sister_2 }
+	3385.7.5 = { #On sons birthday
+		death = {
+			death_reason = death_duel
+			killer = burzag_101
+		}
+	}
+}
+burzag_100_wife_1 = {
+	name = "Durgar"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = lustful
+	trait = shy
+	trait = vengeful
+
+	3339.2.11 = { birth = yes }
+	3393.12.13 = {
+		add_trait = ill
+	}
+	3393.12.27 = { death = { death_reason = death_ill } }
+}
+burzag_100_wife_2 = {
+	name = "Ragazob"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = calm
+	trait = stubborn
+	trait = sadistic
+
+	3338.4.21 = { birth = yes }
+	3413.7.2 = { death = { death_reason = death_old_age } }
+}
+burzag_101_brother_2 = {
+	name = "Malmash"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_100
+	mother = burzag_100_wife_2
+
+	3361.7.16 = { birth = yes }
+	3385.7.5 = {
+		death = {
+			death_reason = death_duel
+			killer = burzag_101
+		}
+	}
+}
+burzag_101_brother = {
+	name = "Balac"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_100
+	mother = burzag_100_wife_1
+	
+	3361.7.16 = { birth = yes }
+	3385.7.5 = {
+		death = {
+			death_reason = death_duel
+			killer = burzag_101
+		}
+	}
+}
+burzag_101_sister = {
+	name = "Ulumoga"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = burzag_100
+	mother = burzag_100_wife_2
+	
+	3362.4.15 = { birth = yes }
+	3424.6.3 = { death = { death_reason = death_old_age } }
+}
+burzag_101 = {
+	name = "Mauhulakh"
+	dynasty = burzag
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = burzag_100
+	mother = ghorak_100_sister_2
+	
+	3366.7.5 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+#Ivory Tooth Dynasty, Chiefs of Half-Moon Side, Falkreath
+ivory_tooth_999 = {
+	name = "Ushaguk"
+	dynasty = ivory_tooth
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = albino
+	trait = physique_bad_2
+	
+	3306.1.1 = { birth = yes }
+	3324.1.1 = { add_spouse = ivory_tooth_999_wife }
+	3352.1.1 = { #slain father at only 16
+		death = {
+			death_reason = death_duel
+			killer = ivory_tooth_1000
+		}
+	}
+}
+ivory_tooth_999_wife = {
+	name = "Mazarz"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3301.1.1 = { birth = yes }
+	3368.1.1 = { death = yes } 
+}
+ivory_tooth_1000 = {
+	name = "Ghorzal"
+	dynasty = ivory_tooth
+	culture = mountain_orc
+	religion = code_of_malacath
+	dna = ivory_tooth_1000_dna_entry
+	father = ivory_tooth_999
+	mother = ivory_tooth_999_wife
+
+	sexuality = bisexual
+
+	trait = education_diplomacy_2
+	trait = gregarious
+	trait = lustful
+	trait = just
+	
+	3336.12.4 = { birth = yes }
+	3354.1.1 = { add_spouse = ivory_tooth_1000_wife }
+	3380.5.16 = { death = yes }
+}
+ivory_tooth_1000_wife = {
+	name = "Urgralag"
+	female = yes
+	dynasty = shardbrok
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_stewardship_1
+	
+	father = shardbrok_1000
+	mother = shardbrok_1000_wife
+
+	3335.8.13 = { birth = yes }
+	3381.5.21 = { death = yes }
+}
+
+#Shardbrok Dynasty, Chiefs of Sunderstone, Falkreath
+
+shardbrok_999 = { #chiefs of a small stronghold that was sacked with Orsinium
+	name = "Lorzmar"
+	dynasty = shardbrok
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = brave
+	trait = impatient
+	trait = lustful
+	trait = education_martial_1
+	
+	3279.1.1 = { birth = yes }
+	3301.1.1 = { add_spouse = shardbrok_999_wife }
+	3324.3.3 = {
+		death = {
+			death_reason = death_duel
+			killer = shardbrok_1000
+		}
+	}
+}
+shardbrok_999_wife = {
+	name = "Durmalah"
+	dna = madrukh_shardbrok_dna_entry #Just to have some continuity
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+
+	3281.8.13 = { birth = yes }
+	3323.1.1 = {
+		death = {
+			death_reason = death_childbirth
+		}
+	}
+}
+shardbrok_1000 = {
+	name = "Madrukh"
+	dna = madrukh_shardbrok_dna_entry
+	dynasty = shardbrok
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = shardbrok_999
+	mother = shardbrok_999_wife
+
+	trait = education_martial_2
+	trait = stubborn
+	trait = brave
+	#trait = fickle
+
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_clothes=male_clothes_secular_steppe_nobility_01_common
+			custom_headgear=male_headgear_secular_fp1_common_02
+			custom_hair=male_hair_fp1_07
+			custom_beards=male_beard_mena_04
+		}
+	}
+	
+	3303.2.8 = { birth = yes }
+	3332.1.1 = { add_spouse = shardbrok_1000_wife }
+	3357.1.1 = {
+		remove_trait = brave
+		remove_trait = fickle
+		add_trait = gluttonous
+		add_trait = lazy
+	}
+	3365.3.3 = {
+		death = {
+			death_reason = death_duel
+			killer = shardbrok_1001
+		}
+	}
+}
+shardbrok_1000_wife = {
+	name = "Shagnakh"
+	female = yes
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = temperate
+	trait = wrathful
+	trait = craven
+	
+
+	3301.8.13 = { birth = yes }
+	3361.11.27 = { death = yes }
+}
+shardbrok_1001 = {
+	name = "Urzgor"
+	dynasty = shardbrok
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = education_martial_3
+	trait = sign_lord
+	trait = reaver
+	trait = cynical
+	trait = trusting
+	trait = arbitrary
+
+	father = shardbrok_1000
+	mother = shardbrok_1000_wife
+	
+	3335.3.3 = { birth = yes }
+	3351.1.1 = { 
+		effect = {
+			add_secret = { type = secret_cannibal }
+		}
+	}
+	3367.1.1 = {
+		effect = {
+			random_secret = {
+				limit = { secret_type = secret_cannibal }
+				remove_secret = yes
+			}
+		}
+		trait = cannibal
+	}
+	3381.11.27 = { death = yes }
+}
+
+#Murug Dynasty, Chiefs of Dralas, Sheogorad
+murug_98 = {
+	name = "Bagrakh"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3255.1.1 = { birth = yes }
+	3280.1.1 = { add_spouse = murug_98_wife }
+	3303.8.7 = { death = { death_reason = death_duel killer = murug_99 } }
+}
+
+murug_98_wife = {
+	name = "Lazghal"
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	3257.1.1 = { birth = yes }
+	3319.1.1 = { death = yes }
+}
+
+murug_99 = {
+	name = "Azuk"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = murug_98
+	mother = murug_98_wife
+	
+	3285.1.1 = { birth = yes }
+	3304.1.1 = { add_spouse = murug_99_wife }
+	3338.11.25 = { death = { death_reason = death_duel killer = murug_100 } }
+}
+
+murug_99_wife = {
+	name = "Ghorza"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3286.1.1 = { birth = yes }
+	3347.1.1 = { death = yes }
+}
+
+murug_100 = {
+	name = "Osgrikh"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = murug_99
+	mother = murug_99_wife
+	
+	3306.2.8 = { birth = yes }
+	3331.1.1 = { add_spouse = murug_100_wife1 }
+	3338.1.1 = { add_spouse = murug_100_wife2 }
+	3354.1.1 = { add_spouse = murug_100_wife3 }
+	3364.5.17 = { death = { death_reason = death_duel killer = murug_101 } }
+}
+
+murug_100_wife1 = {
+	name = "Urbalash"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3316.1.1 = { birth = yes }
+	3374.1.1 = { death = yes }
+}
+
+murug_100_wife2 = {
+	name = "Glurala"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3312.1.1 = { birth = yes }
+	3379.1.1 = { death = yes }
+}
+
+murug_100_wife3 = {
+	name = "Urdboga"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3328.1.1 = { birth = yes }
+	3375.1.1 = { death = yes }
+}
+
+murug_101 = {
+	name = "Moghakh"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = murug_100
+	mother = murug_100_wife1
+	
+	3336.1.1 = { birth = yes }
+	3364.1.1 = { add_spouse = murug_101_wife }
+	3407.8.12 = { death = { death_reason = death_old_age } }
+}
+
+murug_101_wife = {
+	name = "Luzrah"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	
+	3338.1.1 = { birth = yes }
+	3402.1.1 = { death = yes }
+}
+
+murug_101b = {
+	name = "Yamukuz"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = murug_100
+	mother = murug_100_wife2
+	
+	3347.1.1 = { birth = yes }
+	3364.5.17 = { death = { death_reason = death_duel killer = murug_101 } }
+}
+
+murug_101c = {
+	name = "Ghorza"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	father = murug_100
+	mother = murug_100_wife3
+	
+	3356.1.1 = { birth = yes }
+	3430.1.1 = { death = yes }
+}
+
+murug_102 = {
+	name = "Azulga"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	father = murug_101
+	mother = murug_101_wife
+	
+	3367.1.1 = { birth = yes }
+	3448.1.1 = { death = yes }
+}
+
+murug_102b = {
+	name = "Rhosh"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	father = murug_101
+	mother = murug_101_wife
+	
+	3377.1.1 = { birth = yes }
+	3432.2.9 = { death = { death_reason = death_duel killer = murug_103 } }
+}
+
+murug_103 = {
+	name = "Zuuthag"
+	dynasty = dyn_murug
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	father = murug_102b
+	
+	3401.1.1 = { birth = yes }
+	3456.1.1 = { death = yes }
+}
+
+#Oathbound Dynasty, NOT Chiefs of Malak's Maw, Morrowind, and also [insert county name] in Rivenspire (thank you eso lore, very cool)
+#Note: Oathbound are explicitly referred to as recent arrivales and are mercenaries for Daggerfall Covenant
+oathbound_100 = {  #Chief of Oathbound clan in eso in Malak's Maw, DC mercenary
+	name = "Gruznak" #Lore
+	dynasty = dyn_Oathbound
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	3464.1.1 = { birth = yes }
+	3503.1.1 = { death = yes }
+}
+
+#Buzhik, actual rulers of Malak's Maw (until eso at the very least)
+buzhik_98 = {
+	name = "Ghobub"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	3273.1.1 = { birth = yes }
+	3290.1.1 = { add_matrilineal_spouse = buzhik_98_husband }
+	3323.9.25 = { death = { death_reason = death_duel killer = buzhik_99 } }
+}
+buzhik_98_husband = {
+	name = "Ghogurz"
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	3266.1.1 = { birth = yes }
+	3334.1.1 = { death = yes }
+}
+buzhik_99 = {
+	name = "Mekag"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	mother = buzhik_98
+	father = buzhik_98_husband
+
+	3295.1.1 = { birth = yes }
+	3320.1.1 = { add_spouse = buzhik_99_wife }
+	3348.11.14 = { death = { death_reason = death_duel killer = buzhik_100 } }
+}
+
+buzhik_99_wife = {
+	name = "Lazghal"
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	3304.1.1 = { birth = yes }
+	3366.1.1 = { death = yes }
+}
+
+buzhik_100 = {
+	name = "Gorsha"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	father = buzhik_99
+	mother = buzhik_99_wife
+
+	trait = education_martial_3
+	trait = education_martial_prowess_4
+	trait = sadistic
+	trait = arbitrary
+	trait = gluttonous
+	trait = strong
+
+	3326.1.1 = { birth = yes }
+	3350.1.1 = { add_matrilineal_spouse = buzhik_100_husband }
+	3351.1.1 = { add_concubine = buzhik_100_concubine1 }
+	3356.1.1 = { add_concubine = buzhik_100_concubine2 }
+	3381.10.6 = { death = { death_reason = death_duel killer = buzhik_101 } } 
+}
+
+buzhik_100_husband = {
+	name = "Osgulug"
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	3330.1.1 = { birth = yes }
+	3397.1.1 = { death = yes }
+}
+
+buzhik_100_concubine1 = {
+	name = "Glunurgakh"
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	3328.1.1 = { birth = yes }
+	3384.1.1 = { death = yes }
+}
+
+buzhik_100_concubine2 = {
+	name = "Kurlash"
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	3334.1.1 = { birth = yes }
+	3402.1.1 = { death = yes }
+}
+
+buzhik_101 = {
+	name = "Dushug"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	mother = buzhik_100
+	father = buzhik_100_husband
+
+	3352.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+}
+
+buzhik_101b = {
+	name = "Ghrategg"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	mother = buzhik_100
+	father = buzhik_100_concubine1
+
+	trait = child_of_concubine_male
+
+	3354.1.1 = { birth = yes }
+	3381.10.6 = { death = { death_reason = death_duel killer = buzhik_101 } }
+}
+
+buzhik_101c = {
+	name = "Sloogolga"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	mother = buzhik_100
+	father = buzhik_100_concubine1
+
+	trait = child_of_concubine_female
+
+	3359.1.1 = { birth = yes }
+	3381.10.6 = { death = { death_reason = death_duel killer = buzhik_101 } }
+}
+
+buzhik_101d = {
+	name = "Agli"
+	dynasty = dyn_buzhik
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	mother = buzhik_100
+	father = buzhik_100_concubine2
+
+	trait = child_of_concubine_female
+
+	3362.1.1 = { birth = yes }
+	3381.10.6 = { death = { death_reason = death_duel killer = buzhik_101 } }
+}
+
+#Shurgak Dynasty
+
+shurgak_98 = {
+	name = "Lazghal"
+	dynasty = shurgak
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+	
+	trait = education_martial_3
+	
+	3268.2.8 = { birth = yes }
+	3285.1.1 = { add_matrilineal_spouse = shurgak_98_husband }
+	3316.1.1 = { death = { death_reason = death_duel killer = shurgak_99 } }
+}
+
+shurgak_98_husband = {
+	name = "Mauhul"
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	3270.1.1 = { birth = yes }
+	3325.1.1 = { death = yes }
+}
+
+shurgak_99 = {
+	name = "Atulg"
+	dynasty = shurgak
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	mother = shurgak_98
+	father = shurgak_98_husband
+	
+	trait = education_martial_3
+	
+	3289.1.1 = { birth = yes }
+	3310.1.1 = { add_spouse = shurgak_99_wife1 }
+	3311.1.1 = { add_concubine = shurgak_99_wife2 }
+	3340.1.1 = { death = { death_reason = death_duel killer = shurgak_100 } }
+}
+
+shurgak_99_wife1 = {
+	name = "Gogul"
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	3299.1.1 = { birth = yes }
+	3354.1.1 = { death = yes }
+}
+
+shurgak_99_wife2 = {
+	name = "Azhnakha"
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	3293.1.1 = { birth = yes }
+	3341.1.1 = { death = yes }
+}
+
+shurgak_100 = {
+	name = "Bagamul"
+	dynasty = shurgak
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	father = shurgak_99
+	mother = shurgak_99_wife1
+	
+	trait = education_martial_2
+	
+	3318.1.1 = { birth = yes }
+	3364.1.1 = { death = { death_reason = death_duel killer = shurgak_100b } }
+}
+
+shurgak_100b = {
+	name = "Khagral"
+	dynasty = shurgak
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	father = shurgak_99
+	mother = shurgak_99_wife2
+
+	trait = giant
+	trait = education_martial_3
+	trait = child_of_concubine_female
+	
+	3321.1.1 = { birth = yes }
+	3379.1.1 = { death = { death_reason = death_battle killer = shurgak_101b } }
+}
+
+shurgak_101 = { #Goes to Cyrodiil
+	name = "Azulg"
+	dynasty = shurgak
+	culture = malahk_orc
+	religion = pact_of_malahk
+
+	father = shurgak_100
+	
+	trait = education_martial_3
+	
+	3346.1.1 = { birth = yes }
+	3383.1.1 = { death = yes }
+}
+
+shurgak_101b = {
+	name = "Gluthesh"
+	dynasty = shurgak
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+
+	mother = shurgak_100b
+	
+	trait = education_martial_3
+
+	3347.1.1 = { birth = yes }
+	3406.1.1 = { death = yes }
+}
+
+# Kjorbrok
+kjorbrok_1000 = {
+	name = "Morotub"
+	dynasty = dynn_kjorbrok
+	culture = malahk_orc
+	religion = pact_of_malahk
+	
+	trait = education_martial_2
+	prowess = 10
+	
+	3197.1.1 = { birth = yes }
+	3236.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = embervein_9470
+		}
+	}
+}
+
+#buragog #Orcish raiders in Falkreath
+buragog_1000 = {
+	name = "Buruhumph"
+	dynasty = buragog
+	culture = mountain_orc
+	religion = code_of_malacath
+	
+	trait = education_martial_2
+	prowess = 10
+	
+	317.1.1 = { birth = yes }
+	344.3.8 = {
+		death = {
+			death_reason = death_battle
+			killer = sunderstone_nedes_4_twin_2
+		}
+	}
+}
+
+frostvault_100 = { #Used to own frostvault, wiped out by Ale-Scribe
+	name = "Grol"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = plunderer
+	trait = viking
+
+	3234.1.4 = { birth = yes }
+	3253.4.7 = { add_spouse = frostvault_100_wife }
+	3272.6.22 = { death = { death_reason = death_duel killer = frostvault_101 } }
+}
+frostvault_100_wife = {
+	name = "Rulfdurz"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3222.7.3 = { birth = yes }
+	3268.8.2 = { death = { death_reason = death_battle killer = alescribe_97_wife } }
+}
+frostvault_101_brother = {
+	name = "Maknag"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_100
+	mother = frostvault_100_wife
+
+	3259.2.16 = { birth = yes }
+	3268.8.2 = { death = { death_reason = death_duel killer = frostvault_101 } }
+}
+frostvault_101 = {
+	name = "Maknag"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_100
+	mother = frostvault_100_wife
+
+	3255.12.23 = { birth = yes }
+	3272.6.29 = { add_spouse = frostvault_101_wife }
+	3287.8.4 = { death = { death_reason = death_duel killer = frostvault_102_brother } }
+}
+frostvault_101_wife = {
+	name = "Mazgoga"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3252.2.27 = { birth = yes }
+	3304.8.2 = { death = { death_reason = death_natural_causes } }
+}
+frostvault_102_brother = {
+	name = "Dulfkul"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_101
+	mother = frostvault_101_wife
+	trait = wild_oat
+
+	3271.5.13 = { birth = yes }
+	3287.8.4 = { death = { death_reason = death_duel killer = frostvault_102 } }
+}
+frostvault_102 = {
+	name = "Uramnok"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_101
+	mother = frostvault_101_wife
+
+	trait = plunderer
+	trait = viking
+
+	3272.12.27 = { birth = yes }
+	3289.1.24 = { add_spouse = frostvault_102_wife }
+	3309.3.17 = { death = { death_reason = death_duel killer = frostvault_103 } }
+}
+frostvault_102_wife = {
+	name = "Gral"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3273.7.14 = { birth = yes }
+	3323.8.2 = { death = { death_reason = death_natural_causes } }
+}
+frostvault_103 = {
+	name = "Larmorz"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_102
+	mother = frostvault_102_wife
+
+	trait = plunderer
+	trait = viking
+
+	3290.2.17 = { birth = yes }
+	3310.11.4 = { add_spouse = frostvault_103_wife }
+	3318.5.6 = { add_spouse = frostvault_103_wife_2 }
+	3336.11.24 = { death = { death_reason = death_duel killer = alescribe_99 } }
+}
+frostvault_103_wife = {
+	name = "Uglaa"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3286.4.11 = { birth = yes }
+	3336.11.24 = { death = { death_reason = death_duel killer = alescribe_99 } }
+}
+frostvault_103_wife_2 = {
+	name = "Agrrzug"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	3291.6.21 = { birth = yes }
+	3336.11.24 = { death = { death_reason = death_duel killer = alescribe_99 } }
+}
+frostvault_104 = {
+	name = "Yakumph"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_103
+	mother = frostvault_103_wife
+
+	3311.8.23 = { birth = yes }
+	3336.11.24 = { death = { death_reason = death_duel killer = alescribe_99 } }
+}
+frostvault_104_brother = {
+	name = "Borkul"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	father = frostvault_103
+	mother = frostvault_103_wife
+	
+	3317.4.14 = { birth = yes }
+	3336.11.24 = { death = { death_reason = death_duel killer = alescribe_99 } }
+}
+frostvault_104_sister_2 = {
+	name = "Lazgsha"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = frostvault_103
+	mother = frostvault_103_wife_2
+	
+	3319.6.27 = { birth = yes }
+	3336.11.24 = { death = { death_reason = death_duel killer = alescribe_99 } }
+}
+frostvault_104_sister = { #Mother to burzag_100
+	name = "Gulza"
+	dynasty = dynn_yarzarz
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+	father = frostvault_103
+	mother = frostvault_103_wife
+
+	trait = forgiving #She understands that they kinda brought it on themselves
+	trait = gluttonous
+	trait = strong
+	trait = compassionate
+	
+	3312.5.15 = { birth = yes }
+	3336.11.24 = { set_relation_rival = { reason = rival_historical target = character:alescribe_99 } }
+	3368.11.24 = { death = { death_reason = death_old_age } }
+}
+#Mulakh
+mulakh_100 = { #Tries to conquer land from Morvayns in 450, fails, good raider though
+	name = "Shabaga"
+	dynasty = dyn_mulakh
+	culture = malahk_orc
+	religion = pact_of_malahk
+	female = yes
+	
+	trait = education_martial_3
+	trait = education_martial_prowess_3
+	trait = impatient
+	trait = brave
+	trait = callous
+	trait = plunderer
+	trait = disfigured
+	trait = scarred
+
+	3329.1.1 = { birth = yes }
+	3369.1.1 = {
+		create_maa_regiment = {
+			type = orc_berserkers
+			check_can_recruit = no
+			size = 4
+		}
+		effect = {
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 600
+				location = province:2770
+				origin = province:2770
+			}
+		}
+	}
+	3378.1.1 = { death = { death_reason = death_battle } }
+}
+
+####################
+### Adventurers  ###
+####################
+
+#Orsimer in High Rock
+
+#see bloodtusk_102 above
+orag_100 = {
+	name = "Orag"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = cynical
+	trait = ambitious
+	trait = callous
+	trait = lifestyle_reveler
+
+	trait = education_stewardship_2
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3334.1.1 = { birth = yes }
+	3350.1.1 = { give_nickname = nick_the_sudden_storm }
+	3356.1.1 = {
+		effect = { #not much of hero
+			add_prestige_level = 1
+		}
+	}
+
+	3360.1.1 = { employer = shatul_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+ragushna_100 = {
+	name = "Ragushna"
+	culture = mountain_orc
+	religion = code_of_malacath
+	female = yes
+
+	trait = cynical
+	trait = albino
+	trait = ambitious
+	trait = stubborn
+	trait = lifestyle_hunter
+	trait = lifestyle_blademaster
+
+	trait = education_martial_3
+	trait = strategist
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3334.1.1 = { birth = yes }
+	3350.1.1 = { give_nickname = nick_the_pale }
+	3356.1.1 = {
+		effect = { #not much of hero
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = shatul_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+goragol_100 = {
+	name = "Goragol"
+	culture = mountain_orc
+	religion = malacath_brutal_breed
+
+	trait = zealous
+	trait = patient
+	trait = calm
+	trait = lifestyle_mystic
+	trait = lifestyle_blademaster
+
+	trait = education_learning_3
+	trait = theologian
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3333.1.1 = { birth = yes }
+	# 3350.1.1 = { give_nickname = nick_the_preacher }
+	3356.1.1 = {
+		effect = { #wandering preacher
+			add_prestige_level = 2
+		}
+		add_pressed_claim = title:d_shipwreck_coast
+		add_pressed_claim = title:c_old_orsinium
+	}
+
+	3360.1.1 = { employer = fharun_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+lugrub_100 = {
+	name = "Lugrub"
+	culture = mountain_orc
+	religion = malacath_cult
+
+	trait = temperate
+	trait = lazy
+	trait = content
+	trait = lifestyle_hunter
+
+	trait = education_stewardship_2
+	trait = strategist
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3334.1.1 = { birth = yes }
+	# 3350.1.1 = { give_nickname = nick_the_apostate }
+	3356.1.1 = {
+		effect = { #not much of hero
+			add_prestige_level = 1
+		}
+	}
+
+	3360.1.1 = { employer = winterborn_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+shurkul_100 = {
+	name = "Shurkul"
+	culture = iron_orc
+	religion = osh_ornim
+
+	trait = sadistic
+	trait = diligent
+	trait = honest
+	trait = rakish
+	trait = lifestyle_blademaster
+
+	trait = education_intrigue_3
+	trait = torturer
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3334.1.1 = { birth = yes }
+	3350.1.1 = { give_nickname = nick_the_executioner }
+	3356.1.1 = {
+		effect = { #not much of hero
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = morkul_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+#Orsimer in Skyrim
+
+gnush_100 = {
+	name = "Gnush"
+	culture = mountain_orc
+	religion = code_of_malacath
+
+	trait = compassionate
+	trait = just
+	trait = brave
+	trait = lifestyle_hunter
+	trait = lifestyle_blademaster
+
+	trait = education_martial_2
+	trait = gallant
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3334.1.1 = { birth = yes }
+	# 3350.1.1 = { give_nickname = nick_the_wayfarer }
+	3356.1.1 = {
+		effect = { #gentleman orc knight
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = thornroot_999 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3370.1.1 = { employer = thornroot_1000 }
+	3371.1.1 = { death = yes }
+}
+
+#Orsimer in Cyrodiil
+
+#Orsimer Courtiers in non-Orsimer courts
+stugbrulz_1 = { # an orc spy employed by the pale watch, spying on the local population to avoid uprisings
+	name = "Stugbrulz"
+	culture = mountain_orc
+	religion = trinimac_cult
+
+	trait = education_intrigue_3
+	trait = cynical
+	trait = deceitful
+	trait = diligent
+	trait = loyal
+	trait = sign_serpent
+
+	diplomacy = 6
+	martial = 1
+	stewardship = 1
+	intrigue = 6
+	learning = 2
+	prowess = 1
+
+	3331.12.30 = { birth = yes }
+	3360.1.1 = {
+		employer = hearthon_1000
+		give_nickname = nick_the_spy
+		effect = {
+			add_opinion = {
+				target = character:hearthon_1000
+				modifier = respect_opinion
+				opinion = 120
+			}
+		}
+	}
+	3369.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = morkul_1000
+		}
+	}
+}
+
+orcrest_snarga = { #Orc resting in Orcrest
+	name = "Snarga"
+	culture = wood_orc
+	religion = twomoonsdance
+	female = yes
+	trait = lazy
+	trait = content
+	trait = gluttonous
+	trait = reclusive
+	trait = education_learning_4
+	3331.1.1 = { birth = yes }
+	3349.1.1 = { employer = rasiniit_99 }
+	3368.1.1 = { employer = rasiniit_100 }
+	3430.1.1 = { death = yes }
+}
