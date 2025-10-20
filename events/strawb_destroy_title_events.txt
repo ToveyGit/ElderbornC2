@@ -1,0 +1,45 @@
+﻿namespace = strawb_destroy_title
+
+
+
+###############		confirmation		######################
+# strawb_destroy_title.1000 = {
+# 	type = character_event
+# 	title = strawb_destroy_title.1000.t
+# 	desc = strawb_destroy_title.1000.desc
+# 	theme = realm
+# 	left_portrait = {
+# 		character = root
+# 		animation = fear
+# 	}
+
+# 	option = {
+# 		name = strawb_destroy_title.1000.me
+# 		trigger_event = strawb_destroy_title.1001
+# 	}
+# 	option = {
+# 		name = strawb_destroy_title.back
+# 	}
+# }
+##############################################################
+
+strawb_destroy_title.1001 = {
+	hidden = yes
+
+	immediate = {
+		scope:target = {
+			set_global_variable = {
+				name = dm_tool_destroyed_title
+				value = scope:target
+			}
+		}
+		destroy_title = scope:target
+		every_player = {
+			send_interface_message = {
+				type = dm_tool_alert_destroyed_title
+				left_icon = root
+				seconds = 10
+			}
+		}
+	}
+}
