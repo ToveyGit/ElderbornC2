@@ -1,0 +1,41 @@
+﻿msg_player_alliance = {
+	icon = "multiplayer"
+	style = neutral
+	display = popup
+	tooltip = msg_player_character_changed_tt
+	message_filter_type = multiplayer
+}
+dm_tool_alert = {
+	icon = "multiplayer"
+	style = bad
+	display = popup
+	message_filter_type = multiplayer
+}
+dm_tool_alert_created_title = {
+	icon = "multiplayer"
+	style = bad
+	display = popup
+	tooltip = dm_tool_alert_created_title_desc
+	message_filter_type = multiplayer
+}
+dm_tool_alert_destroyed_title = {
+	icon = "multiplayer"
+	style = bad
+	display = popup
+	tooltip = dm_tool_alert_destroyed_title_desc
+	message_filter_type = multiplayer
+}
+dm_tool_alert_created_alliance = {
+	icon = "multiplayer"
+	style = bad
+	display = popup
+	tooltip = dm_tool_alert_created_alliance_desc
+	message_filter_type = multiplayer
+}
+dm_tool_alert_broke_alliance = {
+	icon = "multiplayer"
+	style = bad
+	display = popup
+	tooltip = dm_tool_alert_broke_alliance_desc
+	message_filter_type = multiplayer
+}
