@@ -6,10 +6,12 @@
 
 diplomacy_modifier = {
 	ai_amenity_target_baseline = 0.01
+
 }
 diplomacy_modifier_with_offset = {
 	monthly_prestige_gain_mult = 0.01
 	herd_gain_mult = 0.01
+	army_maintenance_mult = -0.01
 }
 
 intrigue_modifier = {
@@ -17,15 +19,24 @@ intrigue_modifier = {
 	owned_scheme_secrecy_add = 2
 }
 
+intrigue_modifier_with_offset = {
+	retreat_losses = -0.01
+	siege_phase_time = -0.01
+	raid_speed = 0.02
+}
+
 stewardship_modifier = {
 	character_travel_speed = 1
+	supply_duration = 0.015
 }
 stewardship_modifier_with_offset = {
-	domain_tax_mult = 0.02
+	domain_tax_mult = 0.01
 	domicile_monthly_gold_mult = 0.04
 	monthly_income_from_herd_mult = 0.02
 	#build_gold_cost = -0.02
 	#holding_build_gold_cost = -0.02
+	court_grandeur_baseline_add = 1
+	levy_size = 0.01
 }
 
 martial_modifier = {
@@ -34,18 +45,19 @@ martial_modifier = {
 }
 martial_modifier_with_offset = {
 	levy_reinforcement_rate = 0.025
-	army_maintenance_mult = -0.01
-	#counter_efficiency = -0.02
+	counter_resistance = 0.02
 	army_toughness_mult = 0.01
 	herd_conversion = 0.005
 }
 
 learning_modifier_with_offset = {
 	county_fertility_growth_mult = 0.02
+	monthly_lifestyle_xp_gain_mult = 0.025
 }
 
 learning_modifier = {
 	monthly_piety = 0.1
+
 }
 
 prowess_modifier = {
