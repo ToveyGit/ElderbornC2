@@ -929,11 +929,11 @@ NCouncil = {
 }
 
 NDynasty = {
-	MONTHLY_PRESTIGE_GAIN_PER_MEMBER = 0.02 # Was 0.2 per year, should be then 0.016 recurring but that is ugly so round to 0.015
-	MAX_MONTHLY_PRESTIGE_GAIN_FROM_ALIVE_MEMBERS = 2 # Cap the above number
-	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER = { 0 0.125 0.25 0.5 1 2 } # When per year was { 0 2 4 6 8 10 }
+	MONTHLY_PRESTIGE_GAIN_PER_MEMBER = 0.1 # Was 0.2 per year, should be then 0.016 recurring but that is ugly so round to 0.015
+	MAX_MONTHLY_PRESTIGE_GAIN_FROM_ALIVE_MEMBERS = 8 # Cap the above number
+	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER = { 0 0.5 0.1 2 4 8 } # When per year was { 0 2 4 6 8 10 }
 	MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY = 0	# Dynasty members who are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
-	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER_SPOUSE = { 0 0.1 0.2 0.4 0.8 1.6 } # When per year was { 0 2 4 6 8 10 }
+	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER_SPOUSE = { 0 0.4 0.8 1.6 3.2 6.4 } # When per year was { 0 2 4 6 8 10 }
 	MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY_SPOUSE = 0	# Dynasty members whose spouse are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
 	LEVELS_PRESTIGE = { 300	1000	2000	4000	7000	11000	16000	22000	29000	37000 }
 	LEVEL_DROP_MAX_RETAINED_PROGRESS_PRESTIGE = 0.5
@@ -946,7 +946,7 @@ NDynasty = {
 	HEAD_MONTHLY_PRESTIGE_GAIN_PER_MEMBER = 0.01
 	HEAD_MONTHLY_PRESTIGE_GAIN_CAP = 3
 	CURRENT_DYNAST_EXTRA_POWER = 0.1		# For determining who should by dynast, the current dynast is considered to be this much more powerful than reality so that it doesn't bounce back and forth. 0.1 means 10%
-
+	
 	NAMING_CHANCE_CULTURE = 25
 	NAMING_CHANCE_TITLE = 50
 
