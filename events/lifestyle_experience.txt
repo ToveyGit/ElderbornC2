@@ -1,0 +1,515 @@
+﻿# Lifestyle Experience System Event
+namespace = lifestyle_experience_xp
+
+# Main initialization event for lifestyle experience system
+lifestyle_experience_xp.001 = {
+  hidden = yes  # This event is not visible to players
+  immediate = {
+    
+    # Set game rule modifier based on bonus settings
+    set_variable = {
+      name = lsxp_game_rule_modifier
+      value = {
+        value = 1  # Base multiplier
+        if = {
+          limit = { NOT = { has_game_rule = no_bonus } }
+          if = {
+            limit = {
+              has_game_rule = small_bonus
+            }
+            add = 0.5  # +50% bonus
+          }
+          else_if = {
+            limit = {
+              has_game_rule = medium_bonus
+            }
+            add = 1  # +100% bonus
+          }
+          else_if = {
+            limit = {
+              has_game_rule = big_bonus
+            }
+            add = 2  # +200% bonus
+          }
+          else_if = {
+            limit = {
+              has_game_rule = huge_bonus
+            }
+            add = 3  # +300% bonus
+          }
+        }
+      }
+    }
+
+    # Set skill ceiling based on game rules
+    if = {
+      limit = {
+        NOT = { has_game_rule = lsxp_ceiling_none }  # Only if ceiling is enabled
+      }
+      set_variable = {
+        name = lsxp_skill_ceiling
+        value = {
+          value = 25  # Default ceiling
+          if = {
+            limit = {
+              has_game_rule = lsxp_ceiling_30
+            }
+            add = 5  # Ceiling of 30
+          }
+          else_if = {
+            limit = {
+              has_game_rule = lsxp_ceiling_50
+            }
+            add = 25  # Ceiling of 50
+          }
+          else_if = {
+            limit = {
+              has_game_rule = lsxp_ceiling_100
+            }
+            add = 75  # Ceiling of 100
+          }
+        }
+      }
+    }
+
+    # Set skill floor (minimum skill level)
+    set_variable = {
+      name = lsxp_skill_floor
+      value = {
+        value = 0  # Default floor
+        if = {
+          limit = { NOT = { has_game_rule = lsxp_floor_0 } }
+          if = {
+            limit = {
+              has_game_rule = lsxp_floor_5
+            }
+            add = -5  # Floor of -5 (skills can go below 0)
+          }
+          else_if = {
+            limit = {
+              has_game_rule = lsxp_floor_10
+            }
+            add = -10  # Floor of -10
+          }
+        }
+      }
+    }
+    
+    # Set general multiplier based on intellect traits
+    set_variable = {
+      name = lsxp_general_multiplier
+      value = {
+        value = 1  # Base multiplier
+        if = {
+          limit = { has_trait = intellect_bad_1 }
+          add = -0.1  # -10% for bad intellect level 1
+        }
+        else_if = {
+          limit = { has_trait = intellect_bad_2 }
+          add = -0.2  # -20% for bad intellect level 2
+        }
+        else_if = {
+          limit = { has_trait = intellect_bad_3 }
+          add = -0.3  # -30% for bad intellect level 3
+        }
+        else_if = {
+          limit = { has_trait = intellect_good_1 }
+          add = 0.1  # +10% for good intellect level 1
+        }
+        else_if = {
+          limit = { has_trait = intellect_good_2 }
+          add = 0.2  # +20% for good intellect level 2
+        }
+        else_if = {
+          limit = { has_trait = intellect_good_3 }
+          add = 0.3  # +30% for good intellect level 3
+        }
+      }
+    }
+    
+    # Set diplomacy-specific multiplier
+    set_variable = {
+      name = lsxp_diplomacy_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = { has_trait = education_diplomacy}
+          if = {
+            limit = { has_trait = education_diplomacy_1 }
+            add = 0.1  # +10% for diplomacy education level 1
+          }
+          else_if = {
+            limit = { has_trait = education_diplomacy_2 }
+            add = 0.2  # +20% for diplomacy education level 2
+          }
+          else_if = {
+            limit = { has_trait = education_diplomacy_3 }
+            add = 0.3  # +30% for diplomacy education level 3
+          }
+          else_if = {
+            limit = { has_trait = education_diplomacy_4 }
+            add = 0.4  # +40% for diplomacy education level 4
+          }
+          else_if = {
+            limit = { has_trait = education_diplomacy_5 }
+            add = 0.5  # +50% for diplomacy education level 5
+          }
+        }
+        else_if = {
+          limit = { has_trait = education_intrigue_5 }
+          add = 0.25  # +25% cross-skill bonus from max intrigue education
+        }
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = diplomat
+            has_trait = august
+            has_trait = family_first
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+    
+    # Set martial-specific multiplier
+    set_variable = {
+      name = lsxp_martial_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = { has_trait = education_martial }
+          if = {
+            limit = { has_trait = education_martial_1 }
+            add = 0.1  # +10% for martial education level 1
+          }
+          else_if = {
+            limit = { has_trait = education_martial_2 }
+            add = 0.2  # +20% for martial education level 2
+          }
+          else_if = {
+            limit = { has_trait = education_martial_3 }
+            add = 0.3  # +30% for martial education level 3
+          }
+          else_if = {
+            limit = { has_trait = education_martial_4 }
+            add = 0.4  # +40% for martial education level 4
+          }
+          else_if = {
+            limit = { has_trait = education_martial_5 }
+            add = 0.5  # +50% for martial education level 5
+          }
+        }
+        else_if = {
+          limit = { has_trait = education_diplomacy_5 }
+          add = 0.25  # +25% cross-skill bonus from max diplomacy education
+        }
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = strategist
+            has_trait = overseer
+            has_trait = gallant
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+
+    # Set stewardship-specific multiplier
+    set_variable = {
+      name = lsxp_stewardship_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = { has_trait = education_stewardship }
+          if = {
+            limit = { has_trait = education_stewardship_1 }
+            add = 0.1  # +10% for stewardship education level 1
+          }
+          else_if = {
+            limit = { has_trait = education_stewardship_2 }
+            add = 0.2  # +20% for stewardship education level 2
+          }
+          else_if = {
+            limit = { has_trait = education_stewardship_3 }
+            add = 0.3  # +30% for stewardship education level 3
+          }
+          else_if = {
+            limit = { has_trait = education_stewardship_4 }
+            add = 0.4  # +40% for stewardship education level 4
+          }
+          else_if = {
+            limit = { has_trait = education_stewardship_5 }
+            add = 0.5  # +50% for stewardship education level 5
+          }
+        }
+        else_if = {
+          limit = { has_trait = education_martial_5 }
+          add = 0.25  # +25% cross-skill bonus from max martial education
+        }
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = avaricious
+            has_trait = architect
+            has_trait = administrator
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+    
+    # Set intrigue-specific multiplier
+    set_variable = {
+      name = lsxp_intrigue_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = { has_trait = education_intrigue }
+          if = {
+            limit = { has_trait = education_intrigue_1 }
+            add = 0.1  # +10% for intrigue education level 1
+          }
+          else_if = {
+            limit = { has_trait = education_intrigue_2 }
+            add = 0.2  # +20% for intrigue education level 2
+          }
+          else_if = {
+            limit = { has_trait = education_intrigue_3 }
+            add = 0.3  # +30% for intrigue education level 3
+          }
+          else_if = {
+            limit = { has_trait = education_intrigue_4 }
+            add = 0.4  # +40% for intrigue education level 4
+          }
+          else_if = {
+            limit = { has_trait = education_intrigue_5 }
+            add = 0.5  # +50% for intrigue education level 5
+          }
+        }
+        else_if = {
+          limit = { has_trait = education_learning_5 }
+          add = 0.25  # +25% cross-skill bonus from max learning education
+        }
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = schemer
+            has_trait = seducer
+            has_trait = torturer
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+    
+    # Set learning-specific multiplier
+    set_variable = {
+      name = lsxp_learning_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = { has_trait = education_learning }
+          if = {
+            limit = { has_trait = education_learning_1 }
+            add = 0.1  # +10% for learning education level 1
+          }
+          else_if = {
+            limit = { has_trait = education_learning_2 }
+            add = 0.2  # +20% for learning education level 2
+          }
+          else_if = {
+            limit = { has_trait = education_learning_3 }
+            add = 0.3  # +30% for learning education level 3
+          }
+          else_if = {
+            limit = { has_trait = education_learning_4 }
+            add = 0.4  # +40% for learning education level 4
+          }
+          else_if = {
+            limit = { has_trait = education_learning_5 }
+            add = 0.5  # +50% for learning education level 5
+          }
+        }
+        else_if = {
+          limit = { has_trait = education_stewardship_5 }
+          add = 0.25  # +25% cross-skill bonus from max stewardship education
+        }
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = whole_of_body
+            has_trait = scholar
+            has_trait = theologian
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+    
+    # Set prowess-specific multiplier (only if NHT mod is active)
+    set_variable = {
+      name = lsxp_prowess_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = nht_commander
+            has_trait = nht_vanguard
+            has_trait = nht_sentinel
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+    
+    # Set leadership-specific multiplier (only if NHT mod is active)
+    set_variable = {
+      name = lsxp_leadership_multiplier
+      value = {
+        value = var:lsxp_general_multiplier  # Start with general multiplier
+        if = {
+          limit = {
+            has_game_rule = lsxp_disabled  # Disable XP gain for certain traits
+            has_trait = nht_visionary
+            has_trait = nht_cosmopolitan
+            has_trait = nht_founder
+          }
+          multiply = 0  # No XP gain
+        }
+      }
+    }
+    
+    # Apply diplomacy lifestyle experience
+    add_diplomacy_lifestyle_xp = {
+      value = diplomacy  # Base value from diplomacy skill
+      if = {
+        limit = {
+          NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+        }
+        max = var:lsxp_skill_ceiling  # Cap at ceiling value
+      }
+      add = var:lsxp_skill_floor  # Apply floor modifier
+      multiply = var:lsxp_diplomacy_multiplier  # Apply diplomacy-specific multiplier
+      multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+    }
+    
+    # Apply martial lifestyle experience
+    add_martial_lifestyle_xp = {
+      value = martial  # Base value from martial skill
+      if = {
+        limit = {
+          NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+        }
+        max = var:lsxp_skill_ceiling  # Cap at ceiling value
+      }
+      add = var:lsxp_skill_floor  # Apply floor modifier
+      multiply = var:lsxp_martial_multiplier  # Apply martial-specific multiplier
+      multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+    }
+    
+    # Apply stewardship lifestyle experience
+    add_stewardship_lifestyle_xp = {
+      value = stewardship  # Base value from stewardship skill
+      if = {
+        limit = {
+          NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+        }
+        max = var:lsxp_skill_ceiling  # Cap at ceiling value
+      }
+      add = var:lsxp_skill_floor  # Apply floor modifier
+      multiply = var:lsxp_stewardship_multiplier  # Apply stewardship-specific multiplier
+      multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+    }
+    
+    # Apply intrigue lifestyle experience
+    add_intrigue_lifestyle_xp = {
+      value = intrigue  # Base value from intrigue skill
+      if = {
+        limit = {
+          NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+        }
+        max = var:lsxp_skill_ceiling  # Cap at ceiling value
+      }
+      add = var:lsxp_skill_floor  # Apply floor modifier
+      multiply = var:lsxp_intrigue_multiplier  # Apply intrigue-specific multiplier
+      multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+    }
+    
+    # Apply learning lifestyle experience
+    add_learning_lifestyle_xp = {
+      value = learning  # Base value from learning skill
+      if = {
+        limit = {
+          NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+        }
+        max = var:lsxp_skill_ceiling  # Cap at ceiling value
+      }
+      add = var:lsxp_skill_floor  # Apply floor modifier
+      multiply = var:lsxp_learning_multiplier  # Apply learning-specific multiplier
+      multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+    }
+    
+    # Apply leadership lifestyle experience (only if NHT mod is active and leadership is enabled)
+    if = {
+      limit = {
+        # Check if NHT lifestyle system is enabled (not disabled)
+        NOT = { has_game_rule = nht_no_new_lifestyle }
+        # And check if leadership lifestyle is specifically enabled
+        OR = {
+          has_game_rule = nht_default_new_lifestyle
+          has_game_rule = nht_secondary_lifestyle
+          has_game_rule = nht_new_lifestyle_player
+          has_game_rule = nht_only_leadership_lifestyle
+          has_game_rule = nht_only_leadership_lifestyle_player
+        }
+      }
+      add_nht_leadership_lifestyle_xp = {
+        value = {
+          add = diplomacy  # Add diplomacy skill
+          add = learning   # Add learning skill
+          add = stewardship # Add stewardship skill
+          divide = 3       # Take average of the three skills
+        }
+        if = {
+          limit = {
+            NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+          }
+          max = var:lsxp_skill_ceiling  # Cap at ceiling value
+        }
+        add = var:lsxp_skill_floor  # Apply floor modifier
+        multiply = var:lsxp_leadership_multiplier  # Apply leadership-specific multiplier
+        multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+      }
+    }
+    
+    # Apply prowess lifestyle experience (only if NHT mod is active and prowess is enabled)
+    if = {
+      limit = {
+        # Check if NHT lifestyle system is enabled (not disabled)
+        NOT = { has_game_rule = nht_no_new_lifestyle }
+        # And check if prowess lifestyle is specifically enabled
+        OR = {
+          has_game_rule = nht_default_new_lifestyle
+          has_game_rule = nht_secondary_lifestyle
+          has_game_rule = nht_new_lifestyle_player
+          has_game_rule = nht_only_prowess_lifestyle
+          has_game_rule = nht_only_prowess_lifestyle_player
+        }
+      }
+      add_nht_prowess_lifestyle_xp = {
+        value = prowess  # Base value from prowess skill
+        if = {
+          limit = {
+            NOT = { has_game_rule = lsxp_ceiling_none }  # Apply ceiling if enabled
+          }
+          max = var:lsxp_skill_ceiling  # Cap at ceiling value
+        }
+        add = var:lsxp_skill_floor  # Apply floor modifier
+        multiply = var:lsxp_prowess_multiplier  # Apply prowess-specific multiplier
+        multiply = var:lsxp_game_rule_modifier  # Apply game rule bonus
+      }
+    }
+  }
+}
