@@ -18,7 +18,7 @@ layer={
 layer={
 	name="tree_high_layer"
 	fade_in=0
-	fade_out=15
+	fade_out=9
 	category="map_foliage_category"
 	masks="high"
 }
