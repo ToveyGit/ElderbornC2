@@ -1,0 +1,11 @@
+﻿#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# Exclusively Historical Nicknames
+nick_skull_crusher = {}
+
+#Minotaur names
+nick_the_bull_of_capital = { is_bad = yes }
+nick_the_cow_of_capital = { is_bad = yes }
+nick_the_giant_of_capital = { is_bad = yes }

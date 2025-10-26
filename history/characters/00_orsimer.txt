@@ -306,9 +306,17 @@ seamount_998 = {
 	name = "Yzzgol" #ESO
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
+	
+	trait = pirate
 	
 	father = seamount_997
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_northern_03
+		}
+	}
 	
 	3300.1.1 = { birth = yes }
 	3319.1.1 = { add_spouse = agluk_999b }
@@ -324,7 +332,7 @@ seamount_999 = {
 	name = "Ushamph"
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 
 	trait = education_martial_1
 	trait = gregarious
@@ -332,8 +340,17 @@ seamount_999 = {
 	trait = wrathful
 	trait = sign_warrior
 	
+	trait = pirate
+	trait = one_eyed
+	
 	father = seamount_998
 	mother = agluk_999b
+	
+		portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_western_06
+		}
+	}
 	
 	3320.8.16 = { birth = yes }
 	3339.6.1 = { add_spouse = seamount_999_wife }
@@ -348,7 +365,7 @@ seamount_999_wife = {
 	name = "Durida"
 	female = yes
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 
 	trait = education_stewardship_2
 	trait = generous
@@ -364,16 +381,23 @@ seamount_1000 = {
 	name = "Agdurz"
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 
 	trait = education_intrigue_3
 	trait = lazy
 	trait = brave
 	trait = temperate
 	trait = sign_warrior
+	trait = pirate
 	
 	father = seamount_999
 	mother = seamount_999_wife
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_western_03
+		}
+	}
 
 	3340.8.19 = { birth = yes }
 	3369.1.1 = { add_spouse = seamount_1000_wife }
@@ -388,7 +412,7 @@ seamount_1000_wife = {
 	name = "Lash"
 	female = yes
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 
 	trait = ambitious
 	trait = sign_atronach
@@ -406,7 +430,7 @@ seamount_1001 = {
 	name = "Bagamul"
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	
 	father = seamount_1000
 	mother = seamount_1000_wife
@@ -424,7 +448,7 @@ seamount_1002 = {
 	name = "Yatur"
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	
 	father = seamount_1001
 	
@@ -441,7 +465,7 @@ seamount_1003 = {
 	name = "Kradauk"
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	
 	father = seamount_1002
 	
@@ -458,7 +482,7 @@ seamount_1003 = {
 seamount_1003b = {
 	name = "Glurala" #ESO
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	female = yes
 	
 	3440.1.1 = { birth = yes }
@@ -470,7 +494,7 @@ seamount_1004 = {
 	name = "Tazgol" #ESO
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	
 	father = seamount_1003
 	mother = seamount_1003b
@@ -490,7 +514,7 @@ seamount_1004 = {
 seamount_1004b = {
 	name = "Sholg" #ESO
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	female = yes
 	
 	3462.1.1 = { birth = yes }
@@ -500,7 +524,7 @@ seamount_1004b = {
 seamount_1004c = {
 	name = "Glesh" #ESO
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	female = yes
 	
 	3471.1.1 = { birth = yes }
@@ -510,7 +534,7 @@ seamount_1004c = {
 seamount_1004d = {
 	name = "Lurgush" #ESO
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	female = yes
 	
 	3475.1.1 = { birth = yes }
@@ -521,7 +545,7 @@ seamount_1005 = {
 	name = "Lokra" #ESO
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	female = yes
 	
 	father = seamount_1004
@@ -535,7 +559,7 @@ seamount_1006 = {
 	name = "Gruzdash"
 	dynasty = dyn_Seamount
 	religion = code_of_malacath
-	culture = mountain_orc
+	culture = sea_orc
 	
 	father = seamount_1004
 	mother = seamount_1004c
@@ -1086,7 +1110,7 @@ yashnag_100 = {
 	name = "Yashnag" #Establishes Orsimer Kingdom in Falkreath
 	dna = yashnag_dna_entry
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	father = yashnag_99
 	mother = khazor_999b
@@ -1159,7 +1183,7 @@ yashnag_100_wife_1 = { #sister of Shardbrok
 	name = "Yatmalah"
 	dynasty = shardbrok
 	female = yes
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	father = shardbrok_999
 	mother = shardbrok_999_wife
@@ -1171,7 +1195,7 @@ yashnag_100_wife_1 = { #sister of Shardbrok
 yashnag_100_wife_2 = {
 	name = "Durzakh"
 	female = yes
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 
@@ -1182,7 +1206,7 @@ yashnag_100_wife_3 = {
 	name = "Rogbha"
 	female = yes
 	sexuality = heterosexual
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 		trait = education_martial_2
 		trait = brave
@@ -1203,7 +1227,7 @@ yashnag_100_wife_3 = {
 yashnag_101 = {
 	name = "Mahk"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	
 	father = yashnag_100
@@ -1252,7 +1276,7 @@ yashnag_102 = {
 yashnag_102_lover = {
 	name = "Lazgza"
 	female = yes
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	3346.6.24 = { birth = yes }
@@ -1265,7 +1289,7 @@ yashnag_102_lover = {
 yashnag_102_wild_oat = { #Spared by Hakkvild because he was a child, claims Faldar's Tooth
 	name = "Yazgu"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	father = yashnag_102
 	mother = yashnag_102_lover
@@ -1284,7 +1308,7 @@ yashnag_102_wild_oat = { #Spared by Hakkvild because he was a child, claims Fald
 yashnag_103 = { #Marries buzga_1000 in 3383.5.11
 	name = "Ghorn"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	father = yashnag_100
 	mother = yashnag_100_wife_2
@@ -1310,7 +1334,7 @@ yashnag_103 = { #Marries buzga_1000 in 3383.5.11
 yashnag_104 = {
 	name = "Zuuthag"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	female = yes
 	father = yashnag_100
@@ -1322,7 +1346,7 @@ yashnag_104 = {
 yashnag_105 = { #Marries ghorak_101 TODO
 	name = "Ulgush"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	trait = twin
 	female = yes
@@ -1336,7 +1360,7 @@ yashnag_105 = { #Marries ghorak_101 TODO
 yashnag_106 = {
 	name = "Grognak"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	trait = twin
 	
@@ -1353,7 +1377,7 @@ yashnag_106 = {
 yashnag_107 = {
 	name = "Durhaz"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	female = yes
 	
@@ -1376,7 +1400,7 @@ yashnag_107 = {
 dushnik_100 = { #Family wanders for a bit until time of alliance war
 	name = "Brabuk"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	father = yashnag_101
@@ -1392,7 +1416,7 @@ dushnik_100 = { #Family wanders for a bit until time of alliance war
 dushnik_100_brother = {
 	name = "Shazagog"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	father = yashnag_101
@@ -1410,7 +1434,7 @@ dushnik_100_brother = {
 dushnik_100_sister = { #Marries someone
 	name = "Brabuk"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	female = yes
 
@@ -1424,7 +1448,7 @@ dushnik_100_sister = { #Marries someone
 forsaken_stronghold_100 = { #Family later killed off by the Knahaten Flu
 	name = "Dulanarz"
 	dynasty = dyn_Yal
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	father = yashnag_101
@@ -1463,7 +1487,7 @@ ghorak_98_wife = {
 ghorak_99_sister = {
 	name = "Shadtharz"
 	dynasty = dyn_Ghorak
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	female = yes
 	father = ghorak_98
@@ -1525,7 +1549,7 @@ ghorak_99_sister_husband = {
 ghorak_99_nephew = {
 	name = "Laranag"
 	dynasty = dyn_Ghorak
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	father = ghorak_99_sister_husband
 	mother = ghorak_99_sister
@@ -2880,7 +2904,7 @@ shatul_1001 = {
 frostwall_1000 = {
 	name = "Ghor"
 	dynasty_house = shatul_frostwall
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = education_magic_2
@@ -2895,7 +2919,7 @@ frostwall_1000 = {
 }
 frostwall_1000_wife = {
 	name = "Bolga"
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	female = yes
 
@@ -2908,7 +2932,7 @@ frostwall_1000_wife = {
 frostwall_1001 = {
 	name = "Badush"
 	female = yes
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = education_martial_3
@@ -2922,7 +2946,7 @@ frostwall_1001 = {
 }
 frostwall_1002 = {
 	name = "Muglugd"
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = education_intrigue_2
@@ -5147,9 +5171,17 @@ barkbite_ancient_002 = {
 
 kaval_1 = {
 	name = "Garnikh"
-	dynasty = dyn_Kaval
-	culture = mountain_orc
-	religion = code_of_malacath
+	dynasty = 800021
+	culture = sea_orc
+	religion = malacath_brutal_breed
+	
+	trait = pirate
+
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_special_01
+		}
+	}
 	
 	3322.1.1 = { birth = yes }
 	3371.1.1 = { death = yes }
@@ -5417,7 +5449,7 @@ burzag_101 = {
 ivory_tooth_999 = {
 	name = "Ushaguk"
 	dynasty = ivory_tooth
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = albino
@@ -5434,7 +5466,7 @@ ivory_tooth_999 = {
 }
 ivory_tooth_999_wife = {
 	name = "Mazarz"
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	female = yes
 	
@@ -5444,7 +5476,7 @@ ivory_tooth_999_wife = {
 ivory_tooth_1000 = {
 	name = "Ghorzal"
 	dynasty = ivory_tooth
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	dna = ivory_tooth_1000_dna_entry
 	father = ivory_tooth_999
@@ -5465,7 +5497,7 @@ ivory_tooth_1000_wife = {
 	name = "Urgralag"
 	female = yes
 	dynasty = shardbrok
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = education_stewardship_1
@@ -5518,7 +5550,7 @@ shardbrok_1000 = {
 	name = "Madrukh"
 	dna = madrukh_shardbrok_dna_entry
 	dynasty = shardbrok
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 	father = shardbrok_999
 	mother = shardbrok_999_wife
@@ -5555,7 +5587,7 @@ shardbrok_1000 = {
 shardbrok_1000_wife = {
 	name = "Shagnakh"
 	female = yes
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = temperate
@@ -5569,7 +5601,7 @@ shardbrok_1000_wife = {
 shardbrok_1001 = {
 	name = "Urzgor"
 	dynasty = shardbrok
-	culture = mountain_orc
+	culture = snow_orc
 	religion = code_of_malacath
 
 	trait = education_martial_3
@@ -5708,7 +5740,7 @@ murug_101 = {
 
 murug_101_wife = {
 	name = "Luzrah"
-	culture = mountain_orc
+	culture = malahk_orc
 	religion = code_of_malacath
 	female = yes
 	
@@ -6056,6 +6088,7 @@ shurgak_101 = { #Goes to Cyrodiil
 	trait = education_martial_3
 	
 	3346.1.1 = { birth = yes }
+	3362.12.4 = { culture = ruby_orc }
 	3383.1.1 = { death = yes }
 }
 
@@ -6571,4 +6604,19 @@ orcrest_snarga = { #Orc resting in Orcrest
 	3349.1.1 = { employer = rasiniit_99 }
 	3368.1.1 = { employer = rasiniit_100 }
 	3430.1.1 = { death = yes }
+}
+
+#Orcs in Black Marsh 
+
+marshorcleader = { #marsh orc
+	name = "Snalikh"
+	culture = marsh_orc
+	religion = code_of_malacath
+	dynasty = 1410504
+	trait = brave
+	trait = ambitious
+	trait = lustful
+	trait = education_martial_5
+	3334.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
 }

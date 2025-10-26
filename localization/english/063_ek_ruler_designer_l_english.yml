@@ -1,0 +1,6 @@
+﻿l_english:
+ race_ogre_green_name:0 "Ogre, Green"
+ race_ogre_green:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GOBLINKEN') ) ), Localize('race_ogre_green_name'), 'no' )]"
+
+ race_ogre_blue_name:0 "Ogre, Blue"
+ race_ogre_blue:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' )), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_GOBLINKEN') ) ), Localize('race_ogre_blue_name'), 'no' )]"

@@ -1,0 +1,371 @@
+﻿ek_sea_giant_clothes = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 1
+
+##############################
+#							 #	
+#			SEA GIANT   	 #
+#							 #
+##############################
+
+    sea_giant_clothing_lowborn = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = northern_commoner_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }	
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+                has_cp4_dlc_trigger = no
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+
+    sea_giant_clothing_low_nobles = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = northern_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                has_cp4_dlc_trigger = no
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+
+    sea_giant_clothing_high_nobles = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = northern_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                has_cp4_dlc_trigger = no
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+	
+    sea_giant_clothing_royalty = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = northern_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                has_cp4_dlc_trigger = no
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+
+#CCP4 KHANTY (and 50/50 chance of FP1 legwear if you also have FP1)
+
+    sea_giant_clothing_lowborn_ccp4 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = ccp4_reach_commoner_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = ccp4_khanty_common_legwear
+	            range = { 0 1 }
+	        }	
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 40 #20 higher than pol, to ensure it gets prioritised
+				has_cp4_dlc_trigger = yes
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+    sea_giant_clothing_lowborn_ccp4_fp1 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = ccp4_reach_commoner_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = fp1_common_legwear
+	            range = { 0 1 }
+	        }	
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 40 #20 higher than pol, to ensure it gets prioritised
+                has_cp4_dlc_trigger = yes
+				has_fp1_dlc_trigger = yes
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+
+    sea_giant_clothing_low_nobles_ccp4 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ccp4_reach_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = ccp4_khanty_common_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 70 #20 higher than pol, to ensure it gets prioritised
+				has_cp4_dlc_trigger = yes
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+    sea_giant_clothing_low_nobles_ccp4_fp1 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ccp4_reach_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = fp1_common_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 70 #20 higher than pol, to ensure it gets prioritised
+                has_cp4_dlc_trigger = yes 
+				has_fp1_dlc_trigger = yes
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+
+    sea_giant_clothing_high_nobles_ccp4 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ccp4_reach_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = ccp4_khanty_common_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 70 #20 higher than pol, to ensure it gets prioritised
+				has_cp4_dlc_trigger = yes
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+    sea_giant_clothing_high_nobles_ccp4_fp1 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ccp4_reach_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = fp1_common_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 70 #20 higher than pol, to ensure it gets prioritised
+                has_cp4_dlc_trigger = yes
+				has_fp1_dlc_trigger = yes
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+	
+    # for this one we want pol clothing to be prioritised, to represent Imperial influence on Reachman dress which will hopefully suit Blackdrake scenario well
+
+    sea_giant_clothing_royalty_ccp4 = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ccp4_reach_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+				has_cp4_dlc_trigger = yes
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = ek_sea_giant
+                }
+            }
+        }
+    }
+
+}
+
+ek_sea_giant_armor = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 4
+
+    ek_sea_giant_war = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = northern_war_nobility_clothes
+				range = { 0 1 }
+			}
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }			
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+				add = 60
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_sea_giant
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_sea_giant
+                    }
+                    portrait_high_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_sea_giant
+                    }
+                }
+            }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_sea_giant
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_sea_giant
+                    }
+                    portrait_high_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_sea_giant
+                    }
+                }
+            }
+        }
+    }
+
+}

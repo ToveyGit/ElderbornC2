@@ -1,0 +1,303 @@
+﻿# Attrebus overthrow of the Potentate
+war = {
+	name = "war_3360_attrebus_vs_potentate"
+	start_date = 3359.9.16
+	end_date = 3362.12.4
+	targeted_titles = { e_cyrodiilic_potentate }
+	casus_belli = attrebus_potentate_cb
+	attackers = { sosildor_100 valentian_100 kvinchal_100 larich_100}
+	defenders = { chorak_101 fleccian_100 } #chorak_101b szivi_100
+	claimant = sosildor_100
+}
+
+#Forebear Revolution of 2E440
+war = {
+	name = "war_3360_crown_vs_forebear"
+	start_date = 3359.1.1
+	end_date = 3362.1.1
+	targeted_titles = { e_hammerfell }
+	casus_belli = crown_forebear_civil_war_cb
+	attackers = { nisewan_1002 gulitte_1000 bergama_1000 ojwa_1001 tigonus_1000 }
+	defenders = { hegathe_1000 nizwa_1000 }
+}
+
+war = {
+	name = "war_3360_crown_vs_forebear"
+	start_date = 3359.1.1
+	end_date = 3362.1.1
+	targeted_titles = { k_taneth }
+	casus_belli = crown_forebear_civil_war_cb
+	attackers = { taneth_1002  ain_1000 roseguard_1000 }
+	defenders = { danobia_997 }
+}
+
+war = {
+	name = "war_3360_crown_vs_forebear"
+	start_date = 3359.1.1
+	end_date = 3362.1.1
+	targeted_titles = { k_rihad }
+	casus_belli = crown_forebear_civil_war_cb
+	attackers = { dihar_1000 chaseguard_1000 }
+	defenders = { curetar_1000 }
+}
+
+#Lillandril Civil War
+war = {
+	name = "war_3360_lillandril"
+	start_date = 3369.12.13
+	end_date = 3375.8.8
+	targeted_titles = { k_lillandril d_lillandril c_lillandril c_marnsailen c_sunarnor c_seakeep }
+	casus_belli = claim_cb
+	attackers = { helenil_101 arkdan_100 }
+	defenders = { aunoroe_100 cellian_100 hedorme_100 }
+	claimant = aunoroe_100c
+}
+
+#war = {
+#	name = "war_3360_lillandril"
+#	start_date = 3360.1.1
+#	end_date = 3361.1.1
+#	targeted_titles = { k_lillandril d_lillandril c_lillandril }
+#	casus_belli = claim_cb
+#	attackers = { hedorme_100 hedorme_100d }
+#	defenders = { aunoroe_100 cellian_100 anccermo_100 }
+#	claimant = hedorme_100
+#}
+
+#Campaign of Southern Reclamation
+war = {
+	name = "war_3360_dres"
+	start_date = 3350.7.16
+	end_date = 3366.5.7
+	targeted_titles = { k_thorn k_tearmarsh }
+	casus_belli = dres_argonian_war_cb 
+	attackers = { drethan_100 nasir_100 faren_100 beleran_100 nerothan_101 bashipal_101 othral_100 archanon_sotha sadri_100 ghardun_99b archein_100 } #
+	defenders = { toteikhleel_100 xulmeleel_100 shaja_100 shaja_100b suzahleel_100 suzahleel_100b } #shaie_101
+}
+
+# Ivulan 'the Apostate' War for House Indoril
+war = {
+	name = "war_3369_ivulan_holy_war"
+	start_date = 3369.11.2 #Boethiah's summoning day
+	end_date = 3371.3.3
+	targeted_titles = { k_indoril }
+	casus_belli = claim_cb
+	attackers = { indoril_ivulan shashmassamsi_101 }
+	defenders = { indoril_100b llothis_100 }
+	claimant = indoril_ivulan
+}
+
+# Ranabia Brae's war for the Duchy of Rimmen
+war = {
+	name = "war_3367_rimmen"
+	start_date = 3369.9.14
+	end_date = 3374.1.1
+	targeted_titles = { d_rimmen }
+	casus_belli = claim_cb
+	attackers = { anequina_101 shirrassa_100 oviit_100 rasiniit_100 khaspoor_100 }
+	defenders = { pardus_102 kaie_100 lynmount_100 }
+	claimant = anequina_101
+}
+
+# 450 - Nibenay Cuptor tries to retake Bravil
+war = {
+	name = "war_3369_bravil_reclamation"
+	start_date = 3369.1.1
+	end_date = 3371.1.1
+	targeted_titles = { k_bravil }
+	casus_belli = claim_cb
+	attackers = { cuptor_99 quarra_101 }
+	defenders = { fleccian_101b }
+	claimant = cuptor_99
+}
+
+# Oreyn Bearclaw rallies the tribes of Greenshade to defeat his father and restore the rightful King
+war = {
+	name = "war_3370_oreyn_bearclaw_war"
+	start_date = 3369.10.10
+	end_date = 3371.3.21
+	targeted_titles = { k_woodhearth }
+	casus_belli = depose_war
+	attackers = { bearclaw_2 duskthorn_003 greenleaf_1 longhaven_001 }
+	defenders = { bearclaw_1 dornke_001 branck_003b }
+}
+
+# Breynis Redoran's Coup
+war = {
+	name = "war_3369_redoran_coup"
+	start_date = 3369.12.17
+	end_date = 3371.8.19
+	targeted_titles = { k_redoran d_blacklight c_blacklight }
+	casus_belli = claim_cb
+	attackers = { venim_101 andrano_100 retheran_100 }
+	defenders = { releth_101 ashenvoice_98 }
+	claimant = venim_101
+}
+
+# Thador Sarethis' War for the County of Selethis
+war = {
+	start_date = 3369.12.20
+	end_date = 3373.6.18
+	targeted_titles = { c_selethis }
+	casus_belli = claim_cb
+	attackers = { sarethi_100 }
+	defenders = { adidshina_100 }
+	claimant = sarethi_100
+}
+
+#Ashlander alliance driving out the House Dunmer from Balmora
+war = {
+	start_date = 3368.4.3
+	end_date = 3371.6.1
+	targeted_titles = { d_balmora }
+	casus_belli = duchy_conquest_cb
+	attackers = { sedri_100 urlvannu_100 serranipu_100 }
+	defenders = { releth_101 mano_100 morvayn_100b }
+}
+
+# 440 - Lodvar Reachbreaker tries to conquer some Reachfolk
+war = {
+	start_date = 3359.9.12
+	end_date = 3362.5.12
+	targeted_titles = { c_dragontooth }
+	casus_belli = county_conquest_cb
+	attackers = { reachbreaker_101 }
+	defenders = { hillhunter_100 sarkarain_100 }
+	claimant = reachbreaker_101
+}
+
+#Khajiit rebellion against Colovian rulers of Altadoon
+war = {
+	name = "war_3369_altadoon_Rebellion"
+	start_date = 3369.1.1
+	end_date = 3371.6.5
+	targeted_titles = {
+		c_kings_walk
+	}
+	casus_belli = claim_cb
+	attackers = { kingswalk_100  raispoor_101 }
+	defenders = { hopeful_001 }
+	claimant = kingswalk_100
+}
+
+#Tribal rebellion in Silvenar
+war = {
+	name = "war_3359_silvenar_rebellion"
+	start_date = 3359.6.1
+	end_date = 3364.1.1
+	targeted_titles = { 
+		d_vulkwasten
+	}
+	casus_belli = independence_faction_war
+	attackers = { boldonor_002 boldonor_002b drublog_002 irillyth_003 }
+	defenders = { camoran_silvenar_100 anno_100 camoran_silvenar2_100 }
+}
+
+#Malgoth Blackroot conquests of Woodhearth
+war = {
+	name = "war_3360_blackroot_conquest"
+	start_date = 3360.1.1
+	end_date = 3362.1.1
+	targeted_titles = {
+		d_diss c_moonhenge
+	}
+	casus_belli = claim_cb
+	attackers = { blackroot_1 }
+	defenders = { eldamar_003 moonhenge_001 }
+	claimant = blackroot_1
+}
+
+war = {
+	name = "war_3360_blackroot_conquest"
+	start_date = 3370.1.1
+	end_date = 3372.1.1
+	targeted_titles = {
+		c_drabble c_twin_falls
+	}
+	casus_belli = claim_cb
+	attackers = { blackroot_1 }
+	defenders = { oiobala_100 }
+	claimant = blackroot_1
+}
+
+#Scramble for Old Dirennis
+#In a bid for power Optimate Valnurion secretly poisoned his second cousins and brought an end to the line of Direnni-Tyrigel. Now he presides over their former holdings and claims to seek justice in the name of his late relatives.
+#In Shimmerene, the royal brothers Quaranir and Estormo rally their vassals to contest Valnurion's schemes. They find a strong ally in Kinlord Carindon who renounces his own distant claims to Direnni-Tyrigel in hopes of currying favor within a more dominant Shimmerene.
+war = {
+	name = "war_3447_dirennis"
+	start_date = 3444.1.1
+	end_date = 3448.1.1
+	targeted_titles = {
+		d_karndar c_dirennis c_tyrigel
+	}
+	casus_belli = claim_cb
+	attackers = { itecerie_100 itecerie_100b yanilia_1000 }
+	defenders = { ukmiar_1000 grevil_1000 }
+	claimant = itecerie_100b
+}
+
+#History ToDo 527: Elden Root war against Silvenar
+#History ToDo 527: rebellion against Hectaran
+#History ToDo 527: Oreyn's war to depose lich in Rulanyil
+### Morrowind
+# 440 - Volunis Revolt
+war = {
+	start_date = 3353.6.1
+	end_date = 3362.12.3
+	targeted_titles = { d_taldeic }
+	casus_belli = independence_war # HistoryToDo440MW setup proper slave revolt here
+	attackers = { kaal_mota_1 }
+	defenders = { beroth_100 }
+}
+
+#450 - Malahk invasion of Redoran
+war = {
+	start_date = 3369.8.15
+	end_date = 3371.3.15
+
+	targeted_titles = { c_bodrum }
+	casus_belli = ep3_laamp_adventurer_county_invasion
+
+	attackers = { mulakh_100 }
+	defenders = { releth_101 morvayn_101 mandas_100 }
+}
+
+#Alabaster Many Paths uprising
+war = {
+	name = "war_3370_alabaster_uprising"
+	start_date = 3369.11.9
+	end_date = 3373.7.23
+	targeted_titles = {
+		d_alabaster
+	}
+	casus_belli = independence_faction_war
+	attackers = { ahjabi_100 rivya_003 }
+	defenders = { mane_002 darkarn_101 anikujo_100 }
+}
+
+#Dune civil war, a child is put on the throne, tribal warlords don't like this one bit
+war = { #Varlozwe claim
+	name = "war_3346_dune_war_varlozwe"
+	start_date = 3446.10.8
+	end_date = 3447.6.28
+	targeted_titles = {
+		k_dune d_dune c_dune c_dawnshadow
+	}
+	casus_belli = claim_cb
+	attackers = { varlozwe_102 }
+	defenders = { shabu_106 }
+	claimant = varlozwe_102
+}
+
+war = { #Verkath claim
+	name = "war_3346_dune_war_verkath"
+	start_date = 3446.10.8
+	end_date = 3448.1.1
+	targeted_titles = {
+		k_dune d_dune c_dune c_dawnshadow
+	}
+	casus_belli = claim_cb
+	attackers = { verqara_104 xylo_104 }
+	defenders = { shabu_106 }
+	claimant = verqara_104
+}

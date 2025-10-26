@@ -1,0 +1,8 @@
+﻿portrait_ogre_hair_beard_modifier = {
+	modifier = {
+		add = 50
+        OR = {
+            portrait_ek_ogre_clothing_trigger = yes
+        }
+	}
+}

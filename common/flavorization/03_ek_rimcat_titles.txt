@@ -1,0 +1,128 @@
+﻿#Rimcat Group
+#Rimcats in charge of Rimmen are ALWAYS called the Potentate, even if they're only a duchy or kingdom. 
+#They also take the potentate title if a Rimcat has an emprie tier title. They're silly like that
+
+#name_list_rimmenese name_list_ilniviri name_list_rimmen
+
+duchy_rimcatpotentate_male = { #Potentate
+	type = character
+	special = holder
+	gender = male
+	tier = duchy
+	titles = { d_rimmen }
+	priority = 40
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+
+duchy_rimcatpotentate_female = { #Potentate
+	type = character
+	special = holder
+	gender = female
+	tier = duchy
+	titles = { d_rimmen }
+	priority = 40
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+
+duchy_rimcatpotentate = { #Potentate
+	type = title
+	tier = duchy
+	titles = { d_rimmen }
+	priority = 40
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+
+kingdom_rimcatpotentate_male = { #Potentate
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	titles = { k_rimmen }
+	priority = 49
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+
+kingdom_rimcatpotentate_female = { #Potentate
+	type = character
+	special = holder
+	gender = female
+	tier = kingdom
+	titles = { k_rimmen }
+	priority = 49
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+
+kingdom_rimcatpotentate = { #Potentate
+	type = title
+	tier = kingdom
+	titles = { k_rimmen }
+	priority = 49
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+	}
+}
+#They also take the potentate title if a Rimcat has an emprie tier title. They're silly like that
+empire_rimcatpotentate_male = { #Potentate
+	type = character
+	special = holder
+	gender = male
+	tier = empire
+	priority = 104
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+
+empire_rimcatpotentate_female = { #Potentate
+	type = character
+	special = holder
+	gender = female
+	tier = empire
+	priority = 104
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+
+empire_rimcatpotentate = { #Potentate
+	type = title
+	tier = empire
+	priority = 104
+	governments = { feudal_government autocracy_government tribal_government clan_government republic_government administrative_government }
+	name_lists = { name_list_rimcat name_list_rimmen name_list_ilniviri }
+	flavourization_rules = {
+		top_liege = no
+	}
+}

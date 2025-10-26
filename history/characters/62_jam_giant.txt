@@ -1,0 +1,727 @@
+﻿#Cracktooth dynasty
+#barons of Cragwallow
+cracktooth_100 = {
+	name = "Toell"
+	dynasty = 1410506
+	culture = giant_culture
+	religion = giantish_totems
+	
+	trait = lifespan_1
+	trait = calm
+	trait = patient
+	trait = shy
+	trait = education_learning_4
+	trait = unyielding_defender
+	disallow_random_traits = yes
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_rtt_01
+		}
+	}
+	
+	3293.1.3 = { birth = yes }
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = cultural_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+	3386.1.1 = { death = yes }
+}
+
+#Longstride dynasty
+#barons of Trumble Arch
+longstride_100 = {
+	name = "Runa"
+	dynasty = 1410507
+	female = yes
+	culture = giant_culture
+	religion = giantish_totems
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_rtt_01
+		}
+	}
+	
+	trait = lifespan_1
+	trait = martial_learning_4
+	
+	3286.5.5 = { birth = yes }
+		3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = cultural_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+	3386.1.1 = { death = yes }
+}
+
+longstride_101 = {
+	name = "Bomaz"
+	dynasty = 1410507
+	culture = giant_culture
+	religion = giantish_totems
+	
+	mother = longstride_100
+	
+	trait = lifespan_1
+	
+	3329.3.4 = { birth = yes }
+	3407.1.1 = { death = yes }
+}
+
+longstride_102 = {
+	name = "Malvor"
+	dynasty = 1410507
+	culture = giant_culture
+	religion = giantish_totems
+	
+	mother = longstride_100
+	
+	trait = lifespan_1
+	trait = education_intrigue_3
+	trait = deceitful
+	trait = wrathful
+	trait = callous
+	trait = one_eyed
+	
+	3331.4.3 = { birth = yes }
+	3407.1.1 = { death = yes }
+}
+
+#Wallbreaker dynasty
+#barons of Talking Stone
+wallbreaker_999 = {
+	name = "Grok"
+	dynasty = 1410508
+	culture = giant_culture
+	religion = giantish_totems
+
+	trait = lifespan_1
+	trait = lustful
+	
+	3307.11.11 = { birth = yes }
+	3356.1.1 = { death = { death_reason = death_hunting_mysterious } }
+}
+
+wallbreaker_100 = {
+	name = "Sinmur"
+	dynasty = 1410508
+	culture = giant_culture
+	religion = giantish_totems
+	
+	trait = lifespan_1
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = lustful
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_beards=male_beard_indian_02
+		}
+	}
+	
+	father = wallbreaker_999
+	
+	3332.5.5 = { birth = yes }
+		3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = cultural_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = { #Giant reservation Rights
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+	3386.1.1 = { death = yes }
+}
+
+#Commoner Giants
+
+gogmagog_100 = {
+	name = "Gogmagog"
+	culture = giant_culture
+	religion = giantish_totems
+	
+	trait = lifespan_1
+	trait = education_learning_4
+	trait = devoted
+	
+	3267.5.5 = { birth = yes }
+	3399.1.1 = { death = yes }
+}
+
+#Sea Giants
+
+sea_giant_adventurer = {
+	name = "Gruthar"
+	#dynasty = 1410507
+	culture = sea_giant
+	religion = mehrunes_cult
+	
+	trait = lifespan_1
+	trait = education_martial_4
+	trait = one_eyed
+	trait = pirate
+	trait = plunderer
+	
+	3271.4.3 = { birth = yes }
+	3330.1.1 = { add_spouse = sea_giant_wife }
+	3359.1.1 = { employer = deathbrand_1000 }
+	3369.1.1 = { employer = deathbrand_1000 }
+	3407.1.1 = { death = yes }
+}
+
+sea_giant_wife = {
+	name = "Gulduna"
+	culture = sea_giant
+	religion = mehrunes_cult
+	female = yes
+	
+	trait = lifespan_1
+	trait = education_martial_3
+	#trait = pirate
+	
+	3302.7.18 = { birth = yes }
+	3359.1.1 = { employer = deathbrand_1000 }
+	3369.1.1 = { employer = deathbrand_1000 }
+	3407.1.1 = { death = yes }
+}
+
+sea_giant_wotan = { #Volkihar lackey?
+	name = "Wotan"
+	culture = sea_giant
+	religion = molag_cult
+	
+	trait = lifespan_1
+	trait = education_martial_4
+	#trait = vampire_character
+	
+	3293.5.5 = { birth = yes }
+	3311.1.1 = { set_relation_friend = { reason = friend_generic_history target = character:falgravn_100 } }
+	3359.1.1 = { employer = volkihar_1000 }
+	3369.1.1 = { employer = volkihar_1000 }
+	3399.1.1 = { death = yes }
+}
+
+
+#also putting nonrelated vanity characters from here on out sorrrry :(
+#these were previously in the easter eggs file, now moved
+
+jamee_pellegrin = {
+	name = "Sir_Pellegrin"
+	culture = mountain_orc # ethnically mountain orc
+	religion = breton_cult
+	sexuality = heterosexual
+	dna = jamee_pellegrin_dna_entry
+
+	trait = sign_lord
+	trait = education_martial_4
+	trait = order_member
+	trait = temperate
+	trait = chaste
+	trait = trusting
+	trait = gallant
+	trait = intellect_bad_1
+	trait = loyal
+	trait = adventurer
+	trait = strong
+	portrait_override = {
+		portrait_modifier_overrides = {
+			#custom_headgear=m_headgear_ep2_western_era3_war_low_nobles
+			custom_headgear=m_headgear_sec_ep2_western_war_nob_01_lo
+			custom_clothes=m_clothes_sec_ek2_breton_noble_war_01
+			custom_legwear=m_legwear_sec_ek2_breton_noble_war_01
+			custom_hair=male_hair_western_06
+			custom_beards=male_empty
+		}
+	}
+
+	3339.1.1 = { birth = yes }
+	3340.1.1 = { culture = iliac } #raised as a breton
+	3355.1.1 = { give_nickname = nick_hedge_knight }
+	3358.1.1 = { 
+	set_relation_friend = { reason = friend_generic_history target = character:jamee_nero } 
+	}
+	#3360.1.1 = { employer = pelin_1000 }
+	3408.1.1 = { death = yes }
+  }
+
+jamee_nero = {
+	name = "Nero"
+	culture = glenumbran
+	religion = sheogorath_cult
+	sexuality = asexual
+	dna = jamee_nero_dna_entry
+
+	trait = sign_atronach
+	trait = education_learning_4
+	trait = education_magic_4
+	trait = lunatic_genetic
+	trait = intellect_good_3
+	trait = arrogant
+	trait = wrathful
+	trait = ambitious
+	trait = impatient
+	trait = witch
+	trait = battlemage
+	trait = adventurer
+	trait = experimentalist
+	trait = lunatic_genetic
+	trait = celibate
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair=male_hair_western_02
+			custom_beards=male_beard_indian_01
+			custom_headgear=male_empty
+			custom_clothes=male_clothes_secular_dunmer_03_low
+		}
+		}
+	
+	3308.1.1 = { birth = yes }
+	3318.1.1 = { effect = { learn_language = language_cyrodiilic } }
+	3345.1.1 = {
+		effect = {
+			add_conjuration_perk_effect = { LEVEL = 5 }
+			add_destruction_perk_effect = { LEVEL = 5 }
+		}
+		}
+	3356.1.1 = { 
+		effect = {
+			add_trait = lifespan_magic_1
+			add_character_flag = artificial_lifespan
+			add_character_flag = natural_lifespan_0
+		}
+	}
+	3357.1.1 = { give_nickname = nick_the_great }
+	3357.1.1 = { effect = { learn_language = language_daedric } }
+	3357.1.1 = { effect = { learn_language = language_dwemeris } }
+ 	#3360.1.1 = { employer = jamee_pellegrin }
+	3418.1.1 = { death = yes }
+  }
+
+jamee_okkorok = {
+	name = "Okkorok"
+	dynasty = 1410503
+	culture = riekling
+	religion = nord_cult
+	sexuality = heterosexual
+	dna = jamee_okkorok_dna_entry
+
+	trait = sign_lover
+	trait = education_martial_4
+	trait = brave
+	trait = wrathful
+	trait = chaste
+	trait = pirate
+	trait = plunderer
+	trait = shrewd
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards=male_beard_indian_03
+			custom_hair=male_hair_northern_01
+		}
+	}
+
+	3330.1.1 = { birth = yes }
+	3350.1.1 = { effect = { learn_language = language_nordic } }
+	3370.1.1 = { employer = felnord_100 }
+	3438.1.1 = { death = yes }
+  }
+
+jamee_xiaomao = {
+	name = "Xiaomao"
+	culture = kitsothiit
+	religion = court_dawnbeauty
+	sexuality = asexual
+	disallow_random_traits = yes
+	
+	female = yes
+	
+	trait = education_learning_4
+	trait = shy
+	trait = chaste
+	trait = eccentric
+	trait = lifestyle_herbalist
+	trait = lifestyle_gardener
+	trait = lifestyle_physician
+	trait = shrewd
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_headgear=male_empty
+			custom_hair=female_hair_rtt_02
+		}
+	}
+
+	3343.1.1 = { birth = yes }
+	3357.1.1 = {
+		employer = zidakye_103
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = court_physician_court_position
+			}
+		}
+	}
+	3358.12.10 = {
+		set_relation_lover = { reason = lover_history target = character:jamee_jinshi }
+	}
+	3439.1.1 = { death = yes }
+  }
+  
+jamee_jinshi = {
+	name = "Jinshi"
+	dynasty = 1899993
+	culture = kitsothiit
+	religion = court_dawnbeauty
+	sexuality = bisexual
+	disallow_random_traits = yes
+	
+	trait = education_diplomacy_4
+	trait = deceitful
+	trait = diligent
+	trait = gregarious
+	trait = beauty_good_3
+	trait = eunuch_1
+	trait = schemer
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_headgear=male_empty
+			custom_hair=male_hair_northern_02
+		}
+	}
+
+	3336.1.1 = { birth = yes }
+	3352.1.1 = {
+		employer = zidakye_103
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = seneschal_court_position
+			}
+		}
+	}
+	3358.12.10 = {
+		set_relation_lover = { reason = lover_history target = character:jamee_xiaomao }
+	}
+	3428.1.1 = { death = yes }
+  }
+  
+  jamee_duzal_the_diseased = {
+	name = "Duzal"
+	culture = baandari
+	religion = peryite_cult
+
+	trait = education_learning_3
+	trait = gregarious
+	trait = calm
+	trait = patient
+	trait = furstock_cathay
+	trait = sign_lord
+	trait = heresiarch
+	trait = devoted
+	trait = lifestyle_herbalist
+	trait = whole_of_body
+	trait = peryite_affliction
+	
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards=male_empty
+		}
+		}
+
+	3339.9.11 = { birth = yes }
+	3356.1.1 = { effect = { learn_language = language_reachtongue } }
+	3356.1.1 = { give_nickname = nick_the_diseased }
+	3358.1.1 = {set_relation_friend = { reason = friend_generic_history target = character:blackmoon_1000_sister } }
+	3359.1.1 = { employer = blackmoon_999 }
+	3369.1.1 = { employer = blackmoon_1000 }
+	3405.8.5 = { death = yes }
+}
+
+
+jamee_zeptum = {
+	name = "Tuborkh"
+	dynasty = 1410511
+	culture = ruby_orc
+	religion = malacath_cult
+	sexuality = bisexual
+
+	trait = sign_lover
+	trait = education_martial_5
+	trait = callous
+	trait = wrathful
+	trait = ambitious
+	trait = adventurer
+	trait = plunderer
+	trait = shrewd
+
+	3337.1.1 = { birth = yes }
+	3428.1.1 = { death = yes }
+  }
+
+
+jamee_thek = {
+	name = "Thek"
+	culture = ogre
+	religion = malacath_brutal_breed
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=no_hair
+		}
+	}
+	
+	trait = education_martial_4
+	trait = ambitious
+	trait = eccentric
+	trait = wrathful
+	trait = giant
+	trait = strong
+	trait = shrewd
+
+	3331.1.1 = { birth = yes }
+	3428.1.1 = { death = yes }
+  }
+
+jamee_fargoth = {
+	name = "Fargeloth"
+	culture = bosmer
+	religion = tribunal_temple
+	
+	trait = education_learning_4
+	trait = humble
+	trait = trusting
+	trait = gregarious
+	trait = lifespan_3
+	trait = loyal
+	trait = lifestyle_physician
+
+	learning = 10
+
+	3281.1.1 = { birth = yes }
+	3340.1.1 = { effect = { learn_language = language_dunmeris } }
+	3343.1.1 = { culture = oreyni }
+	3345.1.1 = { set_relation_friend = character:hlaalu_100 }
+	3359.1.1 = { employer = hlaalu_100 }
+	3369.1.1 = { employer = hlaalu_100 }
+	3428.1.1 = { death = yes }
+  }
+
+  jamee_jam = {
+	name = "Jahm"
+	dynasty = 1410512
+	culture = keptu
+	religion = dwemer_idolatry
+
+	dna = beanique_1002_dna_entry
+
+	health = 10
+
+	trait = sign_lord
+	trait = education_learning_1
+	trait = craven
+	trait = shy
+	trait = lazy
+	trait = paranoid
+	trait = intellect_bad_3
+	trait = beauty_bad_3
+	trait = physique_bad_3
+	trait = depressed_1
+	trait = possessed_genetic
+	trait = lunatic_1
+	trait = impotent
+	#trait = bleeder
+	#trait = wheezing
+	trait = weak
+	trait = dull
+	trait = inbred
+	#trait = deviant
+	#trait = stuttering
+	#trait = lisping
+	#trait = hunchbacked
+	#trait = comfort_eater
+	#trait = drunkard
+	#trait = skooma_drinker
+	#trait = deviant
+	#trait = irritable
+	#trait = contrite
+	#trait = infertile
+	#trait = excommunicated
+
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_beards=male_empty
+				custom_hair=male_hair_western_06
+			}
+		}	
+
+	3335.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+  }
+
+  jamee_lex_99b = {
+	name = "Sesbian" #sesbian lex
+	dynasty = lex
+	culture = heartlander
+	religion = imperial_cult
+	sexuality = heterosexual
+
+	mother = lex_99
+	father = suviero_100c
+
+	3322.2.7 = { birth = yes }
+	3412.1.1 = { death = yes }
+  }
+
+  jamee_yeti = {
+	name = "Udyrfrykte"
+	culture = imga
+	religion = hircine_cult
+	dna = jamee_yeti_dna_entry
+
+	trait = celibate
+	trait = lifespan_magic_6
+	trait = strong
+	
+	prowess = 20
+
+	3286.7.17 = { birth = yes }
+	3359.1.1 = { employer = wolftongue_1000 }
+	3369.1.1 = { employer = wolftongue_1000 }
+	4911.1.1 = { death = yes }
+  }
+
+
+
+#Moslin dynasty
+#theses guys are actually landed and important
+moslin_01 = {
+	name = "Obed"
+	dynasty = 1410505
+	religion = brethren
+	culture = hackdirt
+	trait = education_intrigue_4
+	trait = zealous
+	trait = deceitful
+	trait = wrathful
+	trait = heresiarch
+	trait = beauty_bad_2
+
+	3340.10.31 = { birth = yes }
+	3341.1.1 = { effect = { learn_language = language_cyrodiilic } }
+	3359.1.1 = { add_pressed_claim = title:d_carmala }
+	3359.1.1 = { set_relation_rival = { reason = rival_historical target = character:jeril_101 } }
+	3559.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3559.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+	3404.1.1 = { death = yes }
+}
+
+#new Archeins
+
+archein_100 = {
+    name = "Klaankaatu"
+	dynasty = 1410513
+    religion = ghostpeople
+    culture = archein
+
+	trait = greedy
+	trait = sadistic
+	trait = cynical
+	trait = education_stewardship_4
+	trait = loyal
+	trait = avaricious
+	trait = plunderer
+
+	martial = 10
+	prowess = 10
+	
+    3329.1.1 = { birth = yes }
+    3399.1.1 = { death = yes }
+}
+
+##Solais Dynasty (450000)
+
+#House Solais
+solais_1000 = {
+	name = "Valen"
+	dynasty = 450000
+	religion = druid_circles
+	culture = systrean
+
+	3332.1.1 = { birth = yes }
+	3384.1.1 = { death = yes }
+}
+
+

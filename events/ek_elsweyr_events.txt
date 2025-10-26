@@ -1,0 +1,1066 @@
+﻿namespace = elsweyr
+#Restore High kingdom of Anequina event
+elsweyr.0001 = {
+	title = elsweyr.0001.t
+	#desc = elsweyr.0001.desc
+	desc = {
+		first_valid = {
+			# Doing it as Many Paths
+			triggered_desc = {
+				trigger = { faith = faith:manypathsdance }
+				desc = elsweyr.0001.desc.a
+			}
+			# Doing it as Others
+			triggered_desc = {
+				trigger = { NOT = { faith = faith:manypathsdance } }
+				desc = elsweyr.0001.desc.b
+			}
+		}
+	}
+    content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+        animation = war_over_win
+	}
+	
+	immediate = {
+		character:mane_001 = { save_scope_as = ridthar }
+	}
+	option = {
+		name = elsweyr.0001.a
+		add_prestige = medium_prestige_gain
+	}
+}
+
+#Integrate Leyawiin
+elsweyr.0002 = {
+	title = elsweyr.0002.t
+	desc = elsweyr.0002.desc
+	content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	immediate = {
+		title:k_leyawiin = { 
+			set_title_name = BLACKWOOD
+			set_capital_county = title:c_blackwood 
+		}
+	}
+
+	#Settle Malapiit
+	option = {
+		name = elsweyr.0002.a
+		custom_tooltip = elsweyr.0002.a.tt
+		get_title = title:c_leyawiin
+		title:c_leyawiin = {
+			set_county_culture = culture:malapiit
+		}
+		culture:nibenese = {
+			change_cultural_acceptance = {
+				target = root.culture
+				value = medium_negative_culture_acceptance
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		culture:malapiit = {
+			change_cultural_acceptance = {
+				target = root.culture
+				value = medium_positive_culture_acceptance
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		hidden_effect = {
+			title:d_nomore = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county}
+					add_to_list = malapiit_counties
+				}
+			}
+			title:d_leyawiin = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county}
+					add_to_list = malapiit_counties
+				}
+			}
+			every_in_list = {
+				list = malapiit_counties
+				add_county_modifier = {
+					modifier = malapiit_flourishing_modifier
+					years = 30
+				}
+			}				
+		}
+	}
+	
+	#Settle your people
+	option = {
+		name = elsweyr.0002.b
+		custom_tooltip = elsweyr.0002.b.tt
+		get_title = title:c_leyawiin
+        title:c_leyawiin = {
+			set_county_culture = root.culture
+			set_county_faith = root.faith
+		}
+		culture:nibenese = {
+			change_cultural_acceptance = {
+				target = root.culture
+				value = medium_negative_culture_acceptance
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		culture:malapiit = {
+			change_cultural_acceptance = {
+				target = root.culture
+				value = low_negative_culture_acceptance
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+	}
+
+	#Keep Imperials in Leyawiin
+	option = {
+		name = elsweyr.0002.c
+		custom_tooltip = elsweyr.0002.c.tt
+		add_prestige = 500
+		add_piety = 500
+		culture:nibenese = {
+			change_cultural_acceptance = {
+				target = root.culture
+				value = low_positive_culture_acceptance
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+	}
+}
+
+#Arenthia event
+elsweyr.0003 = {
+	title = elsweyr.0003.t
+	desc = {
+		desc = elsweyr.0003.desc.intro
+		#Religion
+		first_valid = {
+			# Doing it as Two Moons
+			triggered_desc = {
+				trigger = {
+					faith = faith:twomoonsdance
+				}
+				desc = elsweyr.0003.desc.twomoonsdance
+			}
+			#Doing it as other religion
+			triggered_desc = {
+				trigger = {
+					NOT = { faith = faith:twomoonsdance }  
+				}
+				desc = elsweyr.0003.desc.other
+			}
+		}
+	}
+	content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	#Move capital of this kingdom to Rawl'kha
+	option = {
+		name = elsweyr.0003.a
+		custom_tooltip = elsweyr.0003.a.tt
+		#get_title = title:c_sleekcreek
+		add_piety = 500 
+		title:c_sleekcreek = {
+			add_county_modifier = {
+				modifier = khajiiti_kingdom_capital_modifier
+				years = 30
+			}
+			set_county_faith = root.faith
+		}
+        title:k_arenthia = {
+			set_capital_county = title:c_sleekcreek
+		}
+		title:d_arenthia = {
+			set_capital_county = title:c_sleekcreek
+		}
+		#Convert Rawlkha to Anequinan (just in case if its not)
+		hidden_effect = {
+			title:c_sleekcreek = {
+				set_county_culture = culture:anequinan
+			}
+		}
+	}
+	#Keep Arenthia as capital
+	option = {
+		name = elsweyr.0003.b
+		custom_tooltip = elsweyr.0003.b.tt
+		add_prestige = 500
+		title:c_arenthia = {
+			add_county_modifier = {
+				modifier = khajiiti_kingdom_capital_modifier
+				years = 30
+			}
+		}
+	}
+}
+
+#Event after restoring Darloc Brae kingdom
+elsweyr.0004 = {
+	title = elsweyr.0004.t
+	desc = elsweyr.0004.desc
+	content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = {
+		name = elsweyr.0004.a
+		add_prestige = 1000
+	}
+}
+
+#Dissolution event
+elsweyr.0005 = {
+	title = elsweyr.0005.t
+	content_source = dlc_ek
+	theme = realm
+	override_background = { reference = throne_room_india }
+	# which characters to highlight depends on the circumstances
+
+	left_portrait = {
+		trigger = {
+			exists = scope:kingdom_former
+		}
+		character = scope:kingdom_former
+		animation = personality_bold
+	}
+	right_portrait = {
+		trigger = {
+			NOT = { exists = scope:kingdom_former }
+		}
+		character = scope:elsweyr_holder
+		animation = disbelief
+	}
+	lower_right_portrait = {
+		trigger = {
+			exists = scope:kingdom_former
+		}
+		character = scope:elsweyr_holder
+	}
+
+	desc = {
+		desc = elsweyr.0005.desc.1 #this first paragraph is used for all variants of the event
+
+		#the second one varies depending on why Elsweyr split
+		first_valid = {
+			# Pellitine formed
+			triggered_desc = {
+				trigger = {
+					is_target_in_global_variable_list = {
+						name = unavailable_unique_decisions
+						target = flag:pellitine_restored
+					} 
+				}
+				desc = elsweyr.0005.desc.2.pellitine
+			}
+			# Anequina formed
+			triggered_desc = {
+				trigger = {
+					is_target_in_global_variable_list = {
+						name = unavailable_unique_decisions
+						target = flag:anequina_restored
+					} 
+				}
+				desc = elsweyr.0005.desc.2.anequina
+			}
+			desc = elsweyr.0005.desc.2 # for when it just splits by itself
+		}
+	}
+	
+	immediate = {
+		# for loc purposes, check if Elsweyr currently has a holder
+		if = {
+			limit = { exists = title:e_elsweyr.holder }
+			title:e_elsweyr.holder = { save_scope_as = elsweyr_holder }
+			title:e_elsweyr.holder = { add_legitimacy = massive_legitimacy_loss } #Lose legitimacy
+		}
+		# if not, grab the last one
+		else = {
+			title:e_elsweyr.previous_holder = { save_scope_as = elsweyr_holder }
+		}
+		# also for Anequina and Pellitine
+		if = {
+			limit = { exists = title:e_anequina.holder }
+			title:e_anequina.holder = { save_scope_as = kingdom_former }
+		}
+		if = {
+			limit = { exists = title:e_pellitine.holder }
+			title:e_pellitine.holder = { save_scope_as = kingdom_former }
+		}
+	}
+
+	option = {
+		name = elsweyr.0005.a
+		custom_tooltip = anequina_kingdoms.tt
+		custom_tooltip = pellitine_kingdoms.tt
+		custom_tooltip = elsweyr_dissolve.create_de_jure_empires.tt
+		custom_tooltip = elsweyr_dissolve.become_titular.tt
+		custom_tooltip = elsweyr_dissolve.reunite_elsweyr.tt
+		flavor = {
+			# to give different loc based on the reason why Elsweyr dissolved
+			first_valid = {
+				# Pellitine formed
+				triggered_desc = {
+					trigger = {
+						is_target_in_global_variable_list = {
+							name = unavailable_unique_decisions
+							target = flag:pellitine_restored
+						} 
+					}
+					desc = elsweyr.0005.flavor.pellitine
+				}
+				# Anequina formed
+				triggered_desc = {
+					trigger = {
+						is_target_in_global_variable_list = {
+							name = unavailable_unique_decisions
+							target = flag:anequina_restored
+						} 
+					}
+					desc = elsweyr.0005.flavor.anequina
+				}
+				# 20 years passed without anyone holding Elsweyr
+				triggered_desc = {
+					trigger = {
+						title:e_elsweyr = {
+							NOT = { is_title_created = yes }
+							# NOT = { recent_history = { years = 20 } }
+						}
+					}
+					desc = elsweyr.0005.flavor.no_elsweyr
+				}
+				# Mane unable to control Elweyr by 2E 490
+				triggered_desc = {
+					trigger = {
+						AND = {
+							#Dissolves 100 years after Ridthar-Ridatta if Mane doesn't fully control Elsweyr 
+							current_date >= 3410.1.1
+							#For testing
+							#current_date >= 3372.1.1
+							#Mane controls at least 75% of Elsweyr
+							any_county_in_region = {
+								region = mundus_tamriel_elsweyr
+								percent < 0.75
+								holder.top_liege = title:e_elsweyr.holder
+							}
+						}
+					}
+					desc = elsweyr.0005.flavor.weak_mane
+				}
+			}
+		}
+	}
+}
+
+#Reunification Event
+elsweyr.0006 = {
+	type = character_event
+	content_source = dlc_ek
+	title = elsweyr.0006.t
+	
+	desc = {
+		desc = elsweyr.0006.desc.intro
+		first_valid = {
+			# Doing it through war
+			triggered_desc = {
+				trigger = {
+					OR = {
+						AND = {
+							scope:title = title:e_pellitine
+							title:e_pellitine = {
+								recent_history = {
+									type = conquest_claim
+									years = 1
+								}
+							}
+						}
+						AND = {
+							scope:title = title:e_anequina
+							title:e_anequina = {
+								recent_history = {
+									type = conquest_claim
+									years = 1
+								}
+							}
+						}
+					}
+				}
+				desc = elsweyr.0006.desc.war
+			}
+			# Doing it in an other way
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						AND = {
+							scope:title = title:e_pellitine
+							title:e_pellitine = {
+								recent_history = {
+									type = conquest_claim
+									years = 1
+								}
+							}
+						}
+						AND = {
+							scope:title = title:e_anequina
+							title:e_anequina = {
+								recent_history = {
+									type = conquest_claim
+									years = 1
+								}
+							}
+						}
+					}
+				}
+				desc = elsweyr.0006.desc.other
+			}
+		}
+		first_valid = {
+			# Doing it as Pellitine
+			triggered_desc = {
+				trigger = {
+					AND = {
+						OR = {
+							culture = culture:pellitinian
+							culture = { any_parent_culture_or_above = { this = culture:pellitinian } }
+						}
+					}
+					NOT = { has_title = title:d_mane }
+				}
+				desc = elsweyr.0006.desc.pellitine
+			}
+			# Doing it as Anequina
+			triggered_desc = {
+				trigger = {
+					AND = {
+						OR = {
+							culture = culture:anequinan
+							culture = { any_parent_culture_or_above = { this = culture:anequinan } }
+						}
+						NOT = { has_title = title:d_mane }
+					}
+				}
+				desc = elsweyr.0006.desc.anequina
+			}
+			#Doing it as Baandari
+			triggered_desc = {
+				trigger = {
+					AND = {
+						OR = {
+							culture = culture:baandari
+							culture = { any_parent_culture_or_above = { this = culture:baandari } }
+						}
+						NOT = { has_title = title:d_mane }
+					}
+				}
+				desc = elsweyr.0006.desc.baandari
+			}
+			# Doing it as Mane
+			triggered_desc = {
+				trigger = {
+					has_title = title:d_mane
+				}
+				desc = elsweyr.0006.desc.mane
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						culture = culture:rimmen
+						culture = { any_parent_culture_or_above = { this = culture:rimmen } }
+					}
+				}
+				desc = elsweyr.0006.desc.rimmen
+			}
+			triggered_desc = {
+				trigger = {
+					OR = {
+						culture = culture:rimmenese
+						AND = {
+							culture = { any_parent_culture_or_above = { this = culture:rimmenese } }
+							NOT = { culture = culture:rimmen }
+						}
+					}
+				}
+				desc = elsweyr.0006.desc.rimmenese
+			}
+			desc = elsweyr.0006.desc.other_culture
+		}
+		#Religion
+		first_valid = {
+			# Doing it as Two Moons
+			triggered_desc = {
+				trigger = {
+					faith = faith:twomoonsdance
+				}
+				desc = elsweyr.0006.desc.twomoonsdance
+			}
+			#Doing it as Many Paths
+			triggered_desc = {
+				trigger = {
+					faith = faith:manypathsdance
+				}
+				desc = elsweyr.0006.desc.manypathsdance
+			}
+			#Doing it as New Moon
+			triggered_desc = {
+				trigger = {
+					faith = faith:order_new_moon
+				}
+				desc = elsweyr.0006.desc.newmoondance
+			}
+		}
+	}
+	
+	theme = war
+	
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	immediate = {
+		character:mane_001 = { save_scope_as = ridthar }
+		character:anequina_darloc_brae = { save_scope_as = darloc }
+		root = { save_scope_as = winner }
+		scope:previous_holder = { save_scope_as = loser }
+		
+		### Get the HK of Elsweyr
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_elsweyr = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		add_to_global_variable_list = {
+			name = elsweyr_variables
+			target = flag:restored_elsweyr
+		}
+		resolve_title_and_vassal_change = scope:change
+		hidden_effect = {
+			if = { #If Anequina/Pellitine/Mane is primary title then we apply all imperial things to new title and make it primary
+				limit = {
+					OR = {
+						primary_title = title:e_anequina
+						primary_title = title:e_pellitine
+						has_title = title:d_mane
+					}
+				}
+				set_primary_title_to = title:e_elsweyr
+			}
+			reunite_elsweyr_scripted_effect = yes
+			#Check for Leyawiin
+			if = {
+				limit = { title:k_rimmen = { is_de_jure_liege_or_above_target = title:d_leyawiin }}
+				title:d_leyawiin = { set_de_jure_liege_title = title:k_alabaster }
+			}
+			if = {
+				limit = { title:k_alabaster = { is_de_jure_liege_or_above_target = title:d_nomore }}
+				title:d_nomore = { set_de_jure_liege_title = title:k_rimmen }
+			}
+			if = {
+				limit = { #If capital is in de jure Elsweyr, then make it de jure capital of Elsweyr
+					title:e_elsweyr = { is_de_jure_liege_or_above_target = root.capital_county }
+				}
+				title:e_elsweyr = {
+					set_capital_county = root.capital_county
+				}
+			}
+		}
+	}
+	
+	trigger = {
+		OR = {
+			AND = {
+				scope:title = title:e_pellitine
+				has_title = title:e_anequina
+			}
+			AND = {
+				scope:title = title:e_anequina
+				has_title = title:e_pellitine
+			}
+		}
+	}
+
+	option = {
+		name = elsweyr.0006.a
+		
+		### Destroy Pellitine and Anequina
+		destroy_title = title:e_pellitine
+		destroy_title = title:e_anequina
+	}
+}
+
+#Choosing capital of Anequina event
+elsweyr.0008 = {
+	title = elsweyr.0008.t
+	desc = elsweyr.0008.desc
+    content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+        animation = war_over_win
+	}
+	
+	immediate = {
+		character:anequina_96 = { save_scope_as = anequina_keirgo }
+	}
+
+	option = { #Choose c_anequina, restores de jure k_anequina, probably gives legitimacy in next patch
+		name = elsweyr.0008.a
+		get_title = title:c_anequina
+        title:d_anequina = { set_de_jure_liege_title = title:k_anequina }
+        title:k_anequina = {
+			set_capital_county = title:c_anequina
+		}
+		if = {
+			limit = { root = { has_title = title:e_anequina } }
+			title:e_anequina = { set_capital_county = title:c_anequina }
+		}
+		if = {
+			limit = { root = { has_title = title:e_elsweyr} }
+			title:e_elsweyr = { set_capital_county = title:c_anequina }
+		}
+		set_realm_capital = title:c_anequina
+		add_piety = medium_piety_gain
+		add_prestige = medium_prestige_gain
+	}
+	option = { #Choose current capital
+		name = elsweyr.0008.b
+		if = {
+			limit = { root = { has_title = title:e_anequina } }
+			title:e_anequina = { set_capital_county = root.capital_county }
+		}
+		if = {
+			limit = { root = { has_title = title:e_elsweyr} }
+			title:e_elsweyr = { set_capital_county = root.capital_county }
+		}
+		root.capital_county = {
+			add_county_modifier = {
+				modifier = anequina_capital_modifier
+				years = 30
+			}
+		}
+	}
+}
+
+#New Mane ascends
+elsweyr.0011 = {
+	type = character_event
+    content_source = dlc_ek
+	hidden = yes
+	trigger = {
+		root.faith = { has_doctrine = doctrine_mystical_birthright_head }
+		scope:title = { is_head_of_faith = yes }
+	}
+	immediate = {
+		root = { save_scope_as = new_elsweyr_mane }
+		every_ruler = {
+			limit = {
+				faith = root.faith
+				NOT = { #Not Mane
+					this = root
+				}
+			}
+			add_to_list = mane_hair_senders
+		}
+		every_in_list = {
+			list = mane_hair_senders
+			trigger_event = elsweyr.0012
+		}
+	}
+}
+elsweyr.0012 = {
+	type = character_event
+	title = elsweyr.0012.t
+	content_source = dlc_ek
+	desc = elsweyr.0012.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		character = scope:new_elsweyr_mane
+		animation = personality_zealous
+	}
+	option = {
+		name = elsweyr.0012.a
+		add_piety = 100
+		add_prestige = -150
+		stress_impact = { 
+			arrogant = medium_stress_impact_gain
+			greedy = medium_stress_impact_gain 
+			cynical = medium_stress_impact_gain
+			zealous = medium_stress_impact_loss 
+		}
+		scope:new_elsweyr_mane = {
+			add_opinion = {
+				modifier = pleased_opinion
+				opinion = 20
+				target = root
+			}
+		}
+	}
+	option = {
+		name = elsweyr.0012.b
+		scope:new_elsweyr_mane = {
+			add_opinion = {
+				modifier = hurt_opinion
+				opinion = -20
+				target = root
+			}
+		}
+		stress_impact = { 
+			arrogant = medium_stress_impact_loss
+			ambitious = minor_stress_impact_loss
+			zealous = major_stress_impact_gain
+		}
+		add_prestige = 250
+		add_piety = -150
+	}
+}
+
+#Restore High kingdom of Pellitine event
+elsweyr.0014 = {
+	title = elsweyr.0014.t
+	desc = elsweyr.0014.desc
+	
+    content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+        animation = personality_honorable
+	}
+	
+	immediate = {
+		# for loc purposes, check if Elsweyr currently has a holder - unlikely if Pellitine is formed but you never know
+		if = {
+			limit = { exists = title:e_elsweyr.holder }
+			title:e_elsweyr.holder = { save_scope_as = elsweyr_holder }
+		}
+		# if not, grab the last one
+		else = {
+			title:e_elsweyr.previous_holder = { save_scope_as = elsweyr_holder }
+		}
+	}
+	option = {
+		name = elsweyr.0014.a
+		add_prestige = medium_prestige_gain
+	}
+}
+
+#Destroy/restore Mane as many paths
+elsweyr.0015 = {
+	type = character_event
+	title = elsweyr.0015.t
+	content_source = dlc_ek
+	desc = elsweyr.0015.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:mp_mane
+		animation = personality_zealous
+	}
+	immediate = {
+		character:mane_001 = { save_scope_as = ridthar }
+		title:d_many_paths_mane.holder = { save_scope_as = mp_mane }
+		root = { save_scope_as = destroyer_of_mane }
+	}
+	option = {
+		name = elsweyr.0015.a
+	}
+	after = {
+		every_player = {
+			limit = { 
+				NOT = { this = root }
+				religion = religion:khajiiti_religion 
+			}
+			trigger_event = { id = elsweyr.0016 days = 1 }
+		}
+	}
+}
+
+elsweyr.0016 = {
+	type = character_event
+	title = elsweyr.0015.t #Same as previous
+	content_source = dlc_ek
+	desc = elsweyr.0016.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	option = {
+		trigger = {
+			faith = faith:manypathsdance
+		}
+		name = elsweyr.0015.a #Same as previous
+		add_stress = medium_stress_loss
+	}
+	option = {
+		trigger = {
+			faith = faith:twomoonsdance
+		}
+		name = elsweyr.0016.b
+		set_character_faith = faith:manypathsdance
+	}
+	option = {
+		name = elsweyr.0016.c
+	}
+}
+
+#Rim-Men events
+namespace = ek_rimmen
+
+ek_rimmen.0001 = {
+	type = character_event
+	title = ek_rimmen.0001.t
+	content_source = dlc_ek
+	desc = ek_rimmen.0001.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	right_portrait = {
+		character = scope:refugee_leader
+		animation = beg
+	}
+
+	immediate = {
+		if = { #If Beloren-Kaie is alive, save him as leader of refugees for ruler of Rimmen
+			limit = { 
+				character:kaie_100 = { 
+					is_alive = yes
+					is_landed = no #Doesn't hold any land
+					NOT = { any_held_title = { is_noble_family_title = yes } } #Doesn't have noble family title
+				}
+				completely_controls = title:c_hakoshae
+			}
+			character:kaie_100 = { save_scope_as = refugee_leader }
+		}
+		#Generate akaviri leader otheriwse
+		else = {
+			create_character = {
+				age = { 20 50 }
+				gender_female_chance = 50
+				dynasty = generate
+				faith = faith:court_dawnbeauty
+				culture = culture:ilniviri
+				location = root.capital_province
+
+				after_creation = {
+					ek_character_setup_effect = yes
+				}
+
+				save_scope_as = refugee_leader
+			}
+		}
+	}
+	option = { #Accept refugees
+		name = ek_rimmen.0001.a
+		if = { #If Hakoshae is controlled then Rim-Men settle there
+			limit = { completely_controls = title:c_hakoshae }
+			title:c_hakoshae = {
+				set_county_culture = culture:rimmen
+			}
+			scope:refugee_leader = {
+				get_title = title:c_hakoshae
+			}
+			title:c_rimmen = {
+				set_county_culture = culture:rimcat
+			}
+		}
+		else = {
+			title:k_rimmen = {
+				random_in_de_jure_hierarchy = { #County held by ruler of Rimmen, but not capital
+					limit = {
+						tier = tier_county
+						holder = root
+						NOT = { culture = culture:rimmen }
+						NOT = { this = holder.capital_county }
+					}
+					save_scope_as = rim_men_county
+				}
+				scope:rim_men_county = {
+					set_county_culture = culture:rimmen
+				}
+				scope:refugee_leader = {
+					get_title = scope:rim_men_county
+				}
+			}
+		}
+		#else convert and grant 1 random county
+		scope:refugee_leader = {
+			#Rimmen culture formed
+			set_culture = culture:rimmen
+			hidden_effect = {
+				add_character_flag = converted_culture_this_lifetime
+			}
+			#Culture and religion protected
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+			vassal_contract_set_obligation_level = {
+				type = cultural_rights
+				level = 1
+			}
+		}
+		culture:rimmen = { #Get positive acceptance with new people
+			change_cultural_acceptance = {
+				target = root.culture
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+			culture_become_alive_effect = yes
+		}
+		culture:rimcat = { #Get positive acceptance with new people
+			change_cultural_acceptance = {
+				target = root.culture
+				value = 20
+				desc = cultural_acceptance_historical_relations
+			}
+			culture_become_alive_effect = yes
+		}
+		#Get gold
+		add_gold = { value = medium_gold_value }
+		#Some troops
+		create_maa_regiment = {
+			type = akaviri_dragon_hunters
+			check_can_recruit = no
+			size = 3
+		}
+		#Opinion with refugee leader
+		reverse_add_opinion = {
+			target = scope:refugee_leader
+			modifier = respect_opinion
+			opinion = 40
+		}
+		after = { #Convert courtiers to Rimcat
+		scope:refugee_leader = {
+			every_courtier_or_guest = {
+				limit = {
+					culture = culture:ilniviri
+					is_ai = yes
+				}
+				set_culture = culture:rimmen
+				hidden_effect = {
+					add_character_flag = converted_culture_this_lifetime
+				}
+			}
+		}
+	}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = { #Reject refugees, get dread and respect from Atterbus
+		name = ek_rimmen.0001.b
+		add_dread = 20
+		reverse_add_opinion = {
+			target = scope:attrebus
+			modifier = respect_opinion
+			opinion = 40
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+	#after = { #Convert courtiers to Rimmen
+		#root = {
+			#every_courtier_or_guest = {
+				#limit = {
+					#culture = culture:anequinan
+					#is_ai = yes
+				#}
+				#set_culture = culture:rimcat
+				#hidden_effect = {
+					#add_character_flag = converted_culture_this_lifetime
+				#}
+			#}
+		#}
+	#}
+}
+
+#Tsaesci act happens, more refugees
+ek_rimmen.0002 = {
+	type = character_event
+	title = ek_rimmen.0002.t
+	content_source = dlc_ek
+	desc = ek_rimmen.0002.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	option = { #Accept refugees, get piety and some development
+		name = ek_rimmen.0002.a
+		add_piety = minor_piety_gain
+		every_sub_realm_county = {
+			limit = {
+				culture = culture:rimmen
+			}
+			change_development_level = 2
+			add_county_modifier = {
+				modifier = akaviri_refugees_modifier
+				years = 20
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = { #Reject refugees, lose cultural acceptance and opinion with akaviri vassals
+		name = ek_rimmen.0002.b
+		culture:rimmen = { #Rim-Men are unhappy with this
+			change_cultural_acceptance = {
+				target = root.culture
+				value = low_negative_culture_acceptance
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		every_vassal_or_below = {
+			limit = { culture = culture:rimmen }
+			add_opinion = {
+				modifier = betrayal_opinion
+				target = root
+				opinion = -20
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}

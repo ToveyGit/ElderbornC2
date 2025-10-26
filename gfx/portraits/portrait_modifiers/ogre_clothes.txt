@@ -1,0 +1,103 @@
+﻿ek_ogre_clothes = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 1
+
+##########################################################
+#							 #	
+#			OGRE		 	 	 #
+#							 #
+##########################################################
+
+    ogre_clothing_common = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = ek_goblin_commoner_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }			
+	        morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8
+				template = bust_clothes
+			}
+	    }
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				AND = {
+					OR = {
+					portrait_ek_ogre_clothing_trigger = yes
+					}
+					NOR = {
+						has_court_position = court_mage_position
+						AND = { 
+							highest_held_title_tier >= tier_barony
+							has_government = theocracy_government 
+						}						
+						#portrait_wear_armor_trigger = yes
+						is_theocratic_lessee = yes
+					}
+				}
+			}
+		}
+	}
+	
+	## WAR ##
+	ogre_war_clothing = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ek_goblin_commoner_clothes
+				range = { 0 1 }
+			}
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }	
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8
+				template = bust_clothes
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				AND = {
+					OR = {
+						portrait_ek_ogre_clothing_trigger = yes
+					}
+					portrait_wear_armor_trigger = yes
+					NOR = { 
+						 
+						has_court_position = court_mage_position
+					}
+				}
+			}
+			modifier = {
+				add = 50
+				OR = {
+					portrait_ek_ogre_clothing_trigger = yes
+				}
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+		}
+	}
+}

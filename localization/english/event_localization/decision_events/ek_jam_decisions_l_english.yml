@@ -1,0 +1,13 @@
+﻿l_english:
+ # Alehut Decision
+ reclaim_ale_shut_dynasty_decision:0 "Reclaim the Legacy of Saint Alessia"
+ reclaim_ale_shut_dynasty_decision_desc:0 "The first generation of Minotaurs were born of the holy union of Saint Alessia and her Demi-God consort, Morihaus. More than any individual Cyrodiilic Nede, as Minotaurs, not just our House, but our entire people may claim distant descent from the Paravant. With her divine blood running through our veins, we need only to establish ourselves as the rightful inheritors of the Aleshut Dynasty to justify our rule over Cyrodil once more."
+ #character:alessian_100.house
+ reclaim_ale_shut_dynasty_decision_tooltip:0 "Our House shall be considered the legitimate heirs of Saint Alessia."
+ reclaim_ale_shut_dynasty_decision_confirm:0 "The Minotaurs shall reclaim ther birthright"
+
+# AleShut Decision Event
+ ale_shut_decision_event.0001.t:0 "The Return of the Aleshut Dynasty"
+ ale_shut_decision_event.0001.desc:0 "When Saint Alessia founded the First Empire of Cyrodiil, she also ushered forth a brief yet glorious era of tolerance and cooperation among the many diverse peoples she found herself ruling as Queen - Man, Mer, and Beastfolk alike.\n\nTogether, with her lover and champion, the Demi-God son of Kyne, Morihaus the Winged Bull, she gave birth to the first generation of Minotaurs, resulting in our bovine appearance and magnificent natural strength. For a time, our people were emperors, legionnaires, and governors.\n\nThough her ideals were forgotten by her later descendants, our ancestors cast out by a society they once ruled, the might and influence of the Minotaur is now once again utterly undisputed in Cyrodiil. With our rightful place returned to us at the head of this blessed Empire, it is only right for my family to reclaim the name of this most prestigious Dynasty that has always lived within our blood, raging to be heard - the name of Aleshut."
+ ale_shut_decision_event.0001.a:0 "For the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]! For Cyrodiil!"
+ #For House [ROOT.Char.GetHouse.GetNameNoTooltip]! maybe use?

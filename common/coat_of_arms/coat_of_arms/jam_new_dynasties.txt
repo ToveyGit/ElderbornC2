@@ -1,0 +1,750 @@
+﻿# Stonewrecker Ogre Dynasty
+1410500 = {
+	pattern="pattern_solid.dds"
+	color1=skyrim_lgold
+	color2=brown_medium
+	color3=brown_medium
+	color4=skyrim_lgold
+	colored_emblem={
+		color1=brown_medium
+		texture="ce_reach_frame_4.dds"
+		instance={
+			scale={ 0.575000 -1.000000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=brown_medium
+		color2=brown_medium
+		color3=brown_medium
+		texture="ce_orc_brutal.dds"
+		instance={
+			scale={ 0.520000 0.520000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=brown_medium
+		texture="ce_reach_frame.dds"
+	}
+
+	colored_emblem={
+		color1=brown_medium
+		color2=brown_medium
+		texture="ce_tamgha_turkic_17.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 0.750000 -0.750000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+# Ironhand Ogre Dynasty
+1410501 = {
+	pattern="pattern_solid.dds"
+	color1=skyrim_dpurple
+	color2=dusk_yellow
+	color3=skyrim_dpurple
+	color4=skyrim_lgold
+	colored_emblem={
+		color1=dusk_yellow
+		color2=dusk_yellow
+		color3=dusk_yellow
+		texture="ce_hand.dds"
+		instance={
+			scale={ 0.690000 0.690000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		color2=dusk_yellow
+		texture="ce_polish_ostoja.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.750000 0.750000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 0.750000 -0.750000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		texture="ce_reach_frame_3.dds"
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		texture="ce_reach_frame_4.dds"
+		instance={
+			scale={ 0.575000 -1.000000 }
+			depth=4.010000
+		}
+
+	}
+
+}
+
+# Fluteandpipe Ogre Dynasty
+1410502 = {
+	pattern="pattern_solid.dds"
+	color1=skyrim_dblue
+	color2=dusk_yellow
+	color3=skyrim_dblue
+	color4=skyrim_lgold
+	colored_emblem={
+		color1=rgb { 192 151 91 }
+		texture="ce_pillar_liege.dds"
+		instance={
+			position={ 0.500000 0.330000 }
+			scale={ 0.480000 0.480000 }
+			rotation=87
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		color2=dusk_yellow
+		color3=dusk_yellow
+		texture="ce_bugle_horn_random.dds"
+		instance={
+			position={ 0.500000 0.560000 }
+			scale={ 0.520000 0.520000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		texture="ce_reach_frame_4.dds"
+		instance={
+			depth=1.010000
+		}
+
+		instance={
+			scale={ 0.575000 -1.000000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		color2=dusk_yellow
+		texture="ce_suomenusko_kazym.dds"
+		instance={
+			position={ 0.500000 0.000000 }
+			scale={ 0.750000 0.750000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 0.750000 -0.750000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
+#Riekling easter egg dynasty sorry
+#Ship-Brought Dynasty
+1410503 = { 
+	pattern="pattern_solid.dds"
+	color1=rgb { 65 91 114 }
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=rgb { 88 108 112 }
+		texture="ce_scales_argonian_2.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 34 65 94 }
+		color2=rgb { 154 153 153 }
+		color3=rgb { 151 150 150 }
+		texture="ce_ship_lymphad.dds"
+		instance={
+			scale={ 0.950000 0.950000 }
+		}
+
+	}
+}
+#Wagluz dynasty
+1410504 = {
+	pattern="pattern_solid.dds"
+	color1=orange_dark
+	color2=skyrim_dblue
+	color3=white
+	color4=white
+	colored_emblem={
+		color1=white
+		texture="ce_reach_scribble_3.dds"
+		instance={
+			position={ 0.800000 0.500000 }
+			scale={ -0.200000 0.200000 }
+		}
+
+		instance={
+			position={ 0.200000 0.500000 }
+			scale={ 0.200000 0.200000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_reach_frame_2.dds"
+		instance={
+			scale={ 1.000000 0.900000 }
+			depth=3.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_daedra_malacath.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.620000 0.620000 }
+			depth=2.010000
+			rotation=161
+		}
+
+	}
+
+}
+
+#Moslin Dynasty of Hackdirt
+1410505 = { 
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=white
+	color3=cyrodiil_green
+	color4=cyrodiil_red
+	colored_emblem={
+		color1=cyrodiil_green
+		color2=cyrodiil_red
+		color3=cyrodiil_red
+		texture="ce_dragontail.dds"
+		instance={
+			scale={ 0.670000 0.670000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=cyrodiil_green
+		color2=rgb { 53 49 45 }
+		texture="ce_cyrodiil_frame_akatosh.dds"
+	}
+
+}
+
+#Jinn dynasty of Blackrose
+1899993 = { 
+	pattern="pattern_solid.dds"
+	color1=rgb { 67 16 47 }
+	color2=akaviri_white
+	colored_emblem={
+		color1=rgb { 64 11 43 }
+		texture="ce_shield_borderless_roundel.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=akaviri_white
+		color2=purple
+		texture="ce_african_frame_05.dds"
+		instance={
+			position={ 0.500000 0.505000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=akaviri_white
+		color2=akaviri_white
+		color3=akaviri_orange
+		texture="ce_religion_kushism.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.600000 0.600000 }
+		}
+
+	}
+
+}
+
+#Grimhorn Dynasty of Echoing Cliffs
+1899994 = { 
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=black
+	color3=gold_light
+	color4=gold_light
+	colored_emblem={
+		color1=grey_light
+		texture="ce_reach_scribble_5.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.200000 0.200000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=black
+		texture="ce_bull_rampant.dds"
+		instance={
+			position={ 0.500000 0.610000 }
+			scale={ 0.590000 0.590000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey_light
+		texture="ce_reach_frame_2.dds"
+		instance={
+			scale={ 0.800000 1.000000 }
+			depth=2.010000
+		}
+	}
+}
+
+#Bloodwater Dynasty of Bouldertree
+1899995 = { 
+	pattern="pattern_solid.dds"
+	color1=rgb { 68 15 8 }
+	color2=red
+	color3=white
+	color4=gold_light
+	colored_emblem={
+		color1=grey_light
+		texture="ce_reach_scribble_5.dds"
+		instance={
+			position={ 0.800000 0.500000 }
+			scale={ -0.200000 0.200000 }
+		}
+
+		instance={
+			position={ 0.200000 0.500000 }
+			scale={ 0.200000 0.200000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_reach_frame_3.dds"
+		instance={
+			scale={ 1.000000 0.900000 }
+			depth=3.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey_light
+		color2=white
+		color3=green
+		texture="ce_bull_head.dds"
+		instance={
+			scale={ 0.560000 0.560000 }
+			depth=2.010000
+		}
+	}
+}
+
+#Oxtooth Dynasty of Mingo
+1899997 = {
+	pattern="pattern_solid.dds"
+	color1=green_dark
+	color2=red_medium
+	color3=grey_light
+	color4=white
+	colored_emblem={
+		color1=gold_light
+		color2=gold_light
+		texture="ce_unicorn.dds"
+		instance={
+			position={ 0.500000 0.640000 }
+			scale={ 0.430000 0.430000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=gold_light
+		texture="ce_reach_tusks.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.400000 0.400000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=gold_light
+		texture="ce_reach_frame_3.dds"
+		instance={
+			scale={ 0.800000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+#Cracktooth Dynasty of Cragswallow
+1410506 = { 
+	pattern="pattern_solid.dds"
+	color1=rgb { 54 45 33 }
+	color2=cave_5
+	color3=cave_5
+	color4=goblin_orange
+	colored_emblem={
+		color1=grey
+		color2=grey
+		texture="ce_pagan_kolovrat.dds"
+		instance={
+			position={ 0.460000 0.750000 }
+			scale={ 0.530000 0.530000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_reach_frame_4.dds"
+		instance={
+			scale={ -0.575000 -1.000000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=black
+		texture="ce_nord_orkey.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.740000 0.740000 }
+			depth=1.010000
+			rotation=339
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		texture="ce_reach_frame_3.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+}
+
+#Longstride Dynasty of Tumble Arch
+1410507 = { 
+	pattern="pattern_solid.dds"
+	color1=cave_5
+	color2=dusk_yellow
+	colored_emblem={
+		color1=dusk_yellow
+		texture="ce_goblin_frame_1.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			depth=2.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		color2=dusk_yellow
+		color3=dusk_yellow
+		texture="ce_nord_mammoth.dds"
+		instance={
+			position={ 0.400000 0.500000 }
+			scale={ 0.760000 0.710000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=dusk_yellow
+		texture="ce_nord_mammoth.dds"
+		instance={
+			position={ 0.810000 0.570000 }
+			scale={ 0.420000 0.420000 }
+		}
+
+	}
+}
+
+#Wallbreaker Dynasty of Talking Stone
+1410508 = { 
+	pattern="pattern_solid.dds"
+	color1=rgb { 129 118 95 }
+	color2=troll_fat
+	color3=cave_3
+	color4=cave_2
+	colored_emblem={
+		color1=cave_2
+		texture="ce_polish_andrzejewski.dds"
+		instance={
+			position={ 0.830000 0.500000 }
+			scale={ 0.200000 0.200000 }
+		}
+
+		instance={
+			position={ 0.170000 0.500000 }
+			scale={ 0.200000 0.200000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=cave_2
+		texture="ce_reach_frame_3.dds"
+		instance={
+			depth=3.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=cave_2
+		texture="ce_nord_mammoth_skull.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.690000 0.690000 }
+			depth=2.010000
+		}
+
+	}
+}
+
+#Zeptum Dynasty, thanks to ractcoon for the original Septim COA
+1410511 = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 13 41 67 }
+	colored_emblem={
+		color1=rgb { 155 123 64 }
+		color2=rgb { 195 153 92 }
+		texture="ce_septim_cross.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			depth=8.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 16 16 16 }
+		color2=rgb { 172 136 84 }
+		texture="ce_septim_diamond.dds"
+		instance={
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 163 138 100 }
+		texture="ce_diamond_01.dds"
+		instance={
+			position={ 0.500000 0.310000 }
+			scale={ 0.080000 0.080000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=rgb { 195 166 123 }
+		texture="ce_septim_cross.dds"
+		instance={
+			position={ 0.490000 0.460000 }
+			scale={ 0.810000 0.810000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 174 142 94 }
+		texture="ce_orc_pattern_1.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.300000 0.360000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_mena_fess.dds"
+		instance={
+			position={ 0.880000 0.850000 }
+			scale={ 0.280000 0.280000 }
+			rotation=45
+		}
+
+		instance={
+			position={ 0.090000 0.860000 }
+			scale={ 0.290000 0.290000 }
+			depth=1.010000
+			rotation=136
+		}
+
+		instance={
+			position={ 0.890000 0.060000 }
+			scale={ 0.280000 0.280000 }
+			depth=2.010000
+			rotation=136
+		}
+
+		instance={
+			position={ 0.050000 0.020000 }
+			scale={ 0.290000 0.290000 }
+			depth=3.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 13 40 66 }
+		texture="ce_dunmer_sigil_degoth_4.dds"
+		instance={
+			depth=9.010000
+		}
+
+	}
+
+}
+
+#Archein dynasty of Ganbal
+1410513 = { 
+	pattern="pattern_solid.dds"
+	color1=rgb { 27 34 18 }
+	color2=skyrim_dpurple
+	color3=grey_light
+	color4=grey_light
+	colored_emblem={
+		color1=ashlander_lgold
+		color2=rgb { 16 21 16 }
+		texture="ce_dunmer_frame_greathouse_5.dds"
+		instance={
+			scale={ 0.800000 1.000000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=gold_dark
+		texture="ce_argonian_tree_1.dds"
+		instance={
+			position={ 0.500000 0.330000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=gold_dark
+		color2=black
+		color3=gold_dark
+		texture="ce_hist_5.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.850000 0.850000 }
+			depth=1.010000
+		}
+	}
+}
+
+#Solais Dynasty of Systres
+# Solais Dynasty
+450000={
+	pattern="pattern_vertical_split_01.dds"
+	color1=rgb { 75 54 98 }
+	color2=rgb { 169 169 169 }
+	color3=orange_dark
+	colored_emblem={
+		color1=white
+		color2=rgb { 75 54 98 }
+		texture="ce_norse_triquetra.dds"
+		instance={
+			position={ 0.500000 0.530000 }
+		}
+
+	}
+
+}
+
+#Caro/Darak dynasty
+dyn_darak = { #Caro (of Leyawiin)
+	pattern = "pattern_solid.dds"
+	color1 = "cyrodiil_green"
+	colored_emblem = {
+		texture = "ce_cyrodiil_leyawiin_2.dds"
+		color1 = "green"
+		color2 = "gold_light"
+		instance = {	position = { 0.5 0.485 }	scale = { 0.8 0.8 }	}
+	}	
+}

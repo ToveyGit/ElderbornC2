@@ -474,8 +474,13 @@ c_cragwallow = {
 	3256.5.16 = { holder = stuhn_1 }
 	3300.3.22 = { holder = stuhn_2 }
 	3330.12.28 = { holder = stuhn_3 }
-	3350.9.12 = { holder = stuhn_4 }
-	3384.2.21 = { holder = stuhn_5 }
+	3339.1.1 = {
+		liege = d_ansilvund 
+		holder = cracktooth_100
+	}
+	3369.1.1 = { liege = 0 }
+	#3350.9.12 = { holder = stuhn_4 }
+	#3384.2.21 = { holder = stuhn_5 }
 	3410.1.1 = { holder = stuhn_7 }
 	3451.1.1 = { holder = stuhn_9 }
 	3501.1.1 = { holder = stuhn_10 } #loses part of Ansilvund to Riften
@@ -1455,8 +1460,12 @@ c_trumble_arch = {
 	3265.4.16 = { holder = highlander_100 }
 	3299.4.12 = { holder = highlander_101 }
 	3339.8.5 = { holder = highlander_102 }
-	3357.1.7 = { holder = flamehair_1001 }
-	3405.11.21 = { holder = flamehair_1007 }
+		3357.1.1 = {
+		liege = d_heljarchen
+		holder = longstride_100
+	}
+	#3357.1.7 = { holder = flamehair_1001 }
+	#3405.11.21 = { holder = flamehair_1007 }
 	3436.2.1 = { holder = flamehair_1012 }
 	3470.1.1 = { holder = fjalr_10 }
 	3520.1.1 = { holder = fjalr_13 }
@@ -2811,9 +2820,11 @@ c_eversnow = {
 	3530.1.1 = { holder = woodhewn_105 }	
 }
 c_talking_stone = {
+	3327.1.1 = { holder = wallbreaker_999 }
 	3356.1.1 = {
-		liege = d_rorikstead
-		holder = talking_stone_1000
+		liege = d_rorikstead 
+		holder = wallbreaker_100 }
+	3364.1.1 = { liege = 0 }
 	}
 }
 d_fairmoor = {

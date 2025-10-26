@@ -1,0 +1,9 @@
+﻿l_english:
+ nick_skull_crusher:0 "the Skull Crusher"
+ nick_the_bull_of_capital:0 "the Bull of [CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ nick_the_bull_of_capital_desc:0 "Some people in [CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] see [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharYouHerHim(CHARACTER)] as a curious oddity, others as a pretentious mimic of nobility, but none can deny [CharYourHerHis(CHARACTER)] presence despite being a Minotaur."
+ nick_the_cow_of_capital:0 "the Cow of [CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ nick_the_cow_of_capital_desc:0 "Some people in [CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] see [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharYouHerHim(CHARACTER)] as a curious oddity, others as a pretentious mimic of nobility, but none can deny [CharYourHerHis(CHARACTER)] presence despite being a Minotaur."
+ nick_the_giant_of_capital:0 "the Giant of [CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ nick_the_giant_of_capital_desc:0 "Some people in [CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] see [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharYouHerHim(CHARACTER)] as a curious oddity, others as a pretentious mimic of nobility, but none can deny [CharYourHerHis(CHARACTER)]'s towering presence despite being a Giant."
+ 

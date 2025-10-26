@@ -1,0 +1,652 @@
+﻿#Grumma
+grumma_98 = {
+	name = "Ruggor"
+	dynasty = grumma
+	culture = imga
+	religion = ius_cult
+	
+	3307.1.1 = { birth = yes }
+	3330.1.1 = { add_spouse = grumma_99 }
+	3356.1.1 = { death = { death_reason = death_battle killer = barkbite_003 } }
+}
+
+grumma_99 = {
+	name = "Shusda"
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+	
+	3309.1.1 = { birth = yes }
+	3339.1.1 = { death = { death_reason = death_childbirth } }
+}
+
+grumma_100 = {
+	name = "Brump"
+	dynasty = grumma
+	culture = imga
+	religion = ius_cult
+
+	father = grumma_98
+	mother = grumma_99
+	trait = vengeful
+	trait = fickle
+	trait = patient
+	trait = education_intrigue_2
+	3339.1.1 = { birth = yes }
+	#Neighbour wood orc killed his father
+	3356.1.1 = { set_relation_rival = { reason = rival_historical target = character:barkbite_003 } }
+	#Wood orc died before he managed to do it himself
+	3372.1.1 = { trait = depressed_1 }
+	3393.1.1 = { death = { death_reason = death_depressed } }
+}
+
+grumma_101 = {
+	name = "Mrukka"
+	dynasty = grumma
+	culture = imga
+	religion = ius_cult
+	female = yes
+	father = grumma_100
+	trait = bastard
+	trait = pensive
+	trait = patient
+	disallow_random_traits = yes
+	3358.1.1 = { birth = yes }
+	3374.1.1 = {
+		remove_trait = pensive
+		trait = content
+		trait = lustful
+		trait = education_martial_2
+	}
+	3393.1.1 = {
+		remove_trait = bastard
+		#trait = bastard_founder
+		dynasty = dyn_grathor
+	}
+	3421.1.1 = { death = { death_reason = death_old_age } }
+}
+
+grumma_102 = {
+	name = "Norkak"
+	dynasty = dyn_grathor
+	culture = imga
+	religion = ius_cult
+	mother = grumma_101
+	3374.1.1 = { birth = yes }
+	3430.1.1 = { death = { death_reason = death_natural_causes } }
+}
+
+grumma_102_son = {
+	name = "Brakka"
+	dynasty = dyn_grathor
+	culture = imga
+	religion = ius_cult
+	father = grumma_102
+	3401.1.1 = { birth = yes }
+	3406.1.1 = { death = { death_reason = death_sickly } }
+}
+
+grumma_102b = {
+	name = "Imta"
+	dynasty = dyn_grathor
+	culture = imga
+	religion = ius_cult
+	female = yes
+	mother = grumma_101
+	3378.1.1 = { birth = yes }
+	3428.1.1 = { death = { death_reason = death_feast_accident } }
+}
+
+grumma_103 = {
+	name = "Norkak"
+	dynasty = dyn_grathor
+	culture = imga
+	religion = ius_cult
+	mother = grumma_102b
+	3406.1.1 = { birth = yes }
+	3468.1.1 = { death = yes }
+}
+
+#Leafeater
+leafeater_98 = {
+	name = "Gruli"
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+	
+	3283.1.1 = { birth = yes }
+	3356.1.1 = { death = { death_reason = death_old_age } }
+}
+
+leafeater_99 = {
+	name = "Krobuk"
+	dynasty = leafeater
+	culture = imga
+	religion = ius_cult
+	
+	3286.1 = { birth = yes }
+	3310.1.1 = { add_spouse = leafeater_98 }
+	3351.1.1 = { death = { death_reason = death_old_age } }
+}
+
+leafeater_100 = {
+	name = "Imta" 
+	dynasty = leafeater
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+
+	father = leafeater_99
+	mother = leafeater_98
+	
+	3319.1.1 = { birth = yes }
+	3350.1.1 = { 
+		add_matrilineal_spouse = leafeater_101
+	}
+	3418.1.1 = { death = yes }
+}
+
+leafeater_101 = {
+	name = "Malthak"
+	culture = imga
+	religion = ius_cult
+
+	3327.1.1 = { birth = yes }
+	3398.1.1 = { death = yes }
+}
+
+leafeater_102 = {
+	name = "Nukh"
+	dynasty = leafeater
+	culture = imga
+	religion = ius_cult
+
+	father = leafeater_101
+	mother = leafeater_100
+	
+	3345.1.1 = { birth = yes }
+	3417.1.1 = { death = yes }
+}
+
+leafeater_103 = {
+	name = "Batum"
+	dynasty = leafeater
+	culture = imga
+	religion = ius_cult
+
+	father = leafeater_101
+	mother = leafeater_100
+	
+	3347.1.1 = { birth = yes }
+	3349.1.1 = { death = { death_reason = death_sickly } }
+}
+
+leafeater_104 = {
+	name = "Mokar"
+	dynasty = leafeater
+	culture = imga
+	religion = ius_cult
+
+	father = leafeater_101
+	mother = leafeater_100
+	
+	3353.1.1 = { birth = yes }
+	3423.1.1 = { death = yes }
+}
+
+#Cliffshade Dynasty
+cliffshade_98 = {
+	name = "Thramak"
+	dynasty = cliffshade
+	culture = imga
+	religion = ius_cult
+
+	3285.1.1 = { birth = yes }
+	3310.1.1 = { add_spouse = cliffshade_99 }
+	3355.1.1 = { death = { death_reason = death_old_age } }
+}
+
+cliffshade_99 = {
+	name = "Groshi"
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+
+	3285.1.1 = { birth = yes }
+	3358.1.1 = { death = { death_reason = death_old_age } }
+}
+
+cliffshade_100 = {
+	name = "Kukka"
+	dynasty = cliffshade
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+
+	father = cliffshade_98
+	mother = cliffshade_99
+
+	3327.1.1 = { birth = yes }
+	3392.1.1 = { death = yes }	
+}
+
+#Thokra
+thokra_98 = {
+	name = "Gorga"
+	dynasty = thokra
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+
+	3285.1.1 = { birth = yes }
+	3310.1.1 = { add_matrilineal_spouse = thokra_99 }
+	3355.1.1 = { death = { death_reason = death_old_age } }
+}
+
+thokra_99 = {
+	name = "Hurg"
+	dynasty = thokra
+	culture = imga
+	religion = ius_cult
+
+	3285.1.1 = { birth = yes }
+	3358.1.1 = { death = { death_reason = death_old_age } }
+}
+
+thokra_100 = {
+	name = "Wumog"
+	dynasty = thokra
+	culture = imga
+	religion = ius_cult
+
+	3305.1.1 = { birth = yes }
+	3378.1.1 = { death = yes }	
+}
+
+#Apana
+apana_100 = {
+	name = "Batum"
+	dynasty = apana
+	culture = imga
+	religion = ius_cult
+
+	3332.1.1 = { birth = yes }
+	3352.1.1 = { add_spouse = apana_101 }
+	3368.1.1 = { 
+		death = { death_reason = death_murder_known killer = hammuhan_100 }
+	}
+}
+
+apana_101 = {
+	name = "Krela"
+	culture = imga
+	religion = ius_cult
+
+	trait = arcana_good_2
+
+	female = yes
+
+	3331.1.1 = { birth = yes }
+	3368.1.1 = { 
+		death = { death_reason = death_murder_known killer = hammuhan_100 }
+	}
+}
+
+apana_102 = {
+	name = "Kodru"
+	dynasty = apana
+	culture = imga
+	religion = ius_cult
+
+	trait = arcana_good_1
+
+	father = apana_100
+	mother = apana_101
+
+	3350.1.1 = { birth = yes }
+	3368.1.1 = { death = { death_reason = death_murder_known killer = hammuhan_100 } }
+}
+
+apana_103 = {
+	name = "Thulkar"
+	dynasty = apana
+	culture = imga
+	religion = ius_cult
+
+	father = apana_100
+	mother = apana_101
+
+	3352.1.1 = { birth = yes }
+	3368.1.1 = { death = { death_reason = death_murder_known killer = hammuhan_100 } }
+}
+
+apana_104 = {
+	name = "Rulgu"
+	dynasty = apana
+	culture = imga
+	religion = ius_cult
+
+	female = yes
+
+	trait = pensive
+	trait = diligent
+	
+	trait = arcana_good_2
+	trait = sign_serpent
+
+	disallow_random_traits = yes
+
+	father = apana_100
+	mother = apana_101
+
+	3353.1.1 = { birth = yes }
+    3368.1.1 = { 
+		set_relation_nemesis = {
+			target = character:hammuhan_100
+			reason = nemesis_historical # murdered her whole family
+		}
+		add_pressed_claim = title:c_predator_mesa
+		trait = vengeful
+		trait = paranoid
+	}
+	3369.1.1 = { 
+		remove_trait = pensive
+		trait = education_learning_3
+		trait = necromancer
+		effect = {
+			add_arcana_skill = { VALUE = 10 }
+			add_necromancy_perk_effect = { LEVEL = 5 }
+		}
+	}
+    # 3378.1.1 killed hammuhan_100 and conquered the county
+	# 3378.1.1 also conquers Meirvale
+    3390.1.1 = { 
+		add_trait = lich_character
+		add_character_flag = artificial_lifespan
+	
+	}
+	3494.1.1 = { death = { death_reason = death_battle killer = merryvale_razum_dar } }	# killed by Razum Dar
+}
+
+#Malga
+malga_98 = {
+	name = "Vonsha"
+	dynasty = malga
+	culture = imga
+	religion = anui_el
+
+	female = yes
+
+	3305.1.1 = { birth = yes }
+	3322.1.1 = { add_matrilineal_spouse = malga_99 }
+	3352.1.1 = { death = { death_reason = death_accident } }		
+}
+
+malga_99 = {
+	name = "Halak"
+	culture = imga
+	religion = anui_el
+
+	3309.1.1 = { birth = yes }
+	3352.1.1 = { death = { death_reason = death_accident } }	
+}
+
+malga_100 = {
+	name = "Tavakh"
+	dynasty = malga
+	culture = imga
+	religion = anui_el
+
+	father = malga_99
+	mother = malga_98
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_headgear=male_empty
+			custom_hair=male_hair_legolas_01
+			custom_clothes=clothes_altmer_male_noble_01_high
+			custom_legwear=legwear_altmer_male_noble_01_high
+		}
+	}
+
+	3326.1.1 = { birth = yes }
+	3407.1.1 = { death = yes }	
+}
+
+malga_101 = {
+	name = "Ril"
+	dynasty = malga
+	culture = imga
+	religion = anui_el
+
+	female = yes
+
+	father = malga_99
+	mother = malga_98
+
+	3323.1.1 = { birth = yes }
+	3352.1.1 = { death = { death_reason = death_accident } }		
+}
+
+malga_102 = {
+	name = "Lunk"
+	dynasty = malga
+	culture = imga
+	religion = anui_el
+
+	father = malga_99
+	mother = malga_98
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_rtt_02
+			custom_clothes=clothes_altmer_male_noble_war_01
+			custom_legwear=legwear_altmer_male_noble_war_01
+		}
+	}
+
+	3336.1.1 = { birth = yes }
+	3405.1.1 = { death = yes }	
+}
+
+#Kraxar dynasty - original rulers of Hectaran
+kraxar_001 = {
+	name = "Grulm"
+	dynasty = dyn_kraxar
+	culture = imga
+	religion = ius_cult
+	200.1.1 = { birth = yes }
+	260.1.1 = { death = { death_reason = death_battle killer = wenayalae_002 } }
+}
+
+#Imga rebel, fries up some Ayleids, frees her people
+nagon_001 = { #Also good at desctruction and summoning daedra
+	name = "Vrunda"
+	dynasty = dyn_nagon
+	culture = imga
+	religion = ius_cult
+	female = yes
+	trait = ambitious
+	trait = vengeful
+	trait = just
+	trait = arcana_good_3
+	trait = education_martial_4
+	3421.1.1 = { birth = yes }
+	3499.1.1 = { death = { death_reason = death_old_age } }
+}
+
+# Commoners
+
+southpointimga = {
+	name = "Bromm"
+	culture = cyro_imga
+	religion = niben_cult
+
+	trait = education_martial_4
+	trait = strong
+	trait = giant
+	3332.1.1 = { birth = yes }
+	3339.1.1 = { employer = zantonius_1 }
+	3450.1.1 = { death = yes }
+}
+
+# Alessian Order
+
+marukh_100 = {
+	name = "Marukh"
+	dynasty = dyn_tamrugh
+	culture = imga
+	religion = alessian
+	dna = marukhar_999_dna_entry
+
+	260.1.1 = { birth = yes }
+	276.1.1 = {
+		trait = education_learning_4
+		trait = lifestyle_mystic
+		trait = theologian
+		trait = zealous
+		trait = callous
+		trait = temperate
+		give_nickname = nick_the_prophet
+	}
+	368.1.1 = { death = yes }
+}
+
+# tam-rugh
+marukh_97 = {
+	name = "Dulsa"
+	culture = imga
+	religion = imperial_cult
+	female = yes
+
+	261.1.1 = { birth = yes }
+	340.1.1 = { death = yes }
+}
+
+marukh_101 = {
+	name = "Morumhug"
+	dynasty = dyn_tamrugh
+	culture = cyro_imga
+	religion = alessian
+
+	father = marukh_100
+	mother = marukh_97
+	
+	trait = wild_oat
+	trait = order_member
+
+	277.1.1 = { birth = yes }
+	370.1.1 = { death = yes }
+}
+
+marukhar_98 = {
+	name = "Morumhug"
+	dynasty = dyn_tamrugh
+	religion = temple_one
+	culture = cyro_imga
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	disallow_random_traits = yes
+	father = marukh_101
+	1122.1.1 = { birth = yes }
+	1122.1.1 = { give_nickname = nick_line_of }
+	2000.1.1 = { death = yes }
+}
+
+marukhar_99 = { #Grifter pretending to be the descendant of Marukh to gain political power and bring back Alessian fervor
+	name = "Marukhar"
+	dynasty = dyn_tamrugh
+	culture = cyro_imga
+	religion = alessian
+	dna = marukhar_999_dna_entry
+
+	father = marukhar_98
+
+	trait = deceitful
+	trait = zealous
+	trait = stubborn
+	trait = ambitious
+
+	trait = education_martial_4
+	trait = disputed_heritage
+	trait = heresiarch
+	trait = possessed_1
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp2_iberian_christian_02
+			custom_beards=male_beard_indian_03
+		}
+	}
+
+	3321.3.1 = { birth = yes }
+	3356.1.1 = { set_relation_rival = { reason = rival_historical target = character:varyuis_100 } }
+	3356.1.1 = { set_relation_friend = { reason = friend_generic_history target = character:locundus_1000 } }
+	3359.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = religious_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = cultural_rights
+				level = 1
+			}
+		}
+	}
+	3359.1.1 = {
+		effect = {
+			vassal_contract_set_obligation_level = {
+				type = title_revocation_rights
+				level = 1
+			}
+		}
+	}
+	3360.1.1 = {
+		effect = {
+        root.dynasty = {
+            add_dynasty_prestige = 4000
+			}
+		}
+	}
+	#3366.1.1 = { set_relation_rival = { reason = rival_historical target = character:varyuis_1000 } }
+	3430.1.1 = { death = yes }
+	}
+
+marukhar_100 = { # His son fully believes his father's claims and has no idea their ancestry is a lie
+	name = "Fervukh"
+	dynasty = dyn_tamrugh
+	culture = cyro_imga
+	religion = alessian
+
+	father = marukhar_99
+
+	trait = education_diplomacy_4
+	trait = trusting
+	trait = calm
+	trait = patient
+	trait = loyal
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_01
+		}
+	}
+	
+	3344.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}

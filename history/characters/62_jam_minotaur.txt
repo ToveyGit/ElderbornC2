@@ -1,0 +1,290 @@
+﻿#Grimhorn
+grimhorn_100 = {
+	name = "Domihaus"
+	dynasty = 1899994
+	culture = minotaur
+	religion = minotaur_shamanism
+	
+	trait = brave
+	trait = wrathful
+	trait = callous
+	trait = education_martial_4
+	trait = unyielding_defender
+	disallow_random_traits = yes
+	
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair=male_hair_northern_01
+		}
+	}
+	
+	3327.1.1 = { birth = yes }
+	3353.1.1 = { add_spouse = grimhorn_101 }
+	3386.1.1 = { death = yes }
+}
+
+grimhorn_101 = {
+	name = "Paravah"
+	culture = minotaur
+	religion = hero_cult
+
+	female = yes
+	
+	trait = gregarious
+	trait = content
+	trait = compassionate
+	trait = education_stewardship_4
+	trait = poet
+	trait = p_ch_morihaus
+	disallow_random_traits = yes
+	
+	
+	3329.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+
+grimhorn_102 = {
+	name = "Belharza"
+	dynasty = 1899994
+	culture = minotaur
+	religion = hero_cult
+
+	father = grimhorn_100
+	mother = grimhorn_101
+	
+	trait = p_ch_morihaus
+	
+	
+	3355.3.17 = { birth = yes }
+	3423.1.1 = { death = yes } 
+}
+
+#Bloodwater
+bloodwater_100 = {
+	name = "Mammu"
+	dynasty = 1899995
+	culture = minotaur
+	religion = minotaur_shamanism
+	female = yes
+	
+	trait = lustful
+	trait = fickle
+	trait = ambitious
+	trait = loyal
+	trait = education_stewardship_4
+	disallow_random_traits = yes
+	
+	3338.7.4 = { birth = yes }
+	3421.1.1 = { death = yes }
+}
+
+# Oxtooth Dynasty
+oxtooth_100 = {
+	name = "Alahmoot"
+	dynasty = 1899997
+	culture = minotaur
+	religion = minotaur_shamanism
+	
+	trait = rowdy
+	trait = brave
+	
+	martial = 10
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_rtt_01
+			custom_beards=male_beard_northern_03
+		}
+	}
+	
+	3351.1.11 = { birth = yes }
+	#3368.12.12 = { religion = hircine_cult }
+	3365.1.1 = { 
+		remove_trait = rowdy
+		trait = zealous
+		trait = ambitious
+		trait = education_martial_4
+		trait = unyielding_defender
+		}
+	3382.1.1 = { death = yes }
+}
+
+#lowborn
+valvazan_100 = {
+	name = "Goht"
+	culture = minotaur
+	religion = hero_cult
+	
+	trait = gregarious
+	trait = eccentric
+	trait = brave
+	trait = loyal
+	trait = education_martial_5
+	trait = p_ch_morihaus
+	trait = varangian
+	trait = strong
+	disallow_random_traits = yes
+	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_headgear=male_headgear_secular_colovian_01
+		}	
+	}
+	
+	3340.5.9 = { birth = yes }
+	3341.1.1 = { culture = men_of_tor }
+	3342.1.1 = { effect = { learn_language = language_cyrodiilic } }
+	3366.1.1 = {
+		employer = tor_912
+		liege = {
+			appoint_court_position = {
+				recipient = root
+				court_position = seneschal_court_position
+			}
+		}
+	}
+	3421.1.1 = { death = yes }
+}
+
+wanahta_100 = {
+	name = "Wanahta"
+	culture = minotaur
+	religion = minotaur_shamanism
+	female = yes 
+
+	trait = albino
+	trait = witch
+	trait = devoted	
+	trait = shrewd
+
+	3274.12.3 = { birth = yes }
+	3319.1.1 = { 
+		effect = {
+			add_trait = lifespan_magic_1
+			add_character_flag = artificial_lifespan
+			add_character_flag = natural_lifespan_0
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	3319.1.3 = { give_nickname = nick_the_white }
+	3421.1.1 = { death = yes }
+}
+
+#Bullblood Honorguard
+
+maudivah_100 = {
+	name = "Maudivah"
+	culture = minotaur
+	religion = minotaur_shamanism
+	female = yes 
+
+	trait = education_martial_4
+
+	prowess = 10
+
+	3315.5.4 = { birth = yes }
+	3350.1.1 = { employer = bullblood_1000 }
+	3360.1.1 = { employer = bullblood_1000 }
+	3377.1.1 = { death = yes }
+}
+
+maudivah_101 = {
+	name = "Zaetar"
+	culture = minotaur
+	religion = minotaur_shamanism 
+	trait = twin
+	trait = scarred
+
+	mother = maudivah_100
+
+	trait = education_martial_3
+
+	prowess = 10
+
+	3333.1.5 = { birth = yes }
+	3350.1.1 = { employer = bullblood_1000 }
+	3360.1.1 = { employer = bullblood_1000 }
+	3398.1.1 = { death = yes }
+}
+
+maudivah_102 = {
+	name = "Helaku"
+	culture = minotaur
+	religion = minotaur_shamanism 
+	trait = twin
+
+	mother = maudivah_100
+
+	trait = education_martial_3
+
+	prowess = 10
+
+	3333.1.5 = { birth = yes }
+	3350.1.1 = { employer = bullblood_1000 }
+	3360.1.1 = { employer = bullblood_1000 }
+	3411.1.1 = { death = yes }
+}
+
+
+#history
+
+alessian_103menoftor = {
+	name = "Alessia" #Lore
+	dynasty = 4
+	religion = imperial_cult
+	culture = men_of_tor
+	dna = alessia_dna_entry
+	
+	father = alessian_101 #Morihaus
+	mother = alessian_100 #Alessia
+	
+	trait = line_of_x
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_beards=male_empty
+			}
+		}
+	
+	247.1.1 = {	birth = yes }
+	248.1.1 = { give_nickname = nick_line_of }
+	327.1.1 = { death = yes }
+}
+
+alessian_103minotaur = {
+	name = "Alessia" #Lore
+	dynasty = 4
+	religion = minotaur_shamanism
+	culture = minotaur
+	dna = alessia_dna_entry
+	
+	father = alessian_103menoftor
+
+	trait = line_of_x
+	trait = disinherited
+	trait = denounced
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	
+	portrait_override={
+			portrait_modifier_overrides={
+				custom_beards=male_empty
+			}
+		}
+	
+	307.1.1 = {	birth = yes }
+	308.1.1 = { give_nickname = nick_line_of }
+	388.1.1 = { death = yes }
+}

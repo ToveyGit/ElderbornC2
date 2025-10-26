@@ -1,0 +1,1351 @@
+﻿##New Mannish cultures
+dunkreathi = {
+	color = { 0.28 0.24 0.55 }
+	
+	created = 350.1.1
+	parents = { atmoran }
+	history_loc_override = dunkreathi_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_atmoran
+	language = language_nordic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_nord_core
+		tradition_isolationist
+		#tradition_philosophy_of_trade
+		tradition_loyal_soldiers
+		tradition_mountain_homes
+		tradition_frugal		
+	}
+	
+	name_list = name_list_eastmarcher
+	
+	coa_gfx = { norse_coa_gfx nord_group_coa_gfx }
+	building_gfx = { ek_nordic_building_gfx }
+	clothing_gfx = { ek_nordic_clothing_gfx }
+	clothing_gfx = { ek_cyro_nordic_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		12 = race_nord_1
+		14 = race_nord_2
+		9 = race_nord_3
+		11 = race_nord_4
+		5 = race_nord_cyronord_1
+		5 = race_nord_cyronord_2
+		5 = race_nord_cyronord_3
+		5 = race_nord_cyronord_4
+		5 = race_nord_cyronord_5
+	}
+}
+
+karthholder = {
+	color = { 0.15 0.46 0.53 }
+	#color = { 0.21 0.46 0.53 }
+	#color = { 0.37 0.62 0.63 }
+	#color = { 0.0 0.51 0.5 }
+	
+	created = 350.1.1	
+	parents = { westmarcher }
+	history_loc_override = karthholder_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_atmoran
+	language = language_nordic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_nord_core
+		tradition_bards
+		tradition_ruling_caste		
+		tradition_salvaged_dwemer_machines
+		tradition_mountain_homes
+	}
+	
+	name_list = name_list_westmarcher
+	
+	coa_gfx = { norse_coa_gfx nord_group_coa_gfx }
+	building_gfx = { ek_westholder_building_gfx }
+	clothing_gfx = { ek_nordic_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		20 = race_nord_1
+		20 = race_nord_2
+		20 = race_nord_3
+		20 = race_nord_4
+		10 = race_nede_reachfolk_1
+		10 = race_nord_cyronord_1
+	}
+}
+
+bendmarcher = {
+	color = { 0.8 0.4 0.4 }
+	
+	
+	created = 350.1.1	
+	parents = { westmarcher forebear }
+	history_loc_override = bendmarcher_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_atmoran
+	language = language_nordic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_nord_core
+		tradition_bards
+		tradition_quarrelsome		
+		tradition_martial_admiration
+		tradition_highland_warriors
+	}
+	
+	name_list = name_list_bendmarcher
+	
+	coa_gfx = { norse_coa_gfx nord_group_coa_gfx redguard_group_coa_gfx }
+	building_gfx = { ek_redguard_building_gfx }
+	clothing_gfx = { ek_bendmarcher_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		13 = race_nord_1
+		12 = race_nord_2
+		12 = race_nord_3
+		13 = race_nord_4
+		2 = race_redguard_yoku_1
+		2 = race_redguard_yoku_2
+		2 = race_redguard_yoku_3
+		9 = race_redguard_forebear_1
+		8 = race_redguard_forebear_2
+		9 = race_redguard_forebear_3
+		9 = race_redguard_forebear_4
+		3 = race_redguard_crown_1
+		3 = race_redguard_crown_2
+		3 = race_redguard_crown_3
+	}
+}
+
+belkarther = {
+	#color = { 0.4 0.35 0.26 }
+	#color = { 0.43 0.21 0.1 }
+	#color = { 0.38 0.25 0.32 }
+	#color = { 0.44 0.26 0.09 }
+	#color = { 0.74 0.5 0.5 }
+	color = { 0.82 0.4 0.1 }
+		
+	created = 350.1.1
+	parents = { forebear duraki }
+	history_loc_override = snowruby_orc_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_yokudan
+	language = language_tamrielic_yoku
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_soulbound_defenders
+		tradition_redguard_core
+		tradition_hill_dwellers
+		tradition_fervent_temple_builders
+	}
+	#dlc_tradition = {
+		#trait = tradition_fp2_malleable_subjects
+		#requires_dlc_flag = the_fate_of_iberia
+		#fallback = tradition_loyal_soldiers
+	#}
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_philosopher_culture
+	}
+
+	name_list = name_list_forebear
+	#name_list = name_list_duraki
+	
+	coa_gfx = { redguard_group_coa_gfx }
+	building_gfx = { ek_redguard_building_gfx }
+	clothing_gfx = { ek_nedic_keptu_clothing_gfx }
+	#clothing_gfx = { ek_redguard_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		15 = race_redguard_forebear_1
+		15 = race_redguard_forebear_2
+		15 = race_redguard_forebear_3
+		15 = race_redguard_forebear_4
+		1 = race_redguard_crown_1
+		1 = race_redguard_crown_2
+		1 = race_redguard_crown_3
+		1 = race_imperial_colovian_1_dark
+		1 = race_imperial_colovian_4_dark
+		1 = race_imperial_colovian_5_dark
+	}
+}
+
+bangkorite = {
+	color = { 0.63 0.84 0.71 }
+		
+	created = 350.1.1
+	parents = { forebear iliac }
+	history_loc_override = mingling_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_yokudan
+	language = language_bretic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_redguard_core
+		tradition_dryland_dwellers
+		tradition_iliac_core
+		tradition_maritime_mercantilism
+	}
+
+	name_list = name_list_bangkorite
+	
+	coa_gfx = { redguard_group_coa_gfx ek_breton_group_coa_gfx }
+	building_gfx = { ek_redguard_building_gfx }
+	clothing_gfx = { ek_breton_clothing_gfx  }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		14 = race_redguard_forebear_1
+		14 = race_redguard_forebear_2
+		14 = race_redguard_forebear_3
+		14 = race_redguard_forebear_4
+		4 = race_redguard_crown_1
+		3 = race_redguard_crown_2
+		3 = race_redguard_crown_3
+		5 = race_breton_glenumbran_1
+		5 = race_breton_glenumbran_2
+		5 = race_breton_glenumbran_3
+		5 = race_breton_bjoule_1
+		5 = race_breton_bjoule_2
+		4 = race_breton_bjoule_3
+		1 = race_breton_glenumbran_elven_1
+		1 = race_breton_glenumbran_elven_2
+		1 = race_breton_glenumbran_elven_3
+		1 = race_breton_northman_1
+		1 = race_breton_northman_2
+	}
+}
+
+systrean = {
+	color = { 0.44 0.42 0.40 }
+			
+	created = 350.1.1
+	parents = { galen colovian }
+	history_loc_override = breton_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_breton
+	language = language_bretic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_maritime_mercantilism
+		tradition_cutthroat_politics
+		tradition_attuned_to_magicka
+		tradition_coastal_defences
+	}
+	
+	name_list = name_list_systrean
+	
+	coa_gfx = { ek_breton_group_coa_gfx }
+	building_gfx = { ek_iliac_building_gfx }
+	clothing_gfx = { ek_breton_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = race_breton_glenumbran_1
+		10 = race_breton_glenumbran_2
+		10 = race_breton_glenumbran_3
+		5 = race_breton_glenumbran_elven_1
+		5 = race_breton_glenumbran_elven_2
+		5 = race_breton_glenumbran_elven_3
+		7 = race_imperial_colovian_1
+		7 = race_imperial_colovian_2
+		7 = race_imperial_colovian_3
+		7 = race_imperial_colovian_4
+	}
+}
+
+elinhiri = {
+	color = { 0.94 0.9 0.67  }
+		
+	created = 350.1.1
+	parents = { colovian forebear }
+	history_loc_override = elinhiri_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_cyrodiilic
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_legacy
+		tradition_cyrodiilic_core
+		tradition_imperial_battlemages
+		tradition_sorcerer_kings	
+		tradition_hill_dwellers
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_colovian
+	
+	coa_gfx = { cyrodiilic_group_coa_gfx }
+	building_gfx = { ek_colovian_building_gfx }
+	clothing_gfx = { ek_colovian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = race_imperial_colovian_1
+		9 = race_imperial_colovian_2
+		9 = race_imperial_colovian_3
+		9 = race_imperial_colovian_4
+		9 = race_imperial_colovian_1_dark
+		9 = race_imperial_colovian_4_dark
+		9 = race_imperial_colovian_5_dark
+		9 = race_redguard_forebear_1
+		9 = race_redguard_forebear_2
+		9 = race_redguard_forebear_3
+		9 = race_redguard_forebear_4
+		2 = race_redguard_crown_1
+		2 = race_redguard_crown_2
+		2 = race_redguard_crown_3
+	}
+}
+
+wealdish = {
+	color = { 0.92 0.69 0.55 }
+		
+	created = 350.1.1
+	parents = { colovian }
+	history_loc_override = wealdish_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_cyrodiilic
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_legacy
+		tradition_cyrodiilic_core
+		tradition_colovian_core
+		tradition_ruling_caste
+		tradition_talent_acquisition
+		tradition_warriors_of_the_dry
+	}
+	
+	name_list = name_list_colovian
+	
+	coa_gfx = { cyrodiilic_group_coa_gfx }
+	building_gfx = { ek_colovian_building_gfx }
+	clothing_gfx = { ek_colovian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = race_imperial_colovian_1
+		5 = race_imperial_colovian_2
+		5 = race_imperial_colovian_3
+		5 = race_imperial_colovian_4
+		2 = race_imperial_colovian_1_dark
+		2 = race_imperial_colovian_4_dark
+		2 = race_imperial_colovian_5_dark
+		2 = race_breton_glenumbran_elven_1
+		2 = race_breton_glenumbran_elven_2
+		2 = race_breton_glenumbran_elven_3
+	}
+}
+
+gideonese = {
+	color = { 0.8 0.35 0.35 }	
+	
+	created = 350.1.1
+	parents = { nibenese }
+	history_loc_override = gideonese_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_cyrodiilic
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_legacy
+		tradition_cyrodiilic_core
+		tradition_land_dredge
+		tradition_culture_blending
+		tradition_philosophy_of_trade
+	}
+	
+	name_list = name_list_gideonese
+	
+	coa_gfx = { cyrodiilic_group_coa_gfx }
+	building_gfx = { ek_cyrodilic_building_gfx }
+	clothing_gfx = { ek_nibenese_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		5 = race_imperial_nibenese_1
+		5 = race_imperial_nibenese_2
+		4 = race_imperial_nibenese_3
+		4 = race_imperial_nibenese_4
+		4 = race_imperial_nibenese_5
+		4 = race_imperial_nibenese_6
+		3 = race_imperial_nibenese_1_dark
+		3 = race_imperial_nibenese_2_dark
+		3 = race_imperial_nibenese_3_dark
+		1 = race_imperial_nibenese_4_dark
+		1 = race_akaviri_tsaesci_1
+		1 = race_akaviri_tsaesci_2
+		1 = race_akaviri_tsaesci_3
+		1 = race_akaviri_tsaesci_4
+		1 = race_akaviri_rimmen_1
+		1 = race_akaviri_rimmen_2
+		1 = race_akaviri_rimmen_3
+		1 = race_akaviri_rimmen_4
+		1 = race_orma_1 #silly orma heehee
+		1 = race_orma_2 #silly orma heehee
+		1 = race_orma_3 #silly orma heehee
+		9 = race_koth_1
+		9 = race_koth_2
+		9 = race_koth_3
+		9 = race_kothringi_1
+		9 = race_kothringi_2
+		9 = race_kothringi_3
+	}
+}
+
+hackdirt = {
+	color = { 0.47 0.53 0.42 }
+		
+	created = 350.1.1
+	parents = { colovian }
+	history_loc_override = hackdirt_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_cyrodiilic
+	language = language_daedric
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hackdirt
+		tradition_isolationist
+		tradition_zealous_people
+		tradition_family_entrepreneurship
+		tradition_eye_for_an_eye
+	}
+	
+	name_list = name_list_hackdirt
+	
+	coa_gfx = { cyrodiilic_group_coa_gfx }
+	building_gfx = { ek_nedic_north_building_gfx }
+	clothing_gfx = { ek_colovian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = race_imperial_colovian_hackdirt
+	}
+}
+##New Akaviri Cultures
+rhaltese = {
+	color = { 1.0 0.8 0.6 }
+	
+	created = 350.1.1
+	parents = { tsaesci galen }
+	history_loc_override = ilniviri_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_tsaesci
+	language = language_bretic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tsaesci_core
+		tradition_danger_sense
+		tradition_hereditary_hierarchy
+		tradition_attuned_to_magicka
+		tradition_wild_magic
+	}
+	
+	name_list = name_list_ilniviri
+	
+	coa_gfx = { tsaesci_group_coa_gfx }
+	building_gfx = { ek_ilniviri_building_gfx }
+	clothing_gfx = { ek_bjoule_clothing_gfx }
+	clothing_gfx = { ek_akaviri_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		3 = race_akaviri_tsaesci_1
+		3 = race_akaviri_tsaesci_2
+		3 = race_akaviri_tsaesci_3
+		3 = race_akaviri_tsaesci_4
+		10 = race_akaviri_rimmen_1
+		10 = race_akaviri_rimmen_2
+		10 = race_akaviri_rimmen_3
+		10 = race_akaviri_rimmen_4
+	}
+}
+
+cybiadi = {
+	color = { 0.99 0.99 0.59 }
+	
+	created = 350.1.1
+	parents = { tsaesci yokudan }
+	history_loc_override = ilniviri_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_tsaesci
+	language = language_tamrielic_yoku
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tsaesci_core
+		tradition_danger_sense
+		tradition_abecean_piracy
+		tradition_forebear_core
+		tradition_seafaring
+	}
+	
+	name_list = name_list_ilniviri
+	
+	coa_gfx = { tsaesci_group_coa_gfx }
+	building_gfx = { ek_ilniviri_building_gfx }
+	clothing_gfx = { ek_alikr_clothing_gfx  }
+	clothing_gfx = { ek_akaviri_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = race_akaviri_tsaesci_1
+		10 = race_akaviri_tsaesci_2
+		10 = race_akaviri_tsaesci_3
+		10 = race_akaviri_tsaesci_4
+		3 = race_akaviri_rimmen_1
+		3 = race_akaviri_rimmen_2
+		3 = race_akaviri_rimmen_3
+		3 = race_akaviri_rimmen_4
+	}
+}
+
+doragoni = {
+	color = { 0.36 0.54 0.66 }
+	
+	created = 350.1.1
+	parents = { tsaesci atmoran }
+	history_loc_override = ilniviri_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_tsaesci
+	language = language_nordic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tsaesci_core
+		tradition_danger_sense
+		tradition_nord_core
+		tradition_fervent_temple_builders
+		tradition_warrior_monks
+	}
+	
+	name_list = name_list_ilniviri
+	
+	coa_gfx = { tsaesci_group_coa_gfx }
+	building_gfx = { ek_ilniviri_building_gfx }
+	clothing_gfx = { ek_cyro_nordic_clothing_gfx }
+	clothing_gfx = { ek_akaviri_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		7 = race_akaviri_tsaesci_1
+		7 = race_akaviri_tsaesci_2
+		7 = race_akaviri_tsaesci_3
+		7 = race_akaviri_tsaesci_4
+		6 = race_akaviri_rimmen_1
+		6 = race_akaviri_rimmen_2
+		6 = race_akaviri_rimmen_3
+		6 = race_akaviri_rimmen_4
+	}
+}
+##Evil cultures
+volkihar = {
+	color = { 0.0 0.11 0.23 }
+	
+	
+	created = 350.1.1	
+	parents = { westmarcher }
+	history_loc_override = volkihar_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_atmoran
+	language = language_nordic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_nord_core
+		tradition_hereditary_hierarchy
+		tradition_quarrelsome
+		tradition_cutthroat_politics
+		tradition_isolationist
+	}
+	
+	name_list = name_list_westmarcher
+	
+	coa_gfx = { norse_coa_gfx nord_group_coa_gfx }
+	building_gfx = { ek_westholder_building_gfx }
+	clothing_gfx = { ek_nordic_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		10 = race_nord_1
+		5 = race_nord_2
+		9 = race_nord_3
+		9 = race_nord_4
+		5 = race_breton_northman_1
+		5 = race_breton_northman_2
+		5 = race_nede_reachfolk_1
+		5 = race_nede_reachfolk_2
+		5 = race_nede_reachfolk_3
+	}
+}
+
+gray_islander = {
+	color = { 0.66 0.66 0.66 }	
+	
+	created = 350.1.1
+	history_loc_override = gray_islander_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_breton
+	language = language_bretic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_conquerors
+		tradition_coastal_defences
+		tradition_wild_magic
+		tradition_by_the_sword
+	}
+	
+	name_list = name_list_northmen
+	
+	coa_gfx = { ek_breton_group_coa_gfx }
+	building_gfx = { ek_westholder_building_gfx }
+	clothing_gfx = { ek_northmen_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		6 = race_breton_glenumbran_1
+		5 = race_breton_glenumbran_2
+		6 = race_breton_glenumbran_3
+		1 = race_breton_glenumbran_elven_1
+		1 = race_breton_glenumbran_elven_2
+		1 = race_breton_glenumbran_elven_3
+		17 = race_breton_northman_1
+		18 = race_breton_northman_2
+		3 = race_redguard_yoku_1
+		9 = race_nede_reachfolk_1
+		9 = race_nede_reachfolk_2
+		9 = race_nede_reachfolk_3
+		5 = race_nede_1_dark
+		5 = race_nede_2_dark
+		5 = race_nede_3_dark
+		1 = race_nede_1
+		1 = race_nede_2
+		1 = race_nede_3
+	}
+}
+##New Orcish cultures
+snow_orc = {
+	color = { 1.0 1.0 1.0 }
+	
+	created = 350.1.1
+	parents = { mountain_orc atmoran }
+	history_loc_override = snowruby_orc_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_orcish
+	language = language_orcish
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_orc_core
+		tradition_arsenal
+		tradition_denizens_lost_orsinium
+		tradition_mountain_homes
+		tradition_only_the_strong
+		tradition_nord_core
+	}
+	
+	name_list = name_list_mountain_orc
+	
+	coa_gfx = { orc_group_coa_gfx }
+	building_gfx = { ek_cyro_nordic_building_gfx }
+	clothing_gfx = { ek_nordic_clothing_gfx }
+	unit_gfx = { morc_unit_gfx }
+	
+	ethnicities = {
+		10 = race_orsimer
+		10 = race_orsimer_2
+		1 = race_orsimer_iron
+		1 = race_orsimer_iron_2
+	}
+}
+
+ruby_orc = {
+	color = { 0.88 0.07 0.37 }
+	
+	created = 350.1.1
+	parents = { mountain_orc heartlander }
+	history_loc_override = snowruby_orc_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_orcish
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_cyrodiilic_subject
+		tradition_arsenal
+		tradition_denizens_lost_orsinium
+		tradition_ruby_orc_core
+		tradition_only_the_strong
+	}
+	
+	name_list = name_list_mountain_orc
+	
+	coa_gfx = { orc_group_coa_gfx cyrodiilic_group_coa_gfx }
+	building_gfx = { ek_cyrodilic_building_gfx }
+	clothing_gfx = { ek_colovian_clothing_gfx }
+	unit_gfx = { morc_unit_gfx }
+	
+	ethnicities = {
+		10 = race_orsimer
+		10 = race_orsimer_2
+		5 = race_orsimer_iron
+		5 = race_orsimer_iron_2
+		5 = race_orsimer_wood
+		5 = race_orsimer_wood_2
+		10 = race_orsimer_malahk
+	}
+}
+
+sea_orc = {
+	#color = { 0.3 0.35 0.23 }
+	color = { 0.14 0.35 0.23 }
+	
+	created = 350.1.1
+	parents = { mountain_orc }
+	history_loc_override = sea_orc_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_orcish
+	language = language_orcish
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_orc_core
+		tradition_arsenal
+		tradition_forlorn_peace
+		tradition_abecean_piracy
+		tradition_only_the_strong
+		tradition_battlefield_looters
+	}
+	
+	name_list = name_list_mountain_orc
+	
+	coa_gfx = { orc_group_coa_gfx }
+	building_gfx = { ek_redguard_building_gfx }
+	clothing_gfx = { ek_sea_orc_clothing_gfx }
+	unit_gfx = { morc_unit_gfx }
+	
+	ethnicities = {
+		10 = race_orsimer
+		10 = race_orsimer_2
+		3 = race_orsimer_iron
+		3 = race_orsimer_iron_2
+		2 = race_orsimer_wood
+		2 = race_orsimer_wood_2
+		3 = race_orsimer_malahk
+	}
+}
+
+marsh_orc = {
+	color = { 0.12 0.3 0.2 }
+	
+	created = 350.1.1
+	history_loc_override = orc_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_orcish
+	language = language_orcish
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_orc_core
+		tradition_land_dredge
+		tradition_marshlanders
+		tradition_only_the_strong
+		tradition_wood_axes
+	}
+	
+	name_list = name_list_wood_orc
+	
+	coa_gfx = { orc_group_coa_gfx }
+	building_gfx = { ek_nedic_south_building_gfx }
+	clothing_gfx = { ek_nedic_south_clothing_gfx }
+	unit_gfx = { morc_unit_gfx }
+	
+	ethnicities = {
+		10 = race_orsimer_wood
+		5 = race_orsimer_malahk
+	}
+}
+
+###Goblin-Ken
+ogre = {
+	color = { 0.06 0.30 0.23 }
+	
+	created = 350.1.1
+	history_loc_override = mystery_history_loc #D#
+	
+	ethos = ethos_bellicose
+	heritage = heritage_goblinken
+	language = language_goblin
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = { #D#
+		tradition_eye_for_an_eye
+		tradition_warrior_culture
+		#formerly tradition_loyal_soldiers
+		tradition_brute_strength
+		tradition_stand_and_fight
+		tradition_fight_for_survival
+	}
+	
+	name_list = name_list_goblin #L#
+
+	coa_gfx = { goblin_group_coa_gfx }
+	building_gfx = { ek_goblin_building_gfx }
+	clothing_gfx = { ek_ogre_clothing_gfx }
+	unit_gfx = { morc_unit_gfx }
+	
+	ethnicities = {
+		50 = race_ogre_blue
+		50 = race_ogre_green
+	}
+}
+
+giantgoblin = {
+	color = { 0.29 0.33 0.13 }
+	
+	created = 350.1.1
+	history_loc_override = mystery_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_goblinken
+	language = language_goblin
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_beast_tamers
+		tradition_fight_for_survival
+		tradition_isolationist
+		tradition_dryland_dwellers
+		tradition_deep_strike
+	}
+	
+	name_list = name_list_goblin
+	
+	coa_gfx = { goblin_group_coa_gfx }
+	building_gfx = { ek_goblin_building_gfx }
+	clothing_gfx = { ek_goblin_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = race_goblin_tall
+	}
+}
+
+##New Mer Cultures
+anchoriti = {
+	color = { 0.89 0.82 0.4 }
+	
+	created = 350.1.1
+	parents = { alinor }
+	history_loc_override = anchoriti_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_aldmeri
+	language = language_daedric
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	
+	traditions = {
+		#tradition_ceremoniarchy
+		tradition_worm_cult
+		#tradition_sorcerer_kings
+		tradition_ruling_caste
+		tradition_attuned_to_magicka
+		tradition_zealous_people
+		#tradition_bloodsport
+		tradition_by_the_sword
+	}	
+
+	name_list = name_list_altmer
+	
+	coa_gfx = { aldmeris_group_coa_gfx balfiera_group_coa_gfx }
+	building_gfx = { ek_goblin_building_gfx }
+	clothing_gfx = { ek_nedic_keptu_clothing_gfx }
+	unit_gfx = { altmer_unit_gfx }
+	
+	ethnicities = {
+		10 = race_altmer_pure_1
+		10 = race_altmer_pure_2
+		10 = race_altmer
+		10 = race_altmer_ear
+		10 = race_altmer_balfieri_1 
+		10 = race_altmer_balfieri_2
+		5 = race_ayleid_1
+		5 = race_ayleid_2
+		5 = race_ayleid_1	
+		5 = race_maormer
+		7 = race_bosmer
+		5 = race_dunmer
+	}
+}
+
+oreyni = {
+	color = { 0.0 0.29 0.29 }
+		
+	created = 350.1.1
+	parents = { bosmer chi_addun }
+	history_loc_override = mingling_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_bosmeri
+	language = language_bosmeris
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_bosmer_core
+		tradition_jungle_dwellers
+		tradition_sacred_hunts
+		tradition_parliament_of_bugs
+		tradition_attuned_to_magicka
+	}	
+	
+	name_list = name_list_bosmer
+	
+	coa_gfx = { bosmer_group_coa_gfx dunmeris_group_coa_gfx }
+	building_gfx = { ek_bosmer_building_gfx }
+	clothing_gfx = { ek_bosmeri_clothing_gfx }
+	unit_gfx = { dunmer_unit_gfx }
+	
+	ethnicities = {
+		75 = race_bosmer
+		7 = race_dunmer_redoran
+		6 = race_dunmer
+		6 = race_dunmer_ear
+		6 = race_dunmer_2
+	}
+}
+
+ara_almeshini = {
+	color = { 0.51 0.21 0.21 }
+	
+	created = 350.1.1
+	parents = { chimer }
+	history_loc_override = ashlander_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_dunmeri
+	language = language_velothis
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		#tradition_bulwark_of_the_west
+		tradition_music_theory
+		#tradition_chivalry
+		tradition_sixth_house_core
+		tradition_zealous_people
+		tradition_wastelanders 
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_chivalry
+	}
+	
+	name_list = name_list_chimer
+	
+	coa_gfx = { dunmeris_group_coa_gfx }
+	building_gfx = { ek_gah_julan_building_gfx }
+	clothing_gfx = { ek_dunmer_clothing_gfx }
+	clothing_gfx = { ek_ashlander_clothing_gfx }
+	unit_gfx = { dunmer_unit_gfx }
+	
+	ethnicities = {
+		20 = race_dunmer
+		20 = race_dunmer_ear
+		20 = race_dunmer_2
+		12 = race_dunmer_ashlander
+		12 = race_dunmer_ashlander_ear
+		12 = race_dunmer_ashlander_2
+		3 = race_dunmer_shinathi
+		3 = race_dunmer_shinathi_ear
+		3 = race_dunmer_shinathi_2
+	}
+}
+##New Beastfolk cultures
+archein = {
+	#color = { 0.0 0.27 0.13 }
+	#color = { 0.0 0.20 0.10 }
+	color = { 0.0 0.23 0.13 }
+	created = 350.1.1
+	history_loc_override = argonian_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_argonian
+	language = language_jel
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_histskin
+		tradition_archein_core
+		tradition_quarrelsome
+		tradition_philosophy_of_trade
+		#tradition_cutthroat_politics
+		tradition_formation_fighting
+	}
+	
+	name_list = name_list_hleel
+	
+	coa_gfx = {  argonian_group_coa_gfx }
+	building_gfx = { ek_dres_building_gfx }
+	clothing_gfx = { ek_archein_clothing_gfx }
+	unit_gfx = { argonian_unit_gfx }
+	
+	ethnicities = {
+		10 = race_argonian
+	}
+}
+
+xanmeeri = {
+	color = { 0.09 0.08 0.0 }
+	created = 350.1.1
+	history_loc_override = xanmeeri_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_argonian
+	language = language_jel
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_histskin
+		tradition_naga_underworld
+		tradition_fortress_monasteries
+		tradition_castle_keepers
+		tradition_hard_working
+		tradition_deep_strike
+	}
+	
+	name_list = name_list_naga
+	
+	coa_gfx = { argonian_group_coa_gfx }
+	building_gfx = { ek_argonian_building_gfx }
+	clothing_gfx = { ek_xanmeeri_clothing_gfx }
+	unit_gfx = { argonian_unit_gfx }
+	
+	ethnicities = {
+		60 = race_argonian_naga
+		30 = race_argonian_sarpa
+		30 = race_argonian
+	}
+}
+
+senchalese = {
+	color = { 0.8 0.55 0.15 }
+	
+	created = 350.1.1
+	history_loc_override = pellitinian_history_loc
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_khajiiti
+	language = language_taagra
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_moonsugar_plantations
+		tradition_city_keepers
+		tradition_philosophy_of_trade
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_pellitinian
+	
+	coa_gfx = { khajiit_group_coa_gfx }
+	building_gfx = { ek_khajiit_building_gfx }
+	clothing_gfx = { ek_pellitinian_clothing_gfx }
+	unit_gfx = { khajiit_unit_gfx }
+	
+	ethnicities = {
+		10 = race_khajiit_base
+		10 = race_khajiit_wildcat
+		4 = race_khajiit_housecat
+	}
+}
+
+
+rimcat = {
+	#color = { 0.44 0.26 0.09 }
+	#color = { 0.85 0.55 0.23 }
+	color = { 0.71 0.65 0.26 }
+	
+	created = 350.1.1
+	parents = { anequinan rimmen }
+	history_loc_override = mingling_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_khajiiti
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_beasts_of_war
+		tradition_danger_sense
+		tradition_city_keepers
+		tradition_hill_dwellers
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_rimcat
+	
+	coa_gfx = { khajiit_group_coa_gfx tsaesci_group_coa_gfx }  # dravidian_group_coa_gfx removed to suppress error - He9
+	building_gfx = { ek_ilniviri_building_gfx }
+	clothing_gfx = { ek_akaviri_clothing_gfx }
+	unit_gfx = { khajiit_unit_gfx }
+	
+	ethnicities = {
+		4 = race_khajiit_base
+		4 = race_khajiit_wildcat
+		10 = race_khajiit_housecat
+	}
+}
+
+cyro_imga = {
+	color = { 0.65 0.80 0.35 }	
+	
+	created = 350.1.1
+	parents = { imga nibenese }
+	history_loc_override = ojel_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_imgan
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	
+	traditions = {
+		tradition_imperial_legacy
+		tradition_cyrodiilic_core
+		tradition_cyrodiilic_subject
+		tradition_cyro_imga_core
+		tradition_legalistic
+		tradition_zealous_people
+	}
+	
+	name_list = name_list_cyro_imga
+	
+	coa_gfx = { imga_group_coa_gfx cyrodiilic_group_coa_gfx }
+	building_gfx = { ek_cyrodilic_building_gfx }
+	clothing_gfx = { ek_nedic_old_clothing_gfx }
+	clothing_gfx = { ek_nibenese_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = race_imga_orangutang
+		10 = race_imga_gorilla
+	}
+}
+
+kitsothiit = {
+	color = { 1.0 0.60 0.40 }
+	
+	created = 350.1.1
+	parents = { lilmothiit ilniviri }
+	history_loc_override = snowruby_orc_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_lilmothiit
+	language = language_cyrodiilic
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_danger_sense
+		tradition_cyrodiilic_subject
+		tradition_life_does_part
+		tradition_marshlanders
+		tradition_life_menders
+	}
+	
+	name_list = name_list_lilmothiit
+	
+	coa_gfx = { lilmothiit_group_coa_gfx tsaesci_group_coa_gfx }  # dravidian_group_coa_gfx removed to suppress error - He9
+	building_gfx = { ek_ilniviri_building_gfx }
+	clothing_gfx = { ek_akaviri_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = race_lilmothiit
+	}
+}
+
+##Minotaurs
+
+minotaur = {
+	color = { 0.47 0.27 0.23 }
+	
+	parents = { men_of_tor }
+	created = 350.1.1
+	history_loc_override = minotaur_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_minotaur
+	language = language_minotaur
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fight_for_survival
+		tradition_isolationist
+		tradition_mountaineers
+		tradition_stalwart_defenders
+		tradition_brute_strength
+	}
+	
+	name_list = name_list_minotaur
+	
+	coa_gfx = { kothringi_coa_gfx }
+	building_gfx = { ek_nedic_north_building_gfx }
+	clothing_gfx = { ek_minotaur_clothing_gfx }
+	unit_gfx = { khajiit_unit_gfx }
+	
+	ethnicities = {
+		10 = race_minotaur
+	}
+}
+
+men_of_tor = {
+	color = { 0.4 0.0 0.04 }
+	
+	created = 350.1.1
+	history_loc_override = men_of_tor_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_minotaur
+	language = language_old_cyrod
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_legacy
+		tradition_cyrodiilic_subject
+		tradition_mountaineers
+		tradition_stalwart_defenders
+		tradition_brute_strength
+	}
+	
+	name_list = name_list_minotaur
+	
+	coa_gfx = { cyrodiilic_group_coa_gfx  }
+	building_gfx = { ek_colovian_building_gfx }
+	clothing_gfx = { ek_colovian_clothing_gfx }
+	unit_gfx = { khajiit_unit_gfx }
+	
+	ethnicities = {
+		10 = race_minotaur
+		15 = race_minotaur_menoftor
+	}
+}
+
+##Giants
+
+giant_culture = {
+	#color = { 0.58 0.46 0.63 }
+	#color = { 0.44 0.65 0.82 }
+	color = { 0.44 0.54 0.60 }
+	
+	created = 350.1.1
+	history_loc_override = mystery_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_giant
+	language = language_giant
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_brute_strength
+		tradition_pastoralists
+		tradition_isolationist
+		tradition_arctic_settlers
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_giant
+	
+	coa_gfx = { goblin_group_coa_gfx }
+	coa_gfx = { kothringi_coa_gfx }
+	coa_gfx = { reachfolk_coa_gfx }
+	building_gfx = { ek_nedic_north_building_gfx }
+	clothing_gfx = { ek_giant_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		10 = race_giant
+	}
+}
+
+sea_giant = {
+	#color = { 0.44 0.54 0.60 }
+	color = { 0.00 0.26 0.26 }
+	
+	created = 350.1.1
+	history_loc_override = mystery_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_giant
+	language = language_giant
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_brute_strength
+		tradition_deep_strike
+		tradition_isolationist
+		tradition_practiced_pirates
+		tradition_staunch_traditionalists
+		tradition_bloodsport
+	}
+	
+	name_list = name_list_giant
+	
+	coa_gfx = { norse_coa_gfx nord_group_coa_gfx }
+	building_gfx = { ek_westholder_building_gfx }
+	clothing_gfx = { ek_sea_giant_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		10 = race_sea_giant
+	}
+}

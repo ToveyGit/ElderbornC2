@@ -1,0 +1,1479 @@
+﻿##Silwer Dynasty (dyn_silwer)
+
+#House Silwer
+silwer_996 = {
+	name = "Husniya"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = horsefolk
+	female = yes
+
+	trait = education_diplomacy_3
+	trait = compassionate
+	trait = ambitious
+	trait = calm
+	trait = patient
+
+	467.1.1 = { birth = yes }
+	530.1.1 = { give_nickname = nick_the_elder }
+	560.1.1 = { death = yes }
+}
+silwer_997 = {
+	name = "Husniya"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = horsefolk
+	female = yes
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+
+	mother = silwer_996
+
+	560.1.1 = { birth = yes }
+	1030.1.1 = { give_nickname = nick_line_of }
+	3251.1.1 = { death = yes }
+}
+silwer_998 = {
+	name = "Nayvond"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+
+	mother = silwer_997
+
+	3250.1.1 = { birth = yes }
+	3271.1.1 = { add_spouse = silwer_998_wife }
+	3300.1.1 = { death = yes }
+}
+silwer_998_wife_father = {
+	name = "Aaric"
+	religion = breton_cult
+	culture = northmen
+
+	3219.1.1 = { birth = yes }
+	3240.1.1 = { add_spouse = silwer_998_wife_mother }
+	3300.1.1 = { death = yes }
+}
+silwer_998_wife_mother = {
+	name = "Ubdani"
+	female = yes
+	religion = herd_mother
+	culture = silverhoof
+
+	3220.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+silwer_998_wife = {
+	name = "Sheedeh"
+	female = yes
+	religion = herd_mother
+	culture = silverhoof
+
+	father = silwer_998_wife_father
+	mother = silwer_998_wife_mother
+
+	3249.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+silwer_999 = {
+	name = "Hakim"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+	
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = brave
+	trait = diligent
+	trait = zealous
+	trait = wrathful
+
+	father = silwer_998
+	mother = silwer_998_wife
+	
+	3290.1.1 = { birth = yes }
+	3316.1.1 = { add_spouse = silwer_999_wife }
+	3349.1.1 = { death = yes }
+}
+silwer_999_brother = {
+	name = "Joroh"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+
+	father = silwer_998
+	mother = silwer_998_wife
+	
+	3294.1.1 = { birth = yes }
+	# 3321 marries aurmine_999
+	3346.1.1 = { death = yes }
+}
+silwer_999_wife_father = {
+	name = "Firir"
+	religion = herd_mother
+	culture = silverhoof
+
+	3260.1.1 = { birth = yes }
+	3282.1.1 = { add_spouse = silwer_999_wife_mother }
+	3319.1.1 = { death = yes }
+}
+silwer_999_wife_mother = {
+	name = "Relinda"
+	female = yes
+	religion = breton_cult
+	culture = northmen
+
+	3264.1.1 = { birth = yes }
+	3319.1.1 = { death = yes }
+}
+silwer_999_wife = {
+	name = "Junah"
+	female = yes
+	religion = herd_mother
+	culture = silverhoof
+
+	father = silwer_999_wife_father
+	mother = silwer_999_wife_mother
+
+	3297.1.1 = { birth = yes }
+	3358.1.1 = { death = yes }
+}
+silwer_1000 = {
+	name = "Abadarun"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+
+	trait = education_intrigue_2
+	trait = gregarious
+	trait = diligent
+	trait = patient
+	trait = sign_thief
+
+	father = silwer_999
+	mother = silwer_999_wife
+
+	3330.12.9 = { birth = yes }
+	3350.1.1 = { add_spouse = silwer_1000_wife }
+	3385.1.1 = { death = yes }	
+}
+silwer_1000_sister = {
+	name = "Ilafa"
+	female = yes
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+
+	trait = education_stewardship_2
+	trait = patient
+	trait = content
+	trait = zealous
+	trait = sign_mage
+
+	father = silwer_999
+	mother = silwer_999_wife
+
+	3335.4.1 = { birth = yes }
+	3387.1.1 = { death = yes }
+}
+silwer_1000_wife = {
+	name = "Fadahal"
+	female = yes
+	religion = herd_mother
+	culture = silverhoof
+
+	trait = education_stewardship_1
+	trait = compassionate
+	trait = eccentric
+	trait = zealous
+	trait = sign_warrior
+
+	3332.8.25 = { birth = yes }
+	3388.1.1 = { death = yes }
+}
+
+silwer_1001 = {
+	name = "Farzazha"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+	female = yes
+
+	disallow_random_traits = yes
+
+	trait = curious
+	trait = sign_atronach
+
+	father = silwer_1000
+	mother = silwer_1000_wife
+
+	3355.11.12 = { birth = yes }
+	3370.1.1 = {
+		remove_trait = curious
+		trait = gregarious
+		trait = generous
+		trait = pensive
+	}
+	3373.1.1 = {
+		trait = education_diplomacy_2
+		trait = compassionate
+	}
+	3412.1.1 = { death = yes }	
+}
+
+silwer_1002 = {
+	name = "Abdussah"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+	
+	mother = silwer_1001
+
+	3380.1.1 = { birth = yes }
+	3437.1.1 = { death = yes }	
+}
+
+silwer_1003 = {
+	name = "Pharbadan"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+	
+	father = silwer_1002
+
+	3410.1.1 = { birth = yes }
+	3485.1.1 = { death = yes }	
+}
+
+silwer_1004 = {
+	name = "Makar"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+	female = yes
+	
+	father = silwer_1003
+
+	3430.1.1 = { birth = yes }
+	3495.1.1 = { give_nickname = nick_the_elder }
+	3513.1.1 = { death = yes }	
+}
+
+silwer_1005 = {
+	name = "Samya"
+	dynasty = dyn_silwer
+	religion = herd_mother
+	culture = silverhoof
+	female = yes
+	
+	mother = silwer_1004
+
+	3465.1.1 = { birth = yes }
+	3530.1.1 = { death = yes }	
+}
+
+#Sesnit Dynasty (dyn_sesnit)
+sesnit_100 = {
+	name = "Mansel" #Lore
+	dynasty = dyn_sesnit #Sesnit
+	religion = satakal
+	culture = yokudan
+
+	trait = lifestyle_mystic
+	trait = education_martial_3
+	trait = desert_warrior
+	trait = administrator
+	trait = ambitious
+	trait = diligent
+	trait = brave
+	trait = p_yp_satakal #Liked by Yokudan emperors
+	
+	550.1.1 = { birth = yes }
+	617.1.1 = { death = { death_reason = death_assassination }  }
+}
+
+#Torn Dynasty, last emperors of Yokuda
+torn_1 = {
+	name = "Randic" #Lore
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+
+	#You have to be good at fighting to go from peasant to emperor of Yokuda
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = lifestyle_mystic #Reason for long lifespan
+	trait = lifespan_magic_2
+	trait = peasant_leader
+	trait = zealous #Quarrels with sword-singers and stuff
+	trait = ambitious #Quarrels with sword-singers and stuff
+	trait = p_yp_satakal #Liked by Yokudan emperors
+	
+	590.1.1 = { birth = yes }
+	737.1.1 = { death = { death_reason = death_natural_causes } }
+}
+
+torn_2 = {
+	name = "Hira" #Lore
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+
+	father = torn_1
+
+	trait = lifestyle_mystic
+	trait = lifespan_magic_2
+	trait = zealous #Quarrels with sword-singers and stuff
+	trait = ambitious #Quarrels with sword-singers and stuff
+	trait = stubborn
+	trait = p_yp_satakal #Liked by Yokudan emperors
+	
+	676.1.1 = { birth = yes }
+	792.1.1 = { 
+		death = {
+			death_reason = death_duel
+			killer = hunding_2
+		} 
+	}
+}
+
+torn_line = {
+	name = "Hira" 
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+	father = torn_2
+	trait = line_of_x
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	disallow_random_traits = yes
+	
+	736.12.11 = { birth = yes }
+	737.1.1 = { give_nickname = nick_line_of }
+	3240.1.1 = { death = yes }
+}
+
+torn_98 = {
+	name = "Pawalar" 
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+	
+	father = torn_line
+	
+	3240.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+	
+}
+
+torn_99 = {
+	name = "Dasra" 
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+	female = yes
+	
+	father = torn_98
+	
+	3275.1.1 = { birth = yes }
+	3340.1.1 = { death = yes }
+}
+
+torn_100 = {
+	name = "Sameer" 
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+	
+	mother = torn_99
+	
+	3300.1.1 = { birth = yes }
+	3361.1.1 = { death = yes }
+}
+
+torn_100b = {
+	name = "Emson" 
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+	
+	mother = torn_99
+	
+	3312.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+torn_101 = {
+	name = "Delyna" 
+	dynasty = dyn_torn
+	religion = satakal
+	culture = duadri
+	female = yes
+	
+	father = torn_100
+	
+	3336.1.1 = { birth = yes }
+	3402.1.1 = { death = yes }
+}
+
+#Haba
+haba_1 = {
+	name = "Ardanan" #Lore - from High Isle :(
+	dynasty = dyn_haba
+	religion = satakal
+	culture = duadri
+
+	trait = lifestyle_mystic
+	trait = lifespan_magic_1
+	trait = p_yp_satakal #Liked by Yokudan emperors
+
+	398.1.1 = { birth = yes }
+	517.1.1 = { death = yes }
+}
+
+haba_2 = { #Invented empress
+	name = "Nazila"
+	dynasty = dyn_haba
+	religion = satakal
+	culture = duadri
+	female = yes
+
+	father = haba_1
+
+	trait = lifestyle_mystic
+	trait = lifespan_magic_1
+	trait = p_yp_satakal #Liked by Yokudan emperors
+
+	462.1.1 = { birth = yes }
+	579.1.1 = { death = yes }
+}
+
+haba_3 = { #Invented, Yokuda falls apart after his death until it's restored by Mansel Sesnit
+	name = "Yashar"
+	dynasty = dyn_haba
+	religion = satakal
+	culture = duadri
+
+	mother = haba_2
+
+	trait = lifestyle_mystic
+	trait = p_yp_satakal #Liked by Yokudan emperors
+
+	522.1.1 = { birth = yes }
+	584.1.1 = { death = { death_reason = death_assassination } }
+}
+
+#Anka Dynasty (dyn_anka)
+anka_100 = {
+	name = "Tarish_Zi" #Lore
+	dynasty = dyn_anka #Anka
+	religion = satakal
+	culture = yokudan
+
+	trait = ambitious
+	trait = callous
+	trait = brave
+	trait = education_martial_4
+	trait = overseer
+	trait = strategist
+
+	770.1.1 = { birth = yes }
+	825.1.1 = { death = yes }
+}
+
+#Al-Kanesh Dynasty (dyn_kanesh)
+kanesh_995 = {
+	name = "Yashar"
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+	
+	3200.1.1 = { birth = yes }
+	3250.1.1 = { death = yes }
+}
+kanesh_996 = {
+	name = "Kasim"
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+
+	father = kanesh_995
+	
+	3225.1.1 = { birth = yes }
+	3275.1.1 = { death = yes }
+}
+kanesh_997 = {
+	name = "Siona"
+	female = yes
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+
+	father = kanesh_996
+
+	3250.1.1 = { birth = yes }
+	3310.1.1 = { death = yes }
+}
+kanesh_997_sister = {
+	name = "Hazanah"
+	female = yes
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+
+	father = kanesh_996
+
+	3257.1.1 = { birth = yes }
+	3280.1.1 = { death = yes }
+}
+kanesh_998 = {
+	name = "Temzukar"
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+
+	mother = kanesh_997
+	
+	3275.1.1 = { birth = yes }
+	3331.1.1 = { death = yes }
+}
+kanesh_999 = {
+	name = "Kasim"
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+
+	father = kanesh_998
+
+	3301.1.1 = { birth = yes }
+	3357.1.1 = { death = yes }
+}
+kanesh_1000 = {
+	name = "Favis"
+	dynasty = dyn_kanesh
+	religion = satakal
+	culture = yokudan
+	female = yes
+
+	father = kanesh_999
+
+	trait = education_martial_4
+	trait = jungle_stalker
+	trait = zealous
+	trait = stubborn
+	trait = ambitious
+	
+	3333.1.1 = { birth = yes }
+	3399.1.1 = { death = yes }
+}
+
+#Jilani Dynasty (dyn_sutaf)
+
+jilani_1000 = { #Pirate-Lord of Ravan
+	name = "Vhosek"
+	dynasty = dyn_sutaf
+	religion = clavicus_cult
+	culture = yokudan
+	
+	trait = greedy
+	trait = callous
+	trait = pirate
+	trait = gluttonous
+	
+	3315.1.1 = { birth = yes }
+	3363.1.1 = { death = { death_reason = death_heart_ripped_out killer = na_anu_1000 } }
+}
+
+#Na Anu Dynasty (dyn_naanu)
+
+na_anu_1000 = {
+	name = "Siona"
+	dynasty = dyn_naanu
+	religion = satakal
+	culture = yokudan
+	female = yes
+	father = na_anu_1002
+	mother = na_anu_1003
+	
+	trait = wrathful
+	trait = generous
+	trait = education_diplomacy_2
+	
+	3323.1.1 = { birth = yes }
+	3335.1.1 = { trait = vengeful }
+	3335.1.1 = { trait = disfigured }
+	3335.1.1 = {
+		effect = {
+			if = {
+				limit = { character:jilani_1000 = { is_alive = yes } }		
+				set_relation_rival = { reason = rival_historical target = character:jilani_1000 } 
+			}
+		}
+	}
+	3357.1.1 = { trait = education_martial_prowess_3 }
+	3387.1.1 = { death = yes }
+}
+
+na_anu_1001 = {
+	name = "Amir"
+	dynasty = dyn_naanu
+	religion = satakal
+	culture = yokudan
+	father = na_anu_1002
+	mother = na_anu_1003
+	
+	3316.1.1 = { birth = yes }
+	3335.1.1 = { death = { death_reason = death_raid killer = jilani_1000 } }
+}
+
+na_anu_1002 = {
+	name = "Azzadal"
+	dynasty = dyn_naanu
+	religion = satakal
+	culture = yokudan
+	
+	3290.1.1 = { birth = yes }
+	3311.1.1 = { add_spouse = na_anu_1003 }
+	3335.1.1 = { death = { death_reason = death_raid killer = jilani_1000 } }
+}
+
+na_anu_1003 = {
+	name = "Ghadina"
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3287.1.1 = { birth = yes }
+	3311.1.1 = { add_spouse = na_anu_1002 }
+	3335.1.1 = { death = { death_reason = death_raid killer = jilani_1000 } }
+}
+
+#Hisan Dynasty (dyn_hisan)
+
+hisan_1000 = {
+	name = "Azadi"
+	dynasty = dyn_hisan
+	religion = herd_mother
+	culture = horsefolk
+	female = yes
+	
+	trait = lifestyle_mystic
+	
+	3285.1.1 = { birth = yes }
+	3387.1.1 = { death = yes }
+}
+
+hisan_1001 = {
+	name = "Haballa"
+	dynasty = dyn_hisan
+	religion = herd_mother
+	culture = horsefolk
+	female = yes
+	mother = hisan_1000
+	
+	3305.1.1 = { birth = yes }
+	3369.1.1 = { death = yes }
+}
+
+hisan_1002 = {
+	name = "Ahuziq"
+	dynasty = dyn_hisan
+	religion = herd_mother
+	culture = horsefolk
+	mother = hisan_1001
+	
+	3335.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+}
+
+
+#Kalam Dynasty (dyn_kalam)
+
+kalam_1000 = {
+	name = "Azzin"
+	dynasty = dyn_kalam
+	religion = herd_mother
+	culture = horsefolk
+	
+	3315.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+
+kalam_1001 = { # Conquest
+	name = "Comirr"
+	dynasty = dyn_kalam
+	religion = herd_mother
+	culture = horsefolk
+	father = kalam_1000
+	
+	trait = education_martial_2
+	trait = lifestyle_blademaster
+	trait = wrathful
+	trait = brave
+	trait = impatient
+	
+	3332.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+
+kalam_1002 = { #War
+	name = "Wafasur"
+	dynasty = dyn_kalam
+	religion = herd_mother
+	culture = horsefolk
+	father = kalam_1000
+	
+	3336.1.1 = { birth = yes }
+	3398.1.1 = { death = yes }
+	
+	trait = education_martial_4
+	trait = callous
+	trait = arbitrary
+	trait = vengeful
+}
+
+kalam_1003 = { #Famine
+	name = "Fahad"
+	dynasty = dyn_kalam
+	religion = herd_mother
+	culture = horsefolk
+	father = kalam_1000
+	
+	trait = inappetetic
+	trait = education_stewardship_1
+	trait = temperate
+	trait = honest
+	trait = callous
+	
+	3337.1.1 = { birth = yes }
+	3402.1.1 = { death = yes }
+}
+
+kalam_1004 = { # Death
+	name = "Destri"
+	dynasty = dyn_kalam
+	religion = herd_mother
+	culture = horsefolk
+	father = kalam_1000
+	
+	trait = murderer
+	trait = education_intrigue_4
+	trait = callous
+	trait = arbitrary
+	trait = patient
+	
+	3340.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+#Saraj Dynasty (dyn_saraj)
+
+saraj_1000 = {
+	name = "Yashar"
+	dynasty = dyn_saraj
+	religion = herd_mother
+	culture = horsefolk
+	
+	3343.1.1 = { birth = yes }
+	3408.1.1 = { death = yes }
+}
+
+#Na'sur Dynasty (dyn_nasur)
+
+nasur_1000 = {
+	name = "Qamar"
+	dynasty = dyn_nasur
+	religion = boethiah_cult
+	culture = yokudan
+	
+	trait = one_eyed
+	trait = pirate
+	
+	3329.1.1 = { birth = yes }
+	3375.1.1 = { death = yes }
+}
+
+#Ma'ran Dynasty (dyn_maran)
+
+maran_1000 = {
+	name = "Ghani"
+	dynasty = dyn_maran
+	religion = satakal
+	culture = yokudan
+	
+	3310.1.1 = { birth = yes }
+	3371.1.1 = { death = yes }
+}
+
+#Al-Asmar Dynasty (dyn_asmar)
+
+asmar_1000 = {
+	name = "Hosni"
+	dynasty = dyn_asmar
+	religion = satakal
+	culture = yokudan
+
+	trait = pirate
+	
+	3330.1.1 = { birth = yes }
+	3376.1.1 = { death = yes }
+}
+
+#Al-Ghanem Dynasty (dyn_ghanem)
+
+ghanem_1000 = {
+	name = "Nazir"
+	dynasty = dyn_ghanem
+	religion = satakal
+	culture = yokudan
+	
+	3344.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+
+#Abdelnour Dynasty (dyn_abdelnour)
+
+abdelnour_1000 = {
+	name = "Qara"
+	dynasty = dyn_abdelnour
+	religion = sanguine_cult
+	culture = yokudan
+	female = yes
+
+	trait = pirate
+	
+	3328.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+
+#Al-Azad Dynasty (dyn_azad)
+
+azad_1000 = {
+	name = "Nadira"
+	dynasty = dyn_azad
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3310.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+#Al-Elamin Dynasty (dyn_elamin)
+
+elamin_1000 = {
+	name = "Fadiya"
+	dynasty = dyn_elamin
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3330.1.1 = { birth = yes }
+	3398.1.1 = { death = yes }
+}
+
+#Kazemi Dynasty (dyn_kazemi)
+
+kazemi_1000 = {
+	name = "Leja"
+	dynasty = dyn_kazemi
+	religion = satakal
+	culture = duadri
+	female = yes
+
+	trait = pirate
+
+	3313.1.1 = { birth = yes }
+	3363.1.1 = { death = yes }
+}
+
+#Al-Rahaim Dynasty (dyn_rahaim)
+
+rahaim_1000 = {
+	name = "Sura"
+	dynasty = dyn_rahaim
+	religion = idealmasters
+	culture = yokudan
+	father = yokudanlowborn_1002
+	
+	trait = necromancer
+	
+	3320.1.1 = { birth = yes }
+	3383.1.1 = { death = yes }
+}
+
+#Hel G'ye Dynasty (dyn_helgye)
+
+hel_gye_1000 = {
+	name = "Khab"
+	dynasty = dyn_helgye
+	religion = satakal
+	culture = yokudan
+	
+	3250.1.1 = { birth = yes }
+	3305.1.1 = { trait = lifespan_magic_2 }
+	3380.1.1 = { death = yes }
+}
+
+#No-Mitana Dynasty (dyn_nomitana)
+
+no_mitana_1000 = {
+	name = "Namasah"
+	dynasty = dyn_nomitana
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3341.1.1 = { birth = yes }
+	3410.1.1 = { death = yes }
+}
+
+#Al-Karim Dynasty (dyn_karim)
+
+karim_1000 = {
+	name = "Dinahan"
+	dynasty = dyn_karim
+	religion = satakal
+	culture = yokudan
+	
+	3325.1.1 = { birth = yes }
+	3378.1.1 = { death = yes }
+}
+
+#Al-Tahir Dynasty (dyn_tahir)
+
+tahir_1000 = {
+	name = "Hadim"
+	dynasty = dyn_tahir
+	religion = satakal
+	culture = duadri
+	
+	3318.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+#Al-Aqabi Dynasty (dyn_aqabi)
+
+aqabi_1000 = {
+	name = "Yashar"
+	dynasty = dyn_aqabi
+	#religion = satakal
+	religion = azura_cult
+	culture = duadri
+	
+	3330.1.1 = { birth = yes }
+	3385.1.1 = { death = yes }
+}
+
+#History ToDo: hattu is in yokuda, decide what to do
+# Hattu Dynasty (dyn_hattu) - dead, just referenced in an adapted fp2 event
+hattu_1000 = {
+	name = "Abd"
+	dynasty = dyn_hattu
+	religion = satakal
+	culture = yokudan
+
+	trait = education_martial_3
+	prowess = 18
+
+	767.1.1 = { birth = yes }
+	789.1.1= {
+		give_nickname = nick_the_hawk_of_quraysh #actually locced as "Hawk of Hattu"
+  	}
+	820.1.1 = { death = yes}
+}
+
+# Ashhadr Dynasty (ashhadr)
+ashhadr_1000 = {
+	name = "Sahba"
+	dynasty = dyn_ashhadr
+	#religion = satakal
+	religion = clavicus_cult
+	culture = yokudan
+
+	trait = pirate
+
+	3345.1.1 = { birth = yes }
+	3360.1.1 = { employer = jilani_1000 }
+	3390.1.1 = { death = yes }
+}
+
+##al-Saran Dynasty (dyn_saran)
+
+#House al-Saran
+
+saran_1000 = {
+	name = "Rada" #ESO
+	dynasty = dyn_saran
+	religion = satakal
+	culture = yokudan
+	sexuality = homosexual
+
+	trait = education_martial_4
+	trait = education_magic_3
+	trait = patient
+	trait = ambitious
+	trait = deceitful
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=no_hair
+			custom_headgear=male_empty
+		}
+	}
+
+	prowess = 10
+
+	767.1.1 = { birth = yes } #Participated in migration to Hammerfell
+	787.1.1 = {
+		add_trait = lifestyle_blademaster
+		add_trait_xp = {
+            trait = lifestyle_blademaster
+            value = 100 
+        }
+	}
+	850.1.1 = {
+		religion = molag_cult
+		trait = vampire_character 
+		effect = { set_immortal_age = 30 }
+		culture = forebear
+	}
+	1029.1.1 = { religion = namira_cult }
+	1030.1.1 = { culture = gray_islander }
+	3503.1.1 = { death = yes }	
+}
+
+#Systres Duadri
+
+#Hunran
+hunran_100 = {
+	name = "Laimi"
+	dynasty = dyn_hunran
+	religion = satakal
+	culture = duadri
+	female = yes
+	
+	3321.1.1 = { birth = yes }
+	3372.1.1 = { death = yes }
+}
+
+#Natar
+natar_100 = {
+	name = "Hadoon"
+	dynasty = dyn_natar
+	religion = satakal
+	culture = duadri
+
+	3304.1.1 = { birth = yes }
+	3364.1.1 = { death = yes }
+}
+natar_101 = {
+	name = "Mirzad"
+	dynasty = dyn_natar
+	religion = satakal
+	culture = duadri
+
+	father = natar_100
+
+	3325.1.1 = { birth = yes }
+	3383.1.1 = { death = yes }
+}
+
+#Maran
+maran_100 = {
+	name = "Arjen"
+	dynasty = dyn_maran
+	religion = satakal
+	culture = duadri
+	female = yes
+
+	3337.1.1 = { birth = yes }
+	3409.1.1 = { death = yes }
+}
+
+#Lowborns
+
+yokudanlowborn_1000 = {
+	name = "Kalam"
+	religion = satakal
+	culture = yokudan
+	
+	3328.1.1 = { birth = yes }
+	3391.1.1 = { death = yes }
+}
+
+yokudanlowborn_1002 = {
+	name = "Shabeh"
+	religion = satakal
+	culture = yokudan
+	
+	3290.1.1 = { birth = yes }
+	3376.1.1 = { death = yes }
+}
+
+yokudanlowborn_1004 = {
+	name = "Zanzibar"
+	religion = satakal
+	culture = duadri
+	
+	3322.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+
+yokudanlowborn_1005 = {
+	name = "Malenah"
+	#religion = satakal
+	religion = peryite_cult
+	culture = duadri
+	female = yes
+	
+	3331.1.1 = { birth = yes }
+	3392.1.1 = { death = yes }
+}
+
+yokudanlowborn_1006 = {
+	name = "Majdazh"
+	religion = satakal
+	culture = yokudan
+	
+	3300.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+
+yokudanlowborn_1007 = {
+	name = "Kushi"
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3313.1.1 = { birth = yes }
+	3373.1.1 = { death = yes }
+}
+
+yokudanlowborn_1008 = {
+	name = "Landa"
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3330.1.1 = { birth = yes }
+	3394.1.1 = { death = yes }
+}
+
+####################
+### Adventurers  ###
+####################
+
+#Redguards in High Rock
+gamara_100 = {
+	name = "Kamala" #Warband Gamara
+	religion = herd_mother
+	culture = silverhoof
+	female = yes
+
+	trait = ambitious
+	trait = deceitful
+	trait = brave
+
+	trait = education_intrigue_3
+	trait = lifestyle_blademaster
+	trait = lifestyle_hunter
+	trait = beauty_good_3
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3343.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #desert bandit queen 
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = tamrith_999}
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+usiatra_100 = {
+	name = "Yaeli" #Warband Usiatra
+	religion = herd_mother
+	culture = silverhoof
+	female = yes
+
+	trait = ambitious
+	trait = callous
+	trait = greedy
+
+	trait = education_intrigue_4
+	trait = lifestyle_blademaster
+	trait = torturer
+	trait = intellect_good_1
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3343.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #desert bandit queen 
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = tamrith_999}
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+#Redguards in Hammerfell
+
+abatateq_100 = {
+	name = "Abatateq"
+	religion = herd_mother
+	culture = silverhoof
+
+	trait = ambitious
+	trait = brave
+	trait = arbitrary
+
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = strategist
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3343.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #rag to riches 
+			add_prestige_level = 4
+		}
+	}
+
+	3360.1.1 = { employer = hegathe_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+abadagnew_100 = {
+	name = "Abadagnew"
+	religion = herd_mother
+	culture = silverhoof
+
+	trait = ambitious
+	trait = gregarious
+	trait = lustful
+
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+	trait = administrator
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3343.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #rag to riches 
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = bergama_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+lidj_100 = {
+	name = "Ilyas"
+	religion = herd_mother
+	culture = silverhoof
+
+	trait = cynical
+	trait = craven
+	trait = lustful
+	trait = depressed_1
+
+	trait = education_stewardship_1
+	trait = adventurer
+	disallow_random_traits = yes
+	
+	3343.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #not much of hero
+			add_prestige_level = 1
+		}
+	}
+
+	3360.1.1 = { employer = bergama_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+
+### LAAMPS
+
+whirling_100 = {
+	name = "Ellashana"
+	dynasty = dyn_zenata
+	religion = satakal
+	culture = yokudan
+	female = yes
+
+	trait = sign_serpent
+	trait = education_learning_3
+	trait = lifestyle_mystic
+	trait = lifestyle_blademaster
+	trait = brave
+	trait = stubborn
+	trait = humble
+	
+	3307.6.12 = { birth = yes }
+	3360.1.1 = {
+		set_relation_rival = { reason = rival_historical target = character:hel_gye_1000 }	#what started as a difference in approach to understanding the Shehai Shen She Ru has blossomed into a rivalry
+		set_relation_friend = { reason = friend_generic_history target = character:whirling_101 }
+		effect = {
+			add_trait = lifespan_magic_1
+			add_character_flag = artificial_lifespan
+			add_character_flag = natural_lifespan_0
+			add_trait_xp = {
+				trait = lifestyle_mystic
+				value = 60
+			}
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = 30
+			}
+		}
+	}
+	3418.1.1 = { death = yes }
+}
+whirling_101 = {
+	name = "Zerdesht"
+	religion = satakal
+	culture = yokudan
+
+	trait = sign_thief
+	trait = albino
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = athletic
+	trait = ambitious
+	trait = cynical
+	trait = brave
+	
+	3338.12.18 = { birth = yes }
+	3359.1.1 = { employer = whirling_100 }
+	3360.1.1 = {
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = 30
+			}
+		}
+	}
+	3432.1.1 = { death = yes }
+}
+
+ploutar_100 = {
+	name = "Mivam"
+	dynasty = dyn_ploutar
+	religion = satakal
+	culture = yokudan
+
+	trait = sign_tower
+	trait = education_stewardship_3
+	trait = greedy
+	trait = arbitrary
+	trait = ambitious
+	trait = gallowsbait
+	
+	3331.10.3 = { birth = yes }
+	3356.1.1 = { add_spouse = ploutar_100_spouse }
+	3360.1.1 = {
+		effect = {
+			add_perk = sense_opportunity_perk
+			add_perk = missing_persons_perk
+			add_perk = establish_enforcer_perk
+
+			add_trait_xp = {
+				trait = gallowsbait
+				track = bandit
+				value = 20
+			}
+			add_trait_xp = {
+				trait = gallowsbait
+				track = trickster
+				value = 40
+			}
+			add_trait_xp = {
+				trait = gallowsbait
+				track = thief
+				value = 30
+			}
+		}
+	}
+	3368.1.1 = {
+		effect = { 
+			make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:clavicus_cult }
+			add_gold = 100
+			remove_trait = education_stewardship_3
+			add_trait = education_stewardship_4
+		}
+	}
+	3368.5.29 = {
+		trait = drunkard
+	}
+	3368.8.13 = { 
+		remove_spouse = ploutar_100_spouse
+		set_relation_rival = { reason = rival_historical target = character:ploutar_100_spouse }
+	}
+	3370.1.1 = {
+		effect = {
+			add_perk = friends_in_low_places_perk
+			add_perk = you_owe_me_perk
+			add_perk = call_henchmen_perk
+		}
+	}
+	3380.1.1 = {
+		trait = lunatic_1
+	}
+	3386.1.1 = { death = { death_reason = transform_gold } }
+}
+ploutar_100_spouse = {
+	name = "Rhiannon"
+	religion = satakal
+	culture = yokudan
+	female = yes
+	
+	3333.1.1 = { birth = yes }
+	3368.8.13 = { move_to_pool = yes }
+	3398.1.1 = { death = yes }
+}
+ploutar_101 = {
+	name = "Zorallah"
+	dynasty = dyn_ploutar
+	religion = satakal
+	culture = yokudan
+	female = yes
+
+	father = ploutar_100
+	mother = ploutar_100_spouse
+
+	trait = sign_lady
+	
+	3357.9.27 = { birth = yes }
+	3368.1.1 = {
+		trait = curious
+		trait = trusting
+		trait = compassionate
+	}
+	3368.5.29 = { death = { death_reason = death_mysterious killer = ploutar_100 } }
+}

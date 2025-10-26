@@ -1,0 +1,52 @@
+﻿l_english:
+#New Traditions
+ tradition_ruby_orc_core_name:0 "City Orcs"
+ tradition_ruby_orc_core_desc:0 "This culture may have sworn off the oppressive and isolationist Stronghold lifestyle, but still hold highly Orcish values of honor and martial prowes. This culture prefers instead to lead lives of wanderlust, mercenary work, and individualism, equally comfortable within and outside of modern civilization."
+ tradition_ruby_orc_core_trigger_desc:0 "Is #V $heritage_orsimeri_name$#! [heritage|E] and either $ruby_orc$ [culture|E] or a [culture|E] descended from $ruby_orc$"
+ tradition_hackdirt_name:0 "Hackdirt Intolerance"
+ tradition_hackdirt_desc:0 "Outsiders are not welcome in Hackdirt. Outsiders will never be welcome in Hackdirt. Ask no questions and move along." 
+ tradition_hackdirt_trigger_desc:0 "Is either $hackdirt$ [culture|E] or a [culture|E] descended from $hackdirt$"
+ tradition_cyro_imga_core_name:0 "Empirilla Gorillas"
+ tradition_cyro_imga_core_desc:0 "Born leaders, this culture is well-versed in traversing both the trappings of the wild jungle as they are the trappings of modern civilization. Temperamental yet academic, they balance nobility and survivalism with perfect grace." 
+ tradition_cyro_imga_core_trigger_desc:0 "Is #V $heritage_imgan_name$#! [heritage|E] and either $cyro_imga$ [culture|E] or a [culture|E] descended from $cyro_imga$"
+ tradition_salvaged_dwemer_machines_name:0 "Dwemer Artifact Retooling"
+ tradition_salvaged_dwemer_machines_desc:0 "After living in and alongside the ruins of the ancient #V $heritage_dwemeri_name$#! for so long, this technologically fascinated culture has managed to perfect salvaging and retooling Dwarven creations and automatons to suit their purposes through fervent study and re-engineering."
+ tradition_salvaged_dwemer_machines_trigger_desc:0 "The [culture|E] is not present in the [GetGeographicalRegion('mundus_tamriel_morrowind').GetName] [region|E], the [GetGeographicalRegion('mundus_tamriel_skyrim').GetName] [region|E], the [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E], the [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName] [region|E], or [GetGeographicalRegion('mundus_tamriel_border_greater_bangkorai').GetName] [region|E]"
+ tradition_brute_strength_name:0 "Brute Strength"
+ tradition_brute_strength_desc:0 "This culture relies heavily on their bodies' uniquely natural, incredible strength over that of martial prowess gained through advancing technology or even skill - although both are welcomed regardless."
+ tradition_ogreorminotaur_trigger_desc:0 "Is either #V $heritage_giant_name$#! [heritage|E], #V $heritage_minotaur_name$#! [heritage|E], $ogre$ [culture|E], or a [culture|E] descended from $ogre$"
+ tradition_sixth_house_core_name:0 "Tribe Unmourned"
+ tradition_sixth_house_core_desc:0 "We shall speak for the law and the land and drive the mongrel dogs from Morrowind. This is how we honor the Sixth house and the tribe unmourned." #Come openly, and not by stealth. We welcome you to this place, where destiny is made.
+ tradition_sixth_house_core_trigger_desc:0 "Is #V $heritage_dunmeri_name$#! [heritage|E] and either $ara_almeshini$ [culture|E], $ashlander$ [culture|E], or a [culture|E] descended from $ara_almeshini$ [culture|E] or $ashlander$ [culture|E]"
+ tradition_worm_cult_name:0 "Servants of the Worm King"
+ tradition_worm_cult_desc:0 "Composed nearly entirely of cultists, this culture is ruthlessly devoted to the study of necromancy and advancing the schemes of their dark master. Loyalty is all, both in life and ever after."
+ tradition_worm_cult_trigger_desc:0 "Is either $anchoriti$ [culture|E] or a [culture|E] descended from $anchoriti [culture|E]"
+ tradition_archein_core_name:0 "Captors and Collaborators"
+ tradition_archein_core_desc:0 "This culture is used to being despised by others of their heritage, betraying and shackling their distant kin in chains in order to garner favor with encroaching foreign powers or to make profit."
+ tradition_archein_core_trigger_desc:0 "Is either $archein$ [culture|E] or a [culture|E] descended from $archein [culture|E]"
+ culture_parameter_greedy_trait_more_common:0 "The [GetTrait('greedy').GetName( GetNullCharacter )] [trait|E] is more common"
+ culture_parameter_reduced_same_heritage_cultural_acceptance_archein:0 "#N -25#! [cultural_acceptance|E] with same [heritage|E] [cultures|E]"
+ 
+
+ # Dominion Scions loc 
+
+ tradition_aldmeri_subject_name:0 "Dominion Scion"
+ tradition_aldmeri_subject_desc:0 "As a result of its close relationship with the Aldmeri Dominion, this culture welcomes Aldmeri culture and law, and in exchange receives the favor and protection of its Elven overlords."
+
+
+ culture_parameter_can_create_aldmeri_subjects_cultures:0 "If the [GetTitleByKey('e_aldmeri_dominion').GetNameNoTier] exists, can add the [GetCultureTradition('tradition_aldmeri_subject').GetName|V] [tradition|E] to [cultures|E] of different [heritage|E] whose [culture_head|E] is a [vassal|E]"
+ culture_parameter_can_remove_aldmeri_subject_with_conditions:0 "Can be removed if [culture_head|E] is [independent|E] or no longer ruled by a [culture|E] with the [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
+ culture_parameter_increased_aldmeri_cultural_acceptance:0 "#P +10#! [cultural_acceptance|E] with $heritage_aldmeri_name$ [heritage|E] [cultures|E]"
+ culture_parameter_can_promote_aldmeri_subjects_cultures_regardless_of_acceptance:0 "Can Promote [cultures|E] with the [GetCultureTradition('tradition_aldmeri_subject').GetName|V] [tradition|E] regardless of [cultural_acceptance|E]"
+ culture_parameter_can_adopt_ceremoniarchy:0 "Can adopt the [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
+
+ tradition_aldmeri_trigger_desc:0 "Is #V $heritage_aldmeri_name$#! [heritage|E]"
+ tradition_aldmeri_subject_requirement:0 "Can only be gained through the #V Offer To Make Dominion Scion#! [character_interaction|E]"
+
+ ek_recent_dominionization:0 "Recent Dominionization"
+ ek_recent_dominionization_desc:0 "This culture has recently become an [GetCultureTradition('tradition_aldmeri_subject').GetName|V]. The populace will take some time to acclimatize to Aldmeri culture and law, and still more to the Aldmeri Dominion's constant presence in the region."
+
+ ACCEPTANCE_BASELINE_HERITAGE_ALDMERI_SUBJECT:0 "[cultures|E] share [heritage|E] but one is [GetCultureTradition('tradition_aldmeri_subject').GetName|V]"
+ ACCEPTANCE_BASELINE_ALDMERI_SUBJECT_TRADITION:0 "One is $heritage_aldmeri_name$ [heritage|E] and other is [GetCultureTradition('tradition_aldmeri_subject').GetName|V]"
+ 
+ ACCEPTANCE_BASELINE_HERITAGE_ARCHEIN:0 "[cultures|E] share [heritage|E] but one is [GetCultureTradition('tradition_archein_core').GetName|V]"

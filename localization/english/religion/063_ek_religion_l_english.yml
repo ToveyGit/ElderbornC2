@@ -1,0 +1,22 @@
+﻿l_english:
+ogre_shamanism:1 "Ogre Shamanism"
+    ogre_shamanism_adj:1 "Ogre Shamanist"
+    ogre_shamanism_adherent:1 "Ogre"
+    ogre_shamanism_adherent_plural:1 "Ogres"
+    ogre_shamanism_desc:0 "Ogres outside the servitude of foreign rulers worship and revere Muluk, who in exchange protects them. Brutal in nature, cannibalistic dishes form part of rituals and devoted shamans developed the aracana arts in totemic magic."
+
+minotaur_shamanism:1 "Minotaur Shamanism"
+    minotaur_shamanism_adj:1 "Minotaur Shamanist"
+    minotaur_shamanism_adherent:1 "Minotaur"
+    minotaur_shamanism_adherent_plural:1 "Minotaurs"
+    minotaur_shamanism_desc:0 "The disparate Minotaur tribes revere Hircine, the Daedric Prince of the Hunt, above all else, and honor him through guarding sacred groves, protecting nature from those who’d threaten its beauty, and the ritual consumption of Mannish flesh. Minotaur Shamanists also praise and give worship to Saint Alessia and Morihaus, whom they hail as their distant divine ancestors, and Malacath, the Daedric Prince of outcasts and strength enduring in the face of rampant adversity - fitting for a people wholly rejected by an Empire they once ruled."
+
+giantish_totems:1 "Tall Totems"
+    giantish_totems_adj:1 "Tall Totems"
+    giantish_totems_adherent:1 "Giant"
+    giantish_totems_adherent_plural:1 "Giants"
+    giantish_totems_desc:0 "The deeply animistic religion of the Giants of Skyrim is said to be an offshoot of the Totem worship once practiced by the early Atmoran settlers to Tamriel, now remarkably distinct after millenia of relative reclusion from Nordic society. The symbol of the Tall Totems faith is marked, quite literally, by the spiral motifs found across stones and walls in a Giant encompassment and even carved into their very flesh. Espousing ideals of deep self-reflection and isolation from the complex and warring societies of smallfolk, this sect of Totemism’s doctrines are believed to be the primary reason for most Giants’ relative isolation."
+    holy_site_hs_secunda_kiss_name:0 "Secunda's Kiss"
+    holy_site_hs_secunda_kiss__effect_name:0 "From [holy_site|E] #weak ($holy_site_hs_secunda_kiss_name$)#!"
+    holy_site_hs_talking_stone_name:0 "Talking Stone"
+    holy_site_hs_talking_stone__effect_name:0 "From [holy_site|E] #weak ($holy_site_hs_talking_stone_name$)#!"

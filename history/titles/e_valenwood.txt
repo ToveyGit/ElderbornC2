@@ -1,0 +1,1964 @@
+# Empire of Valenwood
+e_valenwood = {
+	3360.1.1 = { change_development_level = 4 }
+	-1.1.1 = { holder = camoran_1 }
+	177.4.7 = { holder = camoran_2 }
+	451.8.20 = { holder = camoran_3 }
+	580.12.4 = { holder = camoran_4 }
+	814.11.10 = { holder = camoran_5 }
+	887.2.16 = { holder = camoran_6 }
+	1000.10.10 = { holder = camoran_7 }
+	1043.9.20 = { holder = camoran_8 }
+	1104.11.18 = { holder = camoran_9 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2714.1.1 = { holder = 0 } #Remans conquer and split Valenwood
+}
+
+# Greenshade/Wilderking's Court
+
+k_wilderking_court = {
+	3000.1.1 = { government = theocracy_government }
+	2599.1.1 = { holder = wilderking_ostion }
+	2600.1.2 = { holder = wilderking_001 }
+	2900.1.1 = { holder = wilderking_002 }
+	3130.1.1 = { holder = wilderking_003 }
+	3350.1.1 = { holder = wilderking_004 }
+	3503.1.1 = { holder = wilderqueen_aranias }
+	3503.1.2 = { holder = 0 }
+}
+
+d_greenheart = { 
+	3000.1.1 = { government = theocracy_government }
+	3200.1.1 = { holder = wilderking_003 }
+	3350.1.1 = { holder = wilderking_004 }
+}
+
+c_greenheart = { 
+	3360.1.1 = { change_development_level = 10 }
+	3130.1.1 = { holder = wilderking_003 }	
+	3350.1.1 = { holder = wilderking_004 }
+}
+
+c_pelda_tarn = {
+	3200.1.1 = { 
+		holder = etitan_001
+		liege = k_wilderking_court  
+	}
+	3349.1.1 = { holder = etitan_002 }
+	3442.1.1 = { holder = garnona_003b }
+}
+
+c_daresen = {
+	3150.1.1 = { 
+		holder = iyanden_001
+		liege = k_wilderking_court 
+	}
+	3270.1.1 = { holder = iyanden_002 }
+	3356.1.1 = { holder = iyanden_003 }
+}
+
+c_hawthorn = {
+	3180.1.1 = { holder = garnona_001 }
+	3190.1.1 = { liege = k_wilderking_court }
+	3358.1.1 = { holder = garnona_002 }
+	3394.1.1 = { holder = garnona_003 }
+}
+
+c_shrouded_vale = {
+	3200.1.1 = { 
+		holder = valefern_001
+		liege = k_wilderking_court 
+	}
+	3320.1.1 = { holder = valefern_002 }
+	3366.1.1 = { holder = valefern_003 }
+}
+
+#d_bouldertree
+c_bouldertree = { 
+	3360.1.1 = { holder = wilderking_004 }
+}
+
+c_hollow = {
+	2599.1.1 = { holder = wilderking_ostion }
+	3200.1.1 = { holder = wilderking_003 }
+	3350.1.1 = { holder = wilderking_004 }
+	3359.1.1 = { holder = bloodwater_100 }
+	#3502.1.1 = { holder = driladan_006 }
+}
+
+c_arananga = {
+	3300.1.1 = { 
+		liege = k_wilderking_court
+		holder = arananga_001
+	}
+	3425.1.1 = { holder = arananga_002 }
+}
+
+#d_marbruk
+c_marbruk = {
+	3290.1.1 = {
+		liege = d_driladan
+		holder = driladan_004b
+	}
+	3364.1.1 = { holder = driladan_004b_son }
+	3368.3.6 = { liege = 0 }
+	3430.10.10 = { holder = driladan_005 }
+	#3456.7.4 = { holder = camoran_grahtwood_101 }
+}
+
+b_cliffshade = {
+	3300.3.6 = { holder = cliffshade_100 }
+}
+
+c_bramblebreach = {
+	2600.1.1 = { holder = bramblebreach_001 }
+	2720.1.1 = { holder = bramblebreach_002 }
+	2850.1.1 = { holder = bramblebreach_003 }
+	2945.1.1 = { holder = bramblebreach_004 }
+	3149.1.1 = { holder = bramblebreach_005 }
+	3290.1.1 = { 
+		holder = bramblebreach_006
+		liege = k_wilderking_court
+	}
+	3470.1.1 = { holder = bramblebreach_007 }
+}
+
+c_linleya = {
+	3305.1.1 = { holder = lhurgash_001 }
+	3328.1.1 = { holder = lhurgash_002 }
+	3351.1.1 = { holder = lhurgash_004 }
+	3381.1.1 = { holder = lhurgash_005 }
+	3407.1.1 = { holder = lhurgash_006 }
+	3434.1.1 = { holder = lhurgash_007 }
+	3458.1.1 = { holder = lhurgash_008 }
+	3458.1.2 = { holder = lhurgash_008c }
+	3480.1.1 = { holder = lhurgash_009 }
+	3500.1.1 = { holder = lhurgash_009b }
+}
+
+d_southisles = {
+	3002.1.1 = { holder = hedorme_96 }
+	3094.1.1 = { holder = hedorme_97 }
+	3202.1.1 = { holder = hedorme_98 }
+	3316.1.1 = { holder = hedorme_99 }
+	3341.6.2 = { holder = caerllin_1 }
+	3341.1.1 = { 
+		succession_laws = {
+			sorcerous_elective_succession_law #Magocracy installed.
+		}
+	}
+	#~3365 - hedorme try to take back isles, but fail, other people succeed however
+}
+
+c_southisle = {
+	3002.1.1 = { holder = hedorme_96 }
+	3094.1.1 = { holder = hedorme_97 }
+	3202.1.1 = { holder = hedorme_98 }
+	3316.1.1 = { holder = hedorme_99 }
+	3341.6.2 = { holder = caerllin_1 }
+}
+
+c_coral = {
+	3002.1.1 = { holder = hedorme_96 }
+	3094.1.1 = { holder = hedorme_97 }
+	3202.1.1 = { holder = hedorme_98 }
+	3316.1.1 = { holder = hedorme_99 }
+	3341.6.2 = { holder = caerllin_1 }
+}
+
+c_sisterstones = {
+	3002.1.1 = { holder = hedorme_96 }
+	3094.1.1 = { holder = hedorme_97 }
+	3202.1.1 = { holder = hedorme_98 }
+	3316.1.1 = { holder = hedorme_99 }
+	3341.6.2 = { holder = caerllin_1 }
+	#Maormer take one island
+	3369.1.1 = { 
+		holder = blue_venom_002
+		liege = 0 
+	}
+	#Maormer lose island
+	3418.1.1 = { holder = caerllin_1 }
+}
+
+#k_eldenroot
+k_eldenroot = {
+	2716.1.1 = { holder = camoran_grahtwood_92 }
+	2812.10.28 = { holder = camoran_grahtwood_93 }
+	2887.7.16 = { holder = camoran_grahtwood_94 }
+	2948.6.20 = { holder = camoran_grahtwood_95 }
+	3022.12.24 = { holder = camoran_grahtwood_96 }
+	3088.9.28 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_grahtwood_100 }
+	3442.12.26 = { holder = camoran_grahtwood_101 }
+}
+d_eldenroot = {
+	2384.9.19 = { holder = camoran_grahtwood_88 }
+	2487.2.22 = { holder = camoran_grahtwood_89 }
+	2555.6.19 = { holder = camoran_grahtwood_90 }
+	2638.7.22 = { holder = camoran_grahtwood_91 }
+	2709.3.11 = { holder = camoran_grahtwood_92 }
+	2812.10.28 = { holder = camoran_grahtwood_93 }
+	2887.7.16 = { holder = camoran_grahtwood_94 }
+	2948.6.20 = { holder = camoran_grahtwood_95 }
+	3022.12.24 = { holder = camoran_grahtwood_96 }
+	3088.9.28 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_grahtwood_100 }
+	3442.12.26 = { holder = camoran_grahtwood_101 }
+}
+c_eldenroot = {
+	3360.1.1 = { change_development_level = 14 }
+	2384.9.19 = { holder = camoran_grahtwood_88 }
+	2487.2.22 = { holder = camoran_grahtwood_89 }
+	2555.6.19 = { holder = camoran_grahtwood_90 }
+	2638.7.22 = { holder = camoran_grahtwood_91 }
+	2709.3.11 = { holder = camoran_grahtwood_92 }
+	2812.10.28 = { holder = camoran_grahtwood_93 }
+	2887.7.16 = { holder = camoran_grahtwood_94 }
+	2948.6.20 = { holder = camoran_grahtwood_95 }
+	3022.12.24 = { holder = camoran_grahtwood_96 }
+	3088.9.28 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_grahtwood_100 }
+	3442.12.26 = { holder = camoran_grahtwood_101 }
+}
+
+c_wintersite = {
+	3360.1.1 = { change_development_level = 14 }
+	-1.1.1 = { holder = camoran_1 }
+	177.4.7 = { holder = camoran_2 }
+	451.8.20 = { holder = camoran_3 }
+	580.12.4 = { holder = camoran_4 }
+	814.11.10 = { holder = camoran_5 }
+	887.2.16 = { holder = camoran_6 }
+	1000.10.10 = { holder = camoran_7 }
+	1043.9.20 = { holder = camoran_8 }
+	1104.11.18 = { holder = camoran_9 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2795.4.27 = { holder = camoran_93b }
+	2833.11.19 = { holder = camoran_95 }
+	2909.1.8 = { holder = camoran_96 }
+	2986.3.9 = { holder = camoran_97 }
+	3074.5.18 = { holder = camoran_97b }
+	3155.8.10 = { holder = camoran_98 }
+	3257.9.21 = { holder = camoran_99 }
+	3303.4.12 = { holder = camoran_100 }
+	3340.1.1 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_grahtwood_100 }
+	3442.12.26 = { holder = camoran_grahtwood_101 }
+}
+
+c_mobar = {
+	3150.1.1 = { 
+		holder = altansar_99
+		liege = k_eldenroot 
+	}
+	3273.10.9 = { holder = altansar_100 }
+	3364.11.27 = { holder = altansar_101 }
+	3425.1.12 = { holder = altansar_102 }
+	3496.8.3 = { holder = altansar_103 }
+}
+
+c_long_coast = {
+	3304.1.1 = { 
+		holder = ellenwen_002
+		liege = k_eldenroot
+	}
+	3366.1.1 = { holder = ellenwen_1 }
+	3368.1.1 = { holder = altansar_101 }
+	3425.1.12 = { holder = altansar_102c }
+	3488.4.16 = { holder = altansar_103 }
+}
+
+c_burroot = {
+	2384.9.19 = { holder = camoran_grahtwood_88 }
+	2487.2.22 = { holder = camoran_grahtwood_89 }
+	2555.6.19 = { holder = camoran_grahtwood_90 }
+	2638.7.22 = { holder = camoran_grahtwood_91 }
+	2709.3.11 = { holder = camoran_grahtwood_92 }
+	2812.10.28 = { holder = camoran_grahtwood_93 }
+	2887.7.16 = { holder = camoran_grahtwood_94 }
+	2948.6.20 = { holder = camoran_grahtwood_95 }
+	3022.12.24 = { holder = camoran_grahtwood_96 }
+	3088.9.28 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { 
+		holder = camoran_grahtwood1_100
+		liege = k_eldenroot 
+	}
+	3374.8.6 = { holder = camoran_grahtwood1_101 }
+}
+
+c_cormeir = {
+	250.1.1 = { holder = varondo_001 }
+	3110.1.1 = { holder = varondo_003 }
+	3250.1.1 = { holder = varondo_004 }
+	3325.1.1 = {
+		liege = k_eldenroot
+		holder = varondo_005
+	}
+	3420.1.6 = { holder = varondo_006 }
+}
+
+d_gildervale = {
+	233.3.13 = { holder = brethil_1 }
+	382.5.12 = { holder = brethil_2 }
+	471.7.1 = { holder = brethil_3 }
+	564.10.13 = { holder = brethil_4 }
+	692.2.15 = { holder = brethil_5 }
+	2798.4.14 = { holder = brethil_96 }
+	2904.3.11 = { holder = brethil_97 }
+	2920.2.19 =  { holder = 0 }
+}
+
+c_gildervale = {
+	233.3.13 = { holder = brethil_1 }
+	382.5.12 = { holder = brethil_2 }
+	471.7.1 = { holder = brethil_3 }
+	564.10.13 = { holder = brethil_4 }
+	692.2.15 = { holder = brethil_5 }
+	2798.4.14 = { holder = brethil_96 }
+	2904.3.11 = { holder = brethil_97 }
+	2920.2.19 = { holder = brethil_98 }
+	3021.3.18 = { holder = brethil_99 }
+	3094.1.17 = { holder = brethil_100 }
+	3107.4.16 = { 
+		holder = camoran_grahtwood2_97
+		liege = k_eldenroot 
+	}
+	3204.11.11 = { holder = camoran_grahtwood2_98 }
+	3268.1.17 = { holder = camoran_grahtwood2_99 }
+	3336.4.1 = { holder = camoran_grahtwood2_100 }
+	3429.8.5 = { holder = camoran_grahtwood2_101 }
+}
+
+c_tarlain = {
+	3100.1.1 = { 
+		holder = benoch_001
+		liege = k_eldenroot 
+	}
+	3258.1.1 = { holder = benoch_002 }
+	3320.1.1 = { holder = benoch_003 }
+	3410.1.1 = { holder = benoch_004 }
+}
+
+c_goldfolly = {
+	3272.1.1 = { holder = faltonia_001 }
+	3290.1.1 = { holder = bloodmist_001 }
+	3320.1.1 = { holder = bloodmist_002 }
+	3334.1.1 = { 
+		liege = k_eldenroot
+		holder = bloodmist_003 
+	}
+	3361.1.1 = { holder = bloodmist_004 }
+	3388.1.1 = { holder = bloodmist_005 }
+	3420.1.1 = { holder = bloodmist_006 }
+	3444.1.1 = { holder = bloodmist_007 }
+	3476.1.1 = { holder = bloodmist_008 }
+	3489.1.1 = { 
+		holder = bloodmist_altmer
+		liege = 0 
+	}
+}
+
+c_quirion = {
+	3157.1.1 = { 
+		holder = parikh_98
+		liege = k_eldenroot  
+	}
+	3297.7.5 = { holder = parikh_99 }
+	3353.4.6 = { holder = parikh_100 }
+	3455.12.30 = { holder = parikh_101 }
+}
+
+#d_redfur
+
+c_redfur = {
+	3357.3.6 = { 
+		holder = redfur_1
+		government = republic_government
+	}
+	3400.1.6 = { holder = redfur_2 }
+	3420.1.1 = { liege = k_eldenroot }
+	3430.2.8 = { holder = redfur_3 }
+	3460.5.8 = { holder = redfur_4 }
+	3485.4.2 = { holder = redfur_5 }
+}
+
+c_wormroot = {
+	3330.1.1 = { holder = grumma_98 }
+	3356.1.1 = { holder = grumma_100 }
+	3393.1.1 = { holder = grumma_101 }
+	3399.1.1 = { liege = k_eldenroot }
+	3421.1.1 = { holder = grumma_102 }
+	3430.1.1 = { holder = grumma_103 }
+}
+
+c_faltonia = {
+	3272.1.1 = { holder = faltonia_001 }
+	3290.1.1 = { holder = bloodmist_001 }
+	3320.1.1 = { holder = bloodmist_002 }
+	3334.1.1 = { 
+		liege = k_eldenroot
+		holder = bloodmist_003 
+	}
+	3361.1.1 = { holder = bloodmist_004  }
+	3388.1.1 = { holder = bloodmist_005 }
+	3420.1.1 = { holder = bloodmist_006 }
+	3444.1.1 = { holder = bloodmist_007 }
+	3476.1.1 = { holder = bloodmist_008 }
+	3489.1.1 = { holder = bloodmist_009 }
+}
+	
+c_reman_bluff = {
+	2717.1.1 = { holder = remanbluff_001 }
+	2722.1.1 = { holder = barkbite_ancient_001 }
+	3000.1.1 = { government = tribal_government }
+	3300.1.1 = { holder = barkbite_ancient_002 }
+	3313.1.1 = { holder = barkbite_001 }
+	3333.1.1 = { holder = barkbite_002 }
+	3352.1.1 = { holder = barkbite_003 }
+	3372.1.1 = { holder = barkbite_004 }
+	3384.1.1 = { liege = k_eldenroot }
+	3400.1.1 = { holder = barkbite_005 }
+	3425.1.1 = { holder = barkbite_006 }
+	3444.1.1 = { holder = barkbite_007 }
+	3464.1.1 = { holder = barkbite_008 }
+	3495.1.1 = { holder = barkbite_010 }
+}
+
+#Cormount
+k_cormount = {
+	2716.1.1 = { holder = camoran_cormount_96 }
+	2733.9.21 = { holder = camoran_cormount_97 }
+	2820.7.27 = { holder = camoran_cormount_98 }
+	2918.5.13 = { holder = camoran_cormount_99 }
+	2996.12.11 = { holder = camoran_cormount_100 }
+	3070.5.14 = { holder = drurel_2b }
+	3108.6.12 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_gorinir_100 }
+	3369.7.8 = { holder = camoran_gorinir_101 }
+	#Blacksap rebellion ends
+	3500.1.1 = { holder = camoran_grahtwood_101 }
+}
+
+d_cormount = {
+	2399.9.15 = { holder = camoran_cormount_93 }
+	2487.2.22 = { holder = camoran_cormount_94 }
+	2576.10.13 = { holder = camoran_cormount_95 }
+	2659.4.25 = { holder = camoran_cormount_96 }
+	2733.9.21 = { holder = camoran_cormount_97 }
+	2820.7.27 = { holder = camoran_cormount_98 }
+	2918.5.13 = { holder = camoran_cormount_99 }
+	2996.12.11 = { holder = camoran_cormount_100 }
+	3070.5.14 = { holder = drurel_2b }
+	3108.6.12 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_gorinir_100 }
+	3369.7.8 = { holder = camoran_gorinir_101 }
+	#First Blacksap rebellion ends, Cormount given to loyal Treethane and Gelthior imprisoned
+	3500.1.1 = { 
+		holder = cormount_001
+		liege = k_eldenroot 
+	}
+}
+
+c_cormount = {
+	2399.9.15 = { holder = camoran_cormount_93 }
+	2487.2.22 = { holder = camoran_cormount_94 }
+	2576.10.13 = { holder = camoran_cormount_95 }
+	2659.4.25 = { holder = camoran_cormount_96 }
+	2733.9.21 = { holder = camoran_cormount_97 }
+	2820.7.27 = { holder = camoran_cormount_98 }
+	2918.5.13 = { holder = camoran_cormount_99 }
+	2996.12.11 = { holder = camoran_cormount_100 }
+	3070.5.14 = { holder = drurel_2b }
+	3108.6.12 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_gorinir_100 }
+	3369.7.8 = { holder = camoran_gorinir_101 }
+	3500.1.1 = { holder = cormount_001 }
+}
+	
+c_gorinir = {
+	3354.8.1 = { holder = camoran_gorinir_100 }
+	3369.7.8 = { holder = camoran_gorinir_101 }
+	3500.1.1 = { holder = camoran_gorinir_102 } #First Blacksap rebellion, sons allowed to go free
+}
+
+c_karthdar = {
+	3050.1.1 = { holder = stagfern_001 }
+	3160.1.1 = { holder = stagfern_002 }
+	3268.1.1 = { holder = stagfern_003 }
+	3350.1.1 = { holder = stagfern_004b }
+	3360.1.1 = {
+		holder = stagfern_004
+		liege = d_cormount
+	}
+	3470.1.1 = { holder = stagfern_005 }
+	3500.1.1 = { holder = cormount_001 }
+}
+
+c_medulin = {
+	3050.1.1 = { holder = avbala_001 }
+	3198.1.1 = { holder = avbala_002 }
+	3261.1.1 = { holder = avbala_003 }
+	3358.1.1 = {
+		holder = avbala_1
+		liege = d_cormount
+	}
+	3500.1.1 = { holder = avbala_007 }
+}
+
+c_laeloria = {
+	3355.1.1 = {
+		liege = d_cormount
+		holder = vastarie_1000
+		government = autocracy_government #okay #this looks weird but it makes sense. for whatever reason it doesn't work to give Vasterie religious rights in history when she is feudal and her liege autocratic.
+	}
+	3360.1.1 = {
+		government = feudal_government #so, we give her the rights when she is autocratic, and then make her feudal as she should be as an Alinori. compare dates to her character history file
+	}
+	3405.1.1 = { 
+		holder = camoran_gorinir_101
+		government = autocracy_government 
+	}
+	3500.1.1 = { holder = cormount_001 }
+}
+
+b_telacar = {
+	3360.1.1 = { holder = vastarie_1001 }
+}
+
+d_hectaran = {
+	3360.1.1 = { change_development_level = 3 }
+	220.1.1 = { holder = kraxar_001 }
+	260.1.1 = { 
+		holder = wenayalae_002
+		succession_laws = {
+			sorcerous_elective_succession_law #Magocracy installed
+		} 
+	}
+	2786.9.18 = { holder = wenayalae_94 }
+	2944.2.4 = { holder = wenayalae_95 }
+	3037.11.25 = { holder = wenayalae_96 }
+	3179.7.16 = { holder = wenayalae_97 } 
+	3258.7.9 = { holder = wenayalae_98 }
+	3327.9.5 = { holder = wenayalae_99 }
+	3345.10.24 = { holder = wenayalae_100 }
+}	
+
+c_hectaran = {
+	220.1.1 = { holder = kraxar_001 }
+	260.1.1 = { holder = wenayalae_002 }
+	2786.9.18 = { holder = wenayalae_94 }
+	2944.2.4 = { holder = wenayalae_95 }
+	3037.11.25 = { holder = wenayalae_96 }
+	3179.7.16 = { holder = wenayalae_97 }
+	3258.7.9 = { holder = wenayalae_98 }
+	3327.9.5 = { holder = wenayalae_99 }
+	3345.10.24 = { holder = wenayalae_100 }
+}
+c_mathmed = {
+	260.1.1 = { holder = wenayalae_002 }
+	2786.9.18 = { holder = wenayalae_94 }
+	2944.2.4 = { holder = wenayalae_95 }
+	3037.11.25 = { holder = wenayalae_96 }
+	3179.7.16 = { holder = wenayalae_97 } 
+	3258.7.9 = { holder = wenayalae_98 }
+	3327.9.5 = { holder = wenayalae_99 }
+	3342.1.1 = { holder = sharparrow_003b }
+	3430.1.1 = { liege = k_eldenroot }
+	3484.1.1 = { holder = sharparrow_2_002 }
+}
+c_twylhecul = {
+	220.1.1 = { holder = kraxar_001 }
+	260.1.1 = { holder = wenayalae_002 }
+	2786.9.18 = { holder = wenayalae_94 }
+	2944.2.4 = { holder = wenayalae_95 }
+	3037.11.25 = { holder = wenayalae_96 }
+	3179.7.16 = { holder = wenayalae_97 } 
+	3258.7.9 = { holder = wenayalae_98 }
+	3327.9.5 = { holder = wenayalae_99 }
+	3345.10.24 = { holder = wenayalae_100 }
+	3446.1.1 = { holder = nagon_001 } #Imga rebel
+	3455.1.1 = { liege = 0 } #Imga win
+}
+
+#k_woodhearth
+k_woodhearth = {
+	2716.1.1 = { holder = camoran_woodhearth_92 }
+	2752.9.20 = { holder = camoran_woodhearth_93 }
+	2801.4.13 = { holder = camoran_woodhearth_94 }
+	2894.10.5 = { holder = camoran_woodhearth_95 }
+	2974.2.15 = { holder = camoran_woodhearth_96 }
+	3068.4.1 = { holder = camoran_woodhearth_97 }
+	3144.7.22 = { holder = camoran_woodhearth_98 }
+	3212.2.11 = { holder = camoran_woodhearth_99 }
+	3313.11.15 = { holder = camoran_woodhearth_100 }
+	3369.10.10 = { 
+		holder = bearclaw_1
+		government = tribal_government 
+	}
+	3371.3.21 = { holder = bearclaw_2 }
+	3484.1.1 = { holder = 0 }
+}
+d_woodhearth = {
+	400.1.1 = { holder = rulanyil_3 } #Ayleid warlord
+	600.1.1 = { holder = 0 }
+	2406.4.6 = { holder = camoran_woodhearth_89 }
+	2502.10.4 = { holder = camoran_woodhearth_90 }
+	2599.3.2 = { holder = camoran_woodhearth_91 }
+	2665.8.31 = { holder = camoran_woodhearth_92 }
+	2752.9.20 = { holder = camoran_woodhearth_93 }
+	2801.4.13 = { holder = camoran_woodhearth_94 }
+	2894.10.5 = { holder = camoran_woodhearth_95 }
+	2974.2.15 = { holder = camoran_woodhearth_96 }
+	3068.4.1 = { holder = camoran_woodhearth_97 }
+	3144.7.22 = { holder = camoran_woodhearth_98 }
+	3212.2.11 = { holder = camoran_woodhearth_99 }
+	3313.11.15 = { holder = camoran_woodhearth_100 }
+	3369.10.10 = { holder = bearclaw_1 }
+	3371.3.21 = { holder = bearclaw_2 }
+	3484.1.1 = { holder = 0 }
+	3488.1.1 = { holder = undriel_003 }
+	#History ToDo ESO: decide if Woodhearth is under Grahtwood or Dominion
+	3490.1.1 = { liege = k_eldenroot }
+}
+c_woodhearth = {
+	3360.1.1 = { change_development_level = 10 }
+	2406.4.6 = { holder = camoran_woodhearth_89 }
+	2502.10.4 = { holder = camoran_woodhearth_90 }
+	2599.3.2 = { holder = camoran_woodhearth_91 }
+	2665.8.31 = { holder = camoran_woodhearth_92 }
+	2752.9.20 = { holder = camoran_woodhearth_93 }
+	2801.4.13 = { holder = camoran_woodhearth_94 }
+	2894.10.5 = { holder = camoran_woodhearth_95 }
+	2974.2.15 = { holder = camoran_woodhearth_96 }
+	3068.4.1 = { holder = camoran_woodhearth_97 }
+	3144.7.22 = { holder = camoran_woodhearth_98 }
+	3212.2.11 = { holder = camoran_woodhearth_99 }
+	3313.11.15 = { holder = camoran_woodhearth_100 }
+	3369.10.10 = { holder = bearclaw_1 }
+	3371.3.21 = { holder = bearclaw_2 }
+	3484.1.1 = { holder = undriel_003 }
+}
+
+c_silvermoor = {
+	3360.1.1 = { change_development_level = 10 }
+	3230.1.1 = { 
+		holder = branck_001
+		liege = k_woodhearth 
+	}
+	3276.1.1 = { holder = branck_002 }
+	3354.1.1 = { holder = branck_003 } 
+	3369.1.1 = { holder = branck_003b }
+	3372.1.1 = { holder = branck_004 }
+	#History ToDo: migrate Undriels to Silvermoor
+	3488.1.1 = { liege = d_woodhearth }
+}
+
+c_serpent_grotto = {
+	3360.1.1 = { change_development_level = 10 }
+	3250.1.1 = { 
+		holder = dornke_father_001
+		liege = k_woodhearth 
+	}
+	3355.1.1 = { holder = dornke_001}
+	3372.1.1 = { holder = undriel_001 }
+	3446.12.1 = { holder = maormer_1_pirate }	#Sea Viper camp during Blackdrake BM
+	#History ToDo: migrate Undriels to Silvermoor
+	3448.1.1 = { holder = undriel_001 }
+	3475.1.1 = { holder = undriel_002 }
+	3484.1.1 = { holder = undriel_003 }
+}
+
+c_longhaven = {
+	2406.4.6 = { holder = camoran_woodhearth_89 }
+	2502.10.4 = { holder = camoran_woodhearth_90 }
+	2599.3.2 = { holder = camoran_woodhearth_91 }
+	2665.8.31 = { holder = camoran_woodhearth_92 }
+	2752.9.20 = { holder = camoran_woodhearth_93 }
+	2801.4.13 = { holder = camoran_woodhearth_94 }
+	2894.10.5 = { holder = camoran_woodhearth_95 }
+	2974.2.15 = { holder = camoran_woodhearth_96 }
+	3068.4.1 = { holder = camoran_woodhearth_97 }
+	3144.7.22 = { holder = camoran_woodhearth_98 }
+	3212.2.11 = { holder = camoran_woodhearth_99 }
+	3313.11.15 = { holder = camoran_woodhearth_100 }
+	3369.10.10 = { holder = bearclaw_1 }
+	3371.3.21 = { holder = bearclaw_2 }
+	3484.1.1 = { holder = undriel_003 }
+}
+
+c_rootwater = {
+	3333.1.1 = { 
+		liege = k_woodhearth
+		holder = rootwater_001 
+	}
+	3480.12.26 = { 
+		liege = 0
+		holder = rootwater_002 
+	}
+	3488.1.1 = { liege = d_woodhearth }
+}
+
+c_rootwatch = {
+	260.1.1 = { holder = rulanyil_2 }
+	350.7.10 = { holder = rulanyil_3 }
+	2976.4.5 = { 
+		holder = rulanyil_97
+		liege = k_woodhearth
+	}
+	3104.12.18 = { holder = rulanyil_98 }
+	3197.2.3 = { holder = rulanyil_99 }
+	3299.9.13 = { holder = rulanyil_100 }
+	3365.1.19 = { holder = rulanyil_101b }
+	3444.1.1 = { 
+		holder = rulanyil_101
+		liege = 0
+	}
+	3450.1.1 = { 
+		holder = rulanyil_102
+		liege = k_woodhearth 
+	}
+	3488.1.1 = { holder = undriel_003 }
+}
+
+d_driladan = {
+	900.1.1 = { holder = rulanyil_3 } #Ayleid warlord
+	1102.1.1 = { holder = 0 }
+	3120.1.1 = { holder = driladan_002 }
+	3190.1.1 = { holder = driladan_003 }
+	3290.1.1 = { holder = driladan_004 }
+	3368.3.6 = { holder = 0 } #Driladan clan shattered
+	3430.10.10 = { holder = driladan_005 } #Driladan clan reunited
+	3501.1.1 = { holder = 0 }
+}
+	
+c_driladan = {
+	3000.1.1 = { holder = driladan_001 }
+	3105.1.1 = { holder = driladan_002 }
+	3190.1.1 = { holder = driladan_003 }
+	3290.1.1 = { holder = driladan_004 }
+	3400.1.1 = { holder = driladan_005 }
+}
+	
+c_echo = {
+	3000.1.1 = { holder = driladan_001 }
+	3105.1.1 = { holder = driladan_002 }
+	3190.1.1 = { holder = driladan_003 }
+	3290.1.1 = { holder = driladan_004 }
+	3400.1.1 = { holder = driladan_005 }
+}
+	
+c_springsite = {
+	-1.1.1 = { holder = camoran_1 }
+	177.4.7 = { holder = camoran_2 }
+	451.8.20 = { holder = camoran_3 }
+	580.12.4 = { holder = camoran_4 }
+	814.11.10 = { holder = camoran_5 }
+	887.2.16 = { holder = camoran_6 }
+	1000.10.10 = { holder = camoran_7 }
+	1043.9.20 = { holder = camoran_8 }
+	1104.11.18 = { holder = camoran_9 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2795.4.27 = { holder = camoran_93b }
+	2833.11.19 = { holder = camoran_95 }
+	2909.1.8 = { holder = camoran_96 }
+	2986.3.9 = { holder = camoran_97 }
+	3074.5.18 = { holder = camoran_97b }
+	3155.8.10 = { holder = camoran_98 }
+	3257.9.21 = { holder = camoran_99 }
+	3303.4.12 = { holder = camoran_100 }
+	3340.1.1 = { 
+		liege = k_woodhearth
+		holder = bearclaw_1
+	}
+	3369.10.10 = { 
+		liege = 0
+		holder = bearclaw_2  
+	}
+	3484.1.1 = { holder = bearclaw_004 } 
+	3500.1.1 = { holder = lhurgash_009 }
+}
+	
+c_green_marrow = {
+	3100.1.1 = { holder = duskthorn_001 }
+	3264.1.1 = { holder = duskthorn_002 }
+	3330.1.1 = { holder = duskthorn_003 }
+	3371.3.21 = { liege = k_woodhearth }
+	3420.1.1 = { holder = duskthorn_004 }
+	3485.1.1 =  { holder = duskthorn_005b }
+	3494.1.1 =  { holder = duskthorn_005 }
+}
+
+d_drabble = {
+	250.1.1 = { holder = oiobala_2 }
+	498.12.1 = { holder = oiobala_3 }
+	634.8.27 = { holder = oiobala_4 }
+	760.1.1 = { holder = rulanyil_3 } #Ayleid warlord
+	830.1.1 = { holder = 0 }
+}	
+c_drabble = {
+	250.1.1 = { holder = oiobala_2 }
+	498.12.1 = { holder = oiobala_3 }
+	634.8.27 = { holder = oiobala_4 }
+	798.9.6 = { holder = oiobala_5 }
+	834.5.3 = { holder = oiobala_6 }
+	3101.1.1 = { holder = oiobala_97 }
+	3212.5.3 = { holder = oiobala_98 }
+	3298.11.22 = { holder = oiobala_99 }
+	3330.3.6 = { holder = oiobala_100 }
+	3372.1.1 = { holder = blackroot_1 }
+	3374.1.2 = { holder = forestrun_001 }
+	3390.1.1 = { holder = allir_001 }
+}
+
+c_towerrocks_vale = {
+	3340.1.1 = { 
+		liege = k_woodhearth
+		holder = bearclaw_1 
+	}
+	3369.10.10 = { 
+		liege = 0
+		holder = bearclaw_2 
+	}
+	3400.1.1 = { 
+		holder = bearclaw_003
+		liege = k_woodhearth 
+	}
+	3484.1.1 = { holder = bearclaw_004 }
+	3505.1.1 = { holder = bearclaw_005 }
+}
+
+c_verrant = {
+	3340.10.13 = { holder = greenleaf_1 }
+	3372.1.1 = { liege = k_woodhearth }
+}
+
+d_diss = {
+	3300.1.1 = { holder = eldamar_003 }
+	3362.1.1 = { holder = blackroot_1 }
+	3374.1.2 = { holder = fernsky_001 }
+}
+	
+c_diss = {
+	3300.1.1 = { holder = eldamar_003 }
+	3340.1.1 = { holder = blackroot_1 }
+	3374.1.2 = { holder = fernsky_001 }
+	3501.12.1 = { holder = maormer_1_pirate }	#Sea Viper camp in ESO
+}
+
+c_moonhenge = {
+	3300.1.1 = { holder = eldamar_003 }
+	3362.1.1 = { holder = blackroot_1 }
+}
+
+c_twin_falls = {
+	250.1.1 = { holder = oiobala_2 }
+	498.12.1 = { holder = oiobala_3 }
+	634.8.27 = { holder = oiobala_4 }
+	798.9.6 = { holder = oiobala_5 }
+	834.5.3 = { holder = oiobala_6 }
+	3212.5.3 = { holder = oiobala_98 }
+	3298.11.22 = { holder = oiobala_99 }
+	3330.3.6 = { holder = oiobala_100 }
+	3372.1.1 = { holder = blackroot_1 }
+	3374.1.2 = { holder = forestrun_001 }
+	3390.1.1 = { holder = forestrun_002 }
+}
+
+d_vullain = {
+	3000.1.1 = { holder = eldamar_001 }
+	3160.1.1 = { holder = eldamar_002 }
+	3300.1.1 = {
+		government = feudal_government 
+		holder = eldamar_003 
+	}
+	3362.1.1 = { holder = eldamar_004 }
+}
+
+c_seaside = {
+	3000.1.1 = { holder = eldamar_001 }
+	3160.1.1 = { holder = eldamar_002 }
+	3300.1.1 = { holder = eldamar_003 }
+	3362.1.1 = { holder = eldamar_004 }
+}
+
+c_vullain = {
+	3310.1.1 = {
+		liege = d_vullain
+		holder = springbrook_001
+	}
+	3364.1.1 = { liege = 0 }
+	3371.1.6 = { holder = springbrook_003 }
+	3374.1.1 = { holder = blackroot_1 }
+	#History Todo 527: abandoned according to ESO, decide who to put here
+}
+
+c_gladwell = {
+	3330.1.1 = {
+		liege = d_vullain
+		holder = malga_100
+	}
+}
+
+#k_silvenar
+k_silvenar = {
+	2716.1.1 = { holder = camoran_silvenar_91 }
+	2753.11.4 = { holder = camoran_silvenar_92 }
+	2832.9.18 = { holder = camoran_silvenar_92b }
+	2849.3.23 = { holder = rayn_94 }
+	2921.5.11 = { holder = rayn_95 }
+	3020.7.2 = { holder = camoran_silvenar_95 }
+	3086.3.29 = { holder = camoran_silvenar_96 }
+	3187.11.9 = { holder = camoran_silvenar_97 }
+	3239.2.2 = { holder = rayn_98 }
+	3257.1.15 = { holder = camoran_silvenar_98 }
+	3298.3.12 = { holder = camoran_silvenar_99 }
+	3354.8.10 = { holder = camoran_silvenar_100 }
+	3445.1.1 = { holder = camoran_silvenar2_101 } #Blacksap coup
+	#Blacksaps kicked out, Eldenroot rules Silvenar now
+	3449.1.1 = { holder = camoran_grahtwood_101 }
+}	
+
+d_silvenar = {
+	850.10.7 = { holder = camoran_silvenar_1 }
+	965.4.6 = { holder = camoran_silvenar_2 }
+	1040.7.2 = { holder = camoran_silvenar_3 }
+	1103.8.23 = { holder = camoran_silvenar_4 }
+	2478.3.27 = { holder = camoran_silvenar_89 }
+	2607.6.10 = { holder = camoran_silvenar_90 }
+	2675.10.22 = { holder = camoran_silvenar_91 }
+	2753.11.4 = { holder = camoran_silvenar_92 }
+	2832.9.18 = { holder = camoran_silvenar_92b }
+	2849.3.23 = { holder = rayn_94 }
+	2921.5.11 = { holder = rayn_95 }
+	3020.7.2 = { holder = camoran_silvenar_95 }
+	3086.3.29 = { holder = camoran_silvenar_96 }
+	3187.11.9 = { holder = camoran_silvenar_97 }
+	3239.2.2 = { holder = rayn_98 }
+	3257.1.15 = { holder = camoran_silvenar_98 }
+	3298.3.12 = { holder = camoran_silvenar_99 }
+	3354.8.10 = { holder = camoran_silvenar_100 }
+	3445.1.1 = { holder = camoran_silvenar2_101 } #Blacksap coup
+	3449.1.1 = { 
+		holder = camoran_silvenar_100
+		liege = k_eldenroot 
+	}
+	3494.7.30 = { holder = camoran_silvenar_101 }
+}
+c_silvenar = {
+	3360.1.1 = { change_development_level = 11 }
+	850.10.7 = { holder = camoran_silvenar_1 }
+	965.4.6 = { holder = camoran_silvenar_2 }
+	1040.7.2 = { holder = camoran_silvenar_3 }
+	1103.8.23 = { holder = camoran_silvenar_4 }
+	2478.3.27 = { holder = camoran_silvenar_89 }
+	2607.6.10 = { holder = camoran_silvenar_90 }
+	2675.10.22 = { holder = camoran_silvenar_91 }
+	2753.11.4 = { holder = camoran_silvenar_92 }
+	2832.9.18 = { holder = camoran_silvenar_92b }
+	2849.3.23 = { holder = rayn_94 }
+	2921.5.11 = { holder = rayn_95 }
+	3020.7.2 = { holder = camoran_silvenar_95 }
+	3086.3.29 = { holder = camoran_silvenar_96 }
+	3187.11.9 = { holder = camoran_silvenar_97 }
+	3239.2.2 = { holder = rayn_98 }
+	3257.1.15 = { holder = camoran_silvenar_98 }
+	3298.3.12 = { holder = camoran_silvenar_99 }
+	3354.8.10 = { holder = camoran_silvenar_100 }
+	3445.1.1 = { holder = camoran_silvenar2_101 } #Blacksap coup
+	3449.1.1 = { holder = camoran_silvenar_100 }
+	3494.7.30 = { holder = camoran_silvenar_101 }
+}
+
+c_treebeard = { #Rayn personal domain
+	3360.1.1 = { change_development_level = 11 }
+	2591.10.2 = { holder = rayn_91 }
+	2711.6.11 = { holder = rayn_92 }
+	2760.3.9 = { 
+		holder = rayn_93
+		liege = k_silvenar  
+	}
+	2837.5.3 = { holder = rayn_94 }
+	2921.5.11 = { holder = rayn_95 }
+	3020.7.2 = { holder = rayn_96 }
+	3096.9.1 = { holder = rayn_97 }
+	3153.8.25 = { holder = rayn_98 }
+	3257.1.15 = { holder = rayn_99 }
+	3349.10.30 = { holder = rayn_100 }
+	3403.7.20 = { holder = rayn_101 }
+	3449.1.1 = { liege = d_silvenar }
+	3498.1.17 =  { holder = rayn_102 }
+}
+
+c_valeguard = {
+	2478.3.27 = { holder = camoran_silvenar_89 }
+	2607.6.10 = { holder = camoran_silvenar_90 }
+	2675.10.22 = { holder = camoran_silvenar_91 }
+	2753.11.4 = { holder = camoran_silvenar_92 }
+	2832.9.18 = { holder = camoran_silvenar_92b }
+	2849.3.23 = { holder = rayn_94 }
+	2921.5.11 = { holder = rayn_95 }
+	3020.7.2 = { holder = camoran_silvenar_95 }
+	3086.3.29 = { holder = camoran_silvenar_96 }
+	3187.11.9 = { 
+		holder = camoran_silvenar2_98
+		liege = k_silvenar 
+	}
+	3266.9.17 = { holder = camoran_silvenar2_99 }
+	3331.7.30 = { holder = camoran_silvenar2_100 }
+	3363.3.24 = { holder = camoran_silvenar2_101 }
+	3449.1.1 = { holder = camoran_silvenar_100 }
+	3494.7.30 = { holder = camoran_silvenar_101 }
+}
+
+c_ouze = {
+	180.1.1 = { holder = silvenar_1 }
+	369.1.1 = { holder = silvenar_2 }
+	3150.1.1 = { holder = silvenar_99 }
+	3319.1.1 = { holder = silvenar_100 }
+	3502.2.1 = { holder = silvenar_101 }
+}
+
+#d_treehenge
+
+c_treehenge = {
+	2478.3.27 = { holder = camoran_silvenar_89 }
+	2607.6.10 = { holder = camoran_silvenar_90 }
+	2675.10.22 = { holder = camoran_silvenar_91 }
+	2753.11.4 = { 
+		holder = camoran_silvenar_92
+		liege = k_silvenar 
+	}
+	2832.9.18 = { holder = camoran_silvenar_93 }
+	2919.9.11 = { holder = camoran_silvenar_94 }
+	3001.11.2 = { holder = camoran_silvenar_95 }
+	#Granted to a sibling after camoran_silvenar_95 becomes a king
+	3020.7.2 = { holder = camoran_silvenar1_96 }
+	3099.9.19 = { holder = camoran_silvenar1_97 }
+	3174.6.8 = { holder = camoran_silvenar1_98 }
+	3258.10.23 = { holder = camoran_silvenar1_99 }
+	3341.7.2 = { holder = camoran_silvenar1_100 }
+}
+
+c_ebon_ro = {
+	3143.3.14 = { 
+		holder = anno_98
+		liege = k_silvenar 
+	}
+	3267.9.3 = { holder = anno_99 }
+	3326.8.16 = { holder = anno_100 }
+	3409.11.30 = { holder = anno_101b }
+	3452.8.21 = { holder = anno_101 }
+	3516.10.19 = { holder = anno_102 }
+}
+c_windshriek = {
+	3100.1.1 = { 
+		holder = ulthran_001
+		liege = k_silvenar 
+	}
+	3250.1.1 = { holder = ulthran_002b }
+	3325.1.1 = { holder = ulthran_002 }
+	3358.1.1 = { holder = ulthran_003 }
+	3437.1.1 = { holder = ulthran_004 }
+	3484.1.1 = { holder = ulthran_006 }
+	3508.1.1 = { holder = ulthran_004b }
+	3520.1.1 = { holder = anno_102 }
+}
+
+c_blackvine = {
+	3360.1.1 = {
+		liege = k_silvenar
+		holder = tavaknai_1
+	}
+}
+
+b_wildling_run = {
+	3440.1.1 = { holder = forestwalker_004c }
+}
+
+d_vulkwasten = {
+	670.1.1 = { holder = salandas_001 }
+	810.1.1 = { holder = 0 }
+	3250.1.1 = { 
+		holder = boldonor_001
+		liege = k_silvenar
+	}
+	3350.1.1 = { holder = boldonor_002 }
+	3364.1.1 = { liege = 0 }
+	3412.1.1 = { liege = k_silvenar }
+	3474.1.1 = { holder = boldonor_003 }
+}
+
+c_vulkwasten = {
+	670.1.1 = { holder = salandas_001 }
+	3250.1.1 = { holder = boldonor_001 }
+	3350.1.1 = { holder = boldonor_002 }
+	3474.1.1 = { holder = boldonor_003 }
+}
+
+c_stranglewatch = {
+	3090.1.1 = { holder = boldonor_mother_001 }
+	3250.1.1 = { holder = boldonor_001 }
+	3350.1.1 = {
+		liege = d_vulkwasten
+		holder = boldonor_002b
+	}
+}
+
+c_amondale = {
+	3326.1.1 = { 
+		holder = drublog_001
+		liege = k_silvenar 
+	}
+	3350.1.1 = { holder = drublog_002 }
+	3364.1.1 = { liege = 0 }
+	3385.1.1 = { holder = drublog_003 }
+	3385.1.2 = { holder = drublog_003b }
+	3410.1.1 = { holder = drublog_004 }
+	3442.1.1 = { holder = drublog_005 }
+	3460.1.1 = { holder = drublog_006 }
+	3488.1.1 = { holder = drublog_007 }
+}
+
+c_horseshoe = {
+	3300.1.1 = { holder = ulthran_002b }
+	3325.1.1 = { holder = amirriath_father_1 }
+	3350.1.6 = { holder = amirriath_1 }
+	3422.1.1 = { holder = boldonor_002 }
+	3474.1.1 = { holder = boldonor_003 }
+	3501.12.1 = { holder = maormer_1_pirate }	#Sea Viper camp in ESO
+}
+
+#d_tanglehaven
+c_tanglehaven = {
+	3120.1.1 = { holder = irillyth_001 }
+	3291.1.1 = { 
+		holder = irillyth_002
+		liege = k_silvenar 
+	}
+	3354.1.1 = { holder = irillyth_003 }
+	3364.1.1 = { liege = 0 }
+}
+
+c_bloodtoil = {
+	3332.1.1 = { holder = bloodtoil_001 }
+	3352.1.1 = { holder = drublog_bloodtoil_001 }
+	3389.1.1 = { holder = drublog_bloodtoil_002 }
+	3415.1.1 = { holder = drublog_bloodtoil_003 }
+	3415.1.2 = { holder = drublog_bloodtoil_003b }
+	3440.1.1 = { holder = drublog_bloodtoil_004 }
+	3460.1.1 = { holder = drublog_bloodtoil_005b }
+	3481.1.1 = { holder = drublog_bloodtoil_006 }
+}
+	
+c_jathi = {
+	3325.1.1 = { holder = bloodtoil_001 }
+	3352.1.1 = { holder = drublog_bloodtoil_001 }
+	3389.1.1 = { holder = drublog_bloodtoil_002 }
+	3415.1.1 = { holder = drublog_bloodtoil_003 }
+	3415.1.2 = { holder = drublog_bloodtoil_003c }
+	3416.1.1 = { holder = drublog_bloodtoil_003d }
+	3437.1.1 = { holder = drublog_jathosgur_001 }
+	3464.1.1 = { holder = drublog_jathosgur_002 }
+	3482.1.1 = { holder = drublog_jathosgur_003 }
+	3495.1.1 = { holder = drublog_jathosgur_004 }
+}
+
+#k_haven
+k_haven = {
+	2716.1.1 = { holder = camoran_haven_90 }
+	2764.7.22 = { holder = camoran_haven_91 }
+	2821.11.9 = { holder = camoran_haven_92 }
+	2905.7.28 = { holder = camoran_haven_93 }
+	2966.12.12 = { holder = camoran_haven_94 }
+	3074.3.11 = { holder = camoran_haven_95 }
+	3135.6.21 = { holder = camoran_haven_96 }
+	3172.7.28 = { holder = camoran_haven_97 }
+	3273.1.26 = { holder = camoran_haven_98 }
+	3342.4.2 = { holder = camoran_haven_99b }
+	3356.6.2 = { holder = blue_venom_001 } #Maormer pirate proclaims himself king
+	3358.7.8 = { holder = 0 } #Maormer pirate is torn to pieces
+	#3466.7.4 = { holder = camoran_grahtwood_101 }
+}
+
+d_haven = {
+	#Granted to member of Eldenroot branch
+	2562.4.26 = { holder = camoran_grahtwood_90b }
+	2655.1.30 = { holder = camoran_haven_90 }
+	2764.7.22 = { holder = camoran_haven_91 }
+	2821.11.9 = { holder = camoran_haven_92 }
+	2905.7.28 = { holder = camoran_haven_93 }
+	2966.12.12 = { holder = camoran_haven_94 }
+	3074.3.11 = { holder = camoran_haven_95 }
+	3135.6.21 = { holder = camoran_haven_96 }
+	3172.7.28 = { holder = camoran_haven_97 }
+	3273.1.26 = { holder = camoran_haven_98 }
+	3342.4.2 = { holder = camoran_haven_99b }
+	3356.6.2 = { holder = blue_venom_001 }
+	3358.7.8 = { holder = camoran_haven_100 }
+	#Haven is vassalized by Grahtwood
+	3410.1.1 = { liege = k_eldenroot }
+	3435.9.25 = { holder = camoran_haven_101 }
+}	
+
+c_haven = {
+	3360.1.1 = { change_development_level = 10 }
+	2562.4.26 = { holder = camoran_grahtwood_90b }
+	2655.1.30 = { holder = camoran_haven_90 }
+	2764.7.22 = { holder = camoran_haven_91 }
+	2821.11.9 = { holder = camoran_haven_92 }
+	2905.7.28 = { holder = camoran_haven_93 }
+	2966.12.12 = { holder = camoran_haven_94 }
+	3074.3.11 = { holder = camoran_haven_95 }
+	3135.6.21 = { holder = camoran_haven_96 }
+	3172.7.28 = { holder = camoran_haven_97 }
+	3273.1.26 = { holder = camoran_haven_98 }
+	3342.4.2 = { holder = camoran_haven_99b }
+	3356.6.2 = { holder = blue_venom_001 }
+	3358.7.8 = { holder = camoran_haven_100 }
+	3435.9.25 = { holder = camoran_haven_101 }
+}
+
+c_heimdar = {
+	3273.1.26 = { holder = camoran_haven_98 }
+	3342.4.2 = { holder = camoran_haven_99b }
+	3356.6.2 = { holder = camoran_haven_100 }
+	3435.9.25 = { holder = camoran_haven_101 }
+}
+
+c_brackenleaf = {
+	3273.1.26 = { holder = camoran_haven_98 }
+	3342.4.2 = { holder = camoran_haven_99b }
+	3356.6.2 = { holder = camoran_haven_100 }
+	3368.1.1 = {
+		liege = d_haven
+		holder = camoran_haven_100b
+	}
+}
+
+c_rootsunder = {
+	2384.9.19 = { holder = camoran_grahtwood_88 }
+	2487.2.22 = { holder = camoran_grahtwood_89 }
+	2555.6.19 = { holder = camoran_grahtwood_90 }
+	2638.7.22 = { holder = camoran_grahtwood_91 }
+	2709.3.11 = { holder = camoran_grahtwood_92 }
+	2812.10.28 = { holder = camoran_grahtwood_93 }
+	2887.7.16 = { holder = camoran_grahtwood_94 }
+	2948.6.20 = { holder = camoran_grahtwood_95 }
+	3022.12.24 = { 
+		holder = camoran_grahtwood3_96
+		liege = k_eldenroot
+	}
+	3097.10.26 = { holder = camoran_grahtwood3_97 }
+	3130.1.21 = { holder = camoran_grahtwood3_98 }
+	3211.9.5 = { holder = camoran_grahtwood3_99 }
+	3307.3.21 = { holder = camoran_grahtwood3_100 }
+	3376.4.25 = { holder = camoran_grahtwood3_101 }
+	3398.2.15 = { holder = camoran_grahtwood3_101b }
+}
+
+d_southpoint = {
+	2730.1.1 = { holder = zantonius_999 }
+	3270.1.1 = { holder = zantonius_997 }
+	3300.1.1 = { holder = zantonius_996 }
+	3335.3.6 = { holder = zantonius_1 }
+	3371.6.4 = { holder = zantonius_3 }
+	3392.6.4 = { holder = zantonius_4 }
+	3394.1.1 = { holder = 0 } #Conquered by Grahtwood
+	3500.1.1 = { liege = e_summerset }
+}
+
+c_southpoint = {
+	2721.1.1 = { holder = zantonius_999 }
+	3270.1.1 = { holder = zantonius_997 }
+	3300.1.1 = { holder = zantonius_996 }
+	3335.3.6 = { holder = zantonius_1 }
+	3371.6.4 = { holder = zantonius_3 }
+	3392.6.4 = { holder = zantonius_4 }
+	3394.1.1 = { liege = k_eldenroot }
+	3441.6.4 = { holder = zantonius_5 }
+	3480.6.4 = { holder = zantonius_5b }
+	3499.1.1 = { holder = zantonius_6 }
+}
+
+c_graymire = {
+	3360.1.1 = { change_development_level = 11 }	
+	3150.1.1 = { 
+		holder = helomaine_001
+		liege = d_southpoint 
+	}
+	3300.1.1 = { holder = helomaine_002 }
+	3321.1.1 = { holder = helomaine_003 }
+	3394.1.1 = { liege = k_eldenroot }
+	3435.1.1 = { holder = helomaine_004 }
+}
+
+c_havisti = {
+	3150.1.1 = { holder = helomaine_001 }
+	3300.1.1 = { holder = helomaine_002 }
+	3321.1.1 = { holder = helomaine_003 }
+	3435.1.1 = { holder = helomaine_004 }
+}
+
+c_sweetbreeze = {
+	2562.4.26 = { holder = camoran_grahtwood_90b }
+	2655.1.30 = { holder = camoran_haven_90 }
+	2764.7.22 = { holder = camoran_haven_91 }
+	2821.11.9 = { holder = camoran_haven_92 }
+	2905.7.28 = { holder = camoran_haven_93 }
+	2966.12.12 = { holder = camoran_haven_94 }
+	3074.3.11 = { holder = camoran_haven_95 }
+	3135.6.21 = { holder = camoran_haven2_98 }
+	3211.1.30 = { holder = camoran_haven2_99 }
+	3294.2.18 = {
+		liege = d_southpoint
+		holder = camoran_haven2_100
+	}
+	3366.1.1 = { holder = camoran_haven2_101 }
+	3394.1.1 = { liege = k_eldenroot }
+	3458.1.1 = { holder = camoran_haven2_102b }
+	3486.1.1 = { holder = ramothran_004 }
+}
+
+d_greenhall = {
+	3046.1.1 = { holder = ledure_98 }
+	3153.1.1 = { holder = ledure_99 } 
+	3264.1.1 = { holder = bonefang_99 }
+	3359.1.1 = { holder = bonefang_100 }
+	3365.10.13 = { 
+		liege = k_eldenroot
+		holder = bonefang_100c 
+	}
+	3435.1.1 = { holder = bonefang_101 }
+}
+	
+c_vinedeath = {
+	3046.1.1 = { holder = ledure_98 }
+	3153.1.1 = { holder = ledure_99 } 
+	3264.1.1 = { holder = bonefang_99 }
+	3359.1.1 = { holder = bonefang_100 }
+	3365.10.13 = { holder = bonefang_100c }
+	3435.1.1 = { holder = bonefang_101 }
+}
+	
+c_greenhall = {
+	3046.1.1 = { holder = ledure_98 }
+	3153.1.1 = { holder = ledure_99 } 
+	3264.1.1 = { holder = bonefang_99 }
+	3359.1.1 = { holder = bonefang_100 }
+	3365.10.13 = { holder = bonefang_100c }
+	3435.1.1 = { holder = bonefang_101 }
+}
+
+c_willowind = {
+	3088.9.28 = { holder = camoran_grahtwood_97 }
+	3197.7.1 = { holder = camoran_grahtwood_98 }
+	3281.8.10 = { holder = camoran_grahtwood_99 }
+	3354.8.1 = { holder = camoran_grahtwood_100 }
+	3442.12.26 = { holder = camoran_grahtwood_101 }
+}
+	
+c_dawnleaf = {
+	2562.4.26 = { holder = camoran_grahtwood_90b }
+	2655.1.30 = { holder = camoran_haven_90 }
+	2764.7.22 = { holder = camoran_haven_91 }
+	2821.11.9 = { holder = camoran_haven_92 }
+	2905.7.28 = { holder = camoran_haven_93 }
+	2966.12.12 = { holder = camoran_haven_94 }
+	3074.3.11 = { holder = camoran_haven_95b }
+	3159.5.17 = { holder = camoran_haven3_98 }
+	3202.6.26 = { holder = camoran_haven3_99 }
+	3283.9.15 = {
+		liege = d_haven
+		holder = camoran_haven3_100
+	}
+	3361.12.9 = { holder = camoran_haven3_101 }
+	3412.4.14 = { holder = camoran_haven3_102 }
+}
+
+b_lynpan_march = {
+	3360.1.1 = { holder = thokra_100 }
+}
+
+#Arenthia
+k_arenthia = {
+	3.1.1 = { holder = arenthia_001 } #Bosmer kings of Arenthia 
+	192.1.1 = { holder = arenthia_002 }
+	300.1.1 = { holder = arenthia_003 }
+	390.1.1 = { holder = arenthia_004 }
+	451.1.1 = { holder = anequina_darloc_brae } #Darloc Brae
+	500.1.1 = { holder = 0 }
+	2716.1.1 = { holder = grimwatch_001 } #Colovian governor
+	3235.1.1 = { holder = saccav_001 }
+	3272.1.1 = { holder = saccav_002 }
+	3352.3.6 = { holder = pullia_1 }
+	3384.6.4 = { holder = pullia_2 }
+	3388.6.6 = { holder = 0 }
+}
+
+d_arenthia = {
+	990.1.1 = { holder = camoran_silvenar_2 }
+	1040.7.2 = { holder = camoran_silvenar_3 }
+	1103.8.23 = { holder = camoran_silvenar_4b }
+	1126.6.1 = { holder = 0 } #Camorans lose Arenthia
+	2716.1.1 = { holder = grimwatch_001 }
+	3235.1.1 = { holder = saccav_001 }
+	3272.1.1 = { holder = saccav_002 }
+	3352.3.6 = { holder = pullia_1 }
+	3384.6.4 = { holder = pullia_2 }
+	3388.6.6 = { holder = 0 }
+	3403.1.1 = { holder = ramennor_001 }
+	3424.1.1 = { holder = ramennor_002 }
+	3441.1.1 = { holder = ramennor_003 }
+	3470.1.1 = { holder = ramennor_004 }
+	3480.1.1 = { holder = ramennor_004b }
+	3481.1.1 = { holder = ramennor_005 }
+	3500.1.1 = { liege = k_eldenroot }
+	3502.1.1 = { holder = 0 }
+	3503.1.1 = { 
+		holder = arenthia_khajiit_001
+		liege = e_elsweyr 
+	}
+}
+
+c_arenthia = {
+	3360.1.1 = { change_development_level = 12 }
+	990.1.1 = { holder = camoran_silvenar_2 }
+	1040.7.2 = { holder = camoran_silvenar_3 }
+	1103.8.23 = { holder = camoran_silvenar_4b }
+	2716.1.1 = { holder = grimwatch_001 }
+	3235.1.1 = { holder = saccav_001 }
+	3272.1.1 = { holder = saccav_002 }
+	3352.3.6 = { holder = pullia_1 }
+	3384.6.4 = { holder = pullia_2 }
+	3388.6.6 = { holder = ramennor_001 }
+	3424.1.1 = { holder = ramennor_002 }
+	3441.1.1 = { holder = ramennor_003 }
+	3470.1.1 = { holder = ramennor_004 }
+	3480.1.1 = { holder = ramennor_004b }
+	3481.1.1 = { holder = ramennor_005 }
+	3502.1.1 = { 
+		liege = k_skingrad 
+		holder = lavinia_001 #general of the legion of the WW 
+	}
+	3503.1.1 = { 
+		holder = arenthia_khajiit_001
+		liege = e_elsweyr 
+	}
+}
+c_sphinxmoth = {
+	3352.3.6 = { holder = pullia_1 }
+	3372.1.1 = { holder = dakarn_100b }
+	3374.6.4 = { holder = vinedusk_1b }
+	3378.1.1 = { holder = dakarn_101b }
+	3392.2.11 = { holder = vinedusk_1d }
+	3404.1.1 = { holder = ramennor_001 }
+	3424.1.1 = { holder = ramennor_002 }
+	3441.1.1 = { holder = ramennor_003 }
+	3470.1.1 = { holder = ramennor_004 }
+	3480.1.1 = { 
+		holder = sphinxmoth_001 #Bandits
+		liege = 0
+	}
+	3495.1.1 = { holder = sphinxmoth_002 }
+}
+c_sleekcreek = {
+	3354.8.10 = { 
+		liege = k_arenthia
+		holder = dakarn_100 
+	}
+	3361.8.10 = { liege = k_dune }
+	3377.6.4 = { holder = dakarn_101 }
+	3401.5.9 = { holder = dakarn_101c }
+	3425.2.8 = { holder = dakarn_102 }
+	3436.1.29 = { holder = dakarn_103 }
+	3440.1.1 = { holder = bago_003 }
+	3441.1.1 = { holder = bago_004 }
+	3477.1.1 = { holder = bago_005 }
+	3482.1.1 =  { holder = bago_004b_son }
+	3484.1.1 =  { holder = bago_007 }
+}
+	
+c_dawnmead = {
+	3354.8.10 = { 
+		liege = k_arenthia
+		holder = dakarn_100 
+	}
+	3435.1.1 = { holder = cragkin_004 } #Goblins run away from Bosmers
+	3440.6.8 = { holder = cragkin_005 }
+	3456.2.3 = { holder = cragkin_006 }
+	3480.1.1 = { 
+		holder = thizzrini_001
+		liege = k_dune 
+	}
+}
+
+c_palatine = {
+	3360.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		liege = d_arenthia
+		holder = dakhe_1
+	}
+	3389.1.7 = { holder = dakhe_002 }
+	3412.1.1 = { 
+		holder = dakhe_004
+		liege = k_dune 
+	}
+	3435.1.1 = { holder = dakhe_005 }
+	3463.1.1 = { holder = dakhe_006 }
+	3490.1.1 = { 
+		holder = dakhe_eso
+		liege = 0 
+	}
+}
+
+d_grimwatch = {
+	2716.1.1 = { holder = grimwatch_001 }
+	3290.1.1 = { holder = grimwatch_003 }
+	3320.1.1 = { holder = grimwatch_004 }
+	3351.1.1 = { holder = grimwatch_005 }
+	3352.3.6 = { holder = 0 }
+}
+c_grimwatch = {
+	2716.1.1 = { holder = grimwatch_001 }
+	3290.1.1 = { holder = grimwatch_003 }
+	3320.1.1 = { holder = grimwatch_004 }
+	3351.1.1 = {
+		liege = d_arenthia
+		holder = grimwatch_005
+	}
+	3382.1.1 = { holder = grimwatch_006 }
+	3403.1.1 = { holder = grimwatch_007 }
+	3438.1.1 = { holder = grimwatch_008 }
+	3468.1.1 = { holder = grimwatch_009 }
+	3494.1.1 = { holder = grimwatch_010 }
+	3499.10.13 = { holder = vorenus_1000 }
+}
+
+c_senalana = {
+	#EK History ToDo - put Minotaurs here when they're done
+	2716.1.1 = { holder = grimwatch_001 }
+	3290.1.1 = { holder = grimwatch_003 }
+	3320.1.1 = { holder = grimwatch_004 }
+	3351.1.1 = { holder = grimwatch_005 }
+	3352.3.6 = { holder = pullia_1 }
+}
+
+c_greenhill = {
+	3084.4.10 = { 
+		holder = malaphelle_97
+		liege = d_arenthia 
+	}
+	3176.6.4 = { holder = malaphelle_98 }
+	3254.10.17 = { holder = malaphelle_99 }
+	3316.3.18 = { holder = malaphelle_100 }
+	3364.12.5 = { holder = malaphelle_101 }
+	3372.1.1 = { liege = d_vinedusk } #Join Vinedusks
+	3403.1.1 = { liege = 0 } #Vinedusks fall apart
+	3405.1.1 = { holder = malaphelle_102 }
+	3410.1.1 = { liege = d_vinedusk }
+	3480.1.1 = { holder = cragkin_006 }
+	3485.1.1 = { #held by goblins during ESO
+		holder = cragkin_007
+		liege = 0
+	}
+	3504.1.1 = { holder = malaphelle_103 }
+}
+
+d_vinedusk = {
+	2563.7.28 = { holder = camoran_arenthia_91 }
+	2688.4.16 = { holder = camoran_arenthia_92 }
+	2710.9.7 = { holder = camoran_arenthia_93 }
+	2814.10.1 = { holder = camoran_arenthia_94 }
+	2893.11.17 = { holder = camoran_arenthia_95 }
+	2952.2.4 = { holder = camoran_arenthia_96 }
+	3043.11.13 = { holder = camoran_arenthia_97 }
+	3158.9.4 = { holder = camoran_arenthia_98 }
+	3189.3.11 = { holder = camoran_arenthia_99 }
+	3298.7.4 = { holder = camoran_arenthia_100 }
+	3353.3.6 = { holder = vinedusk_1 }
+	3388.6.4 = { holder = balfix_1 }
+	3403.1.1 = { holder = 0 }
+	3410.1.1 = { holder = dawnbranch_004 }
+	#Aeradan grants it to Vinedusks
+	3488.1.6 = { 
+		holder = balfix_003
+		liege = k_eldenroot 
+	}
+}
+
+c_vinedusk = {
+	2563.7.28 = { holder = camoran_arenthia_91 }
+	2688.4.16 = { holder = camoran_arenthia_92 }
+	2710.9.7 = { holder = camoran_arenthia_93 }
+	2814.10.1 = { holder = camoran_arenthia_94 }
+	2893.11.17 = { holder = camoran_arenthia_95 }
+	2952.2.4 = { holder = camoran_arenthia_96 }
+	3043.11.13 = { holder = camoran_arenthia_97 }
+	3158.9.4 = { holder = camoran_arenthia_98 }
+	3189.3.11 = { holder = camoran_arenthia_99 }
+	3298.7.4 = { holder = camoran_arenthia_100 }
+	3353.3.6 = { holder = vinedusk_1 }
+	3388.6.4 = { holder = balfix_1 }
+	3403.1.1 = { holder = balfix_002 }
+	3410.1.1 = { liege = d_vinedusk }
+	3412.1.1 = { holder = balfix_002b }
+	3485.1.1 = { holder = balfix_003 }
+}
+
+c_autumnsite = {
+	-1.1.1 = { holder = camoran_1 }
+	177.4.7 = { holder = camoran_2 }
+	451.8.20 = { holder = camoran_3 }
+	580.12.4 = { holder = camoran_4 }
+	814.11.10 = { holder = camoran_5 }
+	887.2.16 = { holder = camoran_6 }
+	1000.10.10 = { holder = camoran_7 }
+	1043.9.20 = { holder = camoran_8 }
+	1104.11.18 = { holder = camoran_9 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2795.4.27 = { holder = camoran_93b }
+	2833.11.19 = { holder = camoran_95 }
+	2909.1.8 = { holder = camoran_96 }
+	2986.3.9 = { holder = camoran_97 }
+	3074.5.18 = { holder = camoran_97b }
+	3155.8.10 = { holder = camoran_98 }
+	3257.9.21 = { holder = camoran_99 }
+	3303.4.12 = { holder = camoran_100 }
+	3340.1.1 = { holder = camoran_arenthia_100 }
+	3365.1.1 = { holder = vinedusk_1 }
+	3388.6.4 = { holder = balfix_1 }
+	3403.1.1 = { holder = balfix_002 }
+	3412.1.1 = { holder = balfix_002b }
+	3485.1.1 = { holder = balfix_003 }
+}
+
+c_deathsong = {
+	2563.7.28 = { holder = camoran_arenthia_91 }
+	2688.4.16 = { holder = camoran_arenthia_92 }
+	2710.9.7 = { holder = camoran_arenthia_93 }
+	2814.10.1 = { holder = camoran_arenthia_94 }
+	2893.11.17 = { holder = camoran_arenthia_95 }
+	2952.2.4 = { holder = camoran_arenthia_96 }
+	3043.11.13 = { holder = camoran_arenthia_97 }
+	3158.9.4 = { holder = camoran_arenthia_98 }
+	3189.3.11 = { holder = camoran_arenthia_99 }
+	3298.7.4 = { holder = camoran_arenthia_100 }
+	3365.1.1 = { 
+		holder = balfix_1
+		liege = d_vinedusk 
+	}
+	3403.1.1 = { 
+		holder = balfix_002b
+		liege = 0 
+	}
+	3410.1.1 = { holder = dawnbranch_004 } #Conquered by Dawnbranch
+	3488.1.6 = { 
+		holder = dawnbranch_006b
+		liege = k_eldenroot 
+	}
+}
+
+d_jodewood = {
+	620.1.1 = { holder = mane_mp_001 }
+	3340.1.1 = { holder = drokin_1 }
+	3365.1.6 = { holder = drokin_2 }
+	3389.1.7 = { holder = drokin_3 }
+	3420.1.1 = { holder = drokin_4 }
+	3460.1.1 = { holder = drokin_5 }
+	3485.1.1 = { liege = e_elsweyr }
+	3492.1.1 = { holder = drokin_eso }
+}
+
+c_harrowdell = {
+	620.1.1 = { holder = mane_mp_001 }
+	3340.1.1 = { holder = drokin_1 }
+	3365.1.6 = { holder = drokin_2 }
+	3389.1.7 = { holder = drokin_3 }
+	3420.1.1 = { holder = drokin_4 }
+	3460.1.1 = { holder = drokin_5 }
+	3492.1.1 = { holder = drokin_eso }
+}
+
+c_moonmont = {
+	3340.1.1 = { holder = drokin_1 }
+	3365.1.6 = { holder = drokin_2 }
+	3389.1.7 = { holder = drokin_3 }
+	3420.1.1 = { holder = drokin_4 }
+	3460.1.1 = { holder = drokin_5 }
+	3492.1.1 = { holder = drokin_eso }
+}
+
+c_downriver = {
+	3000.1.1 = { holder = dawnbranch_001 }
+	3160.1.1 = { holder = dawnbranch_002 }
+	3260.1.1 = { holder = dawnbranch_003 }
+	3324.1.1 = {
+		liege = d_jodewood
+		holder = dawnbranch_1
+	}
+	3366.1.1 = { liege = 0 }
+	3387.1.6 = { holder = dawnbranch_004 }
+	3488.1.6 = { holder = dawnbranch_006b }
+}
+
+c_willowgrove = {
+	3320.1.1 = { 
+		holder = willowgrove_001
+		government = republic_government
+	}
+	3480.1.1 = { holder = willowgrove_002 }
+}
+
+c_thormar = {
+	3360.1.1 = { holder = cragkin_001 }
+	3372.7.2 = { holder = cragkin_002 }
+	3399.3.3 = { holder = cragkin_003 }
+	3420.3.3 = { holder = cragkin_004 }
+	3435.1.1 = { holder = dawnbranch_004 } #Bosmers kick out goblins
+	3488.1.6 = { 
+		holder = dawnbranch_005b
+		liege = k_eldenroot 
+	}
+	3500.1.1 = { holder = dawnbranch_2_001 }
+}
+
+#k_malabal_tor
+
+d_velyn = {
+	100.1.1 = { holder = ilayas_001 }
+	380.1.1 = { holder = ilayas_002 }
+	540.1.1 = { holder = ilayas_003 }
+	700.1.1 = { holder = ilayas_004 }
+	920.1.1 = { holder = 0 }
+	3187.11.9 = { holder = camoran_silvenar_97 }
+	3239.2.2 = { holder = camoran_silvenar_98 }
+	3298.3.12 = { 
+		holder = camoran_silvenar_99b
+		liege = k_silvenar
+	}
+	3351.1.1 = { 
+		holder = velyn_001
+		government = pirate_government
+		liege = 0
+	}
+	3369.1.1 = { 
+		holder = varantha_003
+		government = autocracy_government 
+	}
+	3486.1.1 = { holder = varantha_005 }
+	3502.1.1 = { liege = e_summerset }
+}
+
+c_velyn = {
+	3360.1.1 = { change_development_level = 12 }
+	3187.11.9 = { holder = camoran_silvenar_97 }
+	3239.2.2 = { holder = camoran_silvenar_98 }
+	3298.3.12 = { holder = camoran_silvenar_99b }
+	3351.1.1 = { holder = velyn_001 }
+	3368.1.1 = { holder = varantha_003 }
+	3486.1.1 = { holder = varantha_005 }
+}
+	
+c_fullerbreak = {
+	3360.1.1 = { change_development_level = 12 }
+	100.1.1 = { holder = ilayas_001 }
+	380.1.1 = { holder = ilayas_002 }
+	540.1.1 = { holder = ilayas_003 }
+	700.1.1 = { holder = ilayas_004 }
+	3300.1.1 = { 
+		holder = ilayas_005
+		liege = d_velyn 
+	}
+	3475.1.1 = { holder = ilayas_006 }
+}
+
+c_summersite = {
+	-1.1.1 = { holder = camoran_1 }
+	177.4.7 = { holder = camoran_2 }
+	451.8.20 = { holder = camoran_3 }
+	580.12.4 = { holder = camoran_4 }
+	814.11.10 = { holder = camoran_5 }
+	887.2.16 = { holder = camoran_6 }
+	1000.10.10 = { holder = camoran_7 }
+	1043.9.20 = { holder = camoran_8 }
+	1104.11.18 = { holder = camoran_9 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2060.4.17 = { holder = camoran_84 }
+	2142.7.15 = { holder = camoran_85 }
+	2199.2.2 = { holder = camoran_86 }
+	2267.3.28 = { holder = camoran_87 }
+	2334.5.14 = { holder = camoran_88 }
+	2439.11.7 = { holder = camoran_89 }
+	2511.8.31 = { holder = camoran_90 }
+	2599.6.22 = { holder = camoran_91 }
+	2678.10.8 = { holder = camoran_92 }
+	2692.6.1 = { holder = camoran_93 }
+	2795.4.27 = { holder = camoran_93b }
+	2833.11.19 = { holder = camoran_95 }
+	2909.1.8 = { holder = camoran_96 }
+	2986.3.9 = { holder = camoran_97 }
+	3074.5.18 = { holder = camoran_97b }
+	3155.8.10 = { holder = camoran_98 }
+	3257.9.21 = { holder = camoran_99 }
+	3303.4.12 = { holder = camoran_100 }
+	3340.1.1 = { holder = camoran_silvenar_99b } #Falinesti disappears
+	3368.4.25 = { holder =  camoran_silvenar_99b2 }
+	3369.1.1 = { liege = d_velyn } #Her husband takes Velyn
+	3486.1.1 = { holder = varantha_005 }
+}
+
+c_emperor_run = {
+	3250.1.1 = { 
+		holder = varantha_001
+		liege = d_velyn 
+	}
+	3314.1.1 = { holder = varantha_002 }
+	3360.1.1 = { holder = varantha_003 }
+	3486.1.1 = { holder = varantha_005 }
+}
+
+c_bonegrappler = {
+	3120.1.1 = { holder = irillyth_001 }
+	3291.1.1 = { 
+		holder = irillyth_002
+		liege = k_silvenar 
+	}
+	3354.1.1 = { holder = irillyth_003 }
+	3364.1.1 = { liege = 0 }
+}
+
+#d_lonvale
+c_longvale = {
+	3250.1.1 = { holder = forestwalker_001 }
+	3330.1.1 = { holder = forestwalker_002 }
+	3368.1.1 = { holder = forestwalker_003 }
+	3438.1.1 = { holder = forestwalker_004 }
+	3499.3.6 = { holder = forestwalker_eso }
+}
+
+c_larawen = {
+	3256.3.6 = { holder = leafeater_100 }
+}
+
+c_grahtwhisper = {
+	3180.1.1 = { holder = redbranch_001 }
+	3330.1.1 = { holder = redbranch_002 }
+	3350.1.1 = { holder = redbranch_003 }
+	3436.1.1 = { liege = k_eldenroot }
+	3450.1.1 = { holder = redbranch_004 }
+	3486.1.1 = { holder = vanellion_003 }
+}
+#d_spearwood
+c_spearwood = {
+	3180.1.1 = { holder = sharparrow_001 }
+	3300.1.1 = { holder = sharparrow_002 }
+	3340.1.1 = { holder = sharparrow_003 }
+	3430.1.1 = { liege = k_eldenroot }
+	3442.1.1 = { holder = sharparrow_004 }
+	3486.1.1 = { holder = sharparrow_005 }
+}
+	
+c_stranglevine = {
+	3100.1.1 = { holder = endrand_001 }
+	3230.1.1 = { holder = endrand_002 }
+	3324.1.1 = { holder = endrand_003 }
+	3367.1.1 = { holder = endrand_004 }
+	3434.1.1 = { liege = k_eldenroot }
+}
+	
+c_abamath = {
+	270.1.1 = { holder = abasel_002 }
+	3055.1.1 = { holder = abasel_004 }
+	3220.1.1 = { holder = abasel_005 }
+	3280.1.1 = { holder = abasel_006 }
+	3401.1.1 = { holder = endrand_004 } #Bye-bye Ayleids
+}

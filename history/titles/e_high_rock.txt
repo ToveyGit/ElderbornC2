@@ -1,0 +1,2357 @@
+e_high_rock = {
+	3000.1.1 = { change_development_level = 7 }
+}
+
+d_viridia = {
+	3005.1.1 = { change_development_level = 5 }
+}
+
+#k_fharun
+k_fharun = {
+	3005.1.1 = { change_development_level = 5 }
+}
+
+d_fharun = {
+	3280.1.1 = { holder = fharun_998 }
+	3305.1.1 = { holder = fharun_999 }
+	3355.1.1 = { holder = 0 }
+	3355.1.1 = { holder = fharun_1000 }
+	3369.1.1 = { holder = fharun_1001 }
+}
+
+c_fharun = {
+	3005.1.1 = { change_development_level = 8 }
+	3280.1.1 = { holder = fharun_998 }
+	3305.1.1 = { holder = fharun_999 }
+	3355.1.1 = { holder = fharun_1000 }
+	3369.1.1 = { holder = fharun_1001 }
+}
+
+c_fylmain = {
+	3005.1.1 = { change_development_level = 2 }
+	3283.1.1 = { holder = bagrakh_997 }
+	3323.1.1 = { holder = bagrakh_998 }
+	3344.1.1 = { holder = bagrakh_999 }
+	3350.1.1 = { holder = bagrakh_1000 }
+	3355.1.1 = { liege = d_fharun }
+	3362.1.1 = { holder = bagrakh_1001 }
+}
+k_jehanna = {
+	3005.1.1 = { change_development_level = 5 }
+}
+d_jehanna = {
+	3289.1.1 = { holder = sorrowsower_998 }
+	3327.1.1 = { holder = sorrowsower_999 }
+	3351.6.3 = { holder = sorrowsower_1000 }
+	3395.1.1 = { holder = sorrowsower_1001 }
+}
+
+c_jehanna = {
+	3050.1.1 = { change_development_level = 6 }
+	3289.1.1 = { holder = sorrowsower_998 }
+	3327.1.1 = { holder = sorrowsower_999 }
+	3351.6.3 = { holder = sorrowsower_1000 }
+	3395.1.1 = { holder = sorrowsower_1001 }
+}
+
+c_vendia = {
+	3289.1.1 = { holder = sorrowsower_998 }
+	3327.1.1 = { holder = sorrowsower_999 }
+	3351.6.3 = { holder = sorrowsower_1000 }
+	3395.1.1 = { holder = sorrowsower_1001 }
+}
+
+c_sorrow = {
+	3347.1.1 = { 
+		holder = sorrow_1000
+		liege = d_jehanna
+	}
+	3366.1.1 = { holder = sorrow_1001 }
+}
+
+d_eastwark = {
+	3290.1.1 = { holder = winterborn_998 }
+	3333.1.1 = { holder = winterborn_999 }
+	3356.3.17 = {
+		holder = 0 # Winterborn Invasion collapses
+	}
+}
+c_coldperch = {
+	3005.1.1 = { change_development_level = 4 }
+	3290.1.1 = { holder = winterborn_998 }
+	3333.1.1 = { holder = winterborn_999 }
+	3350.1.1 = {
+		holder = coldperch_1000
+		liege = d_eastwark
+	}
+	3356.3.17 = {
+		liege = 0 # Winterborn Invasion collapses
+	}
+}
+c_oirrad = {
+	517.3.24 = { holder = bthardamz_101_brother }
+	3005.1.1 = { change_development_level = 4 }
+	3334.1.1 = {
+		holder = oirrad_1000
+		liege = d_eastwark
+	}
+	3356.3.17 = {
+		liege = 0 # Winterborn Invasion collapses
+	}
+}
+c_cloud_spring = {
+	517.3.24 = { holder = bthardamz_101_brother } #Because of proximity I imagine they were connected in some way
+	950.1.1 = {
+		holder = morkul_founder
+	}
+	3333.1.1 = {
+		holder = ironbeak_999
+		liege = d_eastwark
+	}
+	3349.1.1 = {
+		holder = ironbeak_1000
+	}
+	3356.3.17 = {
+		liege = 0 # Winterborn Invasion collapses
+	}
+	3365.1.1 = { holder = knotbeard_1000 }
+}
+
+c_dunlain = {
+	422.9.24 = { holder = zthenganaz_100 }
+	635.10.19 = { holder = zthenganaz_101 }
+	3280.1.1 = { holder = fharun_998 }
+	3005.1.1 = {
+		change_development_level = 4
+		holder = fharun_999 }
+	3353.1.1 = { holder = ironbeak_1000 }
+	3363.1.1 = { liege = d_jehanna }
+	3401.1.1 = { holder = ironbeak_1001 }
+}
+
+#k_wrothgar
+k_wrothgar = {
+	3005.1.1 = { change_development_level = 5 }
+}
+
+k_orsinium = {
+	770.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	980.1.1 = { holder = 0 } #1st Fall of Orsinium
+	3345.1.1 = { holder = golzarga_101 }
+	3351.10.13 = { holder = 0 } #2nd Fall of Orsinium
+}
+
+c_wrothgar = {
+	3280.1.1 = { holder = agluk_998 }
+	3300.1.1 = { holder = agluk_999 }
+	3345.1.1 = { holder = agluk_1000 }
+	3368.1.1 = { holder = agluk_1001 }
+}
+d_pale_watch = {
+	3354.1.1 = {
+		holder = hearthon_1000
+		#liege = k_daggerfall 
+		government = landed_order_government
+	}
+	3362.1.1 = { liege = 0 }
+	3391.1.1 = {
+		holder = baelborne_998c
+		government = feudal_government
+	}
+	3490.1.1 = { holder = tailas_1000 }
+}
+c_watcher_hold = {
+	920.1.1 = { holder = bagrakh_founder }
+	3312.1.1 = { holder = golzarga_99 }
+	3331.1.1 = { holder = golzarga_101 }
+	3347.1.1 = {
+		liege = k_orsinium
+		holder = ruskahr_1000
+	}
+	3351.10.13 = {
+		holder = hearthon_1000
+		#liege = k_daggerfall 
+		government = landed_order_government
+		change_development_level = 4
+	}
+	3362.1.1 = { liege = 0 }
+	3391.1.1 = {
+		holder = baelborne_998c
+		government = feudal_government
+	}
+	3490.1.1 = { holder = tailas_1000 }
+}
+
+d_shipwreck_coast = {
+	725.1.1 = { holder = igrun_99 }
+	754.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	980.1.1 = { holder = 0 }
+	3345.1.1 = { holder = golzarga_101 }
+	3351.10.13 = { holder = 0 }
+}
+
+c_old_orsinium = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	770.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	3345.1.1 = { holder = golzarga_101 }
+	3351.10.13 = {
+		change_development_level = 1
+		holder = hearthon_1000
+		#liege = k_daggerfall 
+		government = landed_order_government
+	}
+	3362.1.1 = { liege = 0 }
+	3391.1.1 = {
+		holder = baelborne_998c
+		government = feudal_government
+	}
+	3490.1.1 = { holder = tailas_1000 }
+}
+
+c_shipwreck_coast = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	725.1.1 = { holder = igrun_99 }
+	754.1.1 = { holder = igrun_100 }
+	950.1.1 = { holder = igrun_101 }
+	3312.1.1 = { holder = golzarga_99 }
+	3331.1.1 = { holder = golzarga_101 }
+	3347.1.1 = { holder = bragosh_1000 }
+	3351.10.13 = {
+		change_development_level = 3
+		holder = percy_1001
+	}
+	3366.1.1 = { holder = percy_1002 }
+}
+
+d_frostbreak = {
+	921.1.1 = { holder = winterborn_99 }
+	946.1.1 = { holder = winterborn_100 }
+	3355.1.1 = { holder = winterborn_999 }
+	3356.3.17 = { 
+		holder = winterborn_1000
+		government = tribal_government
+	}
+	3367.1.1 = { holder = winterborn_1001 }
+}
+
+c_frostbreak = {
+	921.1.1 = { holder = winterborn_99 }
+	946.1.1 = { holder = winterborn_100 }
+	3312.1.1 = { holder = golzarga_99 }
+	3331.1.1 = { holder = golzarga_101 }
+	3346.1.1 = {
+		holder = luccin_1000
+		liege = k_orsinium
+	}
+	3351.10.13 = {
+		holder = luccin_1001
+		liege = 0
+	}
+	3355.1.1 = { holder = winterborn_999 } # Winterborn invade
+	3356.3.17 = { holder = winterborn_1000 }
+	3367.1.1 = { holder = winterborn_1001 }
+}
+
+c_dorven = {
+	920.1.1 = { holder = bagrakh_founder }
+	3354.1.1 = {
+		holder = hearthon_1000
+		liege = d_pale_watch 
+	}
+	3361.7.19 = { holder = winterborn_1000 }
+	3367.1.1 = { holder = winterborn_1001 }
+	3391.1.1 = { holder = baelborne_998c }
+	3490.1.1 = { holder = tailas_1000 }
+}
+
+c_graystone = {
+	594.9.23 = { holder = mzindyne_100 }
+	920.1.1 = { holder = tumnosh_founder }
+	3300.1.1 = { holder = tumnosh_998 }
+	3331.1.1 = { holder = tumnosh_999 }
+	3354.1.1 = { holder = winterborn_999 }
+	3356.3.17 = { holder = winterborn_1000 }
+	3367.1.1 = { holder = winterborn_1001 }
+	3368.6.9 = { holder = gate_basher_1000 }
+}
+
+d_morkul = {
+	3300.1.1 = { holder = morkul_998 }
+	3349.1.1 = { holder = morkul_999 }
+	3345.1.1 = {
+		liege = k_orsinium # actually vassal before, but we don't have a holder there just line_of character
+	}
+	3351.10.13 = { holder = 0 }
+}
+c_raven_spring = {
+	3050.1.1 = { change_development_level = 6 }
+	3251.1.1 = { holder = morkul_997 }
+	3300.1.1 = { holder = morkul_998 }
+	3349.1.1 = { holder = morkul_999 }
+	3351.10.13 = { holder = morkul_1000 }
+	3371.1.1 = { holder = morkul_1001 }
+}
+
+c_stonefield = {
+	3315.1.1 = { holder = yashnag_98 }
+	3340.1.1 = {
+		holder = yashnag_99
+		liege = 0
+	}
+	3351.10.13 = {
+		change_development_level = 4
+		holder = percy_1001
+	}
+	3358.9.3 = { holder = morkul_1000 }
+	3371.1.1 = { holder = morkul_1001 }
+}
+d_argent = {
+	3300.1.1 = { holder = tumnosh_998 }
+	3331.1.1 = { holder = tumnosh_999 }
+	3356.3.17 = { holder = 0 }
+}
+c_argent = {
+	3005.1.1 = { change_development_level = 6 }
+	3300.1.1 = { holder = tumnosh_998 }
+	3331.1.1 = { holder = tumnosh_999 }
+	3356.3.17 = { holder = tumnosh_1000 }
+}
+
+c_karthgran = {
+	3280.1.1 = { holder = fharun_998 }
+	3305.1.1 = {
+		holder = fharun_999
+		change_development_level = 4
+	}
+	3352.1.1 = {
+		holder = shatul_1000
+		liege = d_fharun
+	} # Shatul flee their ancestral lands
+}
+
+c_royan = {
+	920.1.1 = { holder = shatul_founder }
+	3299.1.1 = { holder = shatul_998 }
+	3328.1.1 = { holder = shatul_999 }
+	3351.10.13 = { holder = shatul_1000 }
+	3352.1.1 = {
+		holder = crowfeather_1000
+		liege = d_eastwark
+	}
+	3356.3.17 = {
+		liege = 0 # Winterborn Invasion collapses
+	}
+	3362.1.1 = { holder = crowfeather_1001 }
+}
+
+c_cambrian = {
+	3321.1.1 = { holder = brohbrokh_dumag }
+	3352.1.1 = {
+		holder = knotbeard_1000
+		liege = d_eastwark
+	}
+	3356.3.17 = {
+		liege = 0 # Winterborn Invasion collapses
+	}
+	3365.1.1 = { holder = crowfeather_1001 }
+}
+
+c_bonerock = {
+	3320.1.1 = { holder = brohbrokh_dumag }
+	3356.1.1 = { holder = brohbrokh_yashnarz }
+	3357.1.1 = { holder = bonecrack_1000 }
+}
+
+d_scarp = {
+	1520.1.1 = { holder = orgak_100 }
+	3320.1.1 = { holder = orgak_999 }
+	3354.1.1 = {
+		holder = 0 # Winterborn Invasion kills last 'duke'
+	}	
+}
+c_scarp = {
+	1520.1.1 = { holder = orgak_100 }
+	3320.1.1 = { holder = orgak_999 }
+	3354.1.1 = {
+		holder = bloodstone_1000
+		liege = d_eastwark
+	}
+	3356.3.17 = {
+		liege = 0 # Winterborn Invasion collapses
+	}
+}
+
+#k_balfiera
+e_direnni_hegemony = {
+	355.1.1 = { holder = direnni_3 } #Xanathar date for Direnni rise
+	392.1.1 = { holder = direnni_4 }
+	498.1.1 = { holder = 0 } #Xanathar date for Direnni falling
+}
+
+d_balfiera = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	464.1.1 = { 
+		succession_laws = {
+			sorcerous_elective_succession_law #Magocracy installed.
+		}
+	}
+	#Middle Merethic: 
+	#"The Adamantine Tower was rediscovered and captured by the Direnni, a prominent and powerful Aldmeri clan"
+	#-Before the Ages of Man
+	-1500.1.1 = { holder = direnni_2 }
+	275.1.1 = { holder = direnni_3 }
+	392.1.1 = { holder = direnni_4 }
+	568.1.1 = { holder = direnni_5b }
+	719.1.1 = { holder = direnni_6 }
+	804.1.1 = { holder = direnni_8 }
+	901.1.1 = { holder = direnni_9 }
+	1002.1.1 = { holder = direnni_10 }
+	1183.1.1 = { holder = direnni_11 }
+	2992.1.1 = { holder = direnni_96 }
+	3102.1.1 = { holder = direnni_97 }
+	3146.1.1 = { holder = direnni_98 }
+	3254.1.1 = { holder = direnni_99 }
+	3343.1.1 = { holder = direnni_100 }
+	3442.1.1 = { holder = direnni_101 }
+	3528.1.1 = { holder = direnni_102 }
+}
+
+c_balfiera = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3005.1.1 = { change_development_level = 10 }
+	-1500.1.1 = { holder = direnni_2 }
+	275.1.1 = { holder = direnni_3 }
+	392.1.1 = { holder = direnni_4 }
+	568.1.1 = { holder = direnni_5b }
+	719.1.1 = { holder = direnni_6 }
+	804.1.1 = { holder = direnni_8 }
+	901.1.1 = { holder = direnni_9 }
+	1002.1.1 = { holder = direnni_10 }
+	1183.1.1 = { holder = direnni_11 }
+	2992.1.1 = { holder = direnni_96 }
+	3102.1.1 = { holder = direnni_97 }
+	3146.1.1 = { holder = direnni_98 }
+	3254.1.1 = { holder = direnni_99 }
+	3343.1.1 = { holder = direnni_100 }
+	3442.1.1 = { holder = direnni_101 }
+	3528.1.1 = { holder = direnni_102 }
+}
+
+#k_wayrest
+k_wayrest = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	1100.1.1 = { holder = gardner_500 }
+	1270.1.1 = { holder = lenac_100 } # Lore, Middle Dawn Fuckery
+	2000.1.1 = { holder = 0 }
+	2040.1.1 = { holder = gardner_501 }
+	2067.1.1 = { holder = woodborne_1000b }
+	2080.1.1 = { holder = 0 }
+	2270.1.1 = { holder = lenac_101 } # Lore, Middle Dawn Fuckery
+	2301.1.1 = { holder = gardner_503 }
+	3200.1.1 = { holder = gardner_995 }
+	3228.1.1 = { holder = gardner_996 }
+	3256.1.1 = { holder = gardner_997 }
+	3291.1.1 = { holder = gardner_998 }
+	3312.1.1 = { holder = gardner_999 }
+	3337.1.1 = { holder = gardner_1000 }
+	3378.1.1 = { holder = gardner_1001 }
+	3417.1.1 = { holder = gardner_1003 }
+	3442.1.1 = { holder = gardner_1004 }
+	3466.1.1 = { holder = gardner_1005 }
+	3483.1.1 = { holder = cumberland_1004 }
+}
+
+d_wayrest = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	1100.1.1 = { holder = gardner_500 }
+	1270.1.1 = { holder = lenac_100 } # Lore, Middle Dawn Fuckery
+	2040.1.1 = { holder = gardner_501 }
+	2270.1.1 = { holder = lenac_101 } # Lore, Middle Dawn Fuckery
+	2301.1.1 = { holder = gardner_503 }
+	3200.1.1 = { holder = gardner_995 }
+	3228.1.1 = { holder = gardner_996 }
+	3256.1.1 = { holder = gardner_997 }
+	3291.1.1 = { holder = gardner_998 }
+	3312.1.1 = { holder = gardner_999 }
+	3337.1.1 = { holder = gardner_1000 }
+	3378.1.1 = { holder = gardner_1001 }
+	3417.1.1 = { holder = gardner_1003 }
+	3442.1.1 = { holder = gardner_1004 }
+	3466.1.1 = { holder = gardner_1005 }
+	3483.1.1 = { holder = cumberland_1004 }
+}
+
+c_wayrest = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3005.1.1 = { change_development_level = 16 }
+	1100.1.1 = { holder = gardner_500 }
+	1270.1.1 = { holder = lenac_100 } # Lore, Middle Dawn Fuckery
+	2040.1.1 = { holder = gardner_501 }
+	2270.1.1 = { holder = lenac_101 } # Lore, Middle Dawn Fuckery
+	2301.1.1 = { holder = gardner_503 }
+	3200.1.1 = { holder = gardner_995 }
+	3228.1.1 = { holder = gardner_996 }
+	3256.1.1 = { holder = gardner_997 }
+	3291.1.1 = { holder = gardner_998 }
+	3312.1.1 = { holder = gardner_999 }
+	3337.1.1 = { holder = gardner_1000 }
+	3378.1.1 = { holder = gardner_1001 }
+	3417.1.1 = { holder = gardner_1003 }
+	3442.1.1 = { holder = gardner_1004 }
+	3466.1.1 = { holder = gardner_1005 }
+	3483.1.1 = { holder = cumberland_1004 }
+}
+
+c_gerthland = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3160.1.1 = { liege = d_wayrest }
+	3170.1.1 = { holder = woodborne_995 }
+	3228.1.1 = { holder = woodborne_996 }
+	3291.1.1 = { holder = woodborne_998 }
+	3312.1.1 = { holder = woodborne_999 }
+	3340.1.1 = { holder = woodborne_1000 }
+}
+
+c_guis = {
+	3200.1.1 = { holder = gardner_995 }
+	3228.1.1 = { holder = gardner_996 }
+	3256.1.1 = { holder = gardner_997 }
+	3291.1.1 = { holder = gardner_998 }
+	3312.1.1 = { holder = gardner_999 }
+	3337.1.1 = { holder = gardner_1000 }
+	3378.1.1 = { holder = gardner_1001 }
+	3417.1.1 = { holder = gardner_1003 }
+	3442.1.1 = { holder = gardner_1004 }
+	3466.1.1 = { holder = gardner_1005 }
+	3483.1.1 = { holder = cumberland_1004 }
+}
+
+c_menevia = {
+	3259.1.1 = {
+		government = feudal_government
+	}
+	3203.1.1 = { holder = horley_15186 } # Arthur
+	3258.1.1 = { holder = horley_15188 } # Godwin
+	3277.1.1 = { holder = horley_15189 } # Baldrian
+	3321.1.1 = { holder = horley_15191 } # Alabard
+	3344.10.3 = { holder = horley_999 } # Marcel
+	3350.1.1 = { 
+		holder = horley_1000 # Edward
+		liege = d_wayrest
+	}
+}
+
+c_steelheart = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3343.1.1 = { 
+		holder = oldland_1000
+		liege = d_wayrest
+	}
+	3365.1.1 = { liege = 0 }
+}
+
+c_grimdale = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3269.1.1 = { holder = vien_997 }
+	3299.1.1 = { holder = vien_998 }
+	3329.1.1 = { holder = vien_999 }
+	3359.1.1 = {
+		holder = vien_100
+		liege = d_wayrest
+	}
+	3369.1.1 = { holder = gardner_1000 }
+}
+
+d_gavaudon = {
+	300.1.1 = { holder = dimaethor_002 } #Ruled by Ayleids for a while
+	500.1.1 = { holder = 0 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3250.1.1 = { holder = dumonte_998 }
+	3300.1.1 = { holder = dumonte_999 }
+	3355.1.1 = { holder = dumonte_1000 }
+	3398.1.1 = { holder = dumonte_1001 }
+}
+
+c_gavaudon = {
+	300.1.1 = { holder = dimaethor_002 } #Ruled by Ayleids for a while
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3250.1.1 = { holder = dumonte_998 }
+	3300.1.1 = { holder = dumonte_999 }
+	3355.1.1 = { holder = dumonte_1000 }
+	3398.1.1 = { holder = dumonte_1001 }
+}
+b_bearclaw = {
+	3026.1.1 = { holder = mornard_1 } # Olivier Mornard, Lore says Mornards used to own a mine between Wayrest and Evermore, this was the only suitable place
+	3350.1.1 = { holder = bearclaw_1000 }
+}
+
+c_bjoulsae = {
+	3005.1.1 = { change_development_level = 9 }
+	# Marde / Guimard
+	1029.1.1 = { holder = guy_marde } # Guy Marde of ye Rivver Banke
+	1060.1.1 = { holder = line_of_guy_marde } # and his descendants
+	2251.1.1 = { holder = guimard_988 } # Baron-Captain Olsien
+	2285.1.1 = { holder = guimard_989 } # Baroness Falinne Guimard
+	2323.1.1 = { holder = guimard_989a } # Marq Guimard
+	2353.1.1 = { holder = guimard_990 } # Line of Marq
+	# HistoryToDoHR this is where the center of power for Guimard fully shifts to Bangkorai, other dyn can take over
+	# Ysciele
+	3179.1.1 = { holder = ysciele_15304} # Edwen
+	3212.1.1 = { holder = ysciele_15316 } # Perth
+	3244.1.1 = { holder = ysciele_15324 } # Meric
+	3271.1.1 = { holder = ysciele_15325 } # Stenwick
+	3324.1.1 = { holder = ysciele_15327 } # Gyron
+	3348.1.1 = { 
+		holder = ysciele_1000 # Edwistair
+		liege = d_evermore
+	}
+	3381.1.1 = { holder = ysciele_1001 }
+}
+
+c_vermeir = {
+	3005.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3350.1.1 = { 
+		holder = vautrine_1000
+		liege = d_gavaudon
+	}
+	3365.1.1 = { liege = d_evermore }
+}
+
+d_alcaire = {
+	3240.1.1 = {
+		government = feudal_government
+	}
+	3239.1.1 = { holder = viralaine_15275 } # Giraud
+	3273.1.1 = { holder = viralaine_15277 } # Lister
+	3310.1.1 = { holder = viralaine_999 } # Lanarette
+	3333.1.1 = { holder = viralaine_1000 } # Dugen
+	3367.9.11 = { holder = viralaine_1001 } # Guillaume
+}
+
+c_alcaire = {
+	3005.1.1 = { change_development_level = 8 }
+	3240.1.1 = {
+		government = feudal_government
+	}
+	3239.1.1 = { holder = viralaine_15275 } # Giraud
+	3273.1.1 = { holder = viralaine_15277 } # Lister
+	3310.1.1 = { holder = viralaine_999 } # Lanarette
+	3333.1.1 = { holder = viralaine_1000 } # Dugen
+	3367.9.11 = { holder = viralaine_1001 } # Guillaume
+}
+
+c_firebrand = {
+	3005.1.1 = { change_development_level = 6 }
+	3240.1.1 = {
+		government = feudal_government
+	}
+	3187.1.1 = { holder = ildene_15801 } # Bedard
+	3210.1.1 = { holder = ildene_15803 } # Sylon
+	3229.1.1 = { holder = ildene_15804 } # Andoryan
+	3254.1.1 = { holder = ildene_15805 } # Rodyrick
+	3297.1.1 = { holder = viralaine_15277 } # Lister
+	3301.1.1 = {
+		holder = klopmann_999
+		liege = d_alcaire
+	} # Odo
+	3340.12.7 = { holder = klopmann_1000 } # Merovec
+	3379.5.11 = { holder = klopmann_1001 } # Gisela
+	###
+	3462.1.1 = {
+		name = FIREBRAND # Order of the Flame gets founded, HistoryToDoHR add the order
+
+	}
+}
+b_firebrand = {
+	3462.1.1 = {
+		name = FIREBRAND # Order of the Flame gets founded, HistoryToDoHR add the order
+
+	}
+}
+
+d_koegria = {
+	3299.1.1 = { holder = beanique_997 }
+	3315.9.13 = { holder = beanique_998 }
+	3340.1.1 = { holder = 0 }
+}
+c_koegria = {
+	3005.1.1 = { change_development_level = 9 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3262.1.1 = { holder = beanique_996 }
+	3283.1.1 = { holder = beanique_997 }
+	3315.9.13 = { holder = beanique_998 }
+	3351.10.13 = { holder = beanique_1000 }
+	3409.1.1 = { holder = beanique_1001 }
+}
+c_gelders_tot = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3299.1.1 = { holder = beanique_997 }
+	3315.9.13 = {
+		holder = beanique_998_brother
+		liege = d_koegria
+	}
+	3359.1.1 = { holder = beanique_1000 }
+	3409.1.1 = { holder = beanique_1001 }
+}
+
+c_dellese = {
+	3005.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3299.1.1 = { holder = beanique_997 }
+	3315.9.13 = {
+		holder = beanique_998_sister
+		liege = d_koegria
+	}
+	3340.1.1 = {
+		holder = direnni_100
+		liege = d_balfiera
+	}
+	3345.1.1 = { holder = direnni_101 }
+	3365.1.1 = { 
+		holder = egun_1000
+		liege = 0
+	}
+}
+
+c_cumberland = {
+	481.6.16 = { holder = Zaan_100 }
+	2192.1.1 = {
+		government = feudal_government
+	}
+	2191.1.1 = { holder = cumberland_15107 } # Gaspar
+	2244.1.1 = { holder = cumberland_15108 } # Line of Gaspar
+	3120.1.1 = { holder = cumberland_15124 } # Theodyn
+	3178.1.1 = { holder = cumberland_15109 } # Rowley
+	3216.1.1 = { holder = cumberland_15110 } # Norbert
+	3272.1.1 = { holder = cumberland_15111 } # Vincent
+	3283.1.1 = { holder = cumberland_15113 } # Percival
+	3321.1.1 = { holder = cumberland_15114 } # Baldrian
+	3330.1.1 = { liege = d_wayrest } # not actual date, just sure there's a wayrest here
+	3356.8.12 = { holder = cumberland_1000 } # Jory
+	3383.1.1 = { holder = cumberland_1001 }
+	3422.1.1 = { holder = cumberland_1002 }
+	3441.1.1 = { holder = cumberland_1003 }
+	3483.1.1 = { holder = cumberland_1004 }
+	3510.1.1 = { holder = cumberland_1005 }
+}
+
+c_wind_keep = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3160.1.1 = { liege = d_wayrest }
+	3256.1.1 = { holder = manteau_998 }
+	3300.1.1 = { holder = manteau_999 }
+	3325.1.1 = { holder = manteau_1000 }
+	3361.1.1 = { holder = manteau_1001 }
+	3365.1.1 = { liege = d_gavaudon }
+}
+
+c_pariah_abbey = {
+	3005.1.1 = { change_development_level = 5 }
+	3350.1.1 = { 
+		holder = pariah_abbey_1000
+		government = theocracy_government
+	}
+	3375.1.1 = { liege = d_wayrest }
+	3490.1.1 = { holder = pariah_abbey_1001 }
+}
+
+#k_shornhelm
+k_shornhelm = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	230.1.1 = { holder = spenard_1000 }
+	# until 567 one spenard who posed as 7
+	# unknown house
+	# 2300s - 2700s House Dorell
+	2374.1.1 = { holder = dorell_shornhelm_1 }
+	2649.9.12 = { holder = dorell_shornhelm_3 }
+	2717.1.1 = { holder = 0 }
+	# then vacant
+	3240.1.1 = { holder = branquette_15353 }
+	3274.1.1 = { holder = branquette_15354 }
+	3300.1.1 = { holder = branquette_998 }
+	3343.1.1 = { holder = branquette_999 } # Edgar / 440 startdate
+	3369.1.1 = { holder = 0 }
+}
+
+d_shornhelm = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	230.1.1 = { holder = spenard_1000 }
+	# until 567 one spenard who posed as 7
+	# unknown house
+	# 2300s - 2700s House Dorell
+	2374.1.1 = { holder = dorell_shornhelm_1 }
+	2649.9.12 = { holder = dorell_shornhelm_3 }
+	# one montclair after dorell
+	2717.1.1 = { holder = montclair_992 }
+	# then ?
+	2841.1.1 = { holder = branquette_hurlburt_1}
+	2857.8.3 = { holder = branquette_hurlburt_2 }
+	2879.6.21 = { holder = branquette_hurlburt_3 }
+	2903.10.14 = { holder = branquette_hurlburt_4 }
+	2934.5.28 = { holder = branquette_hurlburt_5 }
+	2965.1.6 = { holder = branquette_hurlburt_6 }
+	2993.4.26 = { holder = branquette_hurlburt_7 }
+	3023.9.21 = { holder = branquette_hurlburt_8 }
+	3054.12.9 = { holder = branquette_hurlburt_9 }
+	3086.2.28 = { holder = branquette_hurlburt_10 }
+	3117.6.12 = { holder = branquette_hurlburt_11 }
+	3147.4.1 = { holder = branquette_hurlburt_12 }
+	3178.9.21 = { holder = branquette_15350 }
+	3205.1.1 = { holder = branquette_15351 }
+	3240.1.1 = { holder = branquette_15353 }
+	3274.1.1 = { holder = branquette_15354 }
+	3300.1.1 = { holder = branquette_998 }
+	3343.1.1 = { holder = branquette_999 } # Edgar / 440 startdate
+	3369.1.1 = { holder = branquette_1000 }
+	3403.1.1 = { holder = branquette_1002 }
+	3442.1.1 = { holder = branquette_1003 }
+	3466.1.1 = { holder = branquette_1005 }
+	3487.1.1 = { holder = cumberland_1004 }
+}
+
+c_shornhelm = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3005.1.1 = { change_development_level = 13 }
+	2717.1.1 = { holder = montclair_992 }
+	2841.1.1 = { holder = branquette_hurlburt_1}
+	2857.8.3 = { holder = branquette_hurlburt_2 }
+	2879.6.21 = { holder = branquette_hurlburt_3 }
+	2903.10.14 = { holder = branquette_hurlburt_4 }
+	2934.5.28 = { holder = branquette_hurlburt_5 }
+	2965.1.6 = { holder = branquette_hurlburt_6 }
+	2993.4.26 = { holder = branquette_hurlburt_7 }
+	3023.9.21 = { holder = branquette_hurlburt_8 }
+	3054.12.9 = { holder = branquette_hurlburt_9 }
+	3086.2.28 = { holder = branquette_hurlburt_10 }
+	3117.6.12 = { holder = branquette_hurlburt_11 }
+	3147.4.1 = { holder = branquette_hurlburt_12 }
+	3178.9.21 = { holder = branquette_15350 }
+	3205.1.1 = { holder = branquette_15351 }
+	3240.1.1 = { holder = branquette_15353 }
+	3274.1.1 = { holder = branquette_15354 }
+	3300.1.1 = { holder = branquette_998 }
+	3343.1.1 = { holder = branquette_999 } # Edgar / 440 startdate
+	3369.1.1 = { holder = branquette_1000 }
+	3403.1.1 = { holder = branquette_1002 }
+	3442.1.1 = { holder = branquette_1003 }
+	3466.1.1 = { holder = branquette_1005 }
+	3487.1.1 = { holder = cumberland_1004 }
+}
+
+c_branquette_tor = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2841.1.1 = { holder = branquette_hurlburt_1}
+	2857.8.3 = { holder = branquette_hurlburt_2 }
+	2879.6.21 = { holder = branquette_hurlburt_3 }
+	2903.10.14 = { holder = branquette_hurlburt_4 }
+	2934.5.28 = { holder = branquette_hurlburt_5 }
+	2965.1.6 = { holder = branquette_hurlburt_6 }
+	2993.4.26 = { holder = branquette_hurlburt_7 }
+	3023.9.21 = { holder = branquette_hurlburt_8 }
+	3054.12.9 = { holder = branquette_hurlburt_9 }
+	3086.2.28 = { holder = branquette_hurlburt_10 }
+	3117.6.12 = { holder = branquette_hurlburt_11 }
+	3147.4.1 = { holder = branquette_hurlburt_12 }
+	3178.9.21 = { holder = branquette_hurlburt_13 }
+	3209.1.18 = { holder = branquette_hurlburt_14 }
+	3239.4.30 = { holder = branquette_hurlburt_15 }
+	3271.7.17 = { holder = branquette_hurlburt_16 }
+	3302.9.2 = { holder = branquette_hurlburt_17 }
+	3333.12.25 = { holder = branquette_hurlburt_18 }
+	3351.10.13 = { holder = branquette_999 }
+	3369.1.1 = { holder = branquette_1000 }
+	3403.1.1 = { holder = branquette_1002 }
+	3442.1.1 = { holder = branquette_1003 }
+	3466.1.1 = { holder = branquette_1005 }
+	3487.1.1 = { holder = cumberland_1004 }
+}
+
+c_ravenwatch = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3205.1.1 = { holder = ravenn_998 }
+	3270.1.1 = { holder = ravenn_1000 }
+	3350.1.1 = { liege = d_shornhelm }
+	3365.1.1 = { liege = 0 }
+}
+
+c_southgard = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2869.1.1 = { holder = tamrith_15400 }
+	3121.1.1 = { holder = tamrith_15401 }
+	3163.1.1 = { holder = tamrith_15402 }
+	3180.1.1 = { holder = tamrith_15403 }
+	3212.1.1 = { holder = tamrith_15404 }
+	# Tamrith branches into two, junior line gets southgard
+	3239.1.1 = { holder = tamrith_15405 } # Verick
+	3254.1.1 = { holder = tamrith_15407 } # Kastus
+	3302.1.1 = { holder = tamrith_15408 } # Hastrel
+	3344.1.1 = { 
+		holder = tamrith_999
+		liege = d_shornhelm
+	}
+	3363.1.1 = { holder = tamrith_1000 }
+	3365.1.1 = { liege = 0 }
+	3392.1.1 = { holder = tamrith_1002 }
+	3431.1.1 = { holder = tamrith_1004 }
+	3490.1.1 = { holder = tamrith_1005 }
+}
+
+c_old_gate = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3304.1.1 = { holder = elde_999 }
+	3339.1.1 = { 
+		holder = elde_1000
+		liege = d_shornhelm
+	}
+	3357.1.1 = { holder = elde_1001 }
+	3402.1.1 = { holder = elde_1002 }
+	3420.1.1 = { holder = elde_1003 }
+	3495.1.1 = { holder = tamrith_1005 }
+}
+
+d_phrygias = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3170.1.1 = { holder = tamrith_15402 }
+	3180.1.1 = { holder = tamrith_15403 }
+	3212.1.1 = { holder = tamrith_15404 }
+	3239.1.1 = { holder = tamrith_15406 }
+	#gap
+	3350.1.1 = { holder = succoth_1000 }
+	3400.1.1 = { holder = succoth_1001 }
+}
+
+c_phrygias = {
+	3005.1.1 = { change_development_level = 7 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3121.1.1 = { holder = tamrith_15401 }
+	3163.1.1 = { holder = tamrith_15402 }
+	3180.1.1 = { holder = tamrith_15403 }
+	3212.1.1 = { holder = tamrith_15404 }
+	3239.1.1 = { holder = tamrith_15406 }
+	#gap
+	3303.1.1 = { holder = succoth_mordistair_2 }
+	3347.1.1 = { holder = succoth_999 }
+	3351.10.13 = { holder = succoth_1000 }
+	3400.1.1 = { holder = succoth_1001 }
+}
+c_darguard = {
+	3005.1.1 = { change_development_level = 4 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3121.1.1 = { holder = tamrith_15401 }
+	3163.1.1 = { holder = tamrith_15402 }
+	3180.1.1 = { holder = tamrith_15403 }
+	3212.1.1 = { holder = tamrith_15404 }
+	3239.1.1 = { holder = tamrith_15406 }
+	#gap
+	3303.1.1 = { holder = succoth_mordistair_2 }
+	3347.1.1 = { holder = succoth_999 }
+	3351.10.13 = { holder = succoth_1000 }
+	3400.1.1 = { holder = succoth_1001 }
+}
+
+c_white_haven = {
+	3312.1.1 = { 
+		holder = vorster_99
+		liege = d_phrygias
+	}
+	3344.1.1 = { holder = vorster_100 }
+	3391.1.1 = { holder = vorster_101 }
+}
+
+c_skeffington = {
+	3327.1.1 = { holder = solais_99 }
+	3352.1.1 = {
+		holder = solais_100
+		liege = d_phrygias
+	}
+	3384.1.1 = { holder = solais_101 }
+}
+
+d_westmark = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2769.1.1 = { holder = montclair_993 }
+	2823.1.1 = { holder = montclair_994 }
+	# line of montclairs
+	3241.1.1 = { holder = montclair_996 }
+	3279.1.1 = { holder = montclair_997 }
+	3292.1.1 = { holder = montclair_998 }
+	3343.1.1 = { holder = montclair_999 }
+	3366.1.1 = { holder = montclair_1000 }
+	3396.1.1 = { holder = montclair_1001 }
+	3437.1.1 = { holder = montclair_1002 }
+	3475.1.1 = { holder = branquette_montclair_1000 }
+	3492.1.1 = { holder = branquette_montclair_1001 }
+}
+
+c_westmark_moor = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2769.1.1 = { holder = montclair_993 }
+	2823.1.1 = { holder = montclair_994 }
+	# line of montclairs
+	3241.1.1 = { holder = montclair_996 }
+	3279.1.1 = { holder = montclair_997 }
+	3292.1.1 = { holder = montclair_998 }
+	3343.1.1 = { holder = montclair_999 }
+	3366.1.1 = { holder = montclair_1000 }
+	3396.1.1 = { holder = montclair_1001 }
+	3437.1.1 = { holder = montclair_1002 }
+	3475.1.1 = { holder = branquette_montclair_1000 }
+	3492.1.1 = { holder = branquette_montclair_1001 }
+}
+
+b_crypt_of_hearts = {
+	3240.1.1 = { holder = crypt_of_hearts_1000 }
+}
+
+c_moira_hope = {
+	3309.1.1 = { 
+		holder = moerat_98
+		liege = d_westmark
+	}
+	3336.1.1 = { holder = moerat_99 }
+	3347.1.1 = { holder = moerat_100 }
+	3365.1.1 = { liege = 0 } # Yvara wasn't happy with the Montclair rule
+	3383.1.1 = {
+		holder = moerat_101
+		liege = d_shornhelm # her successor however seeks safety with Shornhelm
+	}
+}
+
+c_port_duncreek = {
+	3300.1.1 = { holder = percy_1000 }
+	3339.1.1 = { holder = ironhand_500 }
+	#3350.1.1 = { 
+		#holder = port_duncreek_1000
+		#liege = d_westmark
+	#}
+	#3490.1.1 = { holder = port_duncreek_1001 }
+}
+
+#k_northpoint
+d_northpoint = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2332.1.1 = { holder = dorell_northpoint_1 }
+	3310.1.1 = { holder = dorell_998 }
+	3342.1.1 = { holder = dorell_999 }
+	3357.1.1 = { holder = dorell_1000 }
+	3385.1.1 = { holder = dorell_1001 }
+	3412.1.1 = { holder = dorell_1003 }
+	3454.1.1 = { holder = dorell_1004 }
+	3483.1.1 = { holder = dorell_1005 }
+	3519.1.1 = { holder = dorell_1006 }
+}
+
+c_northpoint = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	930.1.1 = { holder = flowdys_1000 }
+	2332.1.1 = { holder = dorell_northpoint_1 }
+	3005.1.1 = { change_development_level = 12 }
+	3310.1.1 = { holder = dorell_998 }
+	3342.1.1 = { holder = dorell_999 }
+	3357.1.1 = { holder = dorell_1000 }
+	3385.1.1 = { holder = dorell_1001 }
+	3412.1.1 = { holder = dorell_1003 }
+	3454.1.1 = { holder = dorell_1004 }
+	3483.1.1 = { holder = dorell_1005 }
+	3519.1.1 = { holder = dorell_1006 }
+}
+
+c_normar_heights = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3276.1.1 = { holder = imbel_998 }
+	3317.1.1 = { holder = imbel_999 }
+	3338.1.1 = { 
+		holder = imbel_1000
+		liege = d_northpoint
+	}
+	3365.1.1 = { liege = d_lorkrata }
+}
+
+c_northsalt = {
+	3310.1.1 = { holder = dorell_998 }
+	3342.1.1 = { holder = dorell_999 }
+	3357.1.1 = { holder = dorell_1000 }
+	3385.1.1 = { holder = dorell_1001 }
+	3412.1.1 = { holder = dorell_1003 }
+	3454.1.1 = { holder = dorell_1004 }
+	3483.1.1 = { holder = dorell_1005 }
+	3519.1.1 = { holder = dorell_1006 }
+}
+
+d_lorkrata = {
+	3365.1.1 = { holder = merowald_1000 }
+}
+
+c_lorkrata = {
+	3340.1.1 = {
+		government = feudal_government
+	}
+	3306.1.1 = { holder = merowald_998 }
+	3348.1.1 = { holder = merowald_999 }
+	3351.10.13 = { 
+		holder = merowald_1000
+		government = feudal_government
+		liege = d_northpoint
+	}
+	3388.1.1 = { holder = merowald_1001 }
+	3412.1.1 = { holder = merowald_1002 }
+	3449.1.1 = { holder = merowald_1003 }
+	3487.1.1 = { holder = merowald_1004 }
+	3538.1.1 = { holder = merowald_1005 }
+	3365.1.1 = { liege = d_lorkrata }
+}
+
+c_fell_run = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3289.1.1 = { holder = edrald_998 }
+	3301.1.1 = { holder = edrald_999 }
+	3339.1.1 = { holder = edrald_1000 }
+	3365.1.1 = { liege = d_northpoint }
+}
+
+c_tuemont = {
+	3005.1.1 = { change_development_level = 6 }
+	
+	3289.1.1 = { holder = edrald_998 }
+	3301.1.1 = { holder = edrald_999 }
+	3339.1.1 = { holder = edrald_1000 }
+	3365.1.1 = { liege = d_northpoint }
+}
+
+c_carn_prae = {
+	3005.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3271.1.1 = { holder = aurmine_997 }
+	3305.1.1 = { holder = aurmine_999 }
+	3349.1.1 = { holder = aurmine_1000 }
+}
+
+c_boralis = {
+	3005.1.1 = { change_development_level = 4 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3191.1.1 = { holder = farr_15475 }
+	3210.1.1 = { holder = farr_15476 }
+	3212.1.1 = { holder = farr_15477 }
+	3254.1.1 = { holder = farr_15479 }
+	3271.1.1 = { holder = farr_15480 }
+	3301.1.1 = { holder = farr_15481 }
+	3310.1.1 = { holder = farr_15482 }
+	3335.1.1 = { holder = farr_1000 } # Bedanele
+	3378.1.1 = { holder = farr_1001 }
+	3432.1.1 = { holder = farr_1002 }
+	3440.1.1 = { holder = farr_1003 }
+	3462.1.1 = { holder = farr_1004 }
+	3487.1.1 = { holder = farr_1005 }
+	3510.1.1 = { holder = farr_1007 }
+}
+
+c_doomcrag = {
+	150.1.1 = { holder = doomcrag_001 }
+	250.1.1 = { holder = doomcrag_002 }
+	3005.1.1 = { change_development_level = 6 }
+	3191.1.1 = { holder = farr_15475 }
+	3210.1.1 = { holder = farr_15476 }
+	3214.1.1 = {
+		holder = vardengroet_gyron
+		government = academy_government
+	}
+}
+
+c_silverhoof = {
+	523.1.1 = { holder = silwer_996 }
+	# line of
+	3005.1.1 = { change_development_level = 4 }
+	3249.1.1 = { holder = silwer_998 }
+	3300.1.1 = { holder = silwer_999 }
+	3350.1.1 = { holder = silwer_1000 }
+	3385.1.1 = { holder = silwer_1001 }
+	3412.1.1 = { holder = silwer_1002 }
+	3437.1.1 = { holder = silwer_1003 }
+	3485.1.1 = { holder = silwer_1004 }
+	3513.1.1 = { holder = silwer_1005 }
+}
+d_grayhome = {
+	1000.1.1 = { holder = saran_1000 }
+}
+c_grayhome = {
+	1000.1.1 = { holder = saran_1000 }
+	3005.1.1 = { change_development_level = 2 }
+}
+
+#k_camlorn
+k_camlorn = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	#293.1.1 = { holder = rielle_100 }
+	3221.1.1 = { holder = rielle_996 }
+	3263.1.1 = { holder = rielle_997 }
+	3289.1.1 = { holder = rielle_998 }
+	3330.1.1 = { holder = rielle_999 }
+	3353.1.1 = { holder = 0 }
+}
+d_camlorn = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	181.1.1 = { holder = keeneye_996 }
+	213.1.1 = { holder = keeneye_997 }
+	248.1.1 = { holder = keeneye_998 }
+	287.1.1 = { holder = keeneye_999 } #Slain Fabre but already lost control
+	289.1.1 = { holder = rielle_100 }
+	330.1.1 = { holder = rielle_100_daughter }
+	3221.1.1 = { holder = rielle_996 }
+	3263.1.1 = { holder = rielle_997 }
+	3289.1.1 = { holder = rielle_998 }
+	3330.1.1 = { holder = rielle_999 }
+	3353.1.1 = { holder = rielle_1000 }
+	3390.1.1 = { holder = rielle_1001 }
+	3425.1.1 = { holder = rielle_1002 }
+	3435.1.1 = { holder = rielle_1003 }
+	3451.1.1 = { holder = rielle_1004 }
+	3487.1.1 = { holder = rielle_1005 }
+	3507.1.1 = { holder = rielle_1006 }
+}
+c_camlorn = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	181.1.1 = { holder = keeneye_996 }
+	213.1.1 = { holder = keeneye_997 }
+	248.1.1 = { holder = keeneye_998 }
+	287.1.1 = { holder = keeneye_999 } #Slain Fabre but already lost control
+	288.1.1 = { holder = rielle_100 }
+	330.1.1 = { holder = rielle_100_daughter }
+	3005.1.1 = { change_development_level = 13 }
+	3221.1.1 = { holder = rielle_996 }
+	3263.1.1 = { holder = rielle_997 }
+	3289.1.1 = { holder = rielle_998 }
+	3330.1.1 = { holder = rielle_999 }
+	3353.1.1 = { holder = rielle_1000 }
+	3390.1.1 = { holder = rielle_1001 }
+	3425.1.1 = { holder = rielle_1002 }
+	3435.1.1 = { holder = rielle_1003 }
+	3451.1.1 = { holder = rielle_1004 }
+	3487.1.1 = { holder = rielle_1005 }
+	3502.1.1 = { holder = bloodthorn_1000 }
+	3503.1.1 = { holder = rielle_1005 }
+	3507.1.1 = { holder = rielle_1006 }
+}
+
+c_eagle_brook = {
+	3005.1.1 = { change_development_level = 6 }
+	3287.1.1 = {
+		holder = roland_98
+		liege = d_camlorn
+	}
+	3322.1.1 = { holder = roland_99 }
+	3345.1.1 = { holder = roland_100 }
+	3391.1.1 = { holder = roland_101 }
+	3502.1.1 = { liege = d_reachmen_bloodthorn }
+}
+
+c_ykalon = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3276.1.1 = { holder = llugwych_998 }
+	3309.1.1 = { holder = llugwych_999 }
+	3358.1.1 = { 
+		holder = llugwych_1000
+		liege = d_camlorn
+	}
+	3365.1.1 = { liege = 0 }
+	3385.1.1 = { holder = llugwych_1001 }
+	3407.1.1 = { holder = llugwych_1002 }
+	3462.1.1 = { holder = llugwych_1003 }
+	3468.1.1 = { holder = llugwych_1004 }
+	3502.1.1 = { 
+		holder = bloodcaller_1000
+		liege = d_reachmen_bloodthorn
+	}
+	3503.1.1 = { 
+		holder = llugwych_1004
+		liege = d_camlorn
+	}
+	3515.1.1 = { holder = llugwych_1005 }
+	3559.1.1 = { holder = llugwych_1006 }
+}
+
+c_glenumbra = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3350.1.1 = { holder = rielle_1000 }
+	3365.1.1 = { 
+		holder = laurent_1000
+		liege = 0
+	}
+	3377.1.1 = { holder = laurent_1001 }
+}
+
+c_westtry = {
+	3287.1.1 = {
+		holder = roland_98
+		liege = d_camlorn
+	}
+	3322.1.1 = { holder = roland_99 }
+	3345.1.1 = { holder = roland_100 }
+	3391.1.1 = { holder = roland_101 }
+	3502.1.1 = { liege = d_reachmen_bloodthorn }
+}
+
+c_cambray = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3281.1.1 = { holder = laurent_998 }
+	3332.1.1 = { holder = laurent_999 }
+	3356.1.1 = { holder = laurent_1000 }
+	3377.1.1 = { holder = laurent_1001 }
+}
+
+c_cryngaine = {
+	3005.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3289.1.1 = { holder = yeomwing_997 }
+	3315.1.1 = { holder = yeomwing_998 }
+	3340.1.1 = { holder = yeomwing_999 }
+	3359.1.1 = { holder = laurent_1000 }
+	3367.1.1 = { 
+		holder = yeomwing_1000
+		liege = d_anticlere
+	}
+}
+c_ravennia = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	288.1.1 = { holder = rielle_100 }
+	330.1.1 = { holder = rielle_100_daughter }
+	3221.1.1 = { holder = rielle_996 }
+	3263.1.1 = { holder = rielle_997 }
+	3289.1.1 = { holder = rielle_998 }
+	3330.1.1 = { holder = rielle_999 }
+	3353.1.1 = { holder = rielle_1000 }
+	3390.1.1 = { holder = rielle_1001 }
+	3425.1.1 = { holder = rielle_1002 }	
+}
+
+c_oloine = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3299.1.1 = { holder = devet_1000 }
+	3321.10.9 = { holder = devet_1002 }
+	3348.1.1 = { holder = blanche_999 }
+	3356.1.1 = { holder = blanche_1000 }
+	3385.1.1 = { holder = blanche_1001 }
+	3422.1.1 = { holder = blanche_1002 }
+	3452.1.1 = { holder = blanche_1003 }
+	3479.1.1 = { holder = blanche_1004 }
+	3502.1.1 = { 
+		holder = faolchu_1000
+		liege = d_reachmen_bloodthorn
+	}
+	3503.1.1 = { holder = blanche_1004 }
+	3505.1.1 = { holder = blanche_1005 }
+	3520.1.1 = { holder = blanche_1006 }
+}
+
+c_caecilly = {
+	3005.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3278.1.1 = { holder = granve_998 }
+	3309.1.1 = { holder = granve_999 }
+	3341.1.1 = { holder = granve_1000 }
+	3385.1.1 = { holder = granve_1001 }
+	3417.1.1 = { holder = granve_1002 }
+	3441.1.1 = { holder = granve_1003 }
+	3489.1.1 = { holder = granve_1004 }
+	3494.1.1 = { holder = granve_1005 }
+	3520.1.1 = { holder = granve_1006 }
+}
+
+c_tethis = {
+	3005.1.1 = { change_development_level = 4 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3269.1.1 = { holder = tetien_1000 }
+	3321.1.1 = { holder = granve_999 }
+	3341.1.1 = { holder = granve_1000 }
+	3417.1.1 = { holder = granve_1002 }
+	3441.1.1 = { holder = granve_1003 }
+	3489.1.1 = { holder = granve_1004 }
+	3494.1.1 = { holder = granve_1005 }
+	3520.1.1 = { holder = granve_1006 }
+}
+
+d_anticlere = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3345.1.1 = { holder = garclay_999 }
+	3367.1.1 = { holder = garclay_1000 }
+	3397.1.1 = { holder = garclay_1001 }
+	3400.1.1 = { holder = garclay_1002 }
+	3435.1.1 = { holder = garclay_1003 }
+	3457.1.1 = { holder = 0 }
+}
+
+c_aldcroft = {
+	3005.1.1 = { change_development_level = 9 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3250.1.1 = { holder = garclay_996 }
+	3300.1.1 = { holder = garclay_998 }
+	3341.1.1 = { holder = garclay_999 }
+	3345.1.1 = { liege = d_anticlere }
+	3367.1.1 = { holder = garclay_1000 }
+	3397.1.1 = { holder = garclay_1001 }
+	3400.1.1 = { holder = garclay_1002 }
+	3435.1.1 = { holder = garclay_1003 }
+	3457.1.1 = { holder = rielle_1004 }
+	3491.1.1 = { holder = rielle_1005 }
+	3507.1.1 = { holder = rielle_1006 }
+}
+
+c_khuras = {
+	3315.1.1 = { holder = yeomwing_998 }
+	3340.1.1 = { holder = yeomwing_999 }
+	3345.1.1 = { liege = d_anticlere }
+	3362.1.1 = { holder = yeomwing_1000 }
+	3457.1.1 = { 
+		holder = garclay_1004
+		liege = d_camlorn
+	}
+	3488.1.1 = { holder = garclay_1005 }
+}
+
+c_penmarch = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3320.1.1 = { holder = aethelred_100 }
+	3347.1.1 = { holder = aethelred_101 }
+	3350.1.1 = { 
+		holder = marie_1000
+		liege = d_camlorn
+	}
+	3365.1.1 = { liege = 0 }
+}
+
+d_bhoriane = {
+	3291.1.1 = { holder = crecy_998 }
+	3325.1.1 = { holder = crecy_999 }
+	3345.1.1 = { holder = crecy_1000 }
+	3352.5.16 = {
+		holder = 0
+		change_development_level = 6
+	}
+}
+c_bhoriane = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3291.1.1 = { holder = crecy_998 }
+	3325.1.1 = { holder = crecy_999 }
+	3345.1.1 = { holder = crecy_1000 }
+	3352.5.16 = {  # Direnni go on a minor conquering spree after the Potentate falls
+		holder = direnni_breto_1003
+		liege = d_balfiera
+	}
+}
+
+c_dwynnen = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3291.1.1 = { holder = crecy_998 }
+	3325.1.1 = { holder = crecy_999 }
+	3345.1.1 = { holder = crecy_1000 }
+	3356.1.1 = { # Direnni go on a minor conquering spree after the Potentate falls
+		holder = tyelile_100
+		liege = d_balfiera
+	}
+}
+
+c_urvaius = {
+	3332.1.1 = {
+		holder = urvaius_999 # breton
+		liege = d_bhoriane
+	}
+	3350.6.7 = {
+		holder = celsanen_100 # altmer
+		liege = d_balfiera
+	}
+}
+
+d_kambria = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3191.1.1 = { holder = ildene_15802 } # Moric
+	3206.1.1 = { holder = ildene_15807 } # Gregor
+	3237.1.1 = { holder = ildene_15810 } # Alabard
+	3253.1.1 = { holder = ildene_15811 } # Mordane
+	3288.1.1 = { holder = ildene_15812 } # Uthore
+	3306.1.1 = { holder = ildene_15812_son } # Bedistair
+	3353.1.1 = { holder = ildene_1000 } # Verick
+}
+
+c_kambria = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3191.1.1 = { holder = ildene_15802 } # Moric
+	3206.1.1 = { holder = ildene_15807 } # Gregor
+	3237.1.1 = { holder = ildene_15810 } # Alabard
+	3253.1.1 = { holder = ildene_15811 } # Mordane
+	3288.1.1 = { holder = ildene_15812 } # Uthore
+	3306.1.1 = { holder = ildene_15812_son } # Bedistair
+	3353.1.1 = { holder = ildene_1000 } # Verick
+}
+
+c_king_guard = {
+	3005.1.1 = { change_development_level = 4 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3151.1.1 = { holder = ildene_15800 } # Robb
+	3183.1.1 = { holder = ildene_15802 } # Moric
+	3206.1.1 = { holder = ildene_15806 } # Banning
+	3219.1.1 = { holder = ildene_15808 } # Arniel
+	3258.1.1 = { holder = ildene_15809 } # Baldrian
+	3263.1.1 = { holder = ildene_15811 } # Mordane
+	3288.1.1 = { holder = ildene_15812 } # Uthore
+	3306.1.1 = { holder = ildene_15812_son } # Bedistair
+	3353.1.1 = { holder = ildene_1000 } # Verick
+}
+
+c_crosswych = {
+	3005.1.1 = { change_development_level = 6 }
+	3350.1.1 = { 
+		holder = crosswych_1000 # revolt
+	}
+}
+
+c_cath_bedraud = {
+	3350.1.1 = { 
+		holder = bedraud_1000
+		government = theocracy_government
+		liege = d_kambria
+	}
+	3502.1.1 = { holder = bloodthorn_1000 }
+}
+
+#k_daggerfall
+
+k_daggerfall = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	495.1.1 = { holder = daguer_1 }
+	519.1.1 = { holder = daguer_2 }
+	605.1.1 = { holder = daguer_3 }
+	970.1.1 = { holder = daguer_1003 }
+	2022.11.11 = { holder = john_elder_kings }
+	3200.1.1 = { holder = deleyn_994 }
+	3247.1.1 = { holder = deleyn_995 }
+	3263.1.1 = { holder = deleyn_996 }
+	3285.1.1 = { holder = deleyn_998 }
+	3321.1.1 = { holder = deleyn_999 }
+	3370.1.1 = { holder = deleyn_1000 }
+	3396.1.1 = { holder = deleyn_1001 }
+	3445.1.1 = { holder = deleyn_1003 }
+	3440.1.1 = { holder = deleyn_1003 }
+	3483.1.1 = { holder = deleyn_1004 }
+	3501.1.1 = { holder = deleyn_1005 }
+}
+
+d_daggerfall = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	368.1.1 = { holder = direnni_3c1 }
+	495.1.1 = { holder = daguer_1 }
+	519.1.1 = { holder = daguer_2 }
+	605.1.1 = { holder = daguer_3 }
+	970.1.1 = { holder = daguer_1003 }
+	2022.11.11 = { holder = john_elder_kings }
+	3123.1.1 = { holder = deleyn_991 }
+	3145.1.1 = { holder = deleyn_992 }
+	3163.1.1 = { holder = deleyn_993 }
+	3186.1.1 = { holder = deleyn_994 }
+	3247.1.1 = { holder = deleyn_995 }
+	3263.1.1 = { holder = deleyn_996 }
+	3285.1.1 = { holder = deleyn_998 }
+	3321.1.1 = { holder = deleyn_999 }
+	3370.1.1 = { holder = deleyn_1000 }
+	3396.1.1 = { holder = deleyn_1001 }
+	3445.1.1 = { holder = deleyn_1003 }
+	3440.1.1 = { holder = deleyn_1003 }
+	3483.1.1 = { holder = deleyn_1004 }
+	3501.1.1 = { holder = deleyn_1005 }
+}
+
+c_daggerfall = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3005.1.1 = { change_development_level = 14 }
+	368.1.1 = { holder = direnni_3c1 }
+	495.1.1 = { holder = daguer_1 }
+	519.1.1 = { holder = daguer_2 }
+	605.1.1 = { holder = daguer_3 }
+	970.1.1 = { holder = daguer_1003 }
+	2022.11.11 = { holder = john_elder_kings }
+	3123.1.1 = { holder = deleyn_991 }
+	3145.1.1 = { holder = deleyn_992 }
+	3163.1.1 = { holder = deleyn_993 }
+	3186.1.1 = { holder = deleyn_994 }
+	3247.1.1 = { holder = deleyn_995 }
+	3263.1.1 = { holder = deleyn_996 }
+	3285.1.1 = { holder = deleyn_998 }
+	3321.1.1 = { holder = deleyn_999 }
+	3370.1.1 = { holder = deleyn_1000 }
+	3396.1.1 = { holder = deleyn_1001 }
+	3445.1.1 = { holder = deleyn_1003 }
+	3440.1.1 = { holder = deleyn_1003 }
+	3483.1.1 = { holder = deleyn_1004 }
+	3501.1.1 = { holder = deleyn_1005 }
+}
+
+c_themond = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3260.1.1 = { holder = deleyn_998 }
+	3321.1.1 = { holder = deleyn_999 }
+	3370.1.1 = { holder = deleyn_1000 }
+	3396.1.1 = { holder = deleyn_1001 }
+	3445.1.1 = { holder = deleyn_1003 }
+	3440.1.1 = { holder = deleyn_1003 }
+	3483.1.1 = { holder = deleyn_1004 }
+	3501.1.1 = { holder = deleyn_1005 }
+	}
+
+c_sword_rest = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3260.1.1 = { holder = deleyn_998 }
+	3321.1.1 = { holder = deleyn_999 }
+	3370.1.1 = { holder = deleyn_1000 }
+	3396.1.1 = { holder = deleyn_1001 }
+	3445.1.1 = { holder = deleyn_1003 }
+	3440.1.1 = { holder = deleyn_1003 }
+	3483.1.1 = { holder = deleyn_1004 }
+	3501.1.1 = { holder = deleyn_1005 }
+}
+
+d_glenpoint = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3299.1.1 = { holder = croix_999 }
+	3341.1.1 = { 
+		holder = croix_1000
+		liege = k_daggerfall
+	}
+	3365.1.1 = { liege = 0 }
+	3394.1.1 = { holder = croix_1001 }
+	3425.1.1 = { holder = croix_1002 }
+	3450.1.1 = { liege = k_daggerfall }
+	3460.1.1 = { holder = croix_1003 }
+	3467.1.1 = { holder = croix_1004 }
+	3499.1.1 = { holder = croix_1005 }
+	3520.1.1 = { holder = croix_1006 }
+}
+
+c_glenpoint = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3259.1.1 = { holder = croix_998 }
+	3297.1.1 = { holder = croix_999 }
+	3341.1.1 = { holder = croix_1000 }
+	3394.1.1 = { holder = croix_1001 }
+	3425.1.1 = { holder = croix_1002 }
+	3460.1.1 = { holder = croix_1003 }
+	3467.1.1 = { holder = croix_1004 }
+	3499.1.1 = { holder = croix_1005 }
+	3520.1.1 = { holder = croix_1006 }
+}
+
+c_tulune = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3255.1.1 = { holder = reviere_998 }
+	3287.1.1 = { holder = reviere_999 }
+	3320.1.1 = { holder = copperfield_998 }
+	3345.1.1 = { liege = d_glenpoint }
+	3368.1.1 = {
+		holder = copperfield_1000
+		liege = 0
+	}
+	3433.1.1 = { holder = copperfield_1001 }
+	3450.1.1 = { holder = copperfield_1002 }
+	3465.1.1 = { holder = copperfield_1003 }
+	3479.1.1 = { holder = copperfield_1004 }
+	3500.1.1 = { holder = copperfield_1005 }
+	3525.1.1 = { holder = copperfield_1006 }
+}
+
+c_shalgora = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3289.1.1 = { holder = arne_997 }
+	3300.1.1 = { holder = arne_998 }
+	3351.10.13 = {
+		holder = arne_999
+		liege = d_daggerfall
+	}
+	3368.1.1 = { 
+		holder = arne_1000
+		liege = d_daggerfall
+	}
+	3405.1.1 = { holder = arne_1001 }
+	3435.1.1 = { holder = arne_1002 }
+	3470.1.1 = { holder = arne_1003 }
+	3485.1.1 = { holder = arne_1004 }
+	3515.1.1 = { holder = arne_1005 }
+	3535.1.1 = { holder = arne_1006 }
+}
+
+k_betony = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3243.1.1 = { holder = copperfield_995 }
+	3285.1.1 = { holder = copperfield_996 }
+	3310.1.1 = { holder = copperfield_997 }
+	3320.1.1 = { holder = 0 }
+}
+
+d_betony = {
+	3243.1.1 = { holder = copperfield_995 }
+	3285.1.1 = { holder = copperfield_996 }
+	3310.1.1 = { holder = copperfield_997 }
+	3320.1.1 = { holder = 0 }
+	3490.1.1 = { holder = seamount_1004 }
+	3512.1.1 = { holder = seamount_1006 }
+}
+
+c_betony = {
+	3005.1.1 = { change_development_level = 5 }
+	3243.1.1 = { holder = copperfield_995 }
+	3285.1.1 = { holder = copperfield_996 }
+	3310.1.1 = { holder = copperfield_997 }
+	3320.1.1 = { holder = seamount_998 }
+	3350.1.1 = { 
+		holder = seamount_999
+		government = pirate_government
+		}
+	3368.1.1 = { 
+		holder = seamount_1000
+		government = pirate_government
+		}
+	3395.1.1 = { holder = seamount_1001 }
+	3431.1.1 = { holder = seamount_1002 }
+	3462.1.1 = { holder = seamount_1003 }
+	3489.1.1 = { holder = seamount_1004 }
+	3512.1.1 = { holder = seamount_1006 }
+}
+
+d_northmoor = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3221.1.1 = { holder = lariat_995 }
+	3259.1.1 = { holder = lariat_996 }
+	3282.1.1 = { holder = lariat_997 }
+	3296.1.1 = { holder = stroud_996 }
+	3330.1.1 = { holder = 0 }
+	3365.1.1 = { holder = stroud_1000 }
+	3389.1.1 = { holder = stroud_1001 }
+	3412.1.1 = { holder = stroud_1002 }
+	3415.1.1 = { holder = 0 }
+}
+
+c_northmoor = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3221.1.1 = { holder = lariat_995 }
+	3250.1.1 = { holder = lariat_996 }
+	3255.1.1 = { liege = d_northmoor }
+	3282.1.1 = { holder = lariat_997 }
+	3296.1.1 = { holder = stroud_996 }
+	3330.1.1 = { holder = stroud_998 }
+	3364.1.1 = { holder = stroud_997 }
+	3365.1.1 = { holder = stroud_1000 }
+	3389.1.1 = { holder = stroud_1001 }
+	3412.1.1 = { holder = stroud_1002 }
+	3421.1.1 = { holder = stroud_1003 }
+	3444.1.1 = { holder = stroud_1004 }
+	3459.1.1 = { holder = stroud_1005 }
+	3497.1.1 = { holder = stroud_1006 }
+}
+
+d_ilessan = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3259.1.1 = { holder = lariat_996 }
+	3282.1.1 = { holder = lariat_997 }
+	3296.1.1 = { holder = lariat_998 }
+	3339.1.1 = { holder = 0 }
+}
+
+c_ilessan = {
+	3005.1.1 = { change_development_level = 5 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3225.1.1 = { holder = lariat_996 }
+	3255.1.1 = { liege = d_ilessan }
+	3282.1.1 = { holder = lariat_997 }
+	3296.1.1 = { holder = lariat_998 }
+	3339.1.1 = { holder = lariat_999 }
+	3365.1.1 = { liege = d_daggerfall }
+	3369.1.1 = {
+		holder = lariat_1000
+		liege = d_glenpoint
+	}
+	3376.1.1 = { holder = lariat_1001 }
+	3409.1.1 = { holder = lariat_1002 }
+	3420.1.1 = { holder = lariat_1003 }
+	3450.1.1 = { holder = lariat_1004 }
+	3505.1.1 = { holder = lariat_1005 }
+	3537.1.1 = { holder = lariat_1006 }
+}
+
+c_calder = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3250.1.1 = { holder = lariat_996 }
+	3255.1.1 = { liege = d_ilessan }
+	3282.1.1 = { holder = lariat_997 }
+	3296.1.1 = { holder = stroud_996 }
+	3330.1.1 = { holder = stroud_997 }
+	3339.1.1 = { liege = 0 }
+	3342.1.1 = { holder = baelborne_999 }
+	3356.1.1 = { holder = baelborne_1000 }
+	3365.1.1 = { liege = d_northmoor }
+	3405.1.1 = { holder = baelborne_1001 }
+	3435.1.1 = { holder = baelborne_1002 }
+	3470.1.1 = { holder = baelborne_1003 }
+	3485.1.1 = { holder = baelborne_1004 }
+	3500.1.1 = { holder = baelborne_1005 }
+	3535.1.1 = { holder = baelborne_1006 }
+}
+
+d_beldama = {
+	3450.1.1 = { 
+		holder = beldama_1001
+		government = theocracy_government
+	}
+}
+
+c_beldama = {
+	3005.1.1 = { change_development_level = 5 }
+	3320.1.1 = {
+		holder = beldama_999
+		government = theocracy_government
+	}
+	3350.1.1 = {
+		holder = beldama_1000
+		government = theocracy_government
+	}
+	3450.1.1 = { 
+		holder = beldama_1001
+		liege = d_beldama
+	}
+}
+
+d_daenia = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3285.1.1 = { holder = gulitte_998 }
+	3327.1.1 = { holder = gulitte_999 }
+	3350.1.1 = { holder = gulitte_1000 }
+}
+
+c_daenia = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3285.1.1 = { holder = gulitte_998 }
+	3327.1.1 = { holder = gulitte_999 }
+	3350.1.1 = { 
+		holder = gulitte_1000
+		liege = d_daenia
+	}
+	3394.1.1 = { holder = gulitte_1001 }
+	3435.1.1 = { holder = gulitte_1002 }
+	3470.1.1 = { holder = gulitte_1003 }
+	3485.1.1 = { holder = gulitte_1004 }
+	3515.1.1 = { holder = gulitte_1005 }
+	3535.1.1 = { holder = gulitte_1006 }
+}
+
+c_dresan = {
+	3005.1.1 = { change_development_level = 6 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3285.1.1 = { holder = gulitte_998 }
+	3327.1.1 = { holder = gulitte_999 }
+	3350.1.1 = { 
+		holder = gulitte_1000
+		liege = d_daenia
+	}
+	3394.1.1 = { holder = gulitte_1001 }
+	3435.1.1 = { holder = gulitte_1002 }
+	3470.1.1 = { holder = gulitte_1003 }
+	3470.1.2 = { 
+		holder = beldama_1002
+		liege = d_beldama
+		government = theocracy_government
+	} # HistoryToDoHR the gulitte_1003-beldama-gulitte_1004 transition needs to be figured out
+	3485.1.1 = { holder = gulitte_1004 }
+	3515.1.1 = { holder = gulitte_1005 }
+	3535.1.1 = { holder = gulitte_1006 }
+
+}
+
+c_deleyn = {
+	3260.1.1 = { holder = deleyn_998 }
+	3321.1.1 = { holder = deleyn_999 }
+	3350.1.1 = { 
+		holder = deleyn1_99 #Granted to bastard sister
+		liege = d_daenia
+	}
+	3365.1.1 = { liege = d_daggerfall }
+	3374.1.1 = { holder = deleyn1_100 }
+	3502.1.1 = { 
+		holder = beldama_1003
+		government = theocracy_government
+		liege = 0
+	}
+}
+
+c_rhalta = {
+	3329.1.1 = {
+		holder = rhalta_999
+	}
+	3359.1.1 = { 
+		holder = rhalta_1000
+		liege = d_daenia
+	}
+	3365.1.1 = { liege = 0 }
+	3405.1.1 = { holder = rhalta_1001 }
+	3435.1.1 = { holder = rhalta_1002 }
+	3470.1.1 = { holder = noellaume_1002 }
+	3472.1.1 = { holder = noellaume_1003 }
+	3518.1.1 = { holder = noellaume_1004 }
+}
+
+#k_evermore
+
+k_evermore = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3235.1.1 = { holder = moile_991 }
+	3259.1.1 = { holder = moile_992 }
+	3299.1.1 = { holder = moile_997 }
+	3330.1.1 = { holder = moile_998 }
+	3346.1.1 = { holder = moile_1000 }
+	3379.1.1 = { holder = moile_1001 }
+	3411.1.1 = { holder = moile_1003 }
+
+	3462.1.1 = { holder = guimard_1008 }
+	3488.1.1 = { holder = guimard_1011 }
+}
+
+d_evermore = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3200.1.1 = { holder = moile_990 }
+	3235.1.1 = { holder = moile_991 }
+	3259.1.1 = { holder = moile_992 }
+	3299.1.1 = { holder = moile_997 }
+	3330.1.1 = { holder = moile_998 }
+	3346.1.1 = { holder = moile_1000 }
+	3379.1.1 = { holder = moile_1001 }
+	3411.1.1 = { holder = moile_1003 }
+
+	3462.1.1 = { holder = guimard_1008 }
+	3488.1.1 = { holder = guimard_1011 }
+}
+
+c_evermore = {
+	3005.1.1 = { change_development_level = 13 }
+	3360.1.1 = {
+		government = feudal_government
+	}
+	1029.1.1 = { holder = guy_marde } # Guy Marde of ye Rivver Banke, mythical claim of the Guimard Dynasty
+	3200.1.1 = { holder = moile_990 }
+	3235.1.1 = { holder = moile_991 }
+	3259.1.1 = { holder = moile_992 }
+	3299.1.1 = { holder = moile_997 }
+	3330.1.1 = { holder = moile_998 }
+	3358.1.1 = { holder = moile_1000 }
+
+	3462.1.1 = { holder = guimard_1008 }
+	3488.1.1 = { holder = guimard_1011 }
+}
+
+c_azra_crossing = {
+	3330.1.1 = { holder = vuitton_1000 }
+	3358.1.1 = { liege = d_evermore }
+	3361.1.1 = { holder = vuitton_1001 }
+}
+
+c_glen = {
+	300.1.1 = { change_development_level = 8 }
+	3179.1.1 = { holder = ysciele_15304} # Edwen
+	3212.1.1 = { holder = ysciele_15315 } # Mates
+	3233.1.1 = { holder = ysciele_15317 } # Tristane
+	3310.1.1 = { holder = ysciele_15318 } # Baldric
+	3321.1.1 = { holder = ysciele_15319 } # Diana
+	3349.1.1 = { 
+		holder = ysciele_1000 # Edwistair (conquered it from the other Ysciele branch)
+		liege = d_evermore
+	}
+	3381.1.1 = { holder = ysciele_1001 }
+}
+
+c_pelin = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	1029.1.1 = { holder = guy_marde } # Guy Marde of ye Rivver Banke, mythical claim of the Guimard Dynasty
+	3200.1.1 = { holder = moile_990 }
+	3235.1.1 = { holder = moile_991 }
+	3259.1.1 = { holder = moile_992 }
+	3299.1.1 = { holder = moile_997 }
+	3330.1.1 = { holder = moile_998 }
+	3358.1.1 = { holder = moile_1000 }
+
+	3462.1.1 = { holder = guimard_1008 }
+	3488.1.1 = { holder = guimard_1011 }
+	}
+
+c_oxshire = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3276.1.1 = { holder = amelion_1000 }
+	3313.1.1 = { holder = amelion_1001 }
+	3340.1.1 = { holder = amelion_1002 }
+	3358.1.1 = {
+		holder = amelion_1003
+		liege = k_evermore
+	}
+	3367.1.1 = { holder = amelion_1004 }
+	3400.1.1 = { holder = amelion_1005 }
+}
+
+c_arkmoth = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3358.1.1 = { holder = moile_1000 }
+
+	3462.1.1 = { holder = guimard_1008 }
+	3488.1.1 = { holder = guimard_1011 }
+}
+
+d_mournoth = {
+	398.1.1 = { holder = dynar_1000 } #Bisnensel founded
+	461.1.1 = { holder = uluscant_1000 } #Uluscant takes over
+	484.1.1 = { holder = 0 } #Laloriaran vanishes
+}
+
+c_mournoth = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	398.1.1 = { holder = dynar_1000 } #Bisnensel founded
+	461.1.1 = { holder = uluscant_1000 } #Uluscant takes over
+	3256.1.1 = { holder = amelion_999 }
+	3273.1.1 = { holder = amelion_1000 }
+	3313.1.1 = { holder = amelion_1001 }
+	3340.1.1 = { holder = amelion_1002 }
+	3358.1.1 = {
+		holder = amelion_1004
+		liege = k_evermore
+	}
+	3365.2.14 = { 
+		holder = gate_basher_1000
+		government = tribal_government
+		liege = 0
+	}
+	3400.1.1 = { 
+		holder = amelion_1005 
+		liege = k_evermore
+	}
+}
+
+c_murcien = {
+	3328.1.1 = {
+		holder = senovicix_100
+		liege = d_evermore
+	}
+	3364.1.1 = { holder = senovicix_101 }
+}
+
+d_dunkarn = {
+	3005.1.1 = { change_development_level = 5 }
+	3359.1.1 = { holder = sanuarach_1000 }
+	3368.1.1 = { holder = sanuarach_1001 }
+}
+c_dunkarn = {
+	3300.1.1 = { holder = yeomham_1000 }
+	3327.9.13 = { holder = ashwing_998 }
+	3357.12.5 = { holder = ashwing_999 }
+	3359.1.1 = { holder = sanuarach_1000 }
+	3368.1.1 = { holder = sanuarach_1001 }
+}
+c_reachgate = {
+	437.3.19 = { holder = nchuand_zel_100 } #Roughly where Deeping Drome is, assuming it's connected to Nchuand-Zel
+	623.8.18 = { holder = nchuand_zel_101 }
+	3005.1.1 = { change_development_level = 4 }
+	3359.1.1 = { holder = sanuarach_1000 }
+	3368.1.1 = { holder = sanuarach_1001 }
+}
+c_caerdan = {
+	421.5.8 = { holder = kragen_100 } #Established as western outpost before Clan is destroyed in The Reach
+	521.6.24 = { holder = kragen_150 }
+	609.12.13 = { holder = kragen_151 }
+	683.3.23 = { holder = kragen_152 }
+	#684.1.7 = { holder = 0 } #Claimed by the dragon Thurvokun
+	3005.1.1 = { change_development_level = 5 }
+	3300.1.1 = { holder = yeomham_1000 }
+	3327.9.13 = { holder = ashwing_998 }
+	3357.12.5 = { holder = ashwing_999 }
+	#HistoryToDoHR add a different pre-sanuarach dynasty here
+	3360.1.1 = {
+		holder = sanuarach_1001
+		liege = d_dunkarn
+	}
+}
+
+c_viridian_hillside = {
+	3201.1.1 = { holder = rane_998 }
+	3332.1.1 = { holder = rane_999 }
+	3358.1.1 = { holder = rane_1000 }
+}
+
+c_lakewatch = {
+	3201.1.1 = { holder = rane_998 }
+	3332.1.1 = { holder = rane_999_brother }
+	3359.11.5 = { holder = rane_1000 }
+	3387.2.17 = { holder = forsaken_stronghold_100 } #Orcs driven from Falkreath, take over lakewatch
+}
+
+c_viridian_woods = {
+	3300.1.1 = {
+		holder = viridian_sentinel_1000
+		government = theocracy_government
+	}
+	3330.8.15 = {
+		holder = galien_999
+		government = tribal_government
+	}
+	3359.12.3 = { holder = galien_1000b }
+	3365.1.1 = { holder = galien_1000 }	
+	3391.1.1 = { holder = galien_1001 }
+}
+b_viridian_woods = {
+	3300.1.1 = { holder = viridian_sentinel_1000 }
+	#HistoryToDoHR game refuses to place him
+	#3330.8.15 = {
+	#	holder = viridian_sentinel_1001
+	#}
+}
+
+c_silaseli = {
+	3329.1.1 = { holder = galien_999 }
+	3359.12.3 = { holder = galien_1000 }
+	3391.1.1 = { holder = galien_1001 }
+}
+
+d_bangkorai = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	3351.10.29 = { holder = guimard_1002 } # Fulvert uses change of liege (Siege of Orsinium) and some leverage on Amiable to get the duchy.
+	3358.1.1 = { liege = k_evermore }
+	3365.1.1 = { liege = 0 }
+	3382.1.1 = { holder = guimard_1004 } # Ernard Guimard
+	3406.1.1 = { holder = guimard_1007 } # Balduin Guimard
+	3433.1.1 = { liege = k_evermore }
+	3448.1.1 = { holder = guimard_1008 } # Blaise Guimard, first Guimard King of Evermore
+}
+
+c_bangkorai = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2251.1.1 = { holder = guimard_988 } # Baron-Captain Olsien
+	2285.1.1 = { holder = guimard_989 } # Baroness Falinne Guimard
+	2323.1.1 = { holder = guimard_989a } # Marq Guimard
+	2353.1.1 = { holder = guimard_990 } # Line of Marq
+	3001.1.1 = { holder = guimard_991 } # Gregory
+	3058.1.1 = { holder = guimard_992 } # Ylbert
+	3121.1.1 = { holder = guimard_993 } # Guillaume
+	3145.1.1 = { holder = guimard_994 } # Jean-Pierre
+	3177.1.1 = { holder = guimard_995 } # Perien
+	3216.1.1 = { holder = guimard_996 } # Ylbert
+	3256.1.1 = { holder = guimard_998 } # Brandon
+	3298.1.1 = { holder = guimard_999 } # Christophe
+	3304.1.1 = { holder = guimard_1000 } # Meric Guimard, dies in the siege of Orsinium
+	3351.10.13 = { holder = guimard_1002 } # Fulvert Guimard, takes over after the siege of Orsinium, Lore
+	3382.1.1 = { holder = guimard_1004 } # Ernard Guimard
+	3406.1.1 = { holder = guimard_1007 } # Balduin Guimard
+	3448.1.1 = { holder = guimard_1008 } # Blaise Guimard, first Guimard King of Evermore
+	# HistoryToDoHR power slowly shifts to d_evermore, so another dynasty can take over soon
+	3501.12.12 = { holder = tharn_101p }
+}
+
+c_ephesus = {
+	3300.1.1 = { holder = atuhon_998 }
+	3328.1.1 = { holder = atuhon_999 }
+	3359.10.16 = { holder = atuhon_1000 }
+}
+
+c_sunken_road = {
+	3360.1.1 = {
+		government = feudal_government
+	}
+	2251.1.1 = { holder = guimard_988 } # Baron-Captain Olsien
+	2285.1.1 = { holder = guimard_989 } # Baroness Falinne Guimard
+	2323.1.1 = { holder = guimard_989a } # Marq Guimard
+	2353.1.1 = { holder = guimard_990 } # Line of Marq
+	3001.1.1 = { holder = guimard_991 } # Gregory
+	3058.1.1 = { holder = guimard_992 } # Ylbert
+	3121.1.1 = { holder = guimard_993 } # Guillaume
+	3145.1.1 = { holder = guimard_994 } # Jean-Pierre
+	3177.1.1 = { holder = guimard_995 } # Perien
+	3216.1.1 = { holder = guimard_996 } # Ylbert
+	3256.1.1 = { holder = guimard_998 } # Brandon
+	3298.1.1 = { holder = guimard_999 } # Christophe
+	3304.1.1 = { holder = guimard_1000 } # Meric Guimard
+	# praren takes over
+	3331.1.1 = { holder = praren_999 }
+	3359.3.7 = {
+		holder = praren_1000
+		liege = d_bangkorai 
+	}
+}
+
+#Reachmen Tribes/Cults/Warbands
+
+d_reachmen_bloodthorn = {
+	3501.1.1 = { holder = bloodthorn_1000 }
+	3503.1.1 = { holder = 0 }
+}

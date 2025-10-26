@@ -1,0 +1,1361 @@
+﻿#Cyro-Imga
+name_list_cyro_imga = {
+
+	male_names = {
+		Marukh Brump Thragor Thramak Brakka Grulm Thrund Hrukka Bramok Thulkar Mrukthak Malthak Nogruk Nulbrak Rronk Tavakh Strakk Lunk Lumpak Rungak Larlug
+		Kodru Ruggor Batum Dothukh Salukh Mathak Bromm Hurg Brulk Nukh Krobuk Hulmak Gavok Wumok Karug Mokar Halak Ugbak Kromak Zrulm Brornak Thrumar Grinthak
+		Krommok Drukk Muthak Blunk Grulk Brondar Norkak Ashui Idron Olosh Omanikan Rahula Kuhloga Gabandron Gamorga Marukhar Fervukh Morumhug Belhukhzar Remunk
+		Pelunal Borgok Olumf Goreuk Tharnk Yoon Shoof Knonk Foosh Fomp
+	} 
+	
+	female_names = { 
+		Vrunda Rulgu Mrukka Torga Rukka Imta Thrula Thrisk Grula Rila Zokna Duski Rinka Bloga Kruma Krela Vongi Vonga Grotha Kiska Gorga Bunda Mruksha Mraura
+		Nalka Vonsha Gruli Lunkoga Shiska Shusda Rinsha Ril Vongla Vongi Vonsha Shusha Grula Ugsha Groshi Kukka Trilsh Luga Mrudusha Grakka Vrundu Torla
+		Blosha Dusha Thrika Ukni Vongra Kustru Dulsa Dorgo Nolhu Sonkha Suhlgu Suwathi Uthasi Takhur Alussha Hestra Hurda Alesshia Alessh Tukutu
+	}
+
+	dynasty_names = { "dynn_Blazeclimb" "dynn_Mossfoot" "dynn_Raindancer" "dynn_Silverstripe" "dynn_Bramblefur" "dynn_Barkbeater" "dynn_Swiftjump" "dynn_Thorak" "dynn_Longarm" "dynn_Wideleap" "dynn_Great_Tree" "dynn_Grathor" "dynn_Krana" "dynn_Magok" "dynn_Kraxar" "dynn_Tonoga" "dynn_Dommuk" "dynn_Kalka" "dynn_Rumdon" "dynn_Dranud" "dynn_Nagon" "dynn_Mrugor" "dynn_Mramgol" "dynn_Brundak" "dynn_Gravko" "dynn_Zomgu" "dynn_Brundu" "dynn_Kragul" "dynn_Grunkar"}
+	cadet_dynasty_names = { "dynn_Blazeclimb" "dynn_Mossfoot" "dynn_Raindancer" "dynn_Silverstripe" "dynn_Bramblefur" "dynn_Barkbeater" "dynn_Swiftjump" "dynn_Thorak" "dynn_Longarm" "dynn_Wideleap" "dynn_Great_Tree"  "dynn_Grathor" "dynn_Krana" "dynn_Magok" "dynn_Kraxar" "dynn_Tonoga" "dynn_Dommuk" "dynn_Kalka" "dynn_Rumdon" "dynn_Dranud" "dynn_Nagon" "dynn_Mrugor" "dynn_Mramgol" "dynn_Brundak" "dynn_Gravko" "dynn_Zomgu" "dynn_Brundu" "dynn_Kragul" "dynn_Grunkar"}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 10
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+		
+	# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 10
+	mother_name_chance = 10
+	
+	mercenary_names = {
+		{ name = "mercenary_knights_legion" } 
+		{ name = "mercenary_knights_phalanx" }	
+		{ name = "mercenary_knights_marine" }
+		{ name = "mercenary_knights_squadron" } 
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_army" }
+		{ name = "mercenary_knights_battalion" }	
+		{ name = "mercenary_knights_brotherhood" }
+		{ name = "mercenary_knights_hoplite" } 
+		{ name = "mercenary_knights_legion" }
+		{ name = "mercenary_knights_excubitor" }
+	}
+}
+
+#Gideonese
+name_list_gideonese = {
+
+	cadet_dynasty_names = { "dynn_Athringi" "ddynn_Baaetark" "dynn_Lovidicus" "dynn_Jirich" "dynn_Llokul" "dynn_Vlarzyn" "dynn_Alsina" "dynn_Tuulakul" "dynn_Parvalugio" "dynn_Delevian" "dynn_Douar" "dynn_Arynit" "dynn_Tasellis" "dynn_Minicci" "dynn_Papra" "dynn_Leserion" "dynn_Hertir" "dynn_Kamhara" "dynn_Scepestos" "dynn_Zemmaita" "dynn_Varopodius" "dynn_Statruinas" "dynn_Tigriandros" "dynn_Salvitto" "dynn_Barbula" "dynn_Sestius" "dynn_Tunifus" "dynn_Pelagia" "dynn_Venucius" "dynn_Milacio" "dynn_Coravel" "dynn_Bursio" } 
+
+
+	dynasty_names = { "dynn_Athringi" "dynn_Baaetark" "dynn_Lovidicus" "dynn_Jirich" "dynn_Llokul" "dynn_Vlarzyn" "dynn_Alsina" "dynn_Tuulakul" "dynn_Parvalugio" "dynn_Delevian" "dynn_Douar" "dynn_Arynit" "dynn_Tasellis" "dynn_Minicci" "dynn_Papra" "dynn_Leserion" "dynn_Hertir" "dynn_Kamhara" "dynn_Scepestos" "dynn_Zemmaita" "dynn_Varopodius" "dynn_Statruinas" "dynn_Tigriandros" "dynn_Salvitto" "dynn_Barbula" "dynn_Sestius" "dynn_Tunifus" "dynn_Pelagia" "dynn_Venucius" "dynn_Milacio" "dynn_Coravel" "dynn_Bursio" }
+
+
+	male_names = {
+		Ababael Baela Dabinukal Dethrel Drillk Dussir Eral Erunassur Gareth Lleram Chirah Ulster Helushk Zuuk
+		Kestic Zuathas Durac Nhalan Zalik Irndarus Hosiven Lyrezi Vraseth Tzinghalis Styriche Fangaril Zayzahad Haakon Armok Garalan Shavmar
+		Garael Dethur Ulrikal Baeleth Abareth Galram Urith Abirah Inssir Zunnir Helassir Zaeram Zural Chilahk Ultushk Assantk Llelinkal Kunithael Aleram Binushk Lleruuk Erushir Eradeth Eradam Chinukal
+		Abillnukal Catchica Abillnassur Llerushk Zuubael Garster Dral Chishk Chiluk Zullk Baelica Kunukal Erulushk Dethill Gracian Alavva
+		Hasphat Atheru Sawil Sevilio Curar-El Nu-Hatta Ami-El Uri-El Numinit Corax Huna
+		Abelus Aberius Abrahamus Abundantius Aburius Acanthio Accalia Accius Accoleius Acilius Adam Adamus Adonato Adrian Adrianus Adventus Advocati
+ 		Aebondeius Aebutius Aedinius Aelius Aemilius Aerin Aerinios Aerinius Aetis Afer Aferio Aferius Agapius Agrippa Agrius 
+ 		Alano Alanus Alban Albanius Albanius Albanos Albanus Albatius Albecius Alberto Albertus Albinius Albino Albinus Alcesimus Alco Alethio Alethius Aletho Alexander Alexandro Allectius Allian 
+ 		Alliano Allianus Aloys Amantius Amatius Amiel Amil Amilio Amilius Amilos Amminio Amminius Amminus Ancio Ancus Angel Angelio Angelo Angelus Annius Anterastilis Antio 
+		Antistius Antius Antius Antonian Antonio Antonius Antonius Antus Apello Appius Appuleius Aquila Aquilio Aquillius Arctoro Arctur Arcturius Arcturus Arentio Arentius 
+		Arento Arentus Aretinius Aretino Argyrippus Arin Arinis Arinius Ario Ariulcabor Arius Armenius Arriano Arrianus Arrinis 
+ 		Arrino Arrius Arsinius Artamo Artamus Artemona Artorio Artorius Artorius Ashtus Asinius Aspasius Astaphium Astius Ateius Atilius Atius Atrius Attelivupis
+ 		Attius Attrebus Audenian Audens Aufidius Augurius August Aulus Aunius Aurelio Aurelius Aureolus Aurius Ausonius Auxilium Aventus Averio Avidius Avitus Axius Bacola Baebio Baebius Balduinus
+ 		Ballio Balventius Bantius Barbatius Baro Barrius Bassianus Baszone Batiatus Belenius Belharza Belisar Belisarius Benunius Betilienus Betto Betucius Bizazan
+ 		Blandius Blandus Blepharo Blossius Branimerus Branimirus Brannimerus Brazollus Bremman Brielus Bromia Bruccius Brucus Bruno Bruscius Bruscus Bruttius Brutus Bucculeius Budimero
+ 		Budimiro Burcan Burcanius Burrienus Caccian Caccino Cacistus Caecilius Caecilus Caecina Caecius Caedicius Caelius Caeparius Caepasius Caerellius Caesar Caesarion Caesennius
+ 		Caesetius Caesius Caesonius Caesulenus Caetronius Caitarius Caius Calavius Calidius Calidorus Calixto Calpurnius Calvario 
+ 		Calventius Calvisius Calvus Camelius Camilius Camillius Canctunian Candidus Canidius Caninius Canius Cantilius Cantius Canuleius Canutius Capiton Carfulenus Cario
+ 		Carisius Caristanius Carius Carmalo Carnius Carodus Carolus Carpinatius Carteius Cartrus Carvilius Casca Cassius Casta Castellan Castricius Castrinius Castus Catienus Catilius
+ 		Catius Cato Cavor Cavortius Ceionius Celsus Centenius Cephorus Cestius Chaero Chalinus Charinus Chrysalus Cicereius Cicero Cidius Cilnius Cimber Cincius Cispius Citrio
+ 		Citro Claber Clagius Clasomo Claudian Claudius Clavicus Cleareta Clecentor Cleostrata Cliber Clibergus Clodius Cloelius Clovius Cluentius Cluilius
+ 		Cluvius Cocceius Cocistian Codus Coirtene Colin Collatinus Collybiscus Cominius Compicius Consentius Considius Constans Constantian Constantius Contar
+ 		Contumelior Contumeliorus Coponius Cordius Corfidius Coriolanus Coris Cornelius Cornexius Cornificius Corpulus Corrudus Coruncanius Corvin Corvinus Corvus
+ 		Cosconius Cosmian Cossinius Cossutius Cotius Cottius Crassitius Crassius Crepereius Crescius Cresimirus Crispinus Crispus Critonius Crixus Crocotium Crottus Crulius
+ 		Cunimundus Cunius Cupiennius Curculio Curiatius Curius Curtilia Curtius Cuspius Cyamus Cylindrus Cyrilius Cyronin Danus Darien Darius Decalus Decanus
+ 		Decentius Decimius Decius Decmitius Decumus Dellius Demipho Denel Depusanis Desideratus Desticius Dexsius Didacus Didius Digitius Dillius Dinia Dion
+ 		Dionysius Dirsisclaus Diudituslaus Dobias Dobrosclavus Doctore Dolcettus Domagous Domitius Dommagous Domogous Donus Doraldus Dordalus Dorippa 
+ 		Draganus Dranin Draninus Drusus Duccius Duilius Dunius Durmius Duronius Durus Duvianus Dyus Eduardius Edwardus Egilius Egnatius Egnatuleius
+ 		Eligius Ennis Ennius Ennodius Ephrem Epidicus Epidius Epignomus Eppius Equitius Ergalisus Ericus Erotium Ertius Erucius Esdrufus Etira Euclio Fabius
+ 		Fabricius Fadius Fadus Faenius Falcidius Falco Falerius Falx Famius Fandus Fannius Farsuleius Fasilius Faucius Favonius Felicianus Felix Fervidius Festinius Festus Fidiculanius Fimius
+ 		Firminus Flaccus Flaminius Flavinius Flavius Flavonius Florentius Floridius Florin Florius Floronius Florus Fluvius Fonteius Fortis Foslius Franciscus Fridericus Frinnius Frontarius Fuficius
+ 		Fufidius Fufius Fulcinius Fulvius Fundanus Furian Furianus Furius Furnia Gabinius Gaius Galbus Galerius Gallinius Gallius Gallus Galtus Ganciele Gargonius Garrus
+ 		Gaudentius Gavius Gavo Geganius Gelasimus Gellius Gemellus Geminius Genciel Genucius Georgius Gergio Gessius Gian Giddenis Gildasius Giovanni Glaber Glabius 
+ 		Glabrio Glallian Glenroy Gnaeus Godefridus Gorgines Gorieus Goyslauus Graccus Graco Gran Granius Gratian Gratidius Gratius Gregorius Gregory 
+ 		Gripus Grumio Gualtierus Gulielmus Gundulfus Haderus Hadrian Hadrianus Halisca Hanno Hasphat Haterius Hegio Heius Helvidius
+ 		Helvius Helvo Henricus Herebanus Herennius Herminius Hestor Hilarian Hilarius Hilio Hilo Hirrius Hirrus Hirtius Hirtuleius
+ 		Horatius Hortensius Hosidius Hostilius Humilis Humius Iccius Icilius Ignas Ignatius Ildogesto Ilnori Impudius Imus Iniel Inius Insteius Iocundus Iosephus Iratian
+ 		Isidorus Itius Iulianus Iulus Jadier Jagar Janius Januarius Janus Jaretius John Jon Jonus Julio Julius Julius Junius
+ 		Juntinus Justicus Justin Justinius Justino Justus Juventius Knavus Laberius Labienus Labrax Lacerius Ladasclavus Laelius Laenius
+ 		Laetilius Laetorius Lafrenius Lampadio Lamponius Larian Larianus Larisus Larius Laronius Larrius Lartius Larus Latinius Laurentius Lavinius Laythe Lazario Lazarus
+ 		Lecanius Lentidius Lentilius Lentulus Leono Leontius Lepidus Lerexus Lesbonicus Letreius Levus Ley Liburnius Licinius
+ 		Ligarius Linus Liudewitus Livius Livy Lollius Longinius Longinus Loreius Lucan Lucceius Lucien Lucienus Lucilius Lucius Lucretius Ludovicus Lulius Lupandinus Lupius
+ 		Lurian Lurio Lurius Luscius Lusius Luspinian Lutatius Luther Luven Lyco Lycus Lydus Lysidamus Macrinius Mactator Maecilius Maecius Maelius
+ 		Maenius Maevius Magius Magnus Malintus Mallius Mallus Malpenix Mamilius Manilia Manilian Manilius Manlius Marcellus Marcius Marco Marcurio Marcus Marianus Marinus Mario 
+ 		Marius Maro Marsus Martialis Martin Martinus Martius Mascius Masque Matienus Matinius Matius Matrinius Matthaeus Mattius Matus Maxilien Maxim Maximian Maximius
+ 		Mecilvus Medallus Megadorus Melus Memmio Memmius Menenius Menien Menius Mercator Mercuro Mescinius Messenio Messienus Messius Metilius Mettius Michael
+ 		Miles Milonius Milphio Mimesius Minatius Minicius Minidius Minucius Miroslaus Mislauus Moderatus Modestus Modius Molvirian Montanus Morihaus Moris Mucius
+ 		Muisclavus Mummius Munatius Munius Muntimer Muntimerus Murber Murberius Murrius Murudius Mus Musius Mussidius Mustius Mutius Naevius Namanian Nasennius Nasidienus Nasidius
+ 		Natalinus Natalius Natalo Natolo Nautius Neapolio Nemesianus Nemus Nepicius Neratius Nerius Nermus Nero Nerus Nial Nicanor Nicobulus Nicolaus Nigidius Ninnius Nipius
+ 		Niro Nirtunus Nitterius Nolus Nonius Nonus Norbanus Noster Novatus Novellius Novius Nrio Nullius Numerius Numicius Numisius Numitorius Nummius Numonius Nymphidius Obellius Obultronius Occius
+ 		Oclatinius Oclatius Octarianus Octavenus Octavian Octavianus Octavimus Octavius Octavius Ofanius Ofilius Ogulnius Ollius Olvus Olympio Ontus Opellius
+ 		Opetreia Opimius Opiternia Oppidius Oppius Opsidius Opsilius Opsius Oranius Orbicius Orbilius Orchius Orcivius Orfidius Orfius Orinthus Oritius Ormax Ormel Ormellius Oscius
+ 		Ostorius Otacilius Otho Otius Ovidius Ovinius Oyslavus Paccius Pacidius Pacilius Paconius Pactumeius Pacuvius Palfurius Palinurus Palpellius Panthius Pantuleius Panundus Paolus
+ 		Papinius Papirius Papius Paratius Paratus Pascal Pasicompsa Pasidienus Pasidius Passienus Patricius Patulcius Paul Paulus Pavo Pedanius Pedius Peducaeus Pelagius Pelinal Pellio
+ 		Peltrasius Peniculus Pennus Percennius Percius Perenius Perien Perperna Persius Pescennius Petellius Petillius Petronius Petrus Phaedria Phaedromus Phanostrata Philippus 
+ 		Phillip Philopolemus Philto Photinus Phrastus Pilper Pilus Pinarius Pinarus Piner Pisentius Pistoclerus Pitro Pius Pixot
+ 		Placidius Plautis Plautisanus Plautius Plautus Plinius Plitinius Plotius Pollius Pompeius Pompilius Pomponius Pomptinus Pontidius Pontius Popidius Poppaeus Porcius Portius Posca Postius Postumius
+ 		Pothinus Potitius Potitus Prax Praxus Primo Priscus Processus Proventus Publicius Pullo Pupius Pustulus Quatrius Quentin Quentinius Quinctilius Quinctius Quintus
+ 		Quirinius Rabirius Rallus Raminus Ravo Raxle Reberio Reburrus Reglius Regulus Rellicus Reman Remius Rexus Riel Rielus Rimalus Ris Rogatus
+ 		Rufinus Rufius Rufrius Rusonius Rutilius Sabinus Sabucius Saenus Salanius Salano Salanus Sallustius Salonius Salvian Salvianus Salvius Samuel Sanctius Saprius Saul Sauleius 
+ 		Saulius Savilian Savio Savlian Scaevola Scarius Scelian Scribonius Secundinius Secundius Segunivus Seius Seliulus Sellus Sempronius Senil Sennius Sentius Septimius Septimus
+ 		Septius Sepunius Sergianus Sergius Sergus Sertorius Servatius Servilius Servius Sestius Severinus Severio Severius Severus Sextilius Sextius Sextus Sicinius Sidonius Sigilis Silanus Silius Silus
+ 		Sirollus Sitialius Sittius Socellius Solonius Somutis Sorex Sornatius Spartacus Spurius Stantus Statilius Statius Steffan Stentus Stephanio Stephanus Stertinius
+ 		Stlubo Strillian Suedius Sulinius Sulinus Sulla Sulpicius Surian Surianus Surius Surus Sylvain Sylvian Syndelius Synnolian Tacitan Tacitus Tadius Tahm Taminal Tanicius
+ 		Tappius Taranal Tarantino Tarantius Tasel Tasellis Tatius Taurinus Tavian Tavianus Teldius Teo Terenus Tertinius Tertius
+ 		Tertullian Tettidius Tettienus Tettius Tharanus Thomas Thomius Tiber Tiberius Tiburtius Ticemius Tienius Tininnus
+ 		Titianus Titiedius Titinius Titius Tito Titus Tomas Tomius Toutius Tractus Trebatius Trebellius Treblanus Trebonius Trebor Tremellius Trenus Tuccius
+ 		Tullius Tullus Turedus Turpis Turullius Tutorius Tyran Tyranius Tyranus Tyrellius Tyronius Ulpius Ulvius Umbrius Ummidius Urgulanius Uriel Vala Valandrus Valerius Valgus
+ 		Valus Valvius Vandor Vandorallen Vandus Vanorius Vantus Vantustius Varen Varian Varinus Varius Varnius Varo Varro Varus Vasesius Vatinius Vedius Velan Velius Velus Velutus Velwyn Venarus
+ 		Veranius Veranus Verecundius Verel Vergilius Verginius Verro Vertilvius Verulus Vesnius Veturius Viator Vibenius Vibidius Vibius Victricius Viducius Vinice Vinicius Vinnus Vipsanius Vipstanus
+ 		Viranus Virgil Viridius Virius Viro Visellius Visetus Vitel Vitellius Vitellus Vitrus Vitruvius Vitus Vlanarus Vlarimil Vodunius Vogelius Volcatius Volgo Volumnius
+ 		Volusenna Volusenus Volusius Vontan Vontus Vorenus Vorian Vorianus Vulius Zelanus Zeno Gracian Alavva Vicilus
+		Adal Adal Aileren Ailes Ailikhe Aine Akh Akhlans Ampkhe Ampkhede Anake Anea Aninta Aril Arilvans Arndar Arntkhilae Aron Ars Arstur Atkhi Atklan Atle Atlesantk Atmi Atruileske Atrukne Auril Avos Azu Balmor
+		Edyn Eiopal Ekum Elin Eltafa Espla Espne Etkhe Evtukhume Evtukle Fis Fiste Fitu Fuf Halin Hamintkhur Hane Heiatu Helemaril Herialu Herkhe Herkus Houmatkhe Houtule Kae Kaitu Kaivekle Kalin Kan Kanle Kaplaril
+		Kapru Karantkhe Kariesumi Karil Karonvis Katule Katur Kavtkhefa Kazu Kel Kelmor Kerne Kersu Ketiele Keynikhe Kha Kha Khaiun Kharan Khelpla Kire Klilae Klisie Knefani Kraps Kri Krima Kuintus Kul Kulor Kultu
+		Kulustaril Kunere Kurpia Larka Larpe Lartk Lartkhu Latkha Leint Lek Lekhu Livekhe Lopal Manea Mantis Manus Masun Menzaril Metnai Mlala Myndhu Netkhalyon Netkhe Nila Nilitk Nivek Nukerne Nymarun Pap Patkha Patle
+		Pkhalyon Pkharan Pkher Pkherke Pkhuineske Pleve Puapulor Puarevan Pulus Pulus Quaril Quarori Quasals Raropal Sarand Sem Setkh Silsans Spumaril Svulus Taitle Taitruike Talmitkha Talretkh Tamar Tekhr Teu Teuril Tivasta
+		Tkhan Tkhe Tkhe Tkheleakr Tkhuf Tlalin Tlapumake Tuleku Tus Tus Uleiomir Ulusa Ume Utkhuske Vantk Vare Veltkhe Veltkhunis Vemarun Venale Ventk Vevar Vul Vyran
+
+	}
+	
+	female_names = {
+		Morag Suhlak Dassi Desha Hamu Kedis Lunutli Maeonius Perrif Sarase Sienna
+		Saradin Thelmyra Ranev Selenu Lafara Mahvia Rosathild Virgar Ornskar Rada 
+		Sarag Baesi Daethis Lunak Maela Sarati Kirsiati Serasha Zurassi Eruntli Erassa Siennu Dasuhrag Ketunli Saresu Nashase Hanulak Daenius Milak Hilanu Kerru Momu Hamase Urania Ingrid Vicca
+		Abelle Accalia Adelaisa Adraria Adrianne Aelia Aemilia Agrippina Ahetotis Aia Alessandra Alessia Alfidia Alma Amanda Amandia Amia Annia Anodia Antonia Anyte Aontonia Apphia
+		Apronia Aquilia Arcadia Arenara Ariela Arnora Arria Arriana Astia Astinia Atia Audania Augusta Augustina Aurelia Aventina Aviera Avita Avresa Balba Bellona Blatta Britta Brittia
+		Bronsila Buntara Caecilia Caelia Caesina Caesonia Caldana Caledonia Calpurnia Camilla Candria Cania Canodia Cardea Cargas Carina Carlotta Carmana Cassia Cassipia Casta Catia Catina Caula Celina
+		Ciceri Ciirta Cinda Cinia Claudia Cleo Cleobulina Clilias Clivia Cloelia Comilla Concordia Constance Constantina Corinna Cornelia Coventina Craetia Damyra Darvala Decidiana Diana
+		Dominitia Domitia Domna Dora Drusilla Dulcilla Dumania Dynari Edana Egeria Eliana Eloe Eloisa Elvira Emelia Engannas Eponis Erina Erinna Etira Ettiene Eudocia Euraxia
+		Fabia Fallaise Faltonia Fammana Farida Fausta Faustina Fentula Finia Flacassia Flaenia Flavia Flora Fortunata Fralvia Fruscia Gaea Galeria Galla Ganna Gemma Genele Germia Gianna Gilfre
+		Gnaea Graecina Gratidia Gruiand Hedyle Helvia Herminia Hestra Hilora Horatia Horonna Horulia Hyponea Ida Idessa Idonea Ilfras Ilithyia Illia Indara Infrasia Iocani Iribia Isa Isobel Ita Itinia
+		Janieta Janonia Janta Jantus Jastia Jastira Javolia Jena Jera Jerae Jerina Julia Julitta Juna Junia Justa Justina Kaie Kerelia Kintyra Kyleus Ladia Lalaine Lalatia Larienna Larina
+		Lassinia Laurentia Laurina Lavinia Lekellae Leonara Leone Lepida Leta Licia Licinia Linia Livia Livilla Longina Luca Lucia Lucilla Lucina Lucinia Lucretia Lunia Lusilla Lyra Maereeda Maesa
+		Magna Mamaea Marana Marara Marcella Marcia Marenia Mariana Marina Marlena Marosia Marozia Martina Melinno Messalina Micella Midaras Migiana 
+		Millona Ministe Mira Mirona Moero Moria Morihatha Murcia Naevia Naissa Nari Narina Naspia Nebia Niobe Nossis Octavia Orendra Orneldas Ostrala Pallia Pania Pantea Paulina Pelena Pellecia
+		Pelona Peregrina Perennia Pinarus Pista Placidia Pladina Plautia Pomponia Poneria Porcia Potema Praxilla Pritia Procula Publilia Pudentia Pulcheria Pulchra Pustula Quintia Raen Raesa
+		Rafora Rasala Regine Rena Renee Restita Ria Rilia Romana Rona Rosentia Ruccia Rusia Sabenda Sabina Sabrina Sadas Safia Salonia Sandana Sarmosia Scribonia Selena Selvia
+		Senna Septima Serviana Servilia Severa Severia Severina Sibylla Silana Silvia Simplicia Solea Sonolia Sosia Sudia Sura Syloria Tacita Talania Tavia Telesilla Terendras Terran Tertia Thisa
+		Thonica Thorasa Thraccenia Turia Ulpia Una Urgulanilla Vacia Valaria Valentia Valentina Valoria Vaneria Varinia Vastae Vaudrie Venetia Veraxia Veresa Vesta Vex Vianis Viatrix Viccia
+		Viera Vilbia Vilena Vilia Villea Vinicia Viola Vipsania Vistilia Vita Vitellia Vittoria Volcatia Volrina Ysabel Urania Ingrid Vicca
+		Adal Aine Akh Alda Aliafa Alinpe Altkhesan Anania Aninta Ara Ara Arafa Arnena Arpia Ars Arsipni Arsum Astelva Astinapa Atkhi Atmi Auril Azu Edyn Eiopal Ekuineiri Ekum Elanvesan Elen Eltafa Ende
+		Enestori Enya Erpialau Ersipkhire Etianyaran Etkh Etkhe Etkhra Etkrand Euriamenya Fis Fiste Fuf Hane Hasha Hatkh Heiatu Herkhia Herkhu Hesia Isitkhe Itilenspe Kae Kaitu Kalauma Kaldiara Kalin Kan
+		Kanle Kapru Kasntkha Katur Kel Kelmor Kerne Kerpiasa Kersu Kha Kha Kire Kireka Klilana Kline Klutkhira Kraps Kri Krila Krima Krimirya Kul Kulni Kulor Kulpania Kulsure Kultu Kunaynal Kuranya Kurpia
+		Larka Larpe Lartk Lartkha Latkha Latkhianes Latlina Leint Lek Lekhu Letusta Lopal Luranve Malai Malda Meioni Menrsum Menrvara Metnai Mirkham Mirkhiare Mlala Musilia Muterne Myndhu Nall Nila Nilitk Nimisitkha
+		Nireralie Niva Nivek Norkana Pante Pap Papkhinei Patkha Pempkhi Pervale Pkher Pkherve Pkhulsu Prilensta Pume Puna Ruria Sarmante Sarne Sarvenana Sem Serisvaia Siantkha Silniare Skarsum Skarva Sondaresia Sonta Spitu
+		Tamar Tarkhi Telenpeli Teu Teuril Tkha Tkhan Tkhanya Tkhatia Tkhe Tkhe Tkhuni Tluskhli Tus Tus Tuza Ulusa Vantk Vantkham Veki Venale Venya Veralinve Vevi Vineinai Vul Vynal Vynal Vynalia Vyran Zertnai
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_knights_legion" } 
+		{ name = "mercenary_knights_hoplite" }
+		{ name = "mercenary_knights_phalanx" }
+		{ name = "mercenary_knights_legion" } 
+		{ name = "mercenary_knights_hoplite" }
+		{ name = "mercenary_knights_phalanx" }
+		{ name = "mercenary_knights_legion" } 
+		{ name = "mercenary_knights_hoplite" }
+		{ name = "mercenary_knights_warband" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_warband" }
+		{ name = "mercenary_knights_warband" }
+	}
+
+	dynasty_of_location_prefix = dynnp_of
+	
+	# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+		
+	# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 20
+	mother_name_chance = 10
+}
+
+#Hackdirt
+name_list_hackdirt = {
+
+	male_names = {
+		Jiv Natch Vlanhonder Obed Zadok Aart Bram Coen Dirk Bart Abel Aalf Van Sem Bendu Albec Andorak Ariulcabor Arlowe Berich Brenamir Brotch Cadwell Calvar Carn Celag Cephorov Xander
+		Eduard Feristyr Fralav Gerich Gustav Hader Hareld Hark Hedir Ilend Ilav Irlav Jan Jak Jesan Jirolin Kaslowyn Kantav Kastav Langley Loregren Mhorus Mukimar Rellic Roderic Tarant Telrav
+		Slud Kleetus Vyric Zedrick Skeetur Dermott Spud Scooge Kevan Warwick
+	} 
+	
+	female_names = { 
+		Etira Marlena Gasta Kvata Kvatisia Kitora Cornelia Aelva Edda Edwina Elska Jakja Lenka Marja Meluse Mila Vala Valga Vigdis Vodiaka Edda Edwina Jakja Lenka Mila Kena Merma Yaghra Schlera
+		Ciirta Cinda Cinia Jera Janonia Gnaea Famina Pestilina Strivia Gretchen Marana Vilbia Philomena
+	}
+
+	dynasty_names = { "dynn_Hiriel" "dynn_Moslin" "dynn_Brussiner" "dynn_Pinder" "dynn_Whateley" "dynn_Dunich" "dynn_Marsh" "dynn_Pith" "dynn_Allen" "dynn_Poe" "dynn_Spuckler" }
+	cadet_dynasty_names = { "dynn_Hiriel" "dynn_Moslin" "dynn_Brussiner" "dynn_Pinder" "dynn_Whateley" "dynn_Dunich" "dynn_Marsh" "dynn_Pith" "dynn_Allen" "dynn_Poe" "dynn_Spuckler" }
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+		
+	# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 20
+	mother_name_chance = 10
+	
+	mercenary_names = {
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_irregulars" }
+	}
+}
+
+#Bangkorite
+name_list_bangkorite = {
+
+	cadet_dynasty_names = {
+ "dynn_Acamar" 
+ "dynn_Acehon" 
+ "dynn_Acetar" 
+ "dynn_Acilen" 
+ "dynn_Acithik" 
+ "dynn_Aciwon" 
+ "dynn_Acyille" 
+ "dynn_Amaille" 
+ "dynn_Ameean" 
+ "dynn_Americk" 
+ "dynn_Amiacy" 
+ "dynn_Amican" 
+ "dynn_Amihon" 
+ "dynn_Amoal" 
+ "dynn_Amyli" 
+ "dynn_Arayn" 
+ "dynn_Arizada" 
+ "dynn_Arurick" 
+ "dynn_Aruzada" 
+ "dynn_Arynuin" 
+ "dynn_Atelan" 
+ "dynn_Atizo" 
+ "dynn_Atodius" 
+ "dynn_Atuhon" 
+ "dynn_Atulet" 
+ "dynn_Atyacy" 
+ "dynn_Atytar" 
+ "dynn_Azamar" 
+ "dynn_Azanvir" 
+ "dynn_Azethal" 
+ "dynn_Azolen" 
+ "dynn_Azonuin" 
+ "dynn_Azowon" 
+ "dynn_Azyzo" 
+ "dynn_Brenalan" 
+ "dynn_Brenewon" 
+ "dynn_Breniacy" 
+ "dynn_Brenican" 
+ "dynn_Breniden" 
+ "dynn_Breniroc" 
+ "dynn_Brenitar" 
+ "dynn_Brenoadal" 
+ "dynn_Brenyadal" 
+ "dynn_Brenynuin" 
+ "dynn_Cirayn" 
+ "dynn_Cireille" 
+ "dynn_Ciremar" 
+ "dynn_Cirizo" 
+ "dynn_Coyafiz" 
+ "dynn_Coyasan" 
+ "dynn_Coyehon" 
+ "dynn_Curacy" 
+ "dynn_Curayn" 
+ "dynn_Curesan" 
+ "dynn_Curilan" 
+ "dynn_Curiroc" 
+ "dynn_Curyn" 
+ "dynn_Cyden" 
+ "dynn_Cyeene" 
+ "dynn_Cyolen" 
+ "dynn_Cythik" 
+ "dynn_Daraf" 
+ "dynn_Daral" 
+ "dynn_Daramar" 
+ "dynn_Dararoc" 
+ "dynn_Dariacy" 
+ "dynn_Dariren" 
+ "dynn_Darisan" 
+ "dynn_Darothik" 
+ "dynn_Daruden" 
+ "dynn_Demehon" 
+ "dynn_Demoren" 
+ "dynn_Demuren" 
+ "dynn_Dorasek" 
+ "dynn_Doreaf" 
+ "dynn_Dorecan" 
+ "dynn_Doreimda" 
+ "dynn_Doriadal" 
+ "dynn_Doriaf" 
+ "dynn_Doririck" 
+ "dynn_Dorizada" 
+ "dynn_Doroacy" 
+ "dynn_Dorohon" 
+ "dynn_Dorucan" 
+ "dynn_Enatar"
+ "dynn_Enuzada" 
+ "dynn_Hilacan" 
+ "dynn_Hilahon" 
+ "dynn_Hilathik" 
+ "dynn_Hilesan" 
+ "dynn_Hilolan" 
+ "dynn_Hilotar" 
+ "dynn_Hunding"
+ "dynn_Elinhir" 
+ "dynn_Isaden" 
+ "dynn_Isaimda" 
+ "dynn_Isazo" 
+ "dynn_Iselan" 
+ "dynn_Iseroc" 
+ "dynn_Isewan" 
+ "dynn_Isilen" 
+ "dynn_Isizada" 
+ "dynn_Isoden" 
+ "dynn_Isylen" 
+ "dynn_Jagadal" 
+ "dynn_Jagidius" 
+ "dynn_Jagoren" 
+ "dynn_Jagorick" 
+ "dynn_Jaguille" 
+ "dynn_Jagutar" 
+ "dynn_Jawenuin" 
+ "dynn_Jawaif" 
+ "dynn_Jawitar" 
+ "dynn_Jawothik" 
+ "dynn_Jawyal" 
+ "dynn_Lanaf" 
+ "dynn_Lanahon" 
+ "dynn_Lanemar" 
+ "dynn_Lanenuin" 
+ "dynn_Laniaf" 
+ "dynn_Lanithik" 
+ "dynn_Lhoulet" 
+ "dynn_Lhoyille" 
+ "dynn_Naneren" 
+ "dynn_Nanethik" 
+ "dynn_Naniden" 
+ "dynn_Nanoren" 
+ "dynn_Nanylet" 
+ "dynn_Nanyren" 
+ "dynn_Nisaimda" 
+ "dynn_Nisasan" 
+ "dynn_Nisawan" 
+ "dynn_Nisiren" 
+ "dynn_Nisiyn" 
+ "dynn_Nisothal" 
+ "dynn_Nisurick" 
+ "dynn_Nisyean" 
+ "dynn_Nisyene" 
+ "dynn_Oriecan" 
+ "dynn_Orienet" 
+ "dynn_Orili" 
+ "dynn_Oriotar" 
+ "dynn_Oriuanvir" 
+ "dynn_Oriucan" 
+ "dynn_Oriuthal" 
+ "dynn_Owesan" 
+ "dynn_Owial" 
+ "dynn_Owilen" 
+ "dynn_Owucan" 
+ "dynn_Owyren" 
+ "dynn_Phinafiz" 
+ "dynn_Phinerick" 
+ "dynn_Phinithik" 
+ "dynn_Phinual" 
+ "dynn_Phinuhon" 
+ "dynn_Phinywon" 
+ "dynn_Praehon" 
+ "dynn_Praene" 
+ "dynn_Prairoc" 
+ "dynn_Praonet" 
+ "dynn_Praren" 
+ "dynn_Prarik" 
+ "dynn_Prauimda" 
+ "dynn_Praulen" 
+ "dynn_Prayfiz" 
+ "dynn_Pyehon" 
+ "dynn_Pyelet" 
+ "dynn_Pyetar" 
+ "dynn_Pyiwan" 
+ "dynn_Relanvir" 
+ "dynn_Relianvir" 
+ "dynn_Reloanvir" 
+ "dynn_Reluroc" 
+ "dynn_Rhailen" 
+ "dynn_Rhaiwan" 
+ "dynn_Rhaizada" 
+ "dynn_Rhaozo" 
+ "dynn_Rhauean" 
+ "dynn_Rusacy" 
+ "dynn_Rusitis" 
+ "dynn_Rusunin" 
+ "dynn_Rusuwon" 
+ "dynn_Rusyaf" 
+ "dynn_Rusyean" 
+ "dynn_Rusyene" 
+ "dynn_Shaelan" 
+ "dynn_Shaeren" 
+ "dynn_Shaf" 
+ "dynn_Shaiyn" 
+ "dynn_Shaohon" 
+ "dynn_Shaozada" 
+ "dynn_Shauanvir" 
+ "dynn_Shauren"
+ "dynn_Stadal" 
+ "dynn_Stadius" 
+ "dynn_Staianvir" 
+ "dynn_Staili" 
+ "dynn_Staulen" 
+ "dynn_Staynet" 
+ "dynn_Thaeal" 
+ "dynn_Thaecan" 
+ "dynn_Thaeli" 
+ "dynn_Thaolan" 
+ "dynn_Thaothik" 
+ "dynn_Thausan" 
+ "dynn_Thaywon" 
+ "dynn_Thayzada" 
+ "dynn_Thoaimda" 
+ "dynn_Thoeadal" 
+ "dynn_Thoeden" 
+ "dynn_Thoeimda" 
+ "dynn_Thoelet" 
+ "dynn_Thoiacy" 
+ "dynn_Thoiyn" 
+ "dynn_Thouli" 
+ "dynn_Tracy" 
+ "dynn_Traecan" 
+ "dynn_Traewon" 
+ "dynn_Trauthik" 
+ "dynn_Trayfiz" 
+ "dynn_Vhoelan" 
+ "dynn_Vhoeren" 
+ "dynn_Vhoidius" 
+ "dynn_Vhoilan" 
+ "dynn_Vhoythik"
+ "dynn_Sahan_Rahal" 
+ "dynn_Zil_Taktai" 
+ "dynn_al_Rasgad" 
+ "dynn_Curetar_al_Haf" 
+ "dynn_al_Roukad" 
+ "dynn_Maliya" 
+ "dynn_Sendu" 
+ "dynn_Mirel" 
+ "dynn_Nasir"
+	}
+
+	dynasty_names = {
+ "dynn_Acamar" 
+ "dynn_Acehon" 
+ "dynn_Acetar" 
+ "dynn_Acilen" 
+ "dynn_Acithik" 
+ "dynn_Aciwon" 
+ "dynn_Acyille" 
+ "dynn_Amaille" 
+ "dynn_Ameean" 
+ "dynn_Americk" 
+ "dynn_Amiacy" 
+ "dynn_Amican" 
+ "dynn_Amihon" 
+ "dynn_Amoal" 
+ "dynn_Amyli" 
+ "dynn_Arayn" 
+ "dynn_Arizada" 
+ "dynn_Arurick" 
+ "dynn_Aruzada" 
+ "dynn_Arynuin" 
+ "dynn_Atelan" 
+ "dynn_Atizo" 
+ "dynn_Atodius" 
+ "dynn_Atuhon" 
+ "dynn_Atulet" 
+ "dynn_Atyacy" 
+ "dynn_Atytar" 
+ "dynn_Azamar" 
+ "dynn_Azanvir" 
+ "dynn_Azethal" 
+ "dynn_Azolen" 
+ "dynn_Azonuin" 
+ "dynn_Azowon" 
+ "dynn_Azyzo" 
+ "dynn_Brenalan" 
+ "dynn_Brenewon" 
+ "dynn_Breniacy" 
+ "dynn_Brenican" 
+ "dynn_Breniden" 
+ "dynn_Breniroc" 
+ "dynn_Brenitar" 
+ "dynn_Brenoadal" 
+ "dynn_Brenyadal" 
+ "dynn_Brenynuin" 
+ "dynn_Cirayn" 
+ "dynn_Cireille" 
+ "dynn_Ciremar" 
+ "dynn_Cirizo" 
+ "dynn_Coyafiz" 
+ "dynn_Coyasan" 
+ "dynn_Coyehon" 
+ "dynn_Curacy" 
+ "dynn_Curayn" 
+ "dynn_Curesan" 
+ "dynn_Curilan" 
+ "dynn_Curiroc" 
+ "dynn_Curyn" 
+ "dynn_Cyden" 
+ "dynn_Cyeene" 
+ "dynn_Cyolen" 
+ "dynn_Cythik" 
+ "dynn_Daraf" 
+ "dynn_Daral" 
+ "dynn_Daramar" 
+ "dynn_Dararoc" 
+ "dynn_Dariacy" 
+ "dynn_Dariren" 
+ "dynn_Darisan" 
+ "dynn_Darothik" 
+ "dynn_Daruden" 
+ "dynn_Demehon" 
+ "dynn_Demoren" 
+ "dynn_Demuren" 
+ "dynn_Dorasek" 
+ "dynn_Doreaf" 
+ "dynn_Dorecan" 
+ "dynn_Doreimda" 
+ "dynn_Doriadal" 
+ "dynn_Doriaf" 
+ "dynn_Doririck" 
+ "dynn_Dorizada" 
+ "dynn_Doroacy" 
+ "dynn_Dorohon" 
+ "dynn_Dorucan" 
+ "dynn_Enatar"
+ "dynn_Enuzada" 
+ "dynn_Hilacan" 
+ "dynn_Hilahon" 
+ "dynn_Hilathik" 
+ "dynn_Hilesan" 
+ "dynn_Hilolan" 
+ "dynn_Hilotar" 
+ "dynn_Hunding"
+ "dynn_Elinhir" 
+ "dynn_Isaden" 
+ "dynn_Isaimda" 
+ "dynn_Isazo" 
+ "dynn_Iselan" 
+ "dynn_Iseroc" 
+ "dynn_Isewan" 
+ "dynn_Isilen" 
+ "dynn_Isizada" 
+ "dynn_Isoden" 
+ "dynn_Isylen" 
+ "dynn_Jagadal" 
+ "dynn_Jagidius" 
+ "dynn_Jagoren" 
+ "dynn_Jagorick" 
+ "dynn_Jaguille" 
+ "dynn_Jagutar" 
+ "dynn_Jawenuin" 
+ "dynn_Jawaif" 
+ "dynn_Jawitar" 
+ "dynn_Jawothik" 
+ "dynn_Jawyal" 
+ "dynn_Lanaf" 
+ "dynn_Lanahon" 
+ "dynn_Lanemar" 
+ "dynn_Lanenuin" 
+ "dynn_Laniaf" 
+ "dynn_Lanithik" 
+ "dynn_Lhoulet" 
+ "dynn_Lhoyille" 
+ "dynn_Naneren" 
+ "dynn_Nanethik" 
+ "dynn_Naniden" 
+ "dynn_Nanoren" 
+ "dynn_Nanylet" 
+ "dynn_Nanyren" 
+ "dynn_Nisaimda" 
+ "dynn_Nisasan" 
+ "dynn_Nisawan" 
+ "dynn_Nisiren" 
+ "dynn_Nisiyn" 
+ "dynn_Nisothal" 
+ "dynn_Nisurick" 
+ "dynn_Nisyean" 
+ "dynn_Nisyene" 
+ "dynn_Oriecan" 
+ "dynn_Orienet" 
+ "dynn_Orili" 
+ "dynn_Oriotar" 
+ "dynn_Oriuanvir" 
+ "dynn_Oriucan" 
+ "dynn_Oriuthal" 
+ "dynn_Owesan" 
+ "dynn_Owial" 
+ "dynn_Owilen" 
+ "dynn_Owucan" 
+ "dynn_Owyren" 
+ "dynn_Phinafiz" 
+ "dynn_Phinerick" 
+ "dynn_Phinithik" 
+ "dynn_Phinual" 
+ "dynn_Phinuhon" 
+ "dynn_Phinywon" 
+ "dynn_Praehon" 
+ "dynn_Praene" 
+ "dynn_Prairoc" 
+ "dynn_Praonet" 
+ "dynn_Praren" 
+ "dynn_Prarik" 
+ "dynn_Prauimda" 
+ "dynn_Praulen" 
+ "dynn_Prayfiz" 
+ "dynn_Pyehon" 
+ "dynn_Pyelet" 
+ "dynn_Pyetar" 
+ "dynn_Pyiwan" 
+ "dynn_Relanvir" 
+ "dynn_Relianvir" 
+ "dynn_Reloanvir" 
+ "dynn_Reluroc" 
+ "dynn_Rhailen" 
+ "dynn_Rhaiwan" 
+ "dynn_Rhaizada" 
+ "dynn_Rhaozo" 
+ "dynn_Rhauean" 
+ "dynn_Rusacy" 
+ "dynn_Rusitis" 
+ "dynn_Rusunin" 
+ "dynn_Rusuwon" 
+ "dynn_Rusyaf" 
+ "dynn_Rusyean" 
+ "dynn_Rusyene" 
+ "dynn_Shaelan" 
+ "dynn_Shaeren" 
+ "dynn_Shaf" 
+ "dynn_Shaiyn" 
+ "dynn_Shaohon" 
+ "dynn_Shaozada" 
+ "dynn_Shauanvir" 
+ "dynn_Shauren"
+ "dynn_Stadal" 
+ "dynn_Stadius" 
+ "dynn_Staianvir" 
+ "dynn_Staili" 
+ "dynn_Staulen" 
+ "dynn_Staynet" 
+ "dynn_Thaeal" 
+ "dynn_Thaecan" 
+ "dynn_Thaeli" 
+ "dynn_Thaolan" 
+ "dynn_Thaothik" 
+ "dynn_Thausan" 
+ "dynn_Thaywon" 
+ "dynn_Thayzada" 
+ "dynn_Thoaimda" 
+ "dynn_Thoeadal" 
+ "dynn_Thoeden" 
+ "dynn_Thoeimda" 
+ "dynn_Thoelet" 
+ "dynn_Thoiacy" 
+ "dynn_Thoiyn" 
+ "dynn_Thouli" 
+ "dynn_Tracy" 
+ "dynn_Traecan" 
+ "dynn_Traewon" 
+ "dynn_Trauthik" 
+ "dynn_Trayfiz" 
+ "dynn_Vhoelan" 
+ "dynn_Vhoeren" 
+ "dynn_Vhoidius" 
+ "dynn_Vhoilan" 
+ "dynn_Vhoythik"
+ "dynn_Sahan_Rahal" 
+ "dynn_Zil_Taktai" 
+ "dynn_al_Rasgad" 
+ "dynn_Curetar_al_Haf" 
+ "dynn_al_Roukad" 
+ "dynn_Maliya" 
+ "dynn_Sendu" 
+ "dynn_Mirel" 
+ "dynn_Nasir"
+	}
+
+	male_names = {
+		Ator Aaban Abadarun Abah Abal Abanal Abanilu Abazadar Abdahel Abdul_Mujib Abdussah Abelazar Abir Abnajah Abradun Abrunul Achel Achelir Adajan Adal Adar Adenar Adit Admunayil Adrazan Adruzan Afa_Saryat Afelir Afshar Afwa Agalir Agha Ahad Ahdan Ahiza Ahmadduh Ahmaron Ahmat Ahmih Ahobi Ahram Ahtar Ahuziq Aizar Akamon Alahir Alasan Alesan Algredhen Alkar Almur Alonzo Alqadarun Alusaron Am_Shadal Amahnin Amal Amarz Amir Amjeesh Amjhad Amlith Amozhgar Amren Anala Andrin Anjan Anyaq Arahn Ardeshir Arfan Arfedar Armand Armin Arthago Asadel Ashadr Ashahdr Ashtad Asjaila Asmalah Atavar Ataf Atal Athon Atif Attazal Avidius Avik Awanan Ayusni Azad Azah Azani Azanir Azeel Azei Azzada Azzadal Azzan Babhaq Bahadur Bahbiq Bahir Bahram Bail Balabar Balanvir Bamalen Baral Bardun Barrus Barun Basil Basir Basri Baurus Behrzharah Behsheed Behshusaron Bhosek Bhosim Birahn Bizhan Bodani Bodean Boldon Borasad Borissean Borosir Brand Brennan Brenuin Burh Burhan Camaron Camas Carrod Cartos Caseh Casimir Casnar Caspar Chark Chrelm Cirroc Cluson Corwin Coyle Currod Curtis Cyrion Cyrus Dadarh Dajan Dalamar Damar Damien Daracy Darewan Darius Daron Darwaz Darwesh Darwish Degmeq Dehanar Delbar Delmar Demetrius Derik Destri Dhakir Dhul Dhulimdin Dihoq Din Dinawan Dinmar Dinok Divad Domalen Domar Dometri Dorian Dortodd Dozheem Dozhim Draguar Dudley Ebadnar Eban Ebdoh Ebrayd Ebzahd Ehlimah Ehrib Ehsan Ehshaz Ehwenzh Eil Eilram Elburj Emahd Emson Endavar Endehm Endon Enis Ennah Enneh Ennis Erdelan Ernele Ernest Erno Eshir Esmaeel Eustache Fabien Fadeel Fahad Faharajad Fahrazadar Fahruz Fairuz Fakimall Falion Farasad Farmin Farrokh Farsheed Farvad Fathi Favis Fawazz Fawzi Feraj Ferhad Fermouzh Fermudh Fertab Ferzend Fihada Fintias Firas Firir Firouz Franal Frandar Frink Gabir Gagni Gaiden Gancolm Garrebh Garry Ghaffar Ghani Ghaninad Gheermoh Gherneem Ghininath Ghiradar Gibal Gibeth Gidan Gilzir Gimranal Ginal Giran Githil Glanlian Glannison Gogan Gonnison Gor Gourdeez Gourdudh Govan Greban Greklith Gudarz Guibor Gwath Hadir Hadoon Haekwon Haerdun Hafizah Hahdavir Hahdoh Hahnin Haidar Hakam Halam Haldesan Haldyn Hallin Hamill Hamza Hannat Haqmir Harfiza Harim Harimal Harukar Hasar Hasell Hasib Hasilium Hasmani Hassan Hassariq Hawar Hawarman Hayazzin Haydelqub Hayle Haytham Haythehdi Hedayat Helkhar Hezhan Hickim Hifa Hillemir Hillod Hinald Hinhad Hinther Hisal Hisham Hiwanan Hiwoud Hlaureg Hodana Hodrah Hosni Hossid Hubalajad Hubod Husni Huzar Ian Ihdar Ihlqub Ikran Ilden Ilwan Iminda Imradi Imrahasah Imrazan Imrazon Imre Imzadda Iraj Irvalam Irwad Iscan Islaf Islaif Isleif Isran Issal Istah Izbemir Izrunath Jac Jaganvir Jagnas Jahadar Jahan Jahannif Jahhudah Jahsul Jair Jairry Jakir Jalbert Jaleel Jalid Jamadin Jambi Jamshid Jarrod Jart Jathlanie Javid Jawan Jawanan Jayeed Jaylim Jelanan Jeleen Jelin Jengar Jerissean Jibril Jim Jine Jireq Jomer Jon Jonis Joroh Jucal Juncan Kavar Kahen Kalad Kalam Kalbuur Kalig Kalith Kalmasir Kalmen Kalmuzan Kalorter Kalrarj Kalrzud Kalvyn Kaman Kamandi Kambathir Kamdemad Kamiran Kamrazan Kamzehdi Kamzith Kardudir Kardyn Karrod Karun Kasal Kathalir Kathil Kathz Kavdarubel Kavsharz Kavzind Kayam Kayd Kaye Kellen Kelvyn Kematu Kemaz Kewan Khab Khabzuur Khadshadnar Khadzalar Khafiz Khafnir Khafzajah Khambua Khammo Khamzar Kharbeff Khayr Khemd Khemshur Khemzarq Khnanya Khorajah Khorbzr Khorshad Khosren Khubzyat Khudriran Kiarash Killon Kinther Kintsel Kithald Kithlan Kokab Kotaro Kottiq Kouros Lakene Lakhim Lanald Lanelan Laqshua Lathdur Lathon Latif Lebat Lesley Lewand Lhotun Lidebras Lidenar Limark Limdathir Lithok Lomaron Loqman Luqman Machael Machouz Mahbood Mahbub Mahimdin Mahjid Mahrahdr Maiko Majb Majdazh Majhoub Majid Makdodd Makhayh Makrakah Malik Malumah Mamhua Mamir Mamireh Mani Mansour Maradem Maramal Mare Mareh Marghrub Marimah Marodeen Marsim Masbayat Masbeshir Masdath Mathon Maujad Mazada Mazaluhad Mazar Mazdaq Mazhuz Maziar Mazra Mazrahil Mazzeb Mehrab Mehraq Mehrzad Meriq Merric Meshouz Midrasud Miharaz Mihrif Mirzad Mirzid Mivam Mizbawaz Mizdabih Mizhan Mizibarun Monar Monat Muahdi Muazel Mubdanath Mubdi Mubshabar Muhay Mujwadeen Mukhul Mulham Mureesh Muruuna Mushgah Myame Nabar Nabeenam Nachael Nadar Nadim Nadshanam Naeed Naeem Nahassar Nahroon Nahzhem Naim Najan Najar Namasur Nammadin Namman Nammokh Namvar Nandanath Nandim Nanimir Nannithon Naruk Narzasir Nasdokh Naseiran Naveed Navid Nayvond Nazd Nazeem Nazhin Nazir Nazz Nazzim Nebezh Nebzez Neeneban Neville Nezirawan Nibar Nidal Nilthin Nimir Nimirazan Nimshat Nistacey Nizran Noshzandar Nudbahil Nudeelar Nuzbawir Nuzud Oanyin Ohlim Ohrmaz Onwyn Orinthal Orrin Orrun Owyn Owynok Ozalan Padrul Paldeen Paldezh Parham Paulin Pawalar Payedar Pehrash Pelamar Penald Pennet Perah Peyman Pharad Pharbadan Pharik Phazar Phazor Phintias Pierjean Pinnald Pogmaan Praldyn Pranak Pranal Prnell Provlith Pyke Qabin Qadim Qadr Qadulir Qamar Qamedim Qanliz Qariar Qasim Qasr Qasrin Qavus Qelwez Qesem Qiaran Qumih Qusan Ra Raand Raccan Rada Radan Radisud Rahaliz Rahannal Rahim Raifa Raig Rajdah_Hashfix Rajesh Rajmahar Rajmer Rakiin Ralu Rama Ramad Ramadad Ramand Ramati Ramza Rasul Ratib Rawan Rayyan Razelan Razhab Razin Razul Razzaq Relan Rellian Rellus Renazh Rensh Rhabdanam Rhadreel Rhadshathir Rhanald Rhanbiq Rhano Rhanon Rhemalu Rihad Rindulath Rinina Rislak Rissinia Riza Robhemad Robiwar Roccan Roderick Rodoro Rokdun Roshadon Roshan Runid Ruslan Sabal Sabazh Sabir Sabur Sadben Sadeq Sader Sadzah Sagabar Sahabih Sahayan Sahil Sahlar Sahledir Sahmar Sahpur Sai Sakh Salamal Salima Salmaran Salyar Samemad Sameq Samhudah Samuur Sargon Sartaj Saryeh Sason Satameh Seqbar Seral Serosh Shabahz Shabeh Shabhehm Shadhuzir Shadr Shahid Shalan Shalazad Shalim Shamar Shamir Shammin Sharokeen Sharz Shazeem Shelden Shellus Shenk Sihadid Silasson Siraj Sivash Skeevers Sohrab Sohraq Sorian Soscean Stanet Stanno Stargel Stenet Sterdecan Sternal Sticey Sud_Hareem Sukelan Sukhidir Suram Suramin Tabar Taheer Taher Tahmin Talan Talian Talib Talrahal Talumaseb Tamandar Tamarik Tamij Tanek Tarabar Taren Tarish_Zi Tarjal Tavaid Tawfiq Temen Temir Temzukar Teqhan Thadret Thahisal Thaik Tharwab Thassad Thedret Thedrus Therdon Thoda Timen Tohrad Tohrz Tohrzh Tordaman Torline Tralan Trasteve Trayard Trayvond Trelan Trithik Turaman Ubay Ubhasad Ubkhawan Udhush Udwur Ufa Uhrih Ulbazar Uld Uldedir Umay Umeen Unar Urbdawash Uthmal Uwafa Vander Varnado Varnas Varnedo Varshab Varuhl Vharer Vhos Vhosek Vilamon Virdyn Vishaf Voa Volag Wafasur Wakil Walik Wallace Waqayar Waylamud Waylas Wayn Wilbur Willet Winral Winson Wisr_al_Maeen Xakhwan Xhemgir Yabhad Yadugar Yaghoub Yahyif Yanul Yashamud Yashar Yata Yehkbiq Yeqdah Yncan Yombira Yonal Yonul Youss Youssad Yumanam Yvander Zabendan Zabeth Zafrik Zagari Zagrezh Zahezub Zakhal Zakhin Zakriah Zalan Zamnell Zamyad Zandim Zanyar Zartosht Zawah Zayouduf Zenul Zerdesht Zerzhan Zhubin Zihlijdel Zilu Zimar Zir Zirumir Ziyad Zuladr Zulfan Reuben Sameer Roban Kamlen Nazim Farziran Saddahil
+		Agrane Agrard Agrastyr Agristair Agristyr Agrore Agroryan Agryctor Agryn Agrynak Agryrick Agryval Agrywyr
+		Alabane Alabard Alabastyr Alabistair Alabistyr Alabore Alaboryan Alabyctor Alabyn Alabynak Alabyrick Alabyval Alabywyr
+		Andane Andard Andastyr Andistair Andistyr Andore Andoryan Andyctor Andyn Andynak Andyrick Andyval Andywyr
+		Bedane Bedard Bedastyr Bedistair Bedistyr Bedore Bedoryan Bedyctor Bedyn Bedynak Bedyrick Bedyval Bedywyr
+		Dunane Dunard Dunastyr Dunistair Dunistyr Dunore Dunoryan Dunyctor Dunyn Dunynak Dunyrick Dunyval Dunywyr
+		Edwane Edward Edwastyr Edwistair Edwistyr Edwore Edworyan Edwyctor Edwyn Edwynak Edwyrick Edwyval Edwywyr
+		Gondane Gondard Gondastyr Gondistair Gondistyr Gondore Gondoryan Gondyctor Gondyn Gondynak Gondyrick Gondyval Gondywyr
+		Mordane Mordard Mordastyr Mordistair Mordistyr Mordore Mordoryan Mordyctor Mordyn Mordynak Mordyrick Mordyval Mordywyr
+		Perane Perard Perastyr Peristair Peristyr Perore Peroryan Peryctor Peryn Perynak Peryrick Peryval Perywyr
+		Rodane Rodard Rodastyr Rodistair Rodistyr Rodore Rodoryan Rodyctor Rodyn Rodynak Rodyrick Rodyval Rodywyr
+		Theodane Theodard Theodastyr Theodistair Theodistyr Theodore Theodoryan Theodyctor Theodyn Theodynak Theodyrick Theodyval Theodywyr
+		Tristane Tristard Tristastyr Trististair Trististyr Tristore Tristoryan Tristyctor Tristyn Tristynak Tristyrick Tristyval Tristywyr
+		Uthane Uthard Uthastyr Uthistair Uthistyr Uthore Uthoryan Uthyctor Uthyn Uthynak Uthyrick Uthyval Uthywyr Lodvique
+		Abalard Absolard Absolet Achane Achene Achibert Achille Adair Adalard Addrald Adeber Adel Adistair Adnot Adrian Adrien Adrone Adwen Adwig 
+		Aelwin Ailex Aillard Aime Aimeric Ajac Alain Alaird Alan Albec Alberic Albert Aldouin Aleron Alesace Alessio Alex Alexain Alezan Alfred Alinon 
+		Alistair Allan Allard Allunen Alodie Alphaury Alphonse Alvaren Alvuin Amable Amaund Amauri Amaury Amberic Ambroise Amelus Amiable Amiberl Anatole Ancus Andre 
+		Andrec Andrew Androche Androne Angof Annibal Anthony Antoine Anton Antonin Aphren Archimbert Archimbide Aresin Aribert Armand Armaund Armel Armin Arnand Arnaud Arniel Arnitole Arnold Arnoth Arnousten Arphevic Arthur Artur Astav Astien Athanin Athel Atroque Aubert Aude Auglard Aveberl Avent 
+		Balder Baldin Baldrian Baldric Baldrick Balduan Baldwin Balik Balin Banning Banyrick Baran Baragon Barjot Barnabe Barnand Barthel Basile Basilien Bastien 
+		Baurion Beaubel Beaunois Begnaud Belchimac Belethor Belic Bendt Benjamund Benjamyn Benoit Benry Beran Bereditte Bergamot Beric Berjamund Bernard Bernardine 
+		Bertran Bertrand Berwick Beryn Birard Blaise Blasius Blithe Boeuf Braden Bradon Braig Bran Brandish Brandon Bric Brice Brinarch Bruc Bruce Brucetus Brulo Brunile Bruno Brussec Bryant Bryce Buneau Burdog 
+		Cahusque Calden Calixte Calum Canollot Cantier Caoiss Casimir Caspar Cavot Cedran Cedric Celann Celarion Celnard Cerdic Cesamund Chantot Charlebert Charlemic Charlemund Charlerel 
+		Charleric Charques Chervain Chrismin Christian Christoph Christophe Churley Ciel Cimon Cirges Claude Claumin Clegaine Clement Clinton Colby Colin Colwin Condier Condrenn Connor Corbyn Cordier 
+		Corentin Corintthac Corrick Cortoran Corwyn Craig Crenard Crendal Cristophe Cristopher Cullen Curnard Curtice Cynric Cyntoine Cyrill 
+		Dacele Daimbert Daine Dalan Dalenc Damard Damian Danders Danforth Dantoine Danual Danwyche Darcy Daribert Daric Darrel Darren Darric Darryn Darvell 
+		David Davide Davier Debentien Degaine Degaratien Delacourt Delane Delven Delvin Derrell Destane Detritus Deveral Devin Dhalen Didier Dilborn Dimitri 
+		Donall Donel Donnel Donnogal Dorand Dore Dorel Dorian Dracien Dran Draven Drivien Dryston Dugen Duncan Dunimond Duraeg Dyric 
+		Eadric Ealis Eamond Edain Eddard Edgar Edgard Edin Edmund Edouard Edreld Edric Edrien Edryg Edward Edweg Edwin Edwyn Eduard Elbert 
+		Ellic Elnis Eltrys Emeric Emiliard Emmandic Emmanuel Emmerard Emory Emoryan Endemel Enmon Ennemond Ennoc Enoch Enri Enrich Enrick Erind Erj 
+		Ernand Ernard Ernele Ernest Ernirus Erold Escabert Escamel Esmond Esquier Esteve Estien Estienn Ethian Etiache Etienne Etien Eugal Evan Evien Evinn Evrart 
+		Fabrice Farangel Faric Farvour Felipe Felyx Fenas Ferarilie Fergus Ferou Ferrand Ferrum Finious Finn Florenot Florent Floyd Folbert Folkes Folques Fonten Fontenot 
+		Francis Franck Francois Francois Francynak Franque Frederic Frederuno Frencque Frizkav Frostien Frubert Frugo Fugues Fulvert Fuques 
+		Gaban Gabin Gaboryan Gabriel Gabrien Gabryel Gaffer Gailen Gaillard Gallivere Gan Ganet Garbert Gargrell Garron Garth Garvey Gaspar Gasparien 
+		Gastau Gasteau Gaston Gauldur Gaven Gavin Gavric Gawayne Gedric Gelem Gelvin Gennove Geon Geonard Geor Gepard Gepelem Gerald Geralt Gerard Geraud Gerault Geric Gernaud 
+		Gerrald Gessure Gib Gierry Gilbard Gilbert Gillard Ginus Giorges Giraud Giraud Gitienne Glaubert Glover Godwin Gorag Gordon Gordyn Goren Graham Grancis Grandeau Granden Granier Grantham 
+		Greg Gregory Grivier Grobert Grugues Gryf Gryff Gudyn Guilbert Guillaume Guitaut Gustave Guybert Guybrush Guymund Guyseph Gyrard Gyron 
+		Hacques Halar Hamelin Hamelyn Handyn Hannibal Haralt Harault Harbin Harold Haskill Hastrel Hathrasil Hennabear Henri Henrien Henry Herane Herebane Herluin Heron Herric Hescot Heseph Hierot Hilaire Holbert Horstle Hoster Hubert Huet Hughes Hulbert Hurien Hurlburt 
+		Idaron Idhdean Igleric Igmund Ignobert Ilzo Imedhnain Inwold Irbran Irnand Irving Istirus 
+		Jack Jacmund Jacques Jadien Jadier Jagar Jakarn Jakben James Janvin Jarnot Jascien Jasper Jauffre Jean Jean_Jacques Jean_Pierre Jeanciele Jerall Jeran Jerard Jeraud Jerian 
+		Jernald Jeromec Jerromec Jesper Jhared Jim Jocien Joheric Joile Jolippe Jollivet Jonah Joncis Jorden Jory Jossen Jouane Jowan Juberic Juillen Julian Juste Justin 
+		Kalhot Kalin Kasorayn Kastus Kasynac Kathner Kauric Kellis Kelmen Kevinne Kilian Kip Kirk Krag Krasdore Kyrtos Labhraidh 
+		Lanard Lanie Lanobert Lantoine Laroche Lauric Laurient Lazare Leclaude Len Lenet Lennoc Leo Leobert Leobois Leof Leofric Leofwine Leofwyn Leofwynn Leon Leonaud Leric 
+		Leseph Lesuin Lewin Liam Lionel Lisien Lister Listien Loghain Lorant Lort Louis Loupel Louveau Luc Lucian Lucien Ludippe Lureau Lurelien Luther Lyam Lywel 
+		Malcolm Maldred Malkoran Manis Marbet Marc Marcel Marchel Marco Marcoryan Maric Marjaques Mark Marley Marnest Marone Marques Marrec Martin Marwig Mates Mathieu Mathieu Mathon Mathys Matthew Matthias Matthiaume Matthieu Mattias Matys 
+		Maul Maurice Maury Maxelot Maxim Mebestien Mederic Menoit Merard Mercer Meric Merien Merten Merthierry Merthyval Merton Michaniel Michebert Micholas Mirasal Mirten Mivier Moric Morric Morten Morvan Morven Munche Muran Mylo Myn 
+		Nathaniel Nellic Nemic Nicholas Nicolard Nilas Nirine Noah Noam Noleon Nolore Nombert Nompar Norbert 
+		Obart Octieve Octin Octivien Odei Odvan Ogier Olaru Olarz Olwin Omistyr Omluag Ondre Onfroi Onri Ormax Orrard Orrent Orvel Oscar Ouard Oubelic Ourson Owen 
+		Paldrin Parelle Parquier Parsifal Pascal Pascual Patraud Patrik Paul Paulemond Paulin Paur Pavel Perane Perard Percival Percy Perien Perranas Perrine Perrot Perry Perth Peverel 
+		Phaistyr Phane Phelain Phelibert Philien Philimac Philip Philipe Phinis Phylgeon Phynaster Pierrand Pierrant Pierre Pierric Pierrie Pilou Piper Pitof Porthippe Praxin Quentyn Quinton Quiston 
+		Rahd Raldan Rallaume Ramis Ranser Raolin Raphael Raylen Reberio Reges Relien Remic Renald Renard Renardou Renchant Renko Renoit Renwic Rerlas Reynald Reynard Reynaud Richard Richarde Richion Richon Rickon 
+		Ricque Riente Robb Robert Roberto Robier Robin Robyn Rocheric Roderic Roderick Rodmand Rodolphe Rogeraud Rogier Olaru Rogolphe Rohlbert Roland Rolbert Romain Rondach Rowley Rubyn Ruran Rurestian 
+		Sadun Saehon Salach Salazar Salomon Sam Samael Sammis Samuel Sarvith Sebastian Sebastien Serge Sergerien Sernays Serrien Severin Silas Simine Sirion Socucius Solomon Solumor Sorais Soran Sosil Spencer Staubin 
+		Stefan Stenwick Stephen Stephenn Stephile Sternis Stibbons Stral Strastnoc Stromm Styriche Sunel Suriel Sutler Sylon 
+		Taig Tamien Telfour Tetra Tevenot Thadgen Theobald Theodore Theophile Theranis Therich Therron Thetrard Theyo Thibauld Thibierry Thibret Thierric Thierry Thom Thomas Thomase Thorley Thorpe 
+		Tildus Tim Timeo Timmon Timothee Timothy Tom Tommen Topheric Torvic Tourvic Traelius Trano Treves Trierre Tristan Tristane Tryste Tsiniuc Tuthul Tynan Tyree Ulrich Urfon Usquebald Usquenot Utheccan Uthor 
+		Vaford Valcent Valentois Vallis Valton Vance Varaine Vardan Varnis Vaurice Velan Velian Vencobert Verdrey Verel Verick Verney Veronard Verrik Vertrand Vicente Vicmond Victraud Vierry Vignac Vilhim Vilum 
+		Vince Vincebald Vincein Vincent Virgeraud Virgile Vontan Vorthag Vyctor Vyrois Warrane Wergital Weylin Weynon Wilkes Willem Willed William Winster Winston Wylon Wynn Wynster Xandier Xavier Xavippe Yanis Ylbert Ylvandre Yncien Yngwie Yugene 
+		Zacharie Zackael Zakhaleh Zalbec Zavierry Zavour Zibaran Denrelor Javerien Avrippe Rufio Eugien Gastarge Defessus Bardus
+
+	}
+
+	female_names = {
+		Abadai Abadi Abannah Abante Abia Abradih Abrar Adara Adeena Adelizza Adifa Adima Adinda Aeedika Afareen Afinah Afineh Afzoon Ahknara Ahla Ahlam Ahnu Ahriah Ahya Aideh Aira Airena Aishah Akhita Akorithi Aleen Alesah Alida Alinya Althah Althineh Alusannah Alzabeh Ancola Angelie Anireh Annique Anora Anwen Aqabi Areshu Ariana Aribah Ariya Arjen Ashanta Ashiyana Asiah Atazha Atefah Ati Atin Atmah Atusa Aubatha Aubk_i Aureylah Ayma Azadiyeh Azara Azazh Azeeda Azita Azoufah Badri Bahara Bahrar Bahree Baileet Bailiyya Baimora Balaith Balan Balqi Banefshah Barahar Basila Beerta Benizir Berea Berfendeh Beriana Berwareh Bezhefah Bezhneh Bilaira Bilami Blandine Blubamka Bolura Boussa Braith Braithayidra Branwadai Branwen Brazzia Brazzideh Brihana Bruscilla Burahaira Burwa Caminda Carmen Casmen Cattrice Cegila Chalone Chanas Chanel Chanisa Charvek_si Cinnabar Clarice Clelian Clesa Clessia Comira Corda Dahla Dahlia Dahnadreel Dajeh Dalama Daleila Damrina Dandsa Darezha Dariah Darima Dasra Davina Delia Delkash Delphine 
+		Delyna Dersaja Dersimeh Dhandsa Dhemka Dhemeeta Dhemireh Dhola Diwaneh Doletta Domayoun Domba Domia Duhanina Dulayna Dulia Dulian Durdira Durrinia Ebarah Ehteram Eilina Eletta Ellashana Elone Eluza Emmita Emydal Ena Enaffir Enie Enjaadia Enjine Enna Ennas Eriana Erla Ernewazh Ery Esmee Esthirh Evangeline Fabienne Fabrelle Fada Fadahal Fadalia Fadi Fadiya Fahdah Fahima Faleen Faliara Falisa Falla Falorah Faneh Fanouda Farama Faribah Farideh Farrin Farzaneh Farzazha Fasana Favia Fawzhah Fawzi Felra Feremuzh Ferzhadiyeh Ferzhela Ferzhineh Fezhruh Fihrah Finaha Fireya Fithia Futuni Gamati Genalda Gervaise Ghadina Ghadiya Ghalada Ghazafran Ghazaleh Ghazana Gianon Gilame Gisele Glesa Golbahr Gonda Goudadul Guitah Gulahveh Gulisheh Guliyeh Gwen Gwenefta Gweneylah Gwenna Haballa Habasah Hadaileh Hadima Hadineh Hadonia Hafayidra Hafsa Hafseta Hafza Haida Haidarah Haila Hakruba Halana Halelah Haliyya Hamefsha Hamika Hanneh Hanniel Hara Haruna Hatmarah Hatmi Hawafa Hawnazh Hayaia Hayed Hayideh Hazanah Hazihi Hazzenie 		Hazzi Hecua Heenarh Hefassah Hel Helazh Hervia Hidabah Hillid Hiraira Hironi Hiroufar Hisolda Hitoufah Hiyyara Homeira Honai Horayya Huhtami Hulela Hulya Huma Hura Husbifah Husniya Hussonia Huzbifah Ianwas Ibrula Ila Ilafa Ileh Ilkhas Ilmaha Iman Imrubeth Imtithah Inaya Inila Irvina Isaadiah Isalde Isolde Isramal Iszara Iszreena Izdimah Izdirah Izdiya Izirama Izradi Izzara Izzayya Jada Jahayna Jahi Jalaima Jalienna Jalinah Jaline Jamie Jarina Jarla Jawna Jayri Jeanne Jearl Jessmyn Jolda Jonna Julia Julupe Junah Juwan Kabrahla Kahaba Kaleen Kaliyana Kamika Kanadiy Kanet Karayyah Kareth Karifa Karlirah Karra Karriel Kasura Katayoun Kati Katie Kellalan Kerah Keylan Keylja Keyna Khada Khadora Khalatah Khalisah Khareenyah Khari Khezibanh Khojasta Khojifa Khorsheed Khorshina Kiara Kiarallah Kirginia Kozelan Krisandra Kuah Kusheesh Kushi Kushorithi Laadia Ladra Lahafa Lail Laimi Laire Lakana Landa Landalla Landanta Landefa Lashana Lashon Laurel Layameh Layla Leila Leja Lejefah Lejesha Lendhya Leneh Lesramal Letta 		Lette Levaia Lidyah Lidyeilah Lienne Lihidar Liliya Lilyameh Lolann Lorizheneh Louda Luah Luala Lurana Madafa Madaima Madara Madra Maelona Maeresha Maggie Mahasti Mahata Mahiba Mahrokh Mahtab Mahuza Maila Maj Maja Majdawa Majhasur Makar Makela Malakeh Malenah Malexa Maliyah Malsia Mamidah Mamiyeh Manicky Manidah Manizheh Manuush Maraya Marbilah Marbita Mardina Mareesh Margaydeh Margonet Mariah Marubel Marzya Masahir Mashana Masiyat Masna Mathelle Mehfa Mehrafar Mehrnaz Mehry Mehuna Memyan Memyireh Midakah Midyah Mihayya Mihiyya Mihra Milta Minerva Miniel Minuh Mirisa Mirva Mizaida Mizareh Mizrayda Monsashana Monsayeh Monsey Monya Morissa Moyaltha Mozhdeh Mozhenie Muazona Muheh Muhmeylah Mulaha Mulimah Munya Mura Nabeenim Nadafa Nadira Nadofah Nadwa Nadya Nafefta Nagluneh Nahirah Nahrina Nahruzah Nahsirih Naifa Naifineh Nala Nalia Nalimeh Namasah Namsah Nanine Nanza Nari Narine Nasibin Naslan Nasmat Navbizhar Nayyer Nazaneen Nazila Nazmi Nazrajah Neena Neenia Neesa Neesha Negheen Nemina Neminda Nenwirah 
+		Nesrin Niha Niloufar Nilu Nimaima Nirifa Niruzheh Nisha Nisira Nithena Nithleen Niyaneh Niyoush Niyya Noushafar Noushin Numaheh Nuwarrah Nuzah Nuzhimeh Oiarah Olduzah Olena Olerah Oleta Orizira Orkideh Orlsheh Oufa Parastush Parvaia Parvana Parvaneh Parveeya Patia Pemenie Penwe Perinazh Perizada Pharikeh Punesheh Qadrima Qanyin Qarafa Qasna Qasneta Qasnizara Qawi Qismah Quarith Qubad Qumreh Qymala Radhasa Radwa Radwet Rahaja Rahama Rajdara Ramahi Ramana Ramati Ramina Ramisa Ramzasa Ramziq Ranarwa Rania Rasa Rasaba Rasha Rasheda Rasheh Rashmiya Rasna Rasofi Rayya Raza Raziyya Relinda Rena Rhiannon Riahl Rida Rienna Rijja Risay Ritabeth Rithleen Rithussah Riza Rochelle Roheebah Rohefa Rohssan Rohzika Romefta Romehdi Rona Roshinah Roshinia Rouda Roudi Rozhbeh Rozza Rudabeh Runeh Ryeshta Saadia Saadifa Saban Sabileh Sabinette Sabirah Sabrilah Safa Saffir Safia Safiyeh Saghar Sahar Sahba Sahdabeh Saheema Sahima Sahlafa Saissana Saissiana Sakaneth Saliah Salida Salma Samaha Samawarah Samayna Samila Samsi Samya
+		Sanazh Sandeire Sariah Sarinne Sarveeyah Sarvusna Sasana Satrandra Sayda Sayma Saymimah Sehlayeh Sehmasah Senyndie Seren Sermenh Seyran Shadeeta Shadri Shafaye Shaffy Shalayleh Shameer Shamone Shardaza Shardie Sharela Sharideh Sharikeh Sharine Sharyaddan Sheedeh Shehrbah Shelley Shelmar Sherina Sherveen Shiri Shoukoufeh Shuhasa Sima Sinfay Sinia Siona Sionen Sirali Sorayeh Sorme Sudi Sulesa Sulima Sulma Sumariqah Sundurah Tafa Tahirah Talia Talumineh Tamaima Tamika Tannazh Tannida Tanyin Taqiyat Tarafa Taranneh Tariyeh Tavia Taviah Tavofi Tavrina Tavriya Tenvi Tenville Terina Thalia Tharayya Tharlas Thelmar Tiela Tierra Tirrassa Todwendy Tomaka Tonilia Tonleen Toubeh Toura Tourima Trava Travofia Trevaia Turalla Ubabmah Ubdani Ubra Umana Umisarah Uranonni Ursyvyra Usralia Usraya Vandeh Velaman Vena Waqar Wardina Wardiya Whitka Wiya Yadilah Yaeli Yanajah Yarah Yarana Yardileh Yasamaneh Yeganeh Yiralai Yisra Yisraza Zafira Zahideh Zainabah Zakazha Zakma Zarala Zaria Zariya Zayya Zeila Zeira Zell Zeta Zhileh
+		Zibeh Zimaneh Zineah Zohreh Zorafar Zorallah Zylle Diwa Angeira Dholia
+		Barbabyth Barbanna Barbara Barbausa Barbayne Barbolda Barbona Barborya Barbyn Barbyna Barbyrrya Barbyssa Barbyvyra
+		Belladabyth Belladanna Belladara Belladausa Belladayne Belladolda Belladona Belladorya Belladyn Belladyna Belladyrrya Belladyssa Belladyvyra Blubamka
+		Carolabyth Carolanna Carolara Carolausa Carolayne Carololda Carolona Carolorya Carolyn Carolyna Carolyrrya Carolyssa Carolyvyra
+		Chrystabyth Chrystanna Chrystara Chrystausa Chrystayne Chrystolda Chrystona Chrystorya Chrystyn Chrystyna Chrystyrrya Chrystyssa Chrystyvyra
+		Elabyth Elanna Elara Elausa Elayne Elolda Elona Elorya Elyn Elyna Elyrrya Elyssa Elyvyra
+		Elyzabyth Elyzanna Elyzara Elyzausa Elyzayne Elyzolda Elyzona Elyzorya Elyzyn Elyzyna Elyzyrrya Elyzyssa Elyzyvyra
+		Evelabyth Evelanna Evelara Evelausa Evelayne Evelolda Evelona Evelorya Evelyn Evelyna Evelyrrya Evelyssa Evelyvyra
+		Gwynabyth Gwynanna Gwynara Gwynausa Gwynayne Gwynolda Gwynona Gwynorya Gwynyn Gwynyna Gwynyrrya Gwynyssa Gwynyvyra
+		Lysabyth Lysanna Lysara Lysausa Lysayne Lysolda Lysona Lysorya Lysyn Lysyna Lysyrrya Lysyssa Lysyvyra
+		Morgabyth Morganna Morgara Morgausa Morgayne Morgolda Morgona Morgorya Morgyn Morgyna Morgyrrya Morgyssa Morgyvyra
+		Vannabyth Vannanna Vannara Vannausa Vannayne Vannolda Vannona Vannorya Vannyn Vannyna Vannyrrya Vannyssa Vannyvyra
+		Vyctabyth Vyctanna Vyctara Vyctausa Vyctayne Vyctolda Vyctona Vyctorya Vyctyn Vyctyna Vyctyrrya Vyctyssa Vyctyvyra
+		Ysabyth Ysanna Ysara Ysausa Ysayne Ysolda Ysona Ysorya Ysyn Ysyna Ysyrrya Ysyssa Ysyvyra
+		Ysabyth Ysanna Ysara Ysausa Ysayne Ysolda Ysona Ysorya Ysyn Ysyna Ysyrrya Ysyssa Ysyvyra
+		
+		#Standard Namelist
+		Abelle Adelaide Adele Adelie Adeline Adelle Adiel Aditte Adrienne Aelynn Agarthe Agata Agathe Ajac Alainne Alana Alarice Ales Alexandra Alexia Alexine Alice Alison Alix Allison 
+		Allene Allysin Aloin Alona Althene Alverine Alyenore Alyze Alysanne Alyssa Ama Amalia Amarie Ambre Ambrelie Amelia Amelie Amora Amy Anabeth Anais Anastasie Andeleine 
+		Andree Andrya Angeline Angier Aniele Aniette Anna Annabelle Annaline Annalise Annalysse Annarique Anne Anne_Marie Annelette Annese Annie Annyce Antoinetta Antys Anya 
+		Arabelle Ardeline Ardile Ardine Aren Ariane Arianna Arie Arielle Arienne Arlettie Arlie Armandine Armelle Arnaude Artura Arturia 
+		Arzhela Asciene Ashtah Asteria Astrimunde Aubrey Augustelle Augustina Augustine Aurane Aurelie Aurine Aurnie Aurore Aurorelle Aveberl Axelle 
+		Babette Barbara Barbise Beatrice Beddi Belene Beliene Beline Belladonna Belle Belline Bellucia Belya Berengere Bernadette Bernetta Bernice 
+		Bernique Berrice Bethany Biene Binlay Blanche Blynnie Bothela Brea Brela Brendou Brenlynne Breywenne Brienne Brigibeth Brunile Brunwyn 
+		Cairine Calesse Callia Callice Calysa Camille Candice Candile Capucine Carena Carine Carlier Carmyne Caroline Caronique Cassandre Catherine Caydeire Cayleigh 
+		Cecile Celarion Celence Celeste Celestine Celia Celiane Celise Celina Ceriste Cesabelle Cesarelle Chantale Chantisse Charlisse Charlotte 
+		Charloux Charmel  Charmela Chatelle Chental Cherese Cheryline Christelle Ciara Cidathia Cienne Clairene Clara Clarelda Clarisse Clarique Claudelle 
+		Claudette Claudie Claudine Clotylda Clovine Coletta Colette Concordia Constance Coquina Coraline Corynne Cyndique Cyrille 
+		Dabienne Dame Darcielle Darene Daria Darya Delighre Delphine Delumna Demara Denille Denyse Derella Derelle Deryvyra Desmie Dessire Desyree Dhalena Diabelle Dianette Didiane Dirdre Dominique 
+		Diana Diane Donella Dori Dorianne Dorothea Dorothella Dorothique Dorys Dovice Drienne Drusilla Dufrain 
+		Edana Edelinne Edeonore Edilitte Edona Edre Edwinna Edwen Edwyge Eesamelle Eirdre Elain Elanna Elara Elgenie Elia Elin Elinor Elisa Elise Elivette Eliza Elizabeth Elizabyth Ella Ellina Elodie Eloise 
+		Elona Elyssa Elyssette Elvira Elvyrie Emabeth Emeraude Emilie Emily Emma Emusette Endyra Ennia Enriquette Eola Erendette Erind Erisia 
+		Erith Erline Ermentrude Ernella Escalette Esdeline Eselde Esmie Estayne Esteline Estelle Estevie Etty Eudeline Eubella Eugenie Evangelina Evangline Evanine Eveline Evelyn Evolite Evveline 
+		Fabrelle Falette Falhut Falice Falisse Farlivere Fasele Fasile Felande Felice Felycie Felyse Fey Fianna Fiesque Finia Fiona Floriane Florine Florinna Florique Fortisa Franara Francine Fredevieve Frederique Frelausa Freyda
+		Gabria Gabrialle Gabrielle Gaelle Gaelora Gaetane Galynne Ganise Genele Genevelle Genevret Geniette Genvieve Georgia Geralda Gerielle Germonde Gervaise Gessica Gette Gilbara Gina Gine Ginette Gisele Glendora 
+		Gloria Grace Granette Grania Grigitte Grivette Guendeline Gulitte Gwen Gwenaelle Gwenifyr Gwyn Gwynienne Gwynnifer Gwynolda Gwyssa Gyna Gywneth 
+		Harbert Helainie Helane Helene Helenette Helese Heloise Helviane Helwyn Hendrice Heniele Henneque Henona Henriette Henrisa Hereld Hervemina Hester Hilaria Huguette Hulotte 
+		Icolana Idunhael Illeana Illise Imoen Ina Inawyn Ines Inirisi Iona Iraldine Irene Isabeau Isabella Isabelle Isabeth Isara Jacquebeth 
+		Jacqueline Janavynn Janese Janeve Janille Janise Janne Janona Jasmine Javierre Jeanne Jeanette Jeannelle Jeannine Jeanylle Jeberilie Jehanne Jehannette Jenna Jo Joan Joelle 
+		Jolie Josee Josienne Joslin Josseline Julienne Juline Julisa Jurisa Jusanne Jyllia Kaera Karnellas Katrine Kestral Ketrique Konia Krisandra
+		Lacherie Laelette Laelyn Laetitia Laetille Lanarette Lanier Lantoinette Laranette Lariane Larynn Laudine Lauran Lauranne Lauravieve Laure Laurette Lea Leana Leila 
+		Leonique Leonora Leontille Lerisa Lessa Leticia Lexi Lexille Lia Liane Lianna Lielle Liisan Lila Lilian Liliana Lilou Lily Limren Linele Linane Lionne Lirielle Lisa Lisanne Lisbeth Liselle Lisette 
+		Livelle Lizabet Lleraya Lodys Lorene Loriel Louarde Louisa Louise Loulou Louna Luce Luceline Lucete Lucette Luciana Lucie Lucienne Lucille Lucynda Ludivine Lurgette Lyna Lynie Lyse Lysse Lyze
+		Mabilete Mabrelle Madenn Madisone Maelle Maelrisse Mahlene Malielle Maline Malyna Manone Maranique Marayna Marcele Marcella Marcelle Marcellyne Marcelyn Marciele   
+		Marelie Marelle Maretta Margaret Margaud Margerelle Margine Margot Margrette Marguerite Maria Marian Marie Marienne Marielle Mariette Marieve Marisette Marlene Marthe Mathilde Mathilie Martine 
+		Mary Maryse Masalinie Mathilda Mathelle Matilda Matilde Maurrie Maxelle Maxille Maxime Maxine Maya Mayla  Medya Melanie Melie Melina Melisandre Melita Melodie 
+		Melynie Mena Merielle Mervilda Michel Michelia Michou Milie Mimou Minerva Minette Minone Miquela Mira Mirabelle Miramel Miranda Miroleine Mitanne Molly Morgana Morgane Morrigan Morigh Mortine Muriel Mylenne Myriame 
+		Nadine Nahlia Nanette Nanoyra Nathalye Naudet Nemarc Nemic Neomi Nessa Nicolene Nicoline Ninette Noebelle Noemie Nonenamwen Norine Normina Nuresse Nyna Nyomie Nyrona
+		Oceane Odette Odyle Ofelia Olivia Olivie Olyna Olyve Ondrissa Opel Ophelia Oriane Orice Osanna Osianne Otha Ouida 
+		Pabla Parisse Pepi Petrille Philippa Phoebe Phylgaux Pierette Pierielle Pierlette Piernette Pierrie Pietine Prudence Pyline Pyn Pyppe Quillet Quirin 
+		Rachel Raelyn Raelynne Rebecca Regina Regine Reine Reinette Reliana Relie Remelie Renardine Reyna Reynelle Reynine Rhealt Rianciene Rianne Rielle Rinelle Rochelle 
+		Rokrya Romaire Ronela Ronyssa Rosa Rosaldine Rosalia Rosalie Rosalin Rosalind Rosalyn Rosamonde Rosamund Rose Roselle Rosette Rosie Rosine Roulena Roumiet Roxanne Rozenn Rozette Ryva
+		Sabina Sabine Sabinette Sabrine Sabyssa Sachine Sandire Sandrine Sara Saravith Savinie Segolene Seline Senna Seraphyne Serine Severine Shaelle Shalia Shilia Shillin Shorrin Sibellec 
+		Simone Sirone Sosara Sosia Sovelle Stephange Stephie Surane Suriel Susane Sybille Sybilline Sylvie Synette 
+		Tabakah Taern Thais Thayer Theonique Theophilia Thonine Thylvie Tilelle Tremelle Tuecille Tyrrya 
+		Uaile Ursuline Ursanne Urvie Urvien Valana Valarie Valaunce Valentina Valentine Valentique Valeriane Valerie Valerine Valessa Valyrie Vanisande Varisse Vaudrie Velica 
+		Vendi Verene Veroine Veronica Veronique Versien Victoire Victrice Vienne Vimy Vincelle Violette Vireche Virgile Virene Visanne Vistra Vitache Vivian Vivienne Vivonne Vyctarine Vyctorelle Vyctoria Vylie 
+		Xandria Yasmine Ygerne Ylanie Yolande Ysabel Ysabeth Ysanne Ysarne Ysausa Yseline Yurta Yvara Yvayne Yveline Yvelle Yveque Yvon Zeli Zelie Zephyrine Zinadia Zinedine Zizou Zoe Zoellene Zouzou Zozubeth Zylle Zyssa Una Giselle
+	}
+	
+	dynasty_of_location_prefix = "dynnp_do_"
+		patronym_prefix_male = "dynnp_do_"
+		patronym_prefix_female = "dynnp_do_"
+
+		#prefix = yes
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+	
+	mercenary_names = {
+		{ name = "mercenary_knights_sellswords" } 
+		{ name = "mercenary_knights_brotherhood" }
+		{ name = "mercenary_knights_gallants" }
+		{ name = "mercenary_knights_sellswords" }
+		{ name = "mercenary_knights_brotherhood" } 
+		{ name = "mercenary_knights_gallants" }
+		{ name = "mercenary_knights_sellswords" }
+		{ name = "mercenary_knights_brotherhood" }
+		{ name = "mercenary_knights_gallants" }
+		{ name = "mercenary_knights_sellswords" } 
+		{ name = "mercenary_knights_brotherhood" }
+		{ name = "mercenary_knights_gallants" }
+	}		
+}
+
+#Minotaurs
+name_list_minotaur = {
+
+	male_names = {
+		Belharza Morihaus Bhrum Koska Domihaus Galrus Hruum Khaath Limenauruus Rahdgarak Cud Druvaakh Galchobhar Gornikaus Kinras Minruk Mordekaus Mordekaiser
+		Tragan Xurnax Zadrak Aleshtar Valvazan Huum Helaku Varg Ahul Krete Ahurrong Karagos Magrath Thud Goht Huln Orm Furdin Kaiser Jurgen Dietrich Arnulf
+		Brunoch Alahmoot Jolon Kachada Kuruk Machk Angus Hausel Gudrun Rut Huln Zaetar
+	} 
+	
+	female_names = { 
+		Alesh Magatha Tamaala Chepi Torra Tawn Hahrana Zaal Asterah Nandane Pasifa Eradne Ghruumka Paravah Pevesh Paravanah Shorra Maraka Maudivah
+		Mammu Heffa Motah Bovahna Annika Detlefh Edelgard Takoda Ahanu Ahusaka Taborri Tarsha Tayen Wanahta Kaniya Keme Lakota Tippa Walda Bertha Alina
+		Astrida Ida Kathe Karina  Mirjam Grete Gunda Olga Ortrud Mirjam Inge Korrah
+	}
+
+	dynasty_names = { "dynn_Grimhorn" "dynn_Bloodwater" "dynn_Ironeye" "dynn_Oxtooth" "dynn_Bloodyhorn" "dynn_Smasher" "dynn_Bravehoof" "dynn_Tor" "dynn_Bloodforge" "dynn_Dreadhorn" "dynn_Hammerdeath" "dynn_Graht_Oak" "dynn_Malatar" "dynn_Undertow" "dynn_Rivermane" "dynn_Skyhorn" "dynn_Highmountain" "dynn_Grimtotem" "dynn_Greyhoof" "dynn_Mullgore" "dynn_Falconhoof" "dynn_Harcane" "dynn_Bloodhoof" }
+	cadet_dynasty_names = { "dynn_Grimhorn" "dynn_Bloodwater" "dynn_Ironeye" "dynn_Oxtooth" "dynn_Bloodyhorn" "dynn_Smasher" "dynn_Bravehoof" "dynn_Tor" "dynn_Bloodforge" "dynn_Dreadhorn" "dynn_Hammerdeath" "dynn_Graht_Oak" "dynn_Malatar" "dynn_Undertow" "dynn_Rivermane" "dynn_Skyhorn" "dynn_Highmountain" "dynn_Grimtotem" "dynn_Greyhoof" "dynn_Mullgore" "dynn_Falconhoof" "dynn_Harcane" "dynn_Bloodhoof" }
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 10
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+		
+	# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 10
+	mother_name_chance = 10
+
+	
+	
+	
+	mercenary_names = {
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_warband" }	
+		{ name = "mercenary_knights_brotherhood" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_irregulars" }
+		{ name = "mercenary_knights_warband" }
+		{ name = "mercenary_knights_warband" }	
+		{ name = "mercenary_knights_warband" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_legion" }
+		{ name = "mercenary_knights_warband" }
+	}
+}
+
+#Giant
+name_list_giant = {
+
+	male_names = {
+		Grok Sinmur Aki Bor Bomaz Grunt Kjarg Malvor Ulgorus Urgkali Vigi Drol Feryn Torfang Horis Vanis Fofum Bofum Karstaag Guolog Gruthar Vrol Yandir Ysmgar Kruntharth Baldor Baldur Falki
+		Tymvaul Bathmar Bronrod Mok Grendul Golath Ragnar Balor Fjor Ymir Gaf Krun Og Bran Hodor Gogmagog Goram Toell Leiger Baugi Gyllir Hrimger Hroor Skaoi Bokk Stallo Gayant Cormoran Birger Wotan
+		Wunwun Magmar Doweg Dongo Kaldur Ander Doshin Groh Hrungnir Ymiron Guldun Nimrod Nobod Gabaal Orobaal Goldar Akthor Bormak Bomrug Kjargul Mimirak Urgath Malgrom Sinthar Ulgrok Urgmar Vigarok Drolgar
+		Ferynoth Corgrul Horgrak Torfangar Vanirak Sigvarr Akramar Borthur Bomgar Kjarnok Mimilgorn Urmuk Malgorak Sinvarg Ulgmarr Urgolm Vigthor Drolmak Feramur Corumir Horthak Torvek Vangrim Sigmuk Akruz
+		Brontar Borzak Thormir Kjalgar Morkhul Ulgrar Urthag Viglad Drokoth Feryld Corfarn Horgul Torgrath Vangorr Siglar Akthorm Borrak Bomur Kjargir Mirmor Urguk Malzarn Sinal Ulgarad Urthruk Vigoth Drolnath Ferym
+		Corzarn Horgrim Torkhaz Vandroz Sigorath Akvorn Brogmor Borthrak Bomazar Kjalnok Mimiron Urthun Malgar Sinalur Ulgromir Urzak Vigrand Drogan Ferthorn Corvorn Horthan Tormund Vanroth Sigurl Akmor Bjornok Borkhul
+		Kjalgron Mimirkan Urzok Malvik Sinroth Ultharn Vigran Drogrim Munir Urgnir Yimir Bodi Volst Kastagg Stagg
+	} 
+	
+	female_names = { 
+		Aldis Runa Fiefi Ema Grerid Horski Risi Svenja Edla Herkja Ysra Vibeke Bera Isgeror Oddny Svana Freya Hagra Fodla Piret Gryla Beli Gyllira Angreyja Atla Eistla Eyrgja Imor Jarnsaxa Jenti Ganta
+		Juna Olyma Jadarok Bolga Garna Befgi Halla Hyrja Gulduna Emona Skaoi Aesa Aldis Aldrunn Alruna Baldra Brumhild Brynjah Brythra Drifa Eirunn Eldrithra Fjorgara Fornjotra Freida Freygg Galdra Geirdrun
+		Gjalda Gormhild Grethgunn Gretska Grimgara Grimhalla Grymhild Guldris Gunah Gunloda Gunnvera Halgara Helgaara Helstrid Hrafna Hretha Huldraxa Isgunn Jofrida Jorhilda Jotunara Jotunhild Keltruna Kjaldrun Kjolga
+		Laufeyra Luthrunn Milva Mistgunn Nidhra Njordis Ormhalla Ragnthra Runa Runfrida Runhalla Runhird Sifka Sigfara Sigrhill Sindgunn Sinhalla Skadya Skardwyn Skirga Skjoldra Skolvunn Skovora Solgunn Solvyra Sorga Suthrunn
+		Thrivara Thrudwyn Thrymnara Thrysa Thryvara Thundra Thyrna Torska Ulfgardra Valdiska Valgrima Vedra Verdra Vethgunn Vethska Veyra Vigi Vingrid Vryldra Yrmgara Yrmgild
+
+	}
+
+	dynasty_names = { "dynn_Cracktooth" "dynn_Longstride" "dynn_Wallbreaker" "dynn_Big_Toe" "dynn_Coribael" "dynn_Thunderdell" "dynn_Beanstalker" "dynn_Penhill" "dynn_Bloodbottler" "dynn_Bonecrusher" "dynn_Maidmasher" "dynn_Manhugger" "dynn_Meatdripper" "dynn_Stormheim" "dynn_Half_Man" "dynn_Cradlecrush" "dynn_Steamcrag" "dynn_Stonehill" "dynn_Guldun" "dynn_Atmorh" "dynn_Mammoth_Milker" "dynn_Fleshlumpeater" "dynn_Childchewer" "dynn_Gizzardgulper" "dynn_Lonely_Papa" "dynn_Smash_skull" "dynn_Titanborn" "dynn_Akigorr" "dynn_Ashborn" "dynn_Banejaw" "dynn_Blackfist" "dynn_Blackhowl" "dynn_Bomrug" "dynn_Bonebreaker" "dynn_Bormak" "dynn_Boulderback" "dynn_Brakkoth" "dynn_Brakthar" "dynn_Bronzemane" "dynn_Cindersnout" "dynn_Coribash" "dynn_Crackbone" "dynn_Cragspine" "dynn_Cragtusk" "dynn_Darktooth" "dynn_Deathgrin" "dynn_Deathhowl" "dynn_Deepfang" "dynn_Doomhand" "dynn_Doomroar" "dynn_Dreadjaw" "dynn_Dreadstone" "dynn_Drolmuk" "dynn_Dusktalon" "dynn_Emberclaw" "dynn_Fangrend" "dynn_Feralgrin" "dynn_Feryndal" "dynn_Fireclaw" "dynn_Firegut" "dynn_Firemane" "dynn_Flamebelly" "dynn_Frostfang" "dynn_Frostgrip" "dynn_Frostmaw" "dynn_Goremane" "dynn_Goretooth" "dynn_Gorgak" "dynn_Gravelback" "dynn_Grimgor" "dynn_Gritfang" "dynn_Grokfang" "dynn_Gruntarok" "dynn_Hammerjaw" "dynn_Havocgrin" "dynn_Hollowfang" "dynn_Horgrun" "dynn_Hulgarok" "dynn_Icevein" "dynn_Ironbelly" "dynn_Ironshatter" "dynn_Ironskin" "dynn_Jorgrim" "dynn_Kjargath" "dynn_Kragthorn" "dynn_Lonehowl" "dynn_Magmagrin" "dynn_Malgorr" "dynn_Malrukh" "dynn_Mogral" "dynn_Mournfang" "dynn_Oathcrusher" "dynn_Onyxhide" "dynn_Ragefang" "dynn_Ragetusk" "dynn_Rimefist" "dynn_Rockmaw" "dynn_Shadowcrush" "dynn_Shatterfist" "dynn_Sinfury" "dynn_Skargol" "dynn_Skullfang" "dynn_Skullsmash" "dynn_Skycrusher" "dynn_Slagtooth" "dynn_Snowfang" "dynn_Steelbrow" "dynn_Stonefury" "dynn_Stonemaul" "dynn_Stormjaw" "dynn_Stridefang" "dynn_Thunderfang" "dynn_Thundergut" "dynn_Thunderstomp" "dynn_Torfang" "dynn_Ulgomar" "dynn_Urgthar" "dynn_Vanigar" "dynn_Vigramar" "dynn_Wallcrush" "dynn_Warbringer" "dynn_Warhowl" "dynn_Warlimb" "dynn_Windbreaker" "dynn_Wraithmaw" }
+	cadet_dynasty_names = { "dynn_Cracktooth" "dynn_Longstride" "dynn_Wallbreaker" "dynn_Big_Toe" "dynn_Coribael" "dynn_Thunderdell" "dynn_Beanstalker" "dynn_Penhill" "dynn_Bloodbottler" "dynn_Bonecrusher" "dynn_Maidmasher" "dynn_Manhugger" "dynn_Meatdripper" "dynn_Stormheim" "dynn_Half_Man" "dynn_Cradlecrush" "dynn_Steamcrag" "dynn_Stonehill" "dynn_Guldun" "dynn_Atmorh" "dynn_Mammoth_Milker" "dynn_Fleshlumpeater"  "dynn_Childchewer" "dynn_Gizzardgulper" "dynn_Lonely_Papa" " dynn_Smash_skull" " dynn_Titanborn" "dynn_Akigorr" "dynn_Ashborn" "dynn_Banejaw" "dynn_Blackfist" "dynn_Blackhowl" "dynn_Bomrug" "dynn_Bonebreaker" "dynn_Bormak" "dynn_Boulderback" "dynn_Brakkoth" "dynn_Brakthar" "dynn_Bronzemane" "dynn_Cindersnout" "dynn_Coribash" "dynn_Crackbone" "dynn_Cragspine" "dynn_Cragtusk" "dynn_Darktooth" "dynn_Deathgrin" "dynn_Deathhowl" "dynn_Deepfang" "dynn_Doomhand" "dynn_Doomroar" "dynn_Dreadjaw" "dynn_Dreadstone" "dynn_Drolmuk" "dynn_Dusktalon" "dynn_Emberclaw" "dynn_Fangrend" "dynn_Feralgrin" "dynn_Feryndal" "dynn_Fireclaw" "dynn_Firegut" "dynn_Firemane" "dynn_Flamebelly" "dynn_Frostfang" "dynn_Frostgrip" "dynn_Frostmaw" "dynn_Goremane" "dynn_Goretooth" "dynn_Gorgak" "dynn_Gravelback" "dynn_Grimgor" "dynn_Gritfang" "dynn_Grokfang" "dynn_Gruntarok" "dynn_Hammerjaw" "dynn_Havocgrin" "dynn_Hollowfang" "dynn_Horgrun" "dynn_Hulgarok" "dynn_Icevein" "dynn_Ironbelly" "dynn_Ironshatter" "dynn_Ironskin" "dynn_Jorgrim" "dynn_Kjargath" "dynn_Kragthorn" "dynn_Lonehowl" "dynn_Magmagrin" "dynn_Malgorr" "dynn_Malrukh" "dynn_Mogral" "dynn_Mournfang" "dynn_Oathcrusher" "dynn_Onyxhide" "dynn_Ragefang" "dynn_Ragetusk" "dynn_Rimefist" "dynn_Rockmaw" "dynn_Shadowcrush" "dynn_Shatterfist" "dynn_Sinfury" "dynn_Skargol" "dynn_Skullfang" "dynn_Skullsmash" "dynn_Skycrusher" "dynn_Slagtooth" "dynn_Snowfang" "dynn_Steelbrow" "dynn_Stonefury" "dynn_Stonemaul" "dynn_Stormjaw" "dynn_Stridefang" "dynn_Thunderfang" "dynn_Thundergut" "dynn_Thunderstomp" "dynn_Torfang" "dynn_Ulgomar" "dynn_Urgthar" "dynn_Vanigar" "dynn_Vigramar" "dynn_Wallcrush" "dynn_Warbringer" "dynn_Warhowl" "dynn_Warlimb" "dynn_Windbreaker" "dynn_Wraithmaw" }
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 20
+	father_name_chance = 20
+		
+	# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 20
+	mother_name_chance = 20
+	
+	mercenary_names = {
+		#{ name = "mercenary_company_veterans_of_the_marches" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_warband" }
+	}
+}
+
+#Bendmarchers
+name_list_bendmarcher = {
+
+	cadet_dynasty_names = {
+		"dynn_High_Shoal" "dynn_Snow_Shod" "dynn_Banner_Torn" "dynn_Snow_Bourne" "dynn_Blackthorn" "dynn_Staghorn" "dynn_Hate_Basket" "dynn_Sweetroll_Stealer" "dynn_Bell_Striker" "dynn_Hoar_Blood" "dynn_Oaken_Sword" "dynn_Ale_Scribe" { "dynnp_of" "dynn_Kjoric" } "dynn_Gap_Tooth" "dynn_Orun" "dynn_Hoagbellow" "dynn_Star_Shield" "dynn_Windcaller" "dynn_Ravencrone" "dynn_Brittlehelm" "dynn_Helmbolg" "dynn_Kaarn" "dynn_Jurgald" "dynn_Stone_Fist" "dynn_Sour_Stone" "dynn_Sail_Mender" "dynn_Ash_Caller" "dynn_Cowflop" "dynn_Elf_Speaker""dynn_Thrice_Pierced" "dynn_Ghilred" "dynn_Blue_Wall" "dynn_Doom_Sayer" "dynn_Sword_Poet" "dynn_Head_Rolling" "dynn_Kyne_Favored" "dynn_Fine_Sword" "dynn_Freiretta" "dynn_High_Wall" "dynn_Alaldsen" "dynn_Alansen" "dynn_Alarsen" "dynn_Alariksen" "dynn_Alarkesen" "dynn_Numinex" "dynn_Farseer" "dynn_Halfhand" "dynn_Highlander" "dynn_Tallowhand" "dynn_Whitebeard" "dynn_Half_Troll" "dynn_Hard_Heart" "dynn_Ice_Mane" "dynn_Axe_Wife" "dynn_Blue_Tooth" "dynn_Bold_Lute" "dynn_Deep_Raed" "dynn_Elf_Hewer" "dynn_Fine_Hair" "dynn_Fire_Eye" "dynn_Flat_Foot" "dynn_Fork_Beard" "dynn_Gray_Wave" "dynn_Volkihar" "dynn_Shatter_Ice" "dynn_Goldblood" "dynn_Honeymaw" "dynn_Stormfist" "dynn_Dragonwrath" "dynn_Bloodsung" "dynn_Aald" "dynn_Ysmjord" "dynn_Ale_Ice" "dynn_Whitebird" "dynn_Eel_Eared" "dynn_Embervein" "dynn_Broadwall" "dynn_Cowflop" "dynn_Elf_Speaker" "dynn_Shattersword" "dynn_Shatterspear" "dynn_Hardhelm" "dynn_Arrow_Fingers" "dynn_Lute_Hammers" "dynn_Steel_Shot" "dynn_Hairy_Breeches" "dynn_Snow_Sailer" "dynn_Oar_Hewer" "dynn_Trollsbane" "dynn_Giantsbane" "dynn_Wolfsbane" "dynn_Bearsbane" "dynn_Ship_Shaker" "dynn_Horker_Jaw" "dynn_Felt_Gloves" "dynn_Sword_Maiden" "dynn_Mead_Fingers" "dynn_Wraith_Heart" "dynn_Foe_Slayer" "dynn_King_Maker" "dynn_Broken_Hilt" "dynn_Ebon_Smith" "dynn_Oat_Burner" "dynn_Thief_Catcher" "dynn_Once_Unbroken" "dynn_Thrice_Sliced" "dynn_Long_Arm" "dynn_Mace_Arm" "dynn_Fell_Blow" "dynn_Torn_Sail" "dynn_Short_Axe" "dynn_Ever_Strong" "dynn_Hive_Biter" "dynn_Bear_Paw" "dynn_Wind_Blessed" "dynn_Troll_Wrestler" "dynn_High_Keel" "dynn_Thick_Hull" "dynn_Cold_Storm" "dynn_Swift_Gale" "dynn_Stone_Eyes" "dynn_Vast_Honor" "dynn_Steady_Hand"
+		"dynn_Acamar" "dynn_Acehon" "dynn_Acetar" "dynn_Acilen" "dynn_Acithik" "dynn_Aciwon" "dynn_Acyille" "dynn_Amaille" "dynn_Ameean" "dynn_Americk" "dynn_Amiacy" "dynn_Amican" "dynn_Amihon" "dynn_Amoal" "dynn_Amyli" "dynn_Arayn" "dynn_Arizada" "dynn_Arurick" "dynn_Aruzada" "dynn_Arynuin" "dynn_Atelan" "dynn_Atizo" "dynn_Atodius" "dynn_Atuhon" "dynn_Atulet" "dynn_Atyacy" "dynn_Atytar" "dynn_Azamar" "dynn_Azanvir" "dynn_Azethal" "dynn_Azolen" "dynn_Azonuin" "dynn_Azowon" "dynn_Azyzo" "dynn_Brenalan" "dynn_Brenewon" "dynn_Breniacy" "dynn_Brenican" "dynn_Breniden" "dynn_Breniroc" "dynn_Brenitar" "dynn_Brenoadal" "dynn_Brenyadal" "dynn_Brenynuin" "dynn_Cirayn" "dynn_Cireille" "dynn_Ciremar" "dynn_Cirizo" "dynn_Coyafiz" "dynn_Coyasan" "dynn_Coyehon" "dynn_Curacy" "dynn_Curayn" "dynn_Curesan" "dynn_Curilan" "dynn_Curiroc" "dynn_Curyn" "dynn_Cyden" "dynn_Cyeene" "dynn_Cyolen" "dynn_Cythik" "dynn_Daraf" "dynn_Daral" "dynn_Daramar" "dynn_Dararoc" "dynn_Dariacy" "dynn_Dariren" "dynn_Darisan" "dynn_Darothik" "dynn_Daruden" "dynn_Demehon" "dynn_Demoren" "dynn_Demuren" "dynn_Dorasek" "dynn_Doreaf" "dynn_Dorecan" "dynn_Doreimda" "dynn_Doriadal" "dynn_Doriaf" "dynn_Doririck" "dynn_Dorizada" "dynn_Doroacy" "dynn_Dorohon" "dynn_Dorucan" "dynn_Enatar" "dynn_Enuzada" "dynn_Hilacan" "dynn_Hilahon" "dynn_Hilathik" "dynn_Hilesan" "dynn_Hilolan" "dynn_Hilotar" "dynn_Hunding" "dynn_Elinhir" "dynn_Isaden" "dynn_Isaimda" "dynn_Isazo" "dynn_Iselan" "dynn_Iseroc" "dynn_Isewan" "dynn_Isilen" "dynn_Isizada" "dynn_Isoden" "dynn_Isylen" "dynn_Jagadal" "dynn_Jagidius" "dynn_Jagoren" "dynn_Jagorick" "dynn_Jaguille" "dynn_Jagutar" "dynn_Jawenuin" "dynn_Jawaif" "dynn_Jawitar" "dynn_Jawothik" "dynn_Jawyal" "dynn_Lanaf" "dynn_Lanahon" "dynn_Lanemar" "dynn_Lanenuin" "dynn_Laniaf" "dynn_Lanithik" "dynn_Lhoulet" "dynn_Lhoyille" "dynn_Naneren" "dynn_Nanethik" "dynn_Naniden" "dynn_Nanoren" "dynn_Nanylet" "dynn_Nanyren" "dynn_Nisaimda" "dynn_Nisasan" "dynn_Nisawan" "dynn_Nisiren" "dynn_Nisiyn" "dynn_Nisothal" "dynn_Nisurick" "dynn_Nisyean" "dynn_Nisyene" "dynn_Oriecan" "dynn_Orienet" "dynn_Orili" "dynn_Oriotar" "dynn_Oriuanvir" "dynn_Oriucan" "dynn_Oriuthal" "dynn_Owesan" "dynn_Owial" "dynn_Owilen" "dynn_Owucan" "dynn_Owyren" "dynn_Phinafiz" "dynn_Phinerick" "dynn_Phinithik" "dynn_Phinual" "dynn_Phinuhon" "dynn_Phinywon" "dynn_Praehon" "dynn_Praene" "dynn_Prairoc" "dynn_Praonet" "dynn_Praren" "dynn_Prarik" "dynn_Prauimda" "dynn_Praulen" "dynn_Prayfiz" "dynn_Pyehon" "dynn_Pyelet" "dynn_Pyetar" "dynn_Pyiwan" "dynn_Relanvir" "dynn_Relianvir" "dynn_Reloanvir" "dynn_Reluroc" "dynn_Rhailen" "dynn_Rhaiwan" "dynn_Rhaizada" "dynn_Rhaozo" "dynn_Rhauean" "dynn_Rusacy" "dynn_Rusitis" "dynn_Rusunin" "dynn_Rusuwon" "dynn_Rusyaf" "dynn_Rusyean" "dynn_Rusyene" "dynn_Shaelan" "dynn_Shaeren" "dynn_Shaf" "dynn_Shaiyn" "dynn_Shaohon" "dynn_Shaozada" "dynn_Shauanvir" "dynn_Shauren" "dynn_Stadal" "dynn_Stadius" "dynn_Staianvir" "dynn_Staili" "dynn_Staulen" "dynn_Staynet" "dynn_Thaeal" "dynn_Thaecan" "dynn_Thaeli" "dynn_Thaolan" "dynn_Thaothik" "dynn_Thausan" "dynn_Thaywon" "dynn_Thayzada" "dynn_Thoaimda" "dynn_Thoeadal" "dynn_Thoeden" "dynn_Thoeimda" "dynn_Thoelet" "dynn_Thoiacy" "dynn_Thoiyn" "dynn_Thouli" "dynn_Tracy" "dynn_Traecan" "dynn_Traewon" "dynn_Trauthik" "dynn_Trayfiz" "dynn_Vhoelan" "dynn_Vhoeren" "dynn_Vhoidius" "dynn_Vhoilan" "dynn_Vhoythik" "dynn_Sahan_Rahal" "dynn_Zil_Taktai" "dynn_al_Rasgad" "dynn_Curetar_al_Haf" "dynn_al_Roukad" "dynn_Maliya" "dynn_Sendu" "dynn_Mirel" "dynn_Nasir"
+	}
+
+	dynasty_names = {
+		"dynn_High_Shoal" "dynn_Snow_Shod" "dynn_Banner_Torn" "dynn_Snow_Bourne" "dynn_Blackthorn" "dynn_Staghorn" "dynn_Hate_Basket" "dynn_Sweetroll_Stealer" "dynn_Bell_Striker" "dynn_Hoar_Blood" "dynn_Oaken_Sword" "dynn_Ale_Scribe" { "dynnp_of" "dynn_Kjoric" } "dynn_Gap_Tooth" "dynn_Orun" "dynn_Hoagbellow" "dynn_Star_Shield" "dynn_Windcaller" "dynn_Ravencrone" "dynn_Brittlehelm" "dynn_Helmbolg" "dynn_Kaarn" "dynn_Jurgald" "dynn_Stone_Fist" "dynn_Sour_Stone" "dynn_Sail_Mender" "dynn_Ash_Caller" "dynn_Cowflop" "dynn_Elf_Speaker""dynn_Thrice_Pierced" "dynn_Ghilred" "dynn_Blue_Wall" "dynn_Doom_Sayer" "dynn_Sword_Poet" "dynn_Head_Rolling" "dynn_Kyne_Favored" "dynn_Fine_Sword" "dynn_Freiretta" "dynn_High_Wall" "dynn_Alaldsen" "dynn_Alansen" "dynn_Alarsen" "dynn_Alariksen" "dynn_Alarkesen" "dynn_Numinex" "dynn_Farseer" "dynn_Halfhand" "dynn_Highlander" "dynn_Tallowhand" "dynn_Whitebeard" "dynn_Half_Troll" "dynn_Hard_Heart" "dynn_Ice_Mane" "dynn_Axe_Wife" "dynn_Blue_Tooth" "dynn_Bold_Lute" "dynn_Deep_Raed" "dynn_Elf_Hewer" "dynn_Fine_Hair" "dynn_Fire_Eye" "dynn_Flat_Foot" "dynn_Fork_Beard" "dynn_Gray_Wave" "dynn_Volkihar" "dynn_Shatter_Ice" "dynn_Goldblood" "dynn_Honeymaw" "dynn_Stormfist" "dynn_Dragonwrath" "dynn_Bloodsung" "dynn_Aald" "dynn_Ysmjord" "dynn_Ale_Ice" "dynn_Whitebird" "dynn_Eel_Eared" "dynn_Embervein" "dynn_Broadwall" "dynn_Cowflop" "dynn_Elf_Speaker" "dynn_Shattersword" "dynn_Shatterspear" "dynn_Hardhelm" "dynn_Arrow_Fingers" "dynn_Lute_Hammers" "dynn_Steel_Shot" "dynn_Hairy_Breeches" "dynn_Snow_Sailer" "dynn_Oar_Hewer" "dynn_Trollsbane" "dynn_Giantsbane" "dynn_Wolfsbane" "dynn_Bearsbane" "dynn_Ship_Shaker" "dynn_Horker_Jaw" "dynn_Felt_Gloves" "dynn_Sword_Maiden" "dynn_Mead_Fingers" "dynn_Wraith_Heart" "dynn_Foe_Slayer" "dynn_King_Maker" "dynn_Broken_Hilt" "dynn_Ebon_Smith" "dynn_Oat_Burner" "dynn_Thief_Catcher" "dynn_Once_Unbroken" "dynn_Thrice_Sliced" "dynn_Long_Arm" "dynn_Mace_Arm" "dynn_Fell_Blow" "dynn_Torn_Sail" "dynn_Short_Axe" "dynn_Ever_Strong" "dynn_Hive_Biter" "dynn_Bear_Paw" "dynn_Wind_Blessed" "dynn_Troll_Wrestler" "dynn_High_Keel" "dynn_Thick_Hull" "dynn_Cold_Storm" "dynn_Swift_Gale" "dynn_Stone_Eyes" "dynn_Vast_Honor" "dynn_Steady_Hand"
+		"dynn_Acamar" "dynn_Acehon" "dynn_Acetar" "dynn_Acilen" "dynn_Acithik" "dynn_Aciwon" "dynn_Acyille" "dynn_Amaille" "dynn_Ameean" "dynn_Americk" "dynn_Amiacy" "dynn_Amican" "dynn_Amihon" "dynn_Amoal" "dynn_Amyli" "dynn_Arayn" "dynn_Arizada" "dynn_Arurick" "dynn_Aruzada" "dynn_Arynuin" "dynn_Atelan" "dynn_Atizo" "dynn_Atodius" "dynn_Atuhon" "dynn_Atulet" "dynn_Atyacy" "dynn_Atytar" "dynn_Azamar" "dynn_Azanvir" "dynn_Azethal" "dynn_Azolen" "dynn_Azonuin" "dynn_Azowon" "dynn_Azyzo" "dynn_Brenalan" "dynn_Brenewon" "dynn_Breniacy" "dynn_Brenican" "dynn_Breniden" "dynn_Breniroc" "dynn_Brenitar" "dynn_Brenoadal" "dynn_Brenyadal" "dynn_Brenynuin" "dynn_Cirayn" "dynn_Cireille" "dynn_Ciremar" "dynn_Cirizo" "dynn_Coyafiz" "dynn_Coyasan" "dynn_Coyehon" "dynn_Curacy" "dynn_Curayn" "dynn_Curesan" "dynn_Curilan" "dynn_Curiroc" "dynn_Curyn" "dynn_Cyden" "dynn_Cyeene" "dynn_Cyolen" "dynn_Cythik" "dynn_Daraf" "dynn_Daral" "dynn_Daramar" "dynn_Dararoc" "dynn_Dariacy" "dynn_Dariren" "dynn_Darisan" "dynn_Darothik" "dynn_Daruden" "dynn_Demehon" "dynn_Demoren" "dynn_Demuren" "dynn_Dorasek" "dynn_Doreaf" "dynn_Dorecan" "dynn_Doreimda" "dynn_Doriadal" "dynn_Doriaf" "dynn_Doririck" "dynn_Dorizada" "dynn_Doroacy" "dynn_Dorohon" "dynn_Dorucan" "dynn_Enatar" "dynn_Enuzada" "dynn_Hilacan" "dynn_Hilahon" "dynn_Hilathik" "dynn_Hilesan" "dynn_Hilolan" "dynn_Hilotar" "dynn_Hunding" "dynn_Elinhir" "dynn_Isaden" "dynn_Isaimda" "dynn_Isazo" "dynn_Iselan" "dynn_Iseroc" "dynn_Isewan" "dynn_Isilen" "dynn_Isizada" "dynn_Isoden" "dynn_Isylen" "dynn_Jagadal" "dynn_Jagidius" "dynn_Jagoren" "dynn_Jagorick" "dynn_Jaguille" "dynn_Jagutar" "dynn_Jawenuin" "dynn_Jawaif" "dynn_Jawitar" "dynn_Jawothik" "dynn_Jawyal" "dynn_Lanaf" "dynn_Lanahon" "dynn_Lanemar" "dynn_Lanenuin" "dynn_Laniaf" "dynn_Lanithik" "dynn_Lhoulet" "dynn_Lhoyille" "dynn_Naneren" "dynn_Nanethik" "dynn_Naniden" "dynn_Nanoren" "dynn_Nanylet" "dynn_Nanyren" "dynn_Nisaimda" "dynn_Nisasan" "dynn_Nisawan" "dynn_Nisiren" "dynn_Nisiyn" "dynn_Nisothal" "dynn_Nisurick" "dynn_Nisyean" "dynn_Nisyene" "dynn_Oriecan" "dynn_Orienet" "dynn_Orili" "dynn_Oriotar" "dynn_Oriuanvir" "dynn_Oriucan" "dynn_Oriuthal" "dynn_Owesan" "dynn_Owial" "dynn_Owilen" "dynn_Owucan" "dynn_Owyren" "dynn_Phinafiz" "dynn_Phinerick" "dynn_Phinithik" "dynn_Phinual" "dynn_Phinuhon" "dynn_Phinywon" "dynn_Praehon" "dynn_Praene" "dynn_Prairoc" "dynn_Praonet" "dynn_Praren" "dynn_Prarik" "dynn_Prauimda" "dynn_Praulen" "dynn_Prayfiz" "dynn_Pyehon" "dynn_Pyelet" "dynn_Pyetar" "dynn_Pyiwan" "dynn_Relanvir" "dynn_Relianvir" "dynn_Reloanvir" "dynn_Reluroc" "dynn_Rhailen" "dynn_Rhaiwan" "dynn_Rhaizada" "dynn_Rhaozo" "dynn_Rhauean" "dynn_Rusacy" "dynn_Rusitis" "dynn_Rusunin" "dynn_Rusuwon" "dynn_Rusyaf" "dynn_Rusyean" "dynn_Rusyene" "dynn_Shaelan" "dynn_Shaeren" "dynn_Shaf" "dynn_Shaiyn" "dynn_Shaohon" "dynn_Shaozada" "dynn_Shauanvir" "dynn_Shauren" "dynn_Stadal" "dynn_Stadius" "dynn_Staianvir" "dynn_Staili" "dynn_Staulen" "dynn_Staynet" "dynn_Thaeal" "dynn_Thaecan" "dynn_Thaeli" "dynn_Thaolan" "dynn_Thaothik" "dynn_Thausan" "dynn_Thaywon" "dynn_Thayzada" "dynn_Thoaimda" "dynn_Thoeadal" "dynn_Thoeden" "dynn_Thoeimda" "dynn_Thoelet" "dynn_Thoiacy" "dynn_Thoiyn" "dynn_Thouli" "dynn_Tracy" "dynn_Traecan" "dynn_Traewon" "dynn_Trauthik" "dynn_Trayfiz" "dynn_Vhoelan" "dynn_Vhoeren" "dynn_Vhoidius" "dynn_Vhoilan" "dynn_Vhoythik" "dynn_Sahan_Rahal" "dynn_Zil_Taktai" "dynn_al_Rasgad" "dynn_Curetar_al_Haf" "dynn_al_Roukad" "dynn_Maliya" "dynn_Sendu" "dynn_Mirel" "dynn_Nasir"
+	}
+
+	male_names = {
+		Abbard Adalvald Adding Addvar Addvild Aegrothius Aenar Agarmir Agmaer Agnar Agning Agnorith Agristyr Alabistyr Alding Aldis Alfarinn Alfhedil Algot Alistyr Allding Alof
+		Alvor Alvring Andistyr Andrelheim Andurs Angrenor Angvild Areas Argis Arkming Arnbjorn Arngeir Arnod Arnskar Arrald Asbjorn Asgeir Asgrim Aslfur Assur Atar Audmund Avulstein Badnir
+		Balbus Baldur Balfring Balgruuf Balimund Barirrid Barknar Baslod Bathmar Bato Batou Bedistyr Bedraflod Bedrir Beirand Beirir Belharza Belrand Benkum Benor Bersi Bittneld
+		Bjadmund Bjalfi Bjorlam Bolgeir Bolli Bolund Borgny Bormir Borri Borvir Botrir Bottar Brandr Briehl Brill Briring Brond Bronrod Brunwulf Brurid Bryngrim Brynjolf Brynjolfr Bulfrek Burd Calder
+		Carsten Christer Cristus Daglin Dagur Dathman Dengeir Derek Drahff Drennen Dryngheid Dunistyr Edwistyr Eifid Eimar Einarr Einarth Eitar Elgrim Embry Engar Ennbjof Eorlund
+		Ergnir Erich Erich Erik Erikur Erlendr Erling Esbern Eslaf Fafnir Falk Fanar Farengar Farkas Felldir Fenrig Finn Fjol Fjorgeir Fjori Fjorkvar Fjorrod Fjotreid Flinjar
+		Forstaag Fraki Frald Frik Frodnar Frofnir Froki Frorkmar Frothar Fultheim Galmar Garding Garthar Gauldur Geilir Geirlund Geirmund Gellir Gestur Gissur Gjak Gjuk Gloth Godrod Gogrek Golldir
+		Gondistyr Gonnar Gorm Gort Gralnach Graring Gregor Grimvar Grisvar Gromm Grunding Gudling Gukimir Gunder Gundlar Gunjar Gunmar Gunnar Guthrum Haakon Hadrik Hadring Hadvar
+		Haening Haesmar Hafid Hafnar Hagrad Hakar Haki Haknir Hakon Hallvaror Halof Halund Haming Hamlof Hamvir Hans Hanse Harald Hardin Hargar Harkon Harlaug Harrald Haskill 
+		Havilstein Heddic Hefadmir Heidmir Heifnir Heimskr Heimvar Heinrich Helgreir Helvard Hemming Henrik Herd Herebane Hern Hewnon Higil Hil Hirnir Hisin Hjar Hjoldir Hjornskar
+		Hjorunn Hjrondir Hlar Hlofgar Hloggar Hlora Hlormar Hoag Hod Hodlismod Hofgrir Hogni Hoki Holgeir Holger Holmar Honmund Honthjolf Horgeir Horik Horkvir Horm Horstar Hrargal Hrein Hridi Hrisskar
+		Hroar Hroggar Hrol Hroldan Hroldar Hrollod Hrolmir Hrondar Hrongar Hrothmund Hrundi Hulgarth Hunroor Hurg Hurnfing Hurolf Hylf Idlami Idolaf Igmund Ingmar Irlof Irnskar Irroke Istar Itar Ivar Iver
+		Jayred Jeek Jenssen Jervar Jesper Jod Jofnhild Jofthor Jolf Jolgeir Jollring Jomarr Jon Jorck Jorg Jorgen Joric Jorleif Jorn Jorundr Jorunn Julgen Jurgen Kai Kalthar Karl Keld
+		Khosey Kibell Kieran Kjar Kjeld Kjoric Kleppr Klimmek Knjakr Knud Knurguri Kodlak Kodrir Korir Korst Kottir Kraldar Kunthar Kust Kyr Lars Larthjar Lassnr Leifur Leigelf Lemkil Leofric Llewellyn Lod
+		Lodi Lodvar Logrof Logrolf Logvaar Lokil Lokir Lond Lorenz Lorkmir Lorod Lortheim Lund Lynch Lynoit Maering Manheim Mantiarco Markus Mathies Maul Mendel Mikael Mikhael 
+		Mogens Molgrom Mordistyr Mralki Narfi Nelkir Nels Newheim Niels Nikulas Nils Norring Odar Odfel Odmi Oengul Ogmund Olaf Olav Olfand Olfor Olfrid Ollrod Olmgerd Ongar Onmi Onmund Orgnar
+		Orgnolf Ormvard Orthjolf Ortis Osbert Pactur Pelf Peristyr Radd Raerek Raflod Ragnar Rakoslod Ralof Ranmir Rargal Regner Reinhardt Reistr Reven Reves Rhorlak Rigel Rigmor
+		Rissing Roberick Rodistyr Roggi Roggvar Roggvir Rolard Rolf Rolff Rolgarel Roliand Rorik Rorlund Rundi Rustleif Sabjorn Saerlund Saetring Sarnir Sattir Savard Shalidor Sibbi Siddgeir
+		Sifknir Sifnar Sigaar Sigar Sigurd Sigvatr Sild Sinding Sinmir Sirgar Sittar Sjarnfid Sjoring Sjorvar Skaggi Skald Skavnir Skeggr Skjoldr Skjor Skuli Skulnar Skulvar Snadir Snar Snedbrir Snilf Snilling
+		Snorreid Snorri Solaf Sold Sond Sor Sorkvild Stalf Star Steapa Steirod Sten Stenvar Stern Stig Storn Styrbjorn Styrr Sulvar Svartr Sven Svog Swyk Talsgar Thadgeir Thaer Tharstan Tharsten Theodistyr 
+		Thian Thjollod Thonar Thongar Thongvor Thonjolf Thonnir Thorald Thorek Thorig Thoring Thoriz Thorkild Thormoor Thorygg Throgar Throknolf Thromgar Thrud Thrynn Thurek Tobias Tolan Tolfdir
+		Tolgan Toralf Torbal Torbjorn Torkild Torolf Torsten Torvar Torygg Tove Trilf Tristastyr Tsun Tulvur Tymvaul Uhtred Ulfberth Ulfe Ulfgar Ulfr Ulfric Unmid Urfing Vald Valdar Valdemar
+		Valdimar Valdr Valgeir Valund Vanik Vekel Velfred Verner Vidgrod Viding Vidkun Vidrald Vigge Vignar Vigunn Vilkas Vilod Vipir Virgerd Virkmund Volk Vongvild Vorstag Vrage Vulwulf Warhaft Welleg
+		Wilhelm Wilmuth Wulfgar Wulfharth Wulfmare Wuunferth Ylgar Yngling Yngol Yngvar Ynir Yrsarald Ysgramor Ysmir Otalich Jarning Jakalor Jakolar Alfund Sahun Ordan Knarstygg Eolaf
+		Reuben Sameer Roban Kamlen Nazim Farziran Saddahil Alestu Amar Awata Bakti Bassa Bernado Bodan Burnham Chelok Cyna Darren Elour Elroy Everett Harrold Hasi Heizym Hosni Istah Jenses Jeran Jonsar Jorin
+		Kelad Khafiz Khofar Lacan Larenz Lennox Lewis Leyton Marcan Marlon Mason Melvyn Monan Nikael Othri Otto Passus Ramus Rekil Renash Rhenan Roger Rokun Ron Rulon Rutagio Salar Syron Taggar Thanik Tobba Torgett
+		Wiley Zanthus Zerik Arhom Armen Armin Arndon Berin Birahn Cama Camran Cassapar Dan Darnell Declan Domas Durus Erick Henderey Hoxley Izon Jal Janson Jaran Jarrad Jeskan Jobald Jospor Kalero Kalort Karis Kassad
+		Kerran Kojan Korin Lukad Nelan Neval Ranhad Ridar Riniso Roban Robyn Rogon Roland Ruben Russel Samay Samil Sandol Senar Serogan Sodeen Spalin Starron Sterran Tarom Torim Tralam Traleve Varnok Varzan Waylor Zalan Zaurac
+		Abah Abanilu Abazadar Abir Achel Adar Adit Afelir Afwa Ahad Ahiza Alasan Algredhen Almur Alusaron Amarz Amjeesh Amlith Amozhgar Anala Anyaq Ardeshir Arfedar Armand Armin Arthago Asadel Asjaila Ataf Atal Ator Awanan Azad
+		Azeel Azei Azzada Azzadal Bahadur Bahbiq Bail Balabar Bardun Basil Basir Baurus Behshusaron Bodean Borosir Brand Burh Carrod Chark Chrelm Cirroc Coyle Daracy Daron Darwesh Degmeq Delbar Delmar Demetrius Destri Dhakir Dinawan
+		Dorian Dudley Ehrib Ehshaz Endavar Endon Eshir Eustache Fabien Fahad Faharajad Fairuz Fakimall Falion Farrokh Farvad Fawazz Fawzi Feraj Fermudh Fintias Firas Firouz Franal Frink Gagni Gancolm Garrebh Garry Ghaffar Ghaninad
+		Githil Glanlian Glannison Gonnison Gor Gourdudh Guibor Hadoon Haekwon Hallin Haqmir Hasar Hayazzin Hedayat Hickim Hifa Hiwanan Hiwoud Hubalajad Ihlqub Ilden Ilwan Iminda Imrazon Isran Issal Jac Jahadar Jahan Jahhudah Jaleel
+		Jambi Javid Jawan Jawanan Jayeed Jelin Jucal Kahen Kalam Kalig Kalmuzan Kalvyn Kardudir Karun Kasal Kavsharz Kayd Kematu Khab Khafnir Khayr Khemzarq Khorajah Khudriran Kiarash Kintsel Kottiq Kouros Laqshua Lathon Lomaron Machael
+		Mahjid Majid Makdodd Mamhua Mamireh Mansour Marghrub Marsim Maziar Mazra Mazzeb Mehraq Mehrzad Meshouz Miharaz Mihrif Mirzad Mizhan Muahdi Muazel Mubdi Mubshabar Muhay Mulham Myame Nadshanam Nahroon Nammadin Namman Nannithon Naruk
+		Nazeem Naveed Navid Nayvond Nazzim Neeneban Nibar Nilthin Nimshat Nizran Orinthal Paldeen Parham Paulin Pehrash Perah Pharik Phazar Phazor Pierjean Praldyn Pranal Provlith Qamar Qanliz Qariar Qasim Qasrin Qusan Ra Raccan Rada Rahim
+		Raig Rajesh Rajmer Rakiin Ralu Rama Ramand Ramza Razul Rellian Rellus Renazh Rhabdanam Rinina Rissinia Robhemad Robiwar Roderick Rodoro Sabazh Sabir Sadben Sahabih Sahledir Sahmar Sakh Salima Sameq Samhudah Saryeh Sason Seral Shabhehm
+		Shalazad Shalim Shamar Shamir Shammin Sharokeen Shazeem Shelden Sorian Stenet Sukhidir Talrahal Talumaseb Tamandar Tamij Tarabar Taren Tarish_Zi Temzukar Thassad Timen Tohrz Tordaman Torline Trasteve Ubkhawan Udhush Ufa Unar Vander Varnas
+		Vharer Vhosek Vishaf Voa Volag Wayn Wilbur Yadugar Yaghoub Yahyif Yashamud Yashar Yata Yombira Yonul Youss Yvander Zabendan Zafrik Zagari Zakhin Zalan Zamyad Zandim Zawah Zenul Zerzhan Zihlijdel Zimar Zuladr Zulfan
+	}
+
+	female_names = {
+		Abelone Adisla Aela Aeri Aeta Agata Agna Agneta Agnete Agni Agnis Aldi Alea Alfhild Alga Alva Alvide Anekke Angi Anise Anja Anska Argi Ari Asta Astrid Aumsi Barri Beitild Bergljot Bergritte Betrid
+		Birna Bjartur Bodil Bolfrida Boti Brasteir Breya Brida Brina Britte Bryling Clarisse Dagny Danica Dorthe Drifa Drusba Edith Edla Eigma Eirid Eiruki Eisa Ekkhi Elda Elisif Ellya Else Emfrid Erdi
+		Eris Erna Evette Eydis Eyja Faida Fastred Fjola Fjori Fjotra Frabbi Fralia Freir Freydis Frida Fridrika Frilgeth Fruki Fryfnhild Fryssa Fura Gerda Gerdur Gisela Gisli Gormlaith Greidil Grelka Grelod
+		Grerid Greta Grete Gretolde Grosta Gwendolyn Haelga Haema Hafjorg Hamal Haran Heddvild Hefid Hela Helga Helgi Helgird Hermir Hert Hestla Hidar Hild Hilde Hillevi Hjolfrodi Hjorta Hoddreid Holmgeira Horski Hrefna
+		Hreirek Hroa Hroki Hrordis Huki Hulda Hyring Iddra Idgrod Igna Ilfhild Illdi Imsin Inge Ingjard Ingokning Ingrid Ingun Iona Irgnir Jala Jensine Jolding Jolethe Joldora Jora Jordis Kar Karita Karoline Katla Kili
+		Kintyra Kirsten Kjolver Kolfinna Lailla Lami Leidela Liesl Lillith Lisaa Lisbet Lydia Lynly Lyris Mabjaarn Macalla Maeva Malene Maren Margarte Margret Matlara Maven Memna Mera Merete Merilis Merta Mette
+		Mildrith Minette Mjoll Narri Nilsine Njada Nura Nurnhilde Olava Olda Olfeigr Olfina Olfwenn Ondi Oriella Orla Petrine Rangela Reylia Rigmor Rikke Ringvild Risi Rona Rostlogi Ruki Runa Samar Serana Signy Sigrid
+		Silda Siri Sissel Skjorta Sofie Sonir Sonje Sorli Sottilde Susanna Svana Svari Svenja Swanhvir Sylgja Tekla Temba Thaena Thalestris Thora Threki Throna Thunmund Thyra Tilde Tilma Tormir Tova Ulfrun Ulrika
+		Una Ursine Uthgerd Val Valerica Vigdis Vori Wibke Ygfa Ysolda Anka Burbet Eoram Jakidi Narvilda Hilvira Grigerda Greca Aubykka Alona Amanta Ana Ania Anrei Araget Ashamti Braga Cassanda Ceryl Challa Chiri Diledi Durna
+		Elongel Enie Ferida Geraldine Hakit Hebera Holova Isru Isodi Jalienna Jasipa Joquala Josantha Kahali Kulsora Lanika Letty Lillet Luna Lya Meki Miku Mirya Monyca Nebi Netta Palona Petry Ralti Reyan Royice Sabine Seneka
+		Sharli Thuyya Tirona Tisia Toraaka Zarame Zoay Belli Camaia Cora Danwendy Domiah Doure Eleanor Elone Elwena Ennah Faroja Farrah Giana Hartise Hasley Irlay Jalian Jenna Jenni Jolanna Jorli Komira Lanette Marcella Marilie Marlene
+		Minissa Neanna Ophelia Procuta Rasna Reema Rette Rinanda Rojanna Seinda Shayla Shelley Sogora Sotalya Tadarida Tama Tammacey Tanyelie Tattara Viona Yishana Yokka Zelia Abadi Abradih Abrar Adara Adeena Ahlam Ahnu Althah Althineh Alusannah
+		Alzabeh Ancola Angeira Annique Anora Aribah Arjen Ashanta Ashiyana Atefah Ati Aureylah Azazh Azeeda Azoufah Bailiyya Baimora Balan Benizir Berea Beriana Berwareh Blandine Boussa Braith Braithayidra Branwadai Branwen Brazzia Burwa Casmen
+		Chalone Chanas Chanisa Cinnabar Clarice Clessia Corda Dahlia Dandsa Dersaja Dersimeh Dhola Diwa Diwaneh Durdira Ehteram Eluza Emmita Ena Enjaadia Enna Erla Evangeline Fabienne Fabrelle Fada Fadahal Fahdah Faleen Falisa Fanouda Farzazha
+		Felra Ferzhineh Gervaise Ghazafran Ghazaleh Gianon Gilame Gisele Gulahveh Gwenefta Gweneylah Gwenna Habasah Hadaileh Hadonia Hafsa Hafseta Haidarah Halana Halelah Hanniel Hawnazh Hayaia Hazzenie Hefassah Hillid Hironi
+		Hisolda Huma Hussonia Ibrula Ilafa Ileh Irvina Isaadiah Isalde Isolde Iszara Iszreena Izzayya Jada Jalaima Jalinah Jaline Jarla Jawna Jayri Jearl Jessmyn Kahaba Kaliyana Kanadiy Karriel Kasura Katayoun Katie Khorsheed Khorshina Kuah Kushorithi
+		Laire Lashon Laurel Lette Lidyah Lidyeilah Lolann Luah Madara Maggie Mahiba Mahtab Mahuza Maj Majdawa Makar Mamidah Mamiyeh Manizheh Marbita Mariah Marubel Masna Mehrafar Mehry Memyan Midyah Milta Minerva Miniel Mirisa Mizrayda Monsayeh
+		Moyaltha Muheh Mulimah Munya Mura Nabeenim Nadofah Nadwa Nadya Nafefta Nahsirih Naifa Naifineh Namasah Namsah Nanine Nari Narine Nazmi Neenia Nemina Neminda Nenwirah Niha Nirifa Nisha Niyoush Noushafar Nuwarrah Oiarah Olerah Orlsheh
+		Parvana Parvaneh Parveeya Patia Penwe Perinazh Qarafa Qasneta Rahama Rajdara Ranarwa Rasaba Rayya Rhiannon Rienna Ritabeth Rithussah Riza Roshinia Roudi Runeh Saadifa Sabileh Safiyeh Saissana Saissiana Sakaneth Saliah Salma Samaha
+		Sariah Sarinne Sarvusna Sayda Sayma Sehmasah Senyndie Shadeeta Shafaye Shaffy Shardaza Sharyaddan Sheedeh Shelmar Sherveen Shuhasa Sinia Siona Taranneh Tariyeh Taviah Tavofi Tavrina Tenvi Tenville Tharayya Tharlas Thelmar Tierra
+		Tirrassa Todwendy Tomaka Toubeh Tourima Vena Wardiya Wiya Yarah Yarana Yiralai Yisraza Zakma Zaria Zariya Zayya Zeira Zell Zibeh Zohreh Zorallah
+	}
+	
+	dynasty_of_location_prefix = "dynnp_do_"
+		patronym_prefix_male = "dynnp_do_"
+		patronym_prefix_female = "dynnp_do_"
+
+		#prefix = yes
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+	
+	mercenary_names = {
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" }
+		{ name = "mercenary_knights_raiders" } 
+		{ name = "mercenary_knights_sellswords" } 
+		{ name = "mercenary_knights_brotherhood" }
+		{ name = "mercenary_knights_gallants" }
+		{ name = "mercenary_knights_sellswords" }
+		{ name = "mercenary_knights_brotherhood" } 
+		{ name = "mercenary_knights_gallants" } 
+		{ name = "mercenary_longboat_legions" coat_of_arms = "mo_longboat_legions" } 
+		{ name = "mercenary_haafinheimer_host" } 
+		{ name = "mercenary_brotherhood_wolf" coat_of_arms = "mo_brotherhood_wolf" } 
+		{ name = "mercenary_reavers_lost_ark" coat_of_arms = "mo_reavers_lost_ark" } 
+		{ name = "mercenary_order_camel" coat_of_arms = "mo_order_camel" }
+		{ name = "mercenary_false_jarl_company" coat_of_arms = "mo_false_jarl" } 
+		{ name = "mercenary_brotherhood_bear" coat_of_arms = "mo_brotherhood_bear" } 
+		{ name = "mercenary_company_veterans_of_the_marches" } 
+		{ name = "mercenary_knights_raiders" }
+		{ name = "mercenary_knights_warband" } 
+		{ name = "mercenary_knights_sellswords" }
+		{ name = "mercenary_order_camel" coat_of_arms = "mo_order_camel" }
+	}	
+}
+
+
+name_list_rimcat = {
+
+	male_names = {
+		Abjhad Abal_jo Abiznaz Aburapli Adainji Adainurr Adaishir Adibazal Adubaer_sa Adusharu Ahainar_jo Ahirunz Ahmanaz Airal Aishar_sa Aksaz Akkhuz_ri Akkuz Akrah Alathur Amarbak Amargon 
+		Amartash Amu Anat Andal_ma Anil_do Aranak Arbhuz Ariashurr Arozlai Arukhaz Arusha Asal_jo Asalkin Athask Atirr Azalil Azarati Azazi Azbiasur Azbishan Azbishaz Azdanten Azezin Azimaz 
+		Azimsun Azin Azurdat Azzaril Baadargo Baezad_dro Baezad_jo Bahluk Baizad Bakhig Bakhig_ja Bakhum Balag Balku Bamak Barusil Bashshi_ra Berantin Bezur Bhisha Bilam Birakh_do Birkhu 
+		Bizahad Bizalar Bizurr Bizuruna Bulag Bunul Burakgum Buzul Cherim Chezan Dablir Dahlima Dahnkin_do Dalac Dalag_dar Dalsa  Darak Dazur Dhanim Didakah Dirsherr DroBarri DroQanar 
+		DroSakhar DroShavir DroTasarr DroZah DroZaymar DroZhirr Drofarahn Dromarash Droshanji Drozharim Dro_Dara Duharr Dulan Dular Dulini Duzal Duzal_ja Eilam Eilun Eluzard Elzhar 
+		Enak Enik_ja Eraral_dro Esan Ethad_sa Ezzag Faalar Faren_dar Fahurr Famazar Farul Fazaddu Feduzdal Feluz Fezdal Fimaz_ra Ghadar Ghadffer Gharesh_ri Habais Hadam_do Hadaz Haibak Haibarr
+		Hainab Hainat Hairan Halakalal Halako Halaral Halash Halinad Halinargo Halinjirr Halinuk Hamansu Hamiran_do Hamus Hanillal Haraddal Harashur Harzad Harzdak Hassiri Hazad Hazak Hazazi 
+		Hazaznaz Helnor Hilan Hillaz Himalirr_dar Himalzur Himathati Hirish Hizdak Hizurrdo Hunal Hurzjhad Huthak Iduthal Iffech Ilagurr Indal Indalhur Indur_sa Inisashu_jo Inishez Iragahr 
+		Irgazdul Irgun Izandar Izandskar Izaniran Iziran Izishir JBaasha JDato JDhannar JEeja JGhasta JHanir JJarsha JJazha JKara JKier JRaksa JRasha JSaddha JZamha JZhirr 
+		Jbaana Jbari Jdarr Jdarzi Jdatharr Jffer Jkur Jlasha Jmhad Jriska Jskar Jzaraer Jzargo Jzhar Jzidzo Jzin_Dar Jzuraar JaFazir Jalan Jarakh Jaruk Jherahn Jherak 
+		Jilan_dar JoRen_Dar JoThri_Dar Jobasha Jobasha_do Jodhur Joshur Joto Jul_dar Jurak_dar KSharr KSharra Ksirr Kagadur Kagun Kalgur Kalim_ja Kamjo Kamu Kankhu Kanniz Kanoo_sa 
+		Kansur_jo Kanzin Kargand Kargnargo Karpu_sa Karzik Kasan Katinal Kaushjhargo Kaushur Kazagh Kazbur Keem Kesh Khad Khakidan Kharez Khari Khariz_ja Kharjo Khasar_dro Khasha Kheriwa 
+		Khunzum Kigum_dar Kikurr Kirun Kiturr Krin Kul_ja Kulan_dro Kuldargo Kumurr Kunerr_jo Kuralit Kurnamu_do Kurnasiran Kusirnaz_dar Laknar Lakurr_ra Lanbaar Lansur Laurri Linihar Linihi
+		Lwef_Dim MAiq MShan Mdasha Mdesi Mdirr Mharra Mjaddha Mnashaar Mnashi Mraaj_Dar MaDara MaJidarr MaKhar MaRaska MaZahn Madran Majhad Majidid Marandru_jo Marashirr 
+		Matasarr Mazaddha Mazaka Mabit Maelen Maesar Magarak Magdundim Magundim Maguzas Mahiralit Mahirr Makam Makid_ja Makkhzahr Makmargo Maladdak Maladdiq Malathan Malathum Malihaz_do 
+		Malirzzaka Malisu Malizluz Malkish Manadzur Mani Maniz Manradh Manuk Marafi Marnub Masrabal_dro Mathad Mathal Mazag Mazalish Mazar Mazha Mazil_jo Mazilbin Mazirul Mazirzin Mazou_dar 
+		Mazram Mazuk Mazurr Mehdir Mezha_dro Miczen Miglah Mikarash Mikarur Milaggul Mim Minal Minshur Mirarbinat Mirarkier Misapan Misar Mishdu Mizaraben Mizarbuk Mizarjirr Mizashur Mizibir 
+		Mizibuk Mizul Mohkhu Moj_argo Mojakuz Mulabez Mulabzag Mulamin Mulamurr Munalur Munanir Munyat Muram Muramskar Murdan Muriman Muruddal Muslabeh Muslabliz Muzur Nabal_dar Naburr Nadara 
+		Nagaddu Nagh Nakkhu Nakmargo Nakra Nanaglar Narbhulad_do Narril Nasimar Nasir Nezashun Nibihu Nirajlar Nulk Nur Nur_dro Nurad Nurud Nuzhi Nuziwa Nuzuk Oblan Ohamatur Pacrooti Palkun 
+		Palmur_dra Panizir Pillazh Pinar Pinumur Puzhbar_jo QaDar Qatesh Qa_Dar Rvanni RaHabasi RaJahirr RaJhan RaKarim RaKothre RaMhirr RaSava RaTesh RaVirr RaZahr RaZhid 
+		Radarri Radirsha Rajhera Rajiradh Rajirr Rakheran Ratassa Ra_shadda Rabamak Raban Radash_dar Ragariz Rainazh Rakgul Rakhad Rakhhi Ralkash_dar Ranarr_Jo Rathsaz Rathul_do Ravius
+		Ravzo_dar Raynan Razigad Razum_dar Razur Rehan Ren_dro Renzaiq RiBassa RiDarsha RiDumiwa RiJirr RiShajirr RiVassa RiZaadha RiZakar Risaad Rishalur Rizaadzin Ribazh
+		Rinam Rinami Runik Runtash SBakha SRadirr SRava SRaverr SRenji SVandra SVanir Sdrassa Sjash Skinrai Srabbi Srashi Srathad Srathra Srazirr Sshani
+		Svanez Svirr Sadir Sabanurr Sabashhad Sabashur_dar Sabra Safir Sahalu Sahar Sahaz Sahban Salkalar Salku Sallit Sallunas Samamar Samardan Sanadarin Sanaz_dro Sandu Sansen_do
+		Sanzan_dar Saparr Sarshar Sattah Satuhaz Savar Semusa Senadon Senun Serarbar Shajal Shaasharr Shajamah_ja Shalapaar Shalirr Shalubar Shamal Shamuniz Shan_ra Shansi_sa Shantin
+		Shapal_jo Sharad Sharaddargo Sharazka Sharsheh Sharul Shelad Shelzaka Shikruz Shiladur Shiniraer Shinizahr Shintah Sholani Sholas_do Sholbiri Shulargo Shumishun Shuzaad Shuzul
+		Sibud_ja Sigul_jo Silat Sind Subid Suhr Tabil Tadhargo Tahar_dar Takaman Takanasur Takanazh Takanradh Tamshur Tand Tarak Tarlar Tashmin Tashpir Thalar Thengil Therris Tishi Touraz
+		Tubidan Tulashurr Turan Turshan_dar Turuk Tuzil_dro Ubraz Ulularr Ululmalit Unnur Urjabhi Urjen Urjorad Uzarnaym Uzarrur Uzernurr Uzurnarr Vabin_ja Valirr Vasha Vashai Vashpar
+		Wadarkhu Whickmuz Yaharati Yan Yanabir_ja Yanalir Yandzir Yazhin Yazhin_dar Yenadar Yenar Zababi Zaban Zaban_ma Zabka Zabluk Zadabal_ra Zagun_ra Zahdarr Zakbar Zal_sa Zalkir Zamhirr
+		Zan Zandur Zarbidiran Zargal Zarum Zarziri Zaydak Zemiran Zhajhassa Zharahn Zhibaral Zhiranaz Ziakar Zibam Zihlran Zino Zoaraym Zur Zuzik Darloc Birjhan Zidal Zemirum Ahmanra Silat
+		Aixnieras Auznieras Aixie Aixras Aixen Auzilas Auzien Asuras Aenirix Azurix Azurien Amurix Ainieras Akzarein Aksuladri Benieras Benirix Balurix Balrien Bhaalras Bhalarix Boixen Bozrien Belalarn Boirix Berxidue Bariyas Bellas Baixien Bazhferi
+		Cainieras Cavirien Caravershu Cairshu Carsidue Caxie Caixen Cazuras Czarien Czanieras Cthoriyas Cthizen Chanidri Covalaxhi Czovras Deixie Deirak Deishidri Dorras Deshferi Dersidri Derallas Demorien Decaladri Demoladri Dzothizen Dzorras Dzofien Dishalarn Davirferi
+		Eixras Euzadri Euralas Eucladri Emothizen Ezalarn Evirlas Eviryas Enirvas Enirix Ekras Ekxan Evolaxhi Eidreri Einieras Fershu Ferxidue Forlarn Forxan Ges Ghafien Galaras Gasiaxhi Gerslien Gaidri Galixan Gemoraj Genolaxhi Ginieferi Ghaleri
+		Halien Hecarshu Hecateri Havirlas Hersien Hosarien Hyras Hyrix Hallas Hashferi Hseixan Havimferi Hashadri Helidue Hajaras Heizho Kavrshu Khaie Khalarn Khodreri Koniesidue Khovirlas Khorien Khelxan Kilxan Kzofien Keshalarn Keshalaxhi Kejaras Kamaraxhi Keinidri 
+		Javirlas Jhovarak Masaxhi Movarien Mitsaferi Mitalaxhi Miterix Maladri Morallas Merxan Malixan Meirras Mayaxhi Moniyas Mexien Navidri Novalarn Noleri Nafsidue Nafien Novoras Naflas Nothizien Nezuras Noirix Nakarras Nozvien Nayaxhi Nomiyas Nidri
+		Oliaxzhi Ouixan Ostaferi Orsidue Obelix Oerras Polaxhi Pazvidri Polarix Polxan Pontaleri Poixen Pentieras Partharas Pyras Qavirlas Quznieras Qixras Qixen Quxien Qenirix Qzurein Qkzarien Qersidue Qvolaxhi Qzofien Qinieras Qhaleri Qosarien Qothizen
+		Res Raleri Ridri Rayafien Rayalarn Reisidue Rayofien Ranieras Rayaleri Raxie Rezlidue Rezaxhi Ravidri Reizho Remerien Dinieras Ves Kalien Savirien Chorak Vershu Versidue Shaie
+		Mishaxhi Xhaferi Yirix Tseixan Chouko Kalarn Rallas Saviras Savien Savidri Tseien Saveri Rallalien Diniexan Saviaxhi Xhaflas Versidri Silarn Dinieferi Kalilarn Sidlien Savirix Kaleri Vesras Verxan
+		Sidrxan Verlarn Mishferi Rallaras Savirlas Versien Mislien Kalahaxhi Diniesidue Xhalien Savxan Sidri Versiaxhi Versirix Mishidri Saviridri Sidreri Tseilas Dinilarn
+		Mishalarn Misdue Xhalarn Savsidue Kalidue Verslien Verien Tseidue Kalixan Kalaras Tseieri Verdue Savirferi Tseiferi Ralxan Xhafsidue Savirlien Xhafien Ralien Tseisidue
+		Dinieien Sidien Savirsidue Xhaien Kalasidue Sien Xhaein Sidsidue Mishsidue Nayaras Natraj NavajNaysidue Asaph Verras Veyzho Hanzho Vajaras Variyas
+	}
+	
+	female_names = {
+		Aba_daro Abadusa Abahrimaya Abandarra_la Abanji Abelaya Abenil Abernura Abernura_dra Abhuki Abizah Abuana Adabibi Adajadhi Adanja Adarahai Addhiranirr Adharama_ri Adharanji Adhazabi
+		Adusa_daro Aelif Afehaba Affri Ahainaz_daro Ahathka Ahdahni Ahdarji Ahdni Ahdri Ahirneriba Ahjara Ahjazda Ahjisi Ahkari Ahmuna_la Ahnarra Ahnassi Ahndahra Ahnia Ahnisa Ahnissi Ahzini
+		Aihrima Aina Aireh Aisarbana Aitrabhi Ajira Akethi Anala Anbi Andarri Anisha Anjari Anurassa Arabhi Aravi Arimaia Arrunirai Aruda Arumarr_dro Ashalki Ashidasha Ashni Atahba Atahbah
+		Athadda Atharra Atrabhi Ayisha Aza Azahrr Azartah Azbi_ra Azdazi Azeriba Aznabi Aznara Azreshilla Azum Azuni Azuruna Badali Bahdahna Bahdrashi Baimarri Baissa Bakkhara Barnibi Bataba
+		Bayya Bazali Berriza Bezeni Bezera Bhisha Bhusari Bilunna Bishanti Bisussah Biya_daro Bizinda Burri Butaba Chirranirr Chirsusah Dadazi Dagila Dahari Dahleena Dahnara Daifa Dakharri Dancer
+		Darali Dazshi Dehdri Dehnarra Dethadda Dimarra Dordura Dortabi DroNahrahe Dulaya Dunurra Durrali Duzi Duzuni Ehtayah Eilara Ejukki Ekapi Elamusa Elenabi Enarri Ensa_ko Ensi Erdama
+		Ernabi Erranza Erunirai Eshaba Eshmini_ma Evani Ezipa Ezreba Fabasi Fada Fada_daro Fadama Fahana Falana Fayna Fedura Felari Felira Feluni Fezreba Fihada Fijirra Filadi Habasi Hahakil
+		Haheiba Hahnissi Haina_daro Halitazi_dra Halani Hamira Hanali Hani Hanubina_ko Harassa Hariba Harrani Hashuri_daro Hatiha Hayya Hazari Heathre Hehayda Heleni Hensora Hezura Hihainaz Himalla
+		Hiyaza Hizala Huddima Hulinda_la Idhassi Igarri Ilanadzeh Ilara Ildani Ilekama Inama Inerri Inorra Irkki Irnadza Irrki Iruzda Ishalga JReeza Jainda Jalamya Jilarga Jiluza Jimila Jiyya
+		Juluda_daro Jurairia Jurana Juranda_ra Jurni Kaasha Kada Kadalura Kala Kalari Kalarra Kamunara Karina Kasafia Kashapi Kauzanabi_jo Kazargi Kazarri Kazdi Kazirra Kazra Khaba Khalajo
+		Khalama Khali Khalima Khamira Khamuzi Khana Khanni Khara_ko Khasabi Khaygi Khayla Khayradani Khazura Khezuli Khinjarsi Khizuna Khurga Khurra Khuzi Kiasha Kihrasha Kirai_la Kiseena Kishna
+		Kishashi Kishni Kishra_do Kisimba Kisisa Kubiba_ma Kunamu_la Kunira_daro Kurdi Kurshara_daro Kuzashi Kuzda Kuzrni Kuzulaza Lamanu Laurri Lazami Lesspa Lusha MKai Mabeba Maedarri
+		Maezalaya Magdi Mahazi Maila Majdi Malazu Malbirra Malira Mamaea Manabi Manarni_la Mansa Marali Marami Mararanza Marasadra Marashi Marazira Marravar Masarha Masura_dra Matani
+		Matbia Mathi Mazduni_daro Mazu Melae Merani Merani_dra Mideyah Milaya Milira Mina_diir Minurta Mirani Miranibi Mirari Mirudda Mizaba_ko Mizahabi Mizrali Mubayda Muhada Mulama Munaea
+		Mura Muzuli Naballi Nabina_ko Nabira Nadahi Nagarra Nahsi Naiba Najirra Nakala Naluza Namu Naradani Naragara Narahni Narguli Narrama Naruza Narzura Nayya Nazala Neshtat Nirai Nisaba
+		Nizil_dar Nudabibi Nuhunza Nuifa Nuledhi Nulla Nurisipa Nuthanda Nuzalu Odaini Ohama Oonama Paadeza Paaniir Paawelaya Palami Pamaea Pamunara Panisa Pinirai Pirharri Pulaya Pulemu Pulu
+		Punabi Punala Punamu Punirai Qajhirr Razaym Razhinda Rabeba Rabinna Rabiza Raehsi Raeififeh Raerabhi Raezargi Rahiba Rakalu_daro Rakkhiza Ranabi Ranabia Rashiha Rathumi_la Rayfa
+		Razashi Razila Rejmina Riba Rihiri Rilbirri Ririna SKrivva Sfara Sjirra Skasha Smirra Sthasa Sabani Sabarapa Sabibi Sadaifa Sahira_daro Saifa Salita_ko Samaea_do Samati
+		Samati_ko Samsu Sanabi Sanobani Sanua_la Sapila Sarirna Sarnibi Sashawi Sayya Sebazi Sena_daro Senamu_daro Sepaea Serabhi Sezali Sezera Shaad Shaba Shabani Shadazi Shadeya Shadura 
+		Shadya Shalar Shamada Shamaea Shamara_ma Shamiri Shandi Shara Sharwa Shashara Shasirba Shausa Shavari Shawia Shazah Shekestra Shiba_dra Shilaya Shimsamu Shirai_ma Shivani Shodara 
+		Shomara Shonsora Shoshmina Shotherra Shumiri Shunari Shuni_daro Shurami_dra Shuravi Shuzura Sibati_dara Sihada Silezu Silurra Sindabi Sobani Sumaea Surasha Surdu Suzabi Tahadi Tahara
+		Tahayda Takhiri Talasma Tamaya Tamu Taranbari_daro Taranza Tarrami Taseena Tashishi Tasisa Tazadra Tazia Tebeba Thahala Thahiri Thalara Thalinfar Thanala Thathali Thazahrr Tinti Tirusa
+		Tohiba Tsabhi Tsajadhi Tsalajma Tsalani Tsamabi Tsamara Tsani Tsanji Tsarrina Tsavani Tsavi Tsazrebi Tsigara Tsigila Tsiya Tsramla Tsrasuna Tsrava Tsrazami Tukhari Tulira Tumira Tunasi
+		Tunsanti Turapsu Ubaasi Udamaji Udanta Udarra Umisashi Unishi Unjara Unjasi Urbani Urilumezi Urizali Uzipa Vabashi Vahara Vaifa Vajhira Valashi Vanjirra Varisipa Vasanha Vathira
+		Yabizah Yahirai Yahiri Yamaea Yamanu_ko Yana Yansun Yanu_ma Yasana Yazita Yenabi Yushi Yutahbah Zabani Zabdi Zabhila Zadai Zadala Zaeri Zahanabi Zaharai Zaheida Zahra Zahraji
+		Zahrasha Zaina Zainabaza Zainjhad Zairan Zairuni Zaizami Zajinni Zalapu Zalar_do Zalasu Zalayza Zalema Zalinra Zalirra Zalmimi Zalurrah Zara Zayansora Zayaza Zaynabi Zayshara
+		Zazabhuki Zazanisa Zebatba_ko Zebba Zenira Zeria Zeriba Zessura Zetisha Zibakka Zirani Zithana Zithiri Zukhara_daro Zulana Zunala Zurana Zurka Sezdi_dra Tuiza Zemmarga Shodura Naihana Dabani Daini Khaiffi
+		Aiata Auziata Asurita Astara Aksata Akiara Aixnis Aleiwes Aleira Agatis Aiawes Adrera Amiara Axmis Ainis Beiwes Benata Biwes Bolera Beliera Bozwes Barwes Biara Biliara Biata Beshwes Beshara Bersis Boniaes Bomiara
+		Cavata Caixata Canita Caywes Corwes Catnis Caira Ciawes Cita Czunita Czarara Czaris Coveita Coira Cora Daria Dveta Demis Deira Demoira Dalwes Dvora Dvonis Devora Dezrata Dezraes Dia Dis Diara Dies Dzara
+		Evata Ekiara Elita Eira Eaes Eviata Egis Eliera Elis Ekais Eidis Emata Emoleira Ekara Evora Fiata Faiwes Fanis Flita Fora Fara Flara Fliata Fotis Gaera Goris Govata Gomiata Gomara
+		Heiwes Haita Hanis Heira Hara Haikis Harara Hetara Helita Homia Homa Hosta Horia Hora Haria Hariata Hokia Hokiata Hesteis Hecteis Herata Hetita Hectis Hexis Hexia Hexa
+		Iria Igis Imiata Ivara Imata Igeira Ikawes Iais Jata Jiawes Jis Jamera Jinis Jora Juniera Kita Kima Klia Klara Klera Kleida Keira Kowes Khalwes Khorata Khora Kamara Kamora Kamis
+		Ovara Ovira Ovis Omiera Onida Pieta Palara Piara Pata Parota Pamara Paxia Paxis Phoxis Phoma Qata Qaxita Qanis Qajita Qis Qvata Qara Qzora Qzeis Qiwes Qayara Qayira Qexia Qhalara Qhalisa
+		Rvata Reita Reis Remis Ranis Renita Rtis Rtira Rezara Rezira Rayala Rai Roni Romia Svata Sara Saita Sokis Sorwes Seira Skara Skarwes Steis Sumeis Sviawes Somis Stara Stra Soliera Seshara
+		Tara Tviata Talis Tamis Tilis Tis Tiara Tera Tetwes Tetis Xis Xymeira Xara Yara Yaris Zorwes Vata Leiwes Kiara Ganis Lita Geita Lira Leira Gaes Giaes Geira Vhysradue Viawes Gis Kiawes Viata Kiata Kiwes Kais Lera Leis
+		Liara Liasa Liata Liais Vais Viara Viaes Kara Kis Niaes Xelara Amata Hogara Lara Dannis Pladais Nesolis Qhoveliaes Qhovzamis Giranis Zaeranis Eltara Czuzana Czudoxia Deleia Egleida Tanis Donis Kloliexis Lalexis Jarexis Delixada  
+	}
+
+	dynasty_names = {
+		"dynn_Haraima" "dynn_Kukar" "dynn_Kudavi" "dynn_Raispoor" "dynn_Mahmubiri" "dynn_Mahmaoni" "dynn_Mahmabiri" "dynn_Hammuspoor" "dynn_Raibiri" "dynn_Mahspoor" "dynn_Kikar" "dynn_Raimanni" "dynn_Kaispoor" "dynn_Kirabi" "dynn_Rainai" "dynn_Kioni" "dynn_Raioni" "dynn_Kinai" "dynn_Robiri" "dynn_Rairabi" "dynn_Raivandi" "dynn_Khaspoor" "dynn_Saoni" "dynn_Mahkar" "dynn_Soloni" "dynn_Soltani" "dynn_Khakar" "dynn_Solvandi" "dynn_Kispoor" "dynn_Tavakbiri" "dynn_Mahmaspoor" "dynn_Tavakdavi" "dynn_Tavakmanni" "dynn_Tavakoni" "dynn_Tavaknai" "dynn_Tavakrabi" "dynn_Tavakvandi" "dynn_Zabiri" "dynn_Zavakbiri" "dynn_Zaoni" "dynn_Zavakmanni" "dynn_Rospoor" "dynn_Zavaknai" "dynn_Mahmukar" "dynn_Kaikar" "dynn_Hammakar" "dynn_Zavakrabi" "dynn_Zavakvandi" "dynn_Tavanarabi" "dynn_Hammadak" "dynn_Tavaham" "dynn_Tavadak" "dynn_Tavani" "dynn_Hamak" "dynn_Rahirami" "dynn_Rahirak" "dynn_Rahira" "dynn_Raikar" "dynn_Mahmata" "dynn_Mahma" "dynn_Mahmadani" "dynn_Mahmadan" "dynn_Bahmana" "dynn_Mahmadar" "dynn_Barukar" "dynn_Mahaskabus" "dynn_Mahabus" "dynn_Hammabus" "dynn_Hanatok" "dynn_Harabus" "dynn_Anbus" "dynn_Janabus" "dynn_Mahaska" "dynn_Shahan" "dynn_Shahir" "dynn_Shakar" "dynn_Shamnin" "dynn_Shabus" "dynn_Nahaima" "dynn_Nahbiri" "dynn_Naheima" "dynn_Nahdavi" "dynn_Nahir" "dynn_Nahkar" "dynn_Nahmanni" "dynn_Nahmin" "dynn_Nahnai" "dynn_Nahoima" "dynn_Nahoni" "dynn_Nahrabi" "dynn_Nahspoor" "dynn_Nahstae" "dynn_Nahtani" "dynn_Nahuima" "dynn_Nahvandi" "dynn_Nahan" "dynn_Nahbus" "dynn_Nahyima" "dynn_Ahirak" "dynn_Harahir" "dynn_Kuhir" "dynn_Jakar" "dynn_Mahmuhir" "dynn_Zavakmim" "dynn_Zamim" "dynn_Hammamim" "dynn_Hammumim" "dynn_Kaimim" "dynn_Khamim" "dynn_Mahmamim" "dynn_Mahmim" "dynn_Barakar" "dynn_Mahmumim" "dynn_Samim" "dynn_Solmim" "dynn_Sirak" "dynn_Sarak" "dynn_Rotand" "dynn_Mahtand" "dynn_Hammatand" "dynn_Satand" "dynn_Soltand" "dynn_Jaspoor" "dynn_Hammamin" "dynn_Amnin" "dynn_Zakar" "dynn_Tavaktand" "dynn_Baratand" "dynn_Barutand" "dynn_Zavakkar" "dynn_Tavakmin" "dynn_Rohir" "dynn_Zahan" "dynn_Mahmutand" "dynn_Mahmatand" "dynn_Kairabin" "dynn_Mahrabin" "dynn_Zamnin" "dynn_Solrabin" "dynn_Hararabin" "dynn_Jamnin" "dynn_Hammaspoor" "dynn_Raihir" "dynn_Kirabin" "dynn_Kurabin" "dynn_Hammumnin" "dynn_Mahmarabin" "dynn_Mahmurabin" "dynn_Zarabin" "dynn_Barurabin" "dynn_Bamarabin" "dynn_Mahmahir" "dynn_Hammarabin" "dynn_Mahir" "dynn_Aoor" "dynn_Kaimnin" "dynn_Khamnin" "dynn_Akar" "dynn_Zaoor" "dynn_Soloor" "dynn_Sioor" "dynn_Mahmuoor" "dynn_Mahmaoor" "dynn_Tavakkar" "dynn_Hammuor" "dynn_Kuoor" "dynn_Baraoor" "dynn_Mahhir" "dynn_Sihan" "dynn_Simnin" "dynn_Bamaoor" "dynn_Baruhir" "dynn_Arak" "dynn_Baruspoor" "dynn_Zahir" "dynn_Mahhan" "dynn_Zavakoor" "dynn_Zavakhir" "dynn_Mahmahan" "dynn_Zaspoor" "dynn_Mahmamnin" "dynn_Bamakar" "dynn_Kimnin" "dynn_Zarak" "dynn_Tavakhir" "dynn_Rorak" "dynn_Mahmuhan" "dynn_Rairabin" "dynn_Rairak" "dynn_Mahmumnin" "dynn_Solkar" "dynn_Kairak" "dynn_Mahmnin" "dynn_Aspoor" "dynn_Solhir" "dynn_Hammarak" "dynn_Barurak" "dynn_Hararak" "dynn_Zavakspoor" "dynn_Jarak" "dynn_Barabis" "dynn_Bamabis" "dynn_Khahir" "dynn_Romnin" "dynn_Zavakbis" "dynn_Baraspoor" "dynn_Rohan" "dynn_Jahir" "dynn_Tavakbis" "dynn_Raimnin" "dynn_Mahmubis" "dynn_Samnin" "dynn_Sahir" "dynn_Kibis" "dynn_Hammubis" "dynn_Khabis" "dynn_Harabis" "dynn_Hammurak" "dynn_Barumim" "dynn_Sikar" "dynn_Baramim" "dynn_Tavakspoor" "dynn_Ahir" "dynn_Riha" "dynn_Haraoima" "dynn_Kaiyima" "dynn_Harauima" "dynn_Baruoima" "dynn_Hammueima" "dynn_Kihir" "dynn_Bamaeima" "dynn_Sioima" "dynn_Bamaima" "dynn_Solspoor" "dynn_Saeima" "dynn_Roima" "dynn_Raioima" "dynn_Mahuima" "dynn_Mahmaeima" "dynn_Mahmueima" "dynn_Hammukar" "dynn_Kiyima" "dynn_Jaeima" "dynn_Zavakima" "dynn_Baruyima" "dynn_Zavakyima" "dynn_Hammubus" "dynn_Barubus" "dynn_Solbus" "dynn_Sibus" "dynn_Sabus" "dynn_Khahan" "dynn_Ahan" "dynn_Abus" "dynn_Barabus" "dynn_Mahan" "dynn_Bamabus" "dynn_Kaihan" "dynn_Tavakbus" "dynn_Sakar" "dynn_Zabus" "dynn_Robus" "dynn_Kihan" "dynn_Raibus" "dynn_Mahmubus" "dynn_Hammuhan" "dynn_Jahan" "dynn_Baramnin" "dynn_Barahir" "dynn_Raihan" "dynn_Mahbus" "dynn_Barahan" "dynn_Zavakhan" "dynn_Hammahan" "dynn_Kibus" "dynn_Baruhan" "dynn_Sahan" "dynn_Khabus" "dynn_Barumnin" "dynn_Jabus" "dynn_Tavakhan" "dynn_Solhan" "dynn_Bamamnin" "dynn_Hammuhir" "dynn_Harakar" "dynn_Saspoor" "dynn_Solmnin" "dynn_Hammahir" "dynn_Rokar" "dynn_Sispoor" "dynn_Adusa" "dynn_Bhasha"
+		"dynn_Sutakhrass" "dynn_Isokhrass" "dynn_Vobiliit" "dynn_Zegakradi" "dynn_Fekradi" "dynn_Sutakradi" "dynn_Shiwahtith" "dynn_Jagesh" "dynn_Mezubjakan" "dynn_Arozkiit" "dynn_Rianha" "dynn_Sutashabi" "dynn_Zrehiit"
+	}
+	
+	cadet_dynasty_names = {
+		"dynn_Haraima" "dynn_Kukar" "dynn_Kudavi" "dynn_Raispoor" "dynn_Mahmubiri" "dynn_Mahmaoni" "dynn_Mahmabiri" "dynn_Hammuspoor" "dynn_Raibiri" "dynn_Mahspoor" "dynn_Kikar" "dynn_Raimanni" "dynn_Kaispoor" "dynn_Kirabi" "dynn_Rainai" "dynn_Kioni" "dynn_Raioni" "dynn_Kinai" "dynn_Robiri" "dynn_Rairabi" "dynn_Raivandi" "dynn_Khaspoor" "dynn_Saoni" "dynn_Mahkar" "dynn_Soloni" "dynn_Soltani" "dynn_Khakar" "dynn_Solvandi" "dynn_Kispoor" "dynn_Tavakbiri" "dynn_Mahmaspoor" "dynn_Tavakdavi" "dynn_Tavakmanni" "dynn_Tavakoni" "dynn_Tavaknai" "dynn_Tavakrabi" "dynn_Tavakvandi" "dynn_Zabiri" "dynn_Zavakbiri" "dynn_Zaoni" "dynn_Zavakmanni" "dynn_Rospoor" "dynn_Zavaknai" "dynn_Mahmukar" "dynn_Kaikar" "dynn_Hammakar" "dynn_Zavakrabi" "dynn_Zavakvandi" "dynn_Tavanarabi" "dynn_Hammadak" "dynn_Tavaham" "dynn_Tavadak" "dynn_Tavani" "dynn_Hamak" "dynn_Rahirami" "dynn_Rahirak" "dynn_Rahira" "dynn_Raikar" "dynn_Mahmata" "dynn_Mahma" "dynn_Mahmadani" "dynn_Mahmadan" "dynn_Bahmana" "dynn_Mahmadar" "dynn_Barukar" "dynn_Mahaskabus" "dynn_Mahabus" "dynn_Hammabus" "dynn_Hanatok" "dynn_Harabus" "dynn_Anbus" "dynn_Janabus" "dynn_Mahaska" "dynn_Shahan" "dynn_Shahir" "dynn_Shakar" "dynn_Shamnin" "dynn_Shabus" "dynn_Nahaima" "dynn_Nahbiri" "dynn_Naheima" "dynn_Nahdavi" "dynn_Nahir" "dynn_Nahkar" "dynn_Nahmanni" "dynn_Nahmin" "dynn_Nahnai" "dynn_Nahoima" "dynn_Nahoni" "dynn_Nahrabi" "dynn_Nahspoor" "dynn_Nahstae" "dynn_Nahtani" "dynn_Nahuima" "dynn_Nahvandi" "dynn_Nahan" "dynn_Nahbus" "dynn_Nahyima" "dynn_Ahirak" "dynn_Harahir" "dynn_Kuhir" "dynn_Jakar" "dynn_Mahmuhir" "dynn_Zavakmim" "dynn_Zamim" "dynn_Hammamim" "dynn_Hammumim" "dynn_Kaimim" "dynn_Khamim" "dynn_Mahmamim" "dynn_Mahmim" "dynn_Barakar" "dynn_Mahmumim" "dynn_Samim" "dynn_Solmim" "dynn_Sirak" "dynn_Sarak" "dynn_Rotand" "dynn_Mahtand" "dynn_Hammatand" "dynn_Satand" "dynn_Soltand" "dynn_Jaspoor" "dynn_Hammamin" "dynn_Amnin" "dynn_Zakar" "dynn_Tavaktand" "dynn_Baratand" "dynn_Barutand" "dynn_Zavakkar" "dynn_Tavakmin" "dynn_Rohir" "dynn_Zahan" "dynn_Mahmutand" "dynn_Mahmatand" "dynn_Kairabin" "dynn_Mahrabin" "dynn_Zamnin" "dynn_Solrabin" "dynn_Hararabin" "dynn_Jamnin" "dynn_Hammaspoor" "dynn_Raihir" "dynn_Kirabin" "dynn_Kurabin" "dynn_Hammumnin" "dynn_Mahmarabin" "dynn_Mahmurabin" "dynn_Zarabin" "dynn_Barurabin" "dynn_Bamarabin" "dynn_Mahmahir" "dynn_Hammarabin" "dynn_Mahir" "dynn_Aoor" "dynn_Kaimnin" "dynn_Khamnin" "dynn_Akar" "dynn_Zaoor" "dynn_Soloor" "dynn_Sioor" "dynn_Mahmuoor" "dynn_Mahmaoor" "dynn_Tavakkar" "dynn_Hammuor" "dynn_Kuoor" "dynn_Baraoor" "dynn_Mahhir" "dynn_Sihan" "dynn_Simnin" "dynn_Bamaoor" "dynn_Baruhir" "dynn_Arak" "dynn_Baruspoor" "dynn_Zahir" "dynn_Mahhan" "dynn_Zavakoor" "dynn_Zavakhir" "dynn_Mahmahan" "dynn_Zaspoor" "dynn_Mahmamnin" "dynn_Bamakar" "dynn_Kimnin" "dynn_Zarak" "dynn_Tavakhir" "dynn_Rorak" "dynn_Mahmuhan" "dynn_Rairabin" "dynn_Rairak" "dynn_Mahmumnin" "dynn_Solkar" "dynn_Kairak" "dynn_Mahmnin" "dynn_Aspoor" "dynn_Solhir" "dynn_Hammarak" "dynn_Barurak" "dynn_Hararak" "dynn_Zavakspoor" "dynn_Jarak" "dynn_Barabis" "dynn_Bamabis" "dynn_Khahir" "dynn_Romnin" "dynn_Zavakbis" "dynn_Baraspoor" "dynn_Rohan" "dynn_Jahir" "dynn_Tavakbis" "dynn_Raimnin" "dynn_Mahmubis" "dynn_Samnin" "dynn_Sahir" "dynn_Kibis" "dynn_Hammubis" "dynn_Khabis" "dynn_Harabis" "dynn_Hammurak" "dynn_Barumim" "dynn_Sikar" "dynn_Baramim" "dynn_Tavakspoor" "dynn_Ahir" "dynn_Riha" "dynn_Haraoima" "dynn_Kaiyima" "dynn_Harauima" "dynn_Baruoima" "dynn_Hammueima" "dynn_Kihir" "dynn_Bamaeima" "dynn_Sioima" "dynn_Bamaima" "dynn_Solspoor" "dynn_Saeima" "dynn_Roima" "dynn_Raioima" "dynn_Mahuima" "dynn_Mahmaeima" "dynn_Mahmueima" "dynn_Hammukar" "dynn_Kiyima" "dynn_Jaeima" "dynn_Zavakima" "dynn_Baruyima" "dynn_Zavakyima" "dynn_Hammubus" "dynn_Barubus" "dynn_Solbus" "dynn_Sibus" "dynn_Sabus" "dynn_Khahan" "dynn_Ahan" "dynn_Abus" "dynn_Barabus" "dynn_Mahan" "dynn_Bamabus" "dynn_Kaihan" "dynn_Tavakbus" "dynn_Sakar" "dynn_Zabus" "dynn_Robus" "dynn_Kihan" "dynn_Raibus" "dynn_Mahmubus" "dynn_Hammuhan" "dynn_Jahan" "dynn_Baramnin" "dynn_Barahir" "dynn_Raihan" "dynn_Mahbus" "dynn_Barahan" "dynn_Zavakhan" "dynn_Hammahan" "dynn_Kibus" "dynn_Baruhan" "dynn_Sahan" "dynn_Khabus" "dynn_Barumnin" "dynn_Jabus" "dynn_Tavakhan" "dynn_Solhan" "dynn_Bamamnin" "dynn_Hammuhir" "dynn_Harakar" "dynn_Saspoor" "dynn_Solmnin" "dynn_Hammahir" "dynn_Rokar" "dynn_Sispoor" "dynn_Adusa" "dynn_Bhasha"
+		"dynn_Sutakhrass" "dynn_Isokhrass" "dynn_Vobiliit" "dynn_Zegakradi" "dynn_Fekradi" "dynn_Sutakradi" "dynn_Shiwahtith" "dynn_Jagesh" "dynn_Mezubjakan" "dynn_Arozkiit" "dynn_Rianha" "dynn_Sutashabi" "dynn_Zrehiit"
+	}
+		
+
+	# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+		
+	# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 20
+	mother_name_chance = 10
+		
+	dynasty_of_location_prefix = "dynnp_ui"
+	
+	mercenary_names = {
+		{ name = "mercenary_knights_legion" } 
+		{ name = "mercenary_knights_palatine" }
+		{ name = "mercenary_knights_excubitor" }
+		{ name = "mercenary_knights_pride" } 
+		{ name = "mercenary_knights_battlecats" }
+		{ name = "mercenary_knights_renrijr" }
+		{ name = "mercenary_knights_warclaws" }
+		{ name = "mercenary_knights_legion" } 
+		{ name = "mercenary_knights_palatine" }
+		{ name = "mercenary_knights_excubitor" }
+		{ name = "mercenary_knights_pride" } 
+		{ name = "mercenary_knights_battlecats" }
+		{ name = "mercenary_knights_renrijr" }
+		{ name = "mercenary_knights_warclaws" }
+	}
+}
+
+#Systrean
+name_list_systrean = {
+
+	cadet_dynasty_names = {
+		"dynn_Acques" "dynn_Admand" "dynn_Adrard" "dynn_Adrognese" "dynn_Aethelred" "dynn_Whitley" "dynn_Alouette" "dynn_Amedee" "dynn_Amelion" "dynn_Ancois" "dynn_Aric" "dynn_Arne" "dynn_Arthe" "dynn_Ashcroft" "dynn_Ashfield" "dynn_Ashford" "dynn_Ashham" "dynn_Ashhart" "dynn_Ashhouse" "dynn_Ashing" "dynn_Ashsley" "dynn_Ashsly" "dynn_Ashsmith" "dynn_Ashston" "dynn_Ashton" "dynn_Ashwing" "dynn_Auline" "dynn_Aumilie" "dynn_Aurelie" "dynn_Aurilie" "dynn_Aurmine" "dynn_Bantien" "dynn_Beauchamp" "dynn_Beaufort" "dynn_Belette" "dynn_Bellamont" "dynn_Beluelle" "dynn_Berene" "dynn_Bielle" "dynn_Bienne" "dynn_Bierles" "dynn_Bincal" "dynn_Birian" "dynn_Blakeley" "dynn_Moile" "dynn_Branck" "dynn_Brigette" "dynn_Broad" "dynn_Broles" "dynn_Brolus" "dynn_Bruiant" "dynn_Brutya" "dynn_Buckingcroft" "dynn_Buckingfield" "dynn_Buckingford" "dynn_Buckingham" "dynn_Buckinghart" "dynn_Buckinghouse" "dynn_Buckinging" "dynn_Buckingsley" "dynn_Buckingsly" "dynn_Buckingsmith" "dynn_Buckingston" "dynn_Buckington" "dynn_Buckingwing" "dynn_Canne" "dynn_Caria" "dynn_Caristiana" "dynn_Channitte" "dynn_Charascel" "dynn_Charien" "dynn_Chriditte" "dynn_Cienne" "dynn_Coppercroft" "dynn_Copperfield" "dynn_Copperford" "dynn_Copperham" "dynn_Copperhart" "dynn_Copperhouse" "dynn_Coppering" "dynn_Coppersley" "dynn_Coppersly" "dynn_Coppersmith" "dynn_Copperston" "dynn_Copperton" "dynn_Copperwing" "dynn_Corgine" "dynn_Dalomax" "dynn_Denile" "dynn_Desele" "dynn_Diel" "dynn_Dolbanitte" "dynn_Draconis" "dynn_Dufont" "dynn_Elbert" "dynn_Ence" "dynn_Endel" "dynn_Endre" "dynn_Ephine" "dynn_Erelie" "dynn_Ergalla" "dynn_Ervine" "dynn_Fanis" "dynn_Fanriene" "dynn_Festinius" "dynn_Fralinie" "dynn_Fralmoton" "dynn_Franc" "dynn_Fransoric" "dynn_Frenck" "dynn_Frernis" "dynn_Frey" "dynn_Gaercroft" "dynn_Gaerfield" "dynn_Gaerford" "dynn_Gaerham" "dynn_Gaerhart" "dynn_Gaerhouse" "dynn_Gaering" "dynn_Gaersley" "dynn_Gaersly" "dynn_Gaersmith" "dynn_Gaerston" "dynn_Gaerton" "dynn_Gaerwing" "dynn_Galena" "dynn_Galien" "dynn_Gane" "dynn_Gawey" "dynn_Geles" "dynn_Gemain" "dynn_Gemane" "dynn_Gene" "dynn_Genis" "dynn_Geonette" "dynn_Geontene" "dynn_Georick" "dynn_Gernand" "dynn_Gernis" "dynn_Gestor" "dynn_Geves" "dynn_Gilelle" "dynn_Goldwine" "dynn_Goneld" "dynn_Greencroft" "dynn_Greenfield" "dynn_Greenford" "dynn_Greenham" "dynn_Greenhart" "dynn_Greenhouse" "dynn_Greening" "dynn_Greensley" "dynn_Greensly" "dynn_Greensmith" "dynn_Greenston" "dynn_Greenton" "dynn_Greenwing" "dynn_Guevenne" "dynn_Gulitte" "dynn_Hastien" "dynn_Hawkcroft" "dynn_Hawkfield" "dynn_Hawkford" "dynn_Hawkham" "dynn_Hawkhart" "dynn_Hawkhouse" "dynn_Hawking" "dynn_Hawksley" "dynn_Hawksly" "dynn_Hawksmith" "dynn_Hawkston" "dynn_Hawkton" "dynn_Hawkwing" "dynn_Hearthcroft" "dynn_Hearthfield" "dynn_Hearthford" "dynn_Hearthham" "dynn_Hearthhart" "dynn_Hearthhouse" "dynn_Hearthing" "dynn_Hearthsley" "dynn_Hearthsly" "dynn_Hearthsmith" "dynn_Hearthston" "dynn_Hearthton" "dynn_Hearthwing" "dynn_Herrick" "dynn_Hodge" "dynn_Ildene" "dynn_Imbel" "dynn_Jastal" "dynn_Jeanard" "dynn_Jeannie" "dynn_Jeline" "dynn_Jemane" "dynn_Jend" "dynn_Jenseric" "dynn_Jes" "dynn_Jodoin" "dynn_Jolvanne" "dynn_Jondrelle" "dynn_Juillen" "dynn_Julalanie" "dynn_Jurard" "dynn_Kaslowyn" "dynn_Kingcroft" "dynn_Kingfield" "dynn_Kingford" "dynn_Kingham" "dynn_Kinghart" "dynn_Kinghouse" "dynn_Kinging" "dynn_Kingsley" "dynn_Kingsly" "dynn_Kingsmith" "dynn_Kingston" "dynn_Kington" "dynn_Kingwing" "dynn_Kirbatha" "dynn_Labouche" "dynn_Lachance" "dynn_Laelippe" "dynn_Larouche" "dynn_Laul" "dynn_Leland" "dynn_Lelles" "dynn_Lemonds" "dynn_Gardner" "dynn_Leoriane" "dynn_Letrush" "dynn_Limax" "dynn_Liore" "dynn_Liric" "dynn_Lirrian" "dynn_Litte" "dynn_Loche" "dynn_Lothaire" "dynn_Luseph" "dynn_Lylvieve" "dynn_Maborel" "dynn_Macile" "dynn_Madach" "dynn_Magius" "dynn_Malene" "dynn_Mallory" "dynn_Manette" "dynn_Manis" "dynn_Mannick" "dynn_Marane" "dynn_Marence" "dynn_Maric" "dynn_Marie" "dynn_Marquardt" "dynn_Masolaude" "dynn_Masoriane" "dynn_Mastercroft" "dynn_Masterfield" "dynn_Masterford" "dynn_Masterham" "dynn_Masterhart" "dynn_Masterhouse" "dynn_Mastering" "dynn_Mastersley" "dynn_Mastersly" "dynn_Mastersmith" "dynn_Masterston" "dynn_Masterton" "dynn_Masterwing" "dynn_Mastien" "dynn_Maston" "dynn_Matreinace" "dynn_Maulinie" "dynn_Maurard" "dynn_Melie" "dynn_Mene" "dynn_Merchad" "dynn_Merian" "dynn_Meric" "dynn_Metrick" "dynn_Milielle" "dynn_Milvan" "dynn_Mon" "dynn_Mona" "dynn_Monet" "dynn_Moniel" "dynn_Montrose" "dynn_Moorcroft" "dynn_Moorfield" "dynn_Moorford" "dynn_Moorham" "dynn_Moorhart" "dynn_Moorhouse" "dynn_Mooring" "dynn_Moorsley" "dynn_Moorsly" "dynn_Moorsmith" "dynn_Moorston" "dynn_Moorton" "dynn_Moorwing" "dynn_Mornardl" "dynn_Morrard" "dynn_Motierre" "dynn_Nathans" "dynn_Nermarc" "dynn_Nestal" "dynn_Nin" "dynn_Northwode" "dynn_Nytte" "dynn_Oges" "dynn_Onis" "dynn_Ottus" "dynn_Palielle" "dynn_Panoit" "dynn_Peneles" "dynn_Perrick" "dynn_Petit" "dynn_Phiencel" "dynn_Philulanie" "dynn_Phirrienele" "dynn_Pierrane" "dynn_Rane" "dynn_Rarnis" "dynn_Renault" "dynn_Renoit" "dynn_Retene" "dynn_Retiene" "dynn_Rielle" "dynn_Rirne" "dynn_Riscel" "dynn_Rolaine" "dynn_Rolston" "dynn_Rostorard" "dynn_San" "dynn_Sele" "dynn_Selone" "dynn_Sette" "dynn_Sidrey" "dynn_Sintav" "dynn_Sintieve" "dynn_Stedrine" "dynn_Stegine" "dynn_Stentor" "dynn_Stieve" "dynn_Stoine" "dynn_Stroud" "dynn_Surilie" "dynn_Sylbenitte" "dynn_Tailas" "dynn_Thierry" "dynn_Tilwald" "dynn_Traven" "dynn_Tussaud" "dynn_Valtieri" "dynn_Vanne" "dynn_Vant" "dynn_Vautrine" "dynn_Velain" "dynn_Vette" "dynn_Viernis" "dynn_Virane" "dynn_Virmaulese" "dynn_Wickcroft" "dynn_Wickfield" "dynn_Wickford" "dynn_Wickham" "dynn_Wickhart" "dynn_Wickhouse" "dynn_Wicking" "dynn_Wicksley" "dynn_Wicksly" "dynn_Wicksmith" "dynn_Wickston" "dynn_Wickton" "dynn_Wickwing" "dynn_Wirich" "dynn_Woodcroft" "dynn_Woodfield" "dynn_Woodford" "dynn_Woodham" "dynn_Woodhart" "dynn_Woodhouse" "dynn_Wooding" "dynn_Woodsley" "dynn_Woodsly" "dynn_Woodsmith" "dynn_Woodston" "dynn_Woodton" "dynn_Woodwing" "dynn_Yeomcroft" "dynn_Yeomfield" "dynn_Yeomford" "dynn_Yeomham" "dynn_Yeomhart" "dynn_Yeomhouse" "dynn_Yeoming" "dynn_Yeomsley" "dynn_Yeomsly" "dynn_Yeomsmith" "dynn_Yeomston" "dynn_Yeomton" "dynn_Yeomwing" "dynn_Yvienne" "dynn_Lencolia" "dynn_Wickland" "dynn_Wodeland" "dynn_Moorland" "dynn_Croftland" "dynn_Garland" "dynn_Yeoland" "dynn_Northland" "dynn_Lariat" "dynn_Jarth" "dynn_Coburn" "dynn_Baggledonf" "dynn_Wifflington" "dynn_Smethworthy" "dynn_Skeffington" "dynn_Longleat" "dynn_Percy" "dynn_Guimard" "dynn_Lourd" "dynn_Entier" "dynn_Blanche" "dynn_Aubigny" "dynn_Dravarol" "dynn_Cosham" "dynn_Maul" "dynn_Eardwulf" "dynn_Vuitton" "dynn_Cubitt" "dynn_Summers" "dynn_Salarth" "dynn_Jardinier" "dynn_Jardiner" "dynn_Menajer" "dynn_Ardwyr" "dynn_Gardwyr" "dynn_Femwyr" "dynn_Hardwyr" "dynn_Amaethwyr" "dynn_Cleddyfwyr" "dynn_Garclay" "dynn_Vien" "dynn_Montaine" "dynn_Daguer" "dynn_Vynier" "dynn_Renier" "dynn_Flowdys" "dynn_Troivois" "dynn_Clarke" "dynn_Garrity" "dynn_Granve" "dynn_Elde" "dynn_Succoth" "dynn_Edrald" "dynn_Spenard" "dynn_Geornis" "dynn_Rosselli" "dynn_Barthel" "dynn_Gouttes_de_Lune" "dynn_Riverblossom" "dynn_Menant" "dynn_Tustin" "dynn_Jegnole" "dynn_Dantien" "dynn_Lan"
+	}
+
+	male_names = {
+		#Sub-Culture Specific Names
+		Bendu Clovis Tobias
+		
+		#Standard Namelist
+		Abalard Absolard Absolet Achane Achene Achibert Achille Adair Adalard Addrald Adeber Adel Adistair Adnot Adrian Adrien Adrone Adwen Adwig 
+		Aelwin Ailex Aillard Aime Aimeric Ajac Alain Alaird Alan Albec Alberic Albert Aldouin Aleron Alesace Alessio Alex Alexain Alezan Alfred Alinon 
+		Alistair Allan Allard Allunen Alodie Alphaury Alphonse Alvaren Alvuin Amable Amaund Amauri Amaury Amberic Ambroise Amelus Amiable Amiberl Anatole Ancus Andre 
+		Andrec Andrew Androche Androne Angof Annibal Anthony Antoine Anton Antonin Aphren Archimbert Archimbide Aresin Aribert Armand Armaund Armel Armin Arnand Arnaud Arniel Arnitole Arnold Arnoth Arnousten Arphevic Arthur Artur Astav Astien Athanin Athel Atroque Aubert Aude Auglard Aveberl Avent 
+		Balder Baldin Baldrian Baldric Baldrick Balduan Baldwin Balik Balin Banning Banyrick Baragon Barjot Barnabe Barnand Barthel Basile Basilien Bastien 
+		Baurion Beaubel Beaunois Begnaud Belchimac Belethor Belic Bendt Benjamund Benjamyn Benoit Benry Beran Bereditte Bergamot Beric Berjamund Bernard Bernardine 
+		Bertran Bertrand Berwick Beryn Birard Blaise Blasius Blithe Boeuf Braden Bradon Braig Bran Brandish Brandon Bric Brice Brinarch Bruc Bruce Brucetus Brulo Brunile Bruno Brussec Bryant Bryce Buneau Burdog 
+		Cahusque Calden Calixte Calum Canollot Cantier Caoiss Casimir Caspar Cavot Cedran Cedric Celann Celarion Celnard Cerdic Cesamund Chantot Charlebert Charlemic Charlemund Charlerel 
+		Charleric Charques Chervain Chrismin Christian Christoph Christophe Churley Ciel Cimon Cirges Claude Claumin Clegaine Clement Clinton Colby Colin Colwin Condier Condrenn Connor Corbyn Cordier 
+		Corentin Corintthac Corrick Cortoran Corwyn Craig Crenard Crendal Cristophe Cristopher Cullen Curnard Curtice Cynric Cyntoine Cyrill 
+		Dacele Daimbert Daine Dalan Dalenc Damard Damian Danders Danforth Dantoine Danual Danwyche Darcy Daribert Daric Darrel Darren Darric Darryn Darvell 
+		David Davide Davier Debentien Degaine Degaratien Delacourt Delane Delven Delvin Derrell Destane Detritus Deveral Devin Dhalen Didier Dilborn Dimitri 
+		Donall Donel Donnel Donnogal Dorand Dore Dorel Dorian Dracien Dran Draven Drivien Dryston Dugen Duncan Dunimond Duraeg Dyric 
+		Eadric Ealis Eamond Edain Eddard Edgar Edgard Edin Edmund Edouard Edreld Edric Edrien Edryg Edward Edweg Edwin Edwyn Eduard Elbert 
+		Ellic Elnis Eltrys Emeric Emiliard Emmandic Emmanuel Emmerard Emory Emoryan Endemel Enmon Ennemond Ennoc Enoch Enri Enrich Enrick Erind Erj 
+		Ernand Ernard Ernele Ernest Ernirus Erold Escabert Escamel Esmond Esquier Esteve Estien Estienn Ethian Etiache Etienne Etien Eugal Evan Evien Evinn Evrart 
+		Fabrice Farangel Faric Farvour Felipe Felyx Fenas Ferarilie Fergus Ferou Ferrand Ferrum Finious Finn Florenot Florent Floyd Folbert Folkes Folques Fonten Fontenot 
+		Francis Franck Francois Francois Francynak Franque Frederic Frederuno Frencque Frizkav Frostien Frubert Frugo Fugues Fulvert Fuques 
+		Gaban Gabin Gaboryan Gabriel Gabrien Gabryel Gaffer Gailen Gaillard Gallivere Gan Ganet Garbert Gargrell Garron Garth Garvey Gaspar Gasparien 
+		Gastau Gasteau Gaston Gauldur Gaven Gavin Gavric Gawayne Gedric Gelem Gelvin Gennove Geon Geonard Geor Gepard Gepelem Gerald Geralt Gerard Geraud Gerault Geric Gernaud 
+		Gerrald Gessure Gib Gierry Gilbard Gilbert Gillard Ginus Giorges Giraud Giraud Gitienne Glaubert Glover Godwin Gorag Gordon Gordyn Goren Graham Grancis Grandeau Granden Granier Grantham 
+		Greg Gregory Grivier Grobert Grugues Gryf Gryff Gudyn Guilbert Guillaume Guitaut Gustave Guybert Guybrush Guymund Guyseph Gyrard Gyron 
+		Hacques Halar Hamelin Hamelyn Handyn Hannibal Haralt Harault Harbin Harold Haskill Hastrel Hathrasil Hennabear Henri Henrien Henry Herane Herebane Herluin Heron Herric Hescot Heseph Hierot Hilaire Holbert Horstle Hoster Hubert Huet Hughes Hulbert Hurien Hurlburt 
+		Idaron Idhdean Igleric Igmund Ignobert Ilzo Imedhnain Inwold Irbran Irnand Irving Istirus 
+		Jack Jacmund Jacques Jadien Jadier Jagar Jakarn Jakben James Janvin Jarnot Jascien Jasper Jauffre Jean Jean_Jacques Jean_Pierre Jeanciele Jerall Jeran Jerard Jeraud Jerian 
+		Jernald Jeromec Jerromec Jesper Jhared Jim Jocien Joheric Joile Jolippe Jollivet Jonah Joncis Jorden Jory Jossen Jouane Jowan Juberic Juillen Julian Juste Justin 
+		Kalhot Kalin Kasorayn Kastus Kasynac Kathner Kauric Kellis Kelmen Kevinne Kilian Kip Kirk Krag Krasdore Kyrtos Labhraidh 
+		Lanard Lanie Lanobert Lantoine Laroche Lauric Laurient Lazare Leclaude Len Lenet Lennoc Leo Leobert Leobois Leof Leofric Leofwine Leofwyn Leofwynn Leon Leonaud Leovic Leric 
+		Leseph Lesuin Lewin Liam Lionel Lisien Lister Listien Loghain Lorant Lort Louis Loupel Louveau Luc Lucian Lucien Ludippe Lureau Lurelien Luther Lyam Lywel 
+		Malcolm Maldred Malkoran Manis Marbet Marc Marcel Marchel Marco Marcoryan Maric Marjaques Mark Marley Marnest Marone Marques Marrec Martin Marwig Mathieu Mathieu Mathon Mathys Matthew Matthias Matthiaume Matthieu Mattias Matys 
+		Maul Maurice Maury Maxelot Maxim Mebestien Mederic Menoit Merard Mercer Meric Merien Merten Merthierry Merthyval Merton Michaniel Michebert Micholas Mirasal Mirten Mivier Moric Morric Morten Morvan Morven Munche Muran Mylo Myn 
+		Nathaniel Nellic Nemic Nicholas Nicolard Nilas Nirine Noah Noam Noleon Nolore Nombert Nompar Norbert 
+		Obart Octieve Octin Octivien Odei Odvan Ogier Olarz Olwin Omistyr Omluag Ondre Onfroi Onri Ormax Orrard Orrent Orvel Oscar Ouard Oubelic Ourson Owen 
+		Paldrin Parelle Parquier Parsifal Pascal Pascual Patraud Paul Paulemond Paulin Paur Pavel Perane Perard Percival Percy Perien Perranas Perrine Perrot Perry Perth Peverel 
+		Phaistyr Phane Phelain Phelibert Philien Philimac Philip Philipe Phinis Phylgeon Phynaster Pierrand Pierrant Pierre Pierric Pierrie Pilou Piper Pitof Porthippe Praxin Quentyn Quinton Quiston 
+		Rahd Raldan Rallaume Ramis Ranser Raolin Raphael Raylen Reberio Reges Relien Remic Renald Renard Renardou Renchant Renko Renoit Renwic Rerlas Reynald Reynard Reynaud Richard Richarde Richion Richon Rickon 
+		Ricque Riente Robb Robert Roberto Robier Robin Robyn Rocheric Roderic Roderick Rodmand Rodolphe Rogeraud Rogier Rogolphe Rohlbert Roland Rolbert Romain Rondach Rowley Rubyn Ruran Rurestian 
+		Sadun Saehon Salach Salazar Salomon Sam Samael Sammis Samuel Sarvith Sebastian Sebastien Serge Sergerien Sernays Serrien Severin Silas Simine Sirion Socucius Solomon Solumor Sorais Soran Sosil Spencer Staubin 
+		Stefan Stenwick Stephen Stephenn Stephile Sternis Stibbons Stral Strastnoc Stromm Styriche Sunel Suriel Sutler Sylon 
+		Taig Tamien Telfour Tetra Tevenot Thadgen Theobald Theodore Theophile Theranis Therich Therron Thetrard Theyo Thibauld Thibierry Thibret Thierric Thierry Thom Thomas Thomase Thorley Thorpe 
+		Tildus Tim Timeo Timmon Timothee Timothy Tom Tommen Topheric Torvic Tourvic Traelius Trano Treves Trierre Tristan Tristane Tryste Tsiniuc Tuthul Tynan Tyree Ulrich Urfon Usquebald Usquenot Utheccan Uthor 
+		Vaford Valcent Valentois Vallis Valton Vance Varaine Vardan Varnis Vaurice Velan Velian Vencobert Verdrey Verel Verick Verney Veronard Verrik Vertrand Vicente Vicmond Victraud Vierry Vignac Vilhim Vilum 
+		Vince Vincebald Vincein Vincent Virgeraud Virgile Vontan Vorthag Vyctor Vyrois Warrane Wergital Weylin Weynon Wilkes Willem William Winster Winston Wylon Wynn Wynster Xandier Xavier Xavippe Yanis Ylbert Ylvandre Yncien Yngwie Yugene 
+		Zacharie Zackael Zakhaleh Zalbec Zavierry Zavour Zibaran Denrelor Javerien Avrippe
+	}
+
+		female_names = {
+			#Sub-Culture Specific Names
+			Martinne Clotilde
+			
+			#Standard Namelist
+			Abelle Adelaide Adele Adelie Adeline Adelle Adiel Aditte Adrienne Aelynn Agarthe Agata Agathe Ajac Alainne Alana Alarice Ales Alexandra Alexia Alexine Alice Alison Alix Allison 
+			Allene Allysin Aloin Alona Althene Alverine Alyenore Alyze Alyssa Ama Amalia Amarie Ambre Ambrelie Amelia Amelie Amora Amy Anabeth Anais Anastasie Andeleine 
+			Andree Andrya Angeline Angier Aniele Aniette Anna Annabelle Annaline Annalise Annalysse Annarique Anne Anne_Marie Annelette Annese Annie Annyce Antoinetta Antys Anya 
+			Arabelle Ardeline Ardile Ardine Aren Ariane Arianna Arie Arielle Arienne Arlettie Arlie Armandine Armelle Arnaude Artura 
+			Arzhela Asciene Ashtah Asteria Astrimunde Aubrey Augustelle Augustina Augustine Aurane Aurelie Aurine Aurnie Aurore Aurorelle Aveberl Axelle 
+			Babette Barbara Barbise Beatrice Beddi Belene Beliene Beline Belladonna Belle Belline Bellucia Belya Berengere Bernadette Bernetta Bernice 
+			Bernique Berrice Bethany Biene Binlay Blanche Blynnie Bothela Brea Brela Brendou Brenlynne Breywenne Brienne Brigibeth Brunile Brunwyn 
+			Cairine Calesse Callia Callice Calysa Camille Candice Candile Capucine Carena Carine Carlier Carmyne Caroline Caronique Cassandre Catherine Caydeire Cayleigh 
+			Cecile Celarion Celence Celeste Celestine Celia Celiane Celise Celina Ceriste Cesabelle Cesarelle Chantale Chantisse Charlisse Charlotte 
+			Charloux Charmel  Charmela Chatelle Chental Cherese Cheryline Christelle Ciara Cidathia Cienne Clairene Clara Clarelda Clarisse Clarique Claudelle 
+			Claudette Claudie Claudine Clotylda Clovine Coletta Colette Concordia Constance Coquina Coraline Corynne Cyndique Cyrille 
+			Dabienne Dame Darcielle Darene Daria Darya Delighre Delphine Delumna Demara Denille Denyse Derella Derelle Deryvyra Desmie Dessire Desyree Dhalena Diabelle Dianette Didiane Dirdre Dominique 
+			Diana Diane Donella Dori Dorianne Dorothea Dorothella Dorothique Dorys Dovice Drienne Drusilla Dufrain 
+			Edana Edelinne Edeonore Edilitte Edona Edre Edwinna Edwyge Eesamelle Eirdre Elain Elanna Elara Elgenie Elia Elin Elinor Elisa Elise Elivette Eliza Elizabeth Elizabyth Ella Ellina Elodie Eloise 
+			Elona Elyssa Elyssette Elvira Elvyrie Emabeth Emeraude Emilie Emily Emma Emusette Endyra Ennia Enriquette Eola Erendette Erind Erisia 
+			Erith Erline Ermentrude Ernella Escalette Esdeline Eselde Esmie Estayne Esteline Estelle Estevie Etty Eudeline Eubella Eugenie Evangelina Evangline Evanine Eveline Evelyn Evolite Evveline 
+			Fabrelle Falette Falhut Falice Falisse Farlivere Fasele Fasile Felande Felice Felycie Felyse Fianna Fiesque Finia Fiona Floriane Florine Florinna Florique Fortisa Franara Francine Fredevieve Frederique Frelausa Freyda
+			Gabria Gabrialle Gabrielle Gaelle Gaelora Gaetane Galynne Ganise Genele Genevelle Genevret Geniette Genvieve Georgia Geralda Gerielle Germonde Gervaise Gessica Gette Gilbara Gina Gine Ginette Gisele Glendora 
+			Gloria Grace Granette Grania Grigitte Grivette Guendeline Gulitte Gwen Gwenaelle Gwenifyr Gwyn Gwynienne Gwynnifer Gwynolda Gwyssa Gyna Gywneth 
+			Harbert Helainie Helane Helene Helenette Helese Heloise Helviane Helwyn Hendrice Heniele Henneque Henona Henriette Henrisa Hereld Hervemina Hester Hilaria Huguette Hulotte 
+			Icolana Idunhael Illeana Illise Imoen Ina Inawyn Ines Inirisi Iona Iraldine Irene Isabeau Isabella Isabelle Isabeth Isara Jacquebeth 
+			Jacqueline Janavynn Janese Janeve Janille Janise Janne Janona Jasmine Javierre Jeanne Jeanette Jeannelle Jeannine Jeanylle Jeberilie Jehanne Jehannette Jenna Jo Joan Joelle 
+			Jolie Josee Josienne Joslin Josseline Julienne Juline Julisa Jurisa Jusanne Jyllia Kaera Karnellas Katrine Kestral Ketrique Konia Krisandra
+			Lacherie Laelette Laelyn Laetitia Laetille Lanarette Lanier Lantoinette Laranette Lariane Larynn Laudine Lauran Lauranne Lauravieve Laure Laurette Lea Leana Leila 
+			Leonique Leonora Leontille Lerisa Lessa Leticia Lexi Lexille Lia Liane Lielle Liisan Lila Lilian Liliana Lilou Lily Limren Linele Linane Lionne Lirielle Lisa Lisanne Lisbeth Liselle Lisette 
+			Livelle Lizabet Lleraya Lodys Lorene Loriel Louarde Louisa Louise Loulou Louna Luce Luceline Lucete Lucette Luciana Lucie Lucienne Lucille Lucynda Ludivine Lurgette Lyna Lynie Lyse Lysse Lyze
+			Mabilete Mabrelle Madenn Madisone Maelle Maelrisse Mahlene Malielle Maline Malyna Manone Maranique Marayna Marcele Marcella Marcelle Marcellyne Marcelyn Marciele   
+			Marelie Marelle Maretta Margaret Margaud Margerelle Margine Margot Margrette Marguerite Maria Marian Marie Marienne Marielle Mariette Marieve Marisette Marlene Marthe Mathilde Mathilie Martine 
+			Mary Maryse Masalinie Mathilda Mathelle Matilda Matilde Maurrie Maxelle Maxille Maxime Maxine Maya Mayla  Medya Melanie Melie Melina Melisandre Melita Melodie 
+			Melynie Mena Merielle Mervilda Michel Michelia Michou Milie Mimou Minerva Minette Minone Miquela Mira Mirabelle Miramel Miranda Miroleine Mitanne Molly Morgana Morgane Morrigan Morigh Mortine Muriel Mylenne Myriame 
+			Nadine Nahlia Nanette Nanoyra Nathalye Naudet Nemarc Nemic Neomi Nessa Nicolene Nicoline Ninette Noebelle Noemie Nonenamwen Norine Normina Nuresse Nyna Nyomie Nyrona
+			Oceane Odette Odyle Ofelia Olivia Olivie Olyna Olyve Ondrissa Opel Ophelia Oriane Orice Osanna Osianne Otha Ouida 
+			Pabla Parisse Pepi Petrille Philippa Phoebe Phylgaux Pierette Pierielle Pierlette Piernette Pierrie Pietine Prudence Pyline Pyn Pyppe Quillet Quirin 
+			Rachel Raelyn Raelynne Rebecca Regina Regine Reine Reinette Reliana Relie Remelie Renardine Reyna Reynelle Reynine Rhealt Rianciene Rianne Rielle Rinelle Rochelle 
+			Rokrya Romaire Ronela Ronyssa Rosa Rosaldine Rosalia Rosalie Rosalin Rosalind Rosalyn Rosamonde Rosamund Rose Roselle Rosette Rosie Rosine Roulena Roumiet Roxanne Rozenn Rozette Ryva
+			Sabina Sabine Sabinette Sabrine Sabyssa Sachine Sandire Sandrine Sara Saravith Savinie Segolene Seline Senna Seraphyne Serine Severine Shaelle Shalia Shilia Shillin Shorrin Sibellec 
+			Simone Sirone Sosara Sosia Sovelle Stephange Stephie Surane Suriel Susane Sybille Sybilline Sylvie Synette 
+			Tabakah Taern Thais Thayer Theonique Theophilia Thonine Thylvie Tilelle Tremelle Tuecille Tyrrya 
+			Uaile Ursuline Ursanne Urvie Urvien Valana Valarie Valaunce Valentina Valentine Valentique Valeriane Valerie Valerine Valessa Valyrie Vanisande Varisse Vaudrie Velica 
+			Vendi Verene Veroine Veronica Veronique Versien Victoire Victrice Vienne Vimy Vincelle Violette Vireche Virgile Virene Visanne Vistra Vitache Vivian Vivienne Vivonne Vyctarine Vyctorelle Vyctoria Vylie 
+			Xandria Yasmine Ygerne Ylanie Yolande Ysabel Ysabeth Ysanne Ysarne Ysausa Yseline Yurta Yvara Yvayne Yveline Yvelle Yveque Yvon Zeli Zelie Zephyrine Zinadia Zinedine Zizou Zoe Zoellene Zouzou Zozubeth Zylle Zyssa Una Giselle
+		}
+		dynasty_names = {
+		"dynn_Acques" "dynn_Admand" "dynn_Adrard" "dynn_Adrognese" "dynn_Aethelred" "dynn_Whitley" "dynn_Alouette" "dynn_Amedee" "dynn_Amelion" "dynn_Ancois" "dynn_Aric" "dynn_Arne" "dynn_Arthe" "dynn_Ashcroft" "dynn_Ashfield" "dynn_Ashford" "dynn_Ashham" "dynn_Ashhart" "dynn_Ashhouse" "dynn_Ashing" "dynn_Ashsley" "dynn_Ashsly" "dynn_Ashsmith" "dynn_Ashston" "dynn_Ashton" "dynn_Auline" "dynn_Aumilie" "dynn_Aurelie" "dynn_Aurilie" "dynn_Bantien" "dynn_Beauchamp" "dynn_Beaufort" "dynn_Belette" "dynn_Bellamont" "dynn_Beluelle" "dynn_Berene" "dynn_Bielle" "dynn_Bienne" "dynn_Bierles" "dynn_Bincal" "dynn_Birian" "dynn_Blakeley" "dynn_Branck" "dynn_Brigette" "dynn_Broad" "dynn_Broles" "dynn_Brolus" "dynn_Bruiant" "dynn_Brutya" "dynn_Buckingcroft" "dynn_Buckingfield" "dynn_Buckingford" "dynn_Buckingham" "dynn_Buckinghart" "dynn_Buckinghouse" "dynn_Buckinging" "dynn_Buckingsley" "dynn_Buckingsly" "dynn_Buckingsmith" "dynn_Buckingston" "dynn_Buckington" "dynn_Buckingwing" "dynn_Canne" "dynn_Caria" "dynn_Caristiana" "dynn_Channitte" "dynn_Charascel" "dynn_Charien" "dynn_Chriditte" "dynn_Cienne" "dynn_Coppercroft" "dynn_Copperfield" "dynn_Copperford" "dynn_Copperham" "dynn_Copperhart" "dynn_Copperhouse" "dynn_Coppering" "dynn_Coppersley" "dynn_Coppersly" "dynn_Coppersmith" "dynn_Copperston" "dynn_Copperton" "dynn_Copperwing" "dynn_Corgine" "dynn_Dalomax" "dynn_Denile" "dynn_Desele" "dynn_Diel" "dynn_Dolbanitte" "dynn_Draconis" "dynn_Dufont" "dynn_Elbert" "dynn_Ence" "dynn_Endel" "dynn_Endre" "dynn_Ephine" "dynn_Erelie" "dynn_Ergalla" "dynn_Ervine" "dynn_Fanis" "dynn_Fanriene" "dynn_Festinius" "dynn_Fralinie" "dynn_Fralmoton" "dynn_Franc" "dynn_Fransoric" "dynn_Frenck" "dynn_Frernis" "dynn_Frey" "dynn_Gaercroft" "dynn_Gaerfield" "dynn_Gaerford" "dynn_Gaerham" "dynn_Gaerhart" "dynn_Gaerhouse" "dynn_Gaering" "dynn_Gaersley" "dynn_Gaersly" "dynn_Gaersmith" "dynn_Gaerston" "dynn_Gaerton" "dynn_Gaerwing" "dynn_Galena" "dynn_Gane" "dynn_Gawey" "dynn_Geles" "dynn_Gemain" "dynn_Gemane" "dynn_Gene" "dynn_Genis" "dynn_Geonette" "dynn_Geontene" "dynn_Georick" "dynn_Gernand" "dynn_Gernis" "dynn_Gestor" "dynn_Geves" "dynn_Gilelle" "dynn_Goldwine" "dynn_Goneld" "dynn_Greencroft" "dynn_Greenfield" "dynn_Greenford" "dynn_Greenham" "dynn_Greenhart" "dynn_Greenhouse" "dynn_Greening" "dynn_Greensley" "dynn_Greensly" "dynn_Greensmith" "dynn_Greenston" "dynn_Greenton" "dynn_Greenwing" "dynn_Hastien" "dynn_Hawkcroft" "dynn_Hawkfield" "dynn_Hawkford" "dynn_Hawkham" "dynn_Hawkhart" "dynn_Hawkhouse" "dynn_Hawking" "dynn_Hawksley" "dynn_Hawksly" "dynn_Hawksmith" "dynn_Hawkston" "dynn_Hawkton" "dynn_Hawkwing" "dynn_Hearthcroft" "dynn_Hearthfield" "dynn_Hearthford" "dynn_Hearthham" "dynn_Hearthhart" "dynn_Hearthhouse" "dynn_Hearthing" "dynn_Hearthsley" "dynn_Hearthsly" "dynn_Hearthsmith" "dynn_Hearthston" "dynn_Hearthton" "dynn_Hearthwing" "dynn_Herrick" "dynn_Hodge" "dynn_Jastal" "dynn_Jeanard" "dynn_Jeannie" "dynn_Jeline" "dynn_Jemane" "dynn_Jend" "dynn_Jenseric" "dynn_Jes" "dynn_Jodoin" "dynn_Jolvanne" "dynn_Jondrelle" "dynn_Juillen" "dynn_Julalanie" "dynn_Jurard" "dynn_Kaslowyn" "dynn_Kingcroft" "dynn_Kingfield" "dynn_Kingford" "dynn_Kingham" "dynn_Kinghart" "dynn_Kinghouse" "dynn_Kinging" "dynn_Kingsley" "dynn_Kingsly" "dynn_Kingsmith" "dynn_Kingston" "dynn_Kington" "dynn_Kingwing" "dynn_Kirbatha" "dynn_Labouche" "dynn_Lachance" "dynn_Laelippe" "dynn_Larouche" "dynn_Laul" "dynn_Leland" "dynn_Lelles" "dynn_Lemonds" "dynn_Gardner" "dynn_Leoriane" "dynn_Letrush" "dynn_Limax" "dynn_Liore" "dynn_Liric" "dynn_Lirrian" "dynn_Litte" "dynn_Loche" "dynn_Lothaire" "dynn_Luseph" "dynn_Lylvieve" "dynn_Maborel" "dynn_Macile" "dynn_Madach" "dynn_Magius" "dynn_Malene" "dynn_Mallory" "dynn_Manette" "dynn_Manis" "dynn_Mannick" "dynn_Marane" "dynn_Marence" "dynn_Maric" "dynn_Marquardt" "dynn_Masolaude" "dynn_Masoriane" "dynn_Mastercroft" "dynn_Masterfield" "dynn_Masterford" "dynn_Masterham" "dynn_Masterhart" "dynn_Masterhouse" "dynn_Mastering" "dynn_Mastersley" "dynn_Mastersly" "dynn_Mastersmith" "dynn_Masterston" "dynn_Masterton" "dynn_Masterwing" "dynn_Mastien" "dynn_Maston" "dynn_Matreinace" "dynn_Maulinie" "dynn_Maurard" "dynn_Melie" "dynn_Mene" "dynn_Merchad" "dynn_Merian" "dynn_Meric" "dynn_Metrick" "dynn_Milielle" "dynn_Milvan" "dynn_Mon" "dynn_Mona" "dynn_Monet" "dynn_Moniel" "dynn_Montrose" "dynn_Moorcroft" "dynn_Moorfield" "dynn_Moorford" "dynn_Moorham" "dynn_Moorhart" "dynn_Moorhouse" "dynn_Mooring" "dynn_Moorsley" "dynn_Moorsly" "dynn_Moorsmith" "dynn_Moorston" "dynn_Moorton" "dynn_Moorwing" "dynn_Mornardl" "dynn_Morrard" "dynn_Nathans" "dynn_Nermarc" "dynn_Nestal" "dynn_Nin" "dynn_Northwode" "dynn_Nytte" "dynn_Oges" "dynn_Onis" "dynn_Ottus" "dynn_Palielle" "dynn_Panoit" "dynn_Peneles" "dynn_Perrick" "dynn_Petit" "dynn_Phiencel" "dynn_Philulanie" "dynn_Phirrienele" "dynn_Pierrane" "dynn_Rane" "dynn_Rarnis" "dynn_Renault" "dynn_Renoit" "dynn_Retene" "dynn_Retiene" "dynn_Rielle" "dynn_Rirne" "dynn_Riscel" "dynn_Rolaine" "dynn_Rolston" "dynn_Rostorard" "dynn_San" "dynn_Sele" "dynn_Selone" "dynn_Sette" "dynn_Sidrey" "dynn_Sintav" "dynn_Sintieve" "dynn_Stedrine" "dynn_Stegine" "dynn_Stentor" "dynn_Stieve" "dynn_Stoine" "dynn_Sylbenitte" "dynn_Tailas" "dynn_Thierry" "dynn_Tilwald" "dynn_Traven" "dynn_Tussaud" "dynn_Valtieri" "dynn_Vanne" "dynn_Vant" "dynn_Vautrine" "dynn_Velain" "dynn_Vette" "dynn_Viernis" "dynn_Virane" "dynn_Virmaulese" "dynn_Wickcroft" "dynn_Wickfield" "dynn_Wickford" "dynn_Wickham" "dynn_Wickhart" "dynn_Wickhouse" "dynn_Wicking" "dynn_Wicksley" "dynn_Wicksly" "dynn_Wicksmith" "dynn_Wickston" "dynn_Wickton" "dynn_Wickwing" "dynn_Wirich" "dynn_Woodcroft" "dynn_Woodfield" "dynn_Woodford" "dynn_Woodham" "dynn_Woodhart" "dynn_Woodhouse" "dynn_Wooding" "dynn_Woodsley" "dynn_Woodsly" "dynn_Woodsmith" "dynn_Woodston" "dynn_Woodton" "dynn_Woodwing" "dynn_Yeomcroft" "dynn_Yeomfield" "dynn_Yeomford" "dynn_Yeomhart" "dynn_Yeomhouse" "dynn_Yeoming" "dynn_Yeomsley" "dynn_Yeomsly" "dynn_Yeomsmith" "dynn_Yeomston" "dynn_Yeomton" "dynn_Yeomwing" "dynn_Yvienne" "dynn_Lencolia" "dynn_Wickland" "dynn_Wodeland" "dynn_Moorland" "dynn_Croftland" "dynn_Garland" "dynn_Yeoland" "dynn_Northland" "dynn_Lariat" "dynn_Jarth" "dynn_Coburn" "dynn_Baggledonf" "dynn_Wifflington" "dynn_Smethworthy" "dynn_Skeffington" "dynn_Longleat" "dynn_Percy" "dynn_Guimard" "dynn_Lourd" "dynn_Entier" "dynn_Blanche" "dynn_Aubigny" "dynn_Dravarol" "dynn_Cosham" "dynn_Maul" "dynn_Eardwulf" "dynn_Cubitt" "dynn_Summers" "dynn_Salarth" "dynn_Jardinier" "dynn_Jardiner" "dynn_Menajer" "dynn_Ardwyr" "dynn_Gardwyr" "dynn_Femwyr" "dynn_Hardwyr" "dynn_Amaethwyr" "dynn_Cleddyfwyr" "dynn_Garclay" "dynn_Vien" "dynn_Montaine" "dynn_Daguer" "dynn_Vynier" "dynn_Renier" "dynn_Flowdys" "dynn_Troivois" "dynn_Clarke" "dynn_Garrity" "dynn_Granve" "dynn_Elde" "dynn_Succoth" "dynn_Edrald" "dynn_Spenard" "dynn_Geornis" "dynn_Rosselli" "dynn_Barthel" "dynn_Gouttes_de_Lune" "dynn_Riverblossom" "dynn_Menant" "dynn_Tustin" "dynn_Jegnole" "dynn_Dantien" "dynn_Lan"
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+	mercenary_names = {
+		{ name = "mercenary_order_albatross" coat_of_arms = "mo_order_albatross" }
+		{ name = "mercenary_order_iron_knot" coat_of_arms = "mo_order_iron_knot" }
+		{ name = "mercenary_oaken_order" coat_of_arms = "mo_oaken_order" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+		{ name = "mercenary_knights" }
+	}
+}

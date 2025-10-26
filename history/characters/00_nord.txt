@@ -33,7 +33,7 @@ reachbreaker_101 = {
 	name = "Lodvar" #King of Markarth (Warlords)
 	dna = lodvar_dna_entry
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = reachbreaker_100
 	mother = reachbreaker_100_wife
@@ -81,7 +81,7 @@ reachbreaker_101_sister = {
 	name = "Gjarmiddi"
 	female = yes
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = reachbreaker_100
 	mother = reachbreaker_100_wife
@@ -98,7 +98,7 @@ reachbreaker_101_sister = {
 reachbreaker_102 = {
 	name = "Baldur" #Heir to Markarth
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = reachbreaker_101
 	mother = woodhewn_98_sister
@@ -119,7 +119,7 @@ reachbreaker_103 = {
 	name = "Kirsten"
 	female = yes
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = reachbreaker_101
 	mother = woodhewn_98_sister
@@ -166,7 +166,7 @@ reachbreaker_103 = {
 reachbreaker_104 = {
 	name = "Angvild"
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = reachbreaker_101
 	mother = woodhewn_98_sister
@@ -235,7 +235,7 @@ reachbreaker_105 = {
 reachbreaker_103_husband = {
 	name = "Sigfredur"
 	dynasty = dynn_bolger
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = bolger_105
 
@@ -248,7 +248,7 @@ reachbreaker_103_husband = {
 reachbreaker_106 = { #Serves as a way to give Nord players a way to reclaim the Reach until the family intermarry to the Yngvlar
 	name = "Skulina"
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	female = yes
 	father = reachbreaker_103_husband
@@ -270,7 +270,7 @@ reachbreaker_106 = { #Serves as a way to give Nord players a way to reclaim the 
 reachbreaker_107 = { #Serves as a way to give Nord players a way to reclaim the Reach until the family intermarry to the Yngvlar
 	name = "Erich" #After Ormvard's dad
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	father = cursebraid_2006
 	mother = reachbreaker_106
@@ -285,7 +285,7 @@ reachbreaker_107 = { #Serves as a way to give Nord players a way to reclaim the 
 
 reachbreaker_107_wife = {
 	name = "Ingifinna"
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	female = yes
 
@@ -298,7 +298,7 @@ reachbreaker_107_wife = {
 reachbreaker_108 = { #Marries Yngvlar_998 in 3426.7.19
 	name = "Bodil" #After greatx2 grandma
 	dynasty = dynn_reachbreaker
-	culture = westmarcher
+	culture = karthholder
 	religion = nord_cult
 	female = yes
 	father = reachbreaker_107
@@ -2391,6 +2391,7 @@ bjorga_reason_for_the_dawnguard = {
 
 	3341.12.12 = { birth = yes }
 	3366.10.1 = { trait = vampire_character }
+	3366.10.4 = { trait = denounced }
 	3367.8.17 = {
 		effect = {
 			character:dawnguard_1000 = {
@@ -2902,7 +2903,7 @@ blackbriar_99 = {
 }
 blackbriar_99_husband = {
 	name = "Thorald"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	trait = generous
@@ -4904,7 +4905,7 @@ ghilred_1004 = {
 snowbourne_95 = {
 	name = "Hemrik"
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 
 	trait = sign_steed
@@ -4935,7 +4936,7 @@ snowbourne_95_wife = {
 snowbourne_96_brother = { #Married to cruelsea_96
 	name = "Gestlring"
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_95
 	mother = snowbourne_95_wife
@@ -4948,7 +4949,7 @@ snowbourne_96_brother = { #Married to cruelsea_96
 snowbourne_96 = {
 	name = "Kelfwiil"
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_95
 	mother = snowbourne_95_wife
@@ -4962,7 +4963,7 @@ snowbourne_96 = {
 snowbourne_97_brother = { #Married to icemane_999
 	name = "Hamrgar"
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_96
 	mother = cruelsea_96_sister
@@ -4976,7 +4977,7 @@ snowbourne_97 = {
 	name = "Hanne"
 	female = yes
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_96
 	mother = cruelsea_96_sister
@@ -4991,7 +4992,7 @@ snowbourne_98 = {
 	name = "Elsa"
 	female = yes
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowsong_999_brother
 	mother = snowbourne_97
@@ -5009,7 +5010,7 @@ snowbourne_98 = {
 snowbourne_99 = {
 	name = "Eiman"
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowsong_999_brother
 	mother = snowbourne_97
@@ -5029,7 +5030,7 @@ snowbourne_99 = {
 snowbourne_100 = {
 	name = "Agnar"
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_99
 	mother = bloodskal_1000_sister
@@ -5053,7 +5054,7 @@ snowbourne_100 = {
 snowbourne_101 = { ## Will need to change with more start dates
 	name = "Algot" #The Mad
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_100
 	trait = lunatic_1
@@ -5074,7 +5075,7 @@ snowbourne_102 = {
 	name = "Tillrani" #Former ruler of Bleakrock, cousin will take back control after the War
 	female = yes
 	dynasty = 300007
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = totemism
 	father = snowbourne_101
 	mother = ashenvoice_101
@@ -5937,7 +5938,7 @@ bluewall_99 = {
 bluewall_100 = { #Matri marries sail_mender_1000 in 3359.3.12
 	name = "Odfel"
 	dynasty = 310004
-	culture = westmarcher
+	culture = eastmarcher
 	religion = nord_cult
 	father = bluewall_98
 	mother = graymane_94_brother_daughter
@@ -8802,6 +8803,7 @@ sweetrollstealer_100 = {
 		}
 	}
 	3358.1.1 = { add_spouse = sweetrollstealer_100_wife }
+	3368.12.4 = { religion = vaermina_cult }
 	3420.12.31 = { death = { death_reason = death_old_age } }
 }
 sweetrollstealer_100_wife = {
@@ -11586,6 +11588,7 @@ dovahater_1000 = {
 
 	3294.6.1 = { birth = yes }
 	3320.1.1 = { add_spouse = reachbreaker_101_sister }
+	3227.1.1 = { culture = bendmarcher }
 	3330.1.1 = { 
 		trait = lunatic_1
 		trait = zealous
@@ -11610,6 +11613,7 @@ dovahater_1001 = {
 	mother = reachbreaker_101_sister
 
 	3325.8.19 = { birth = yes }
+	3227.1.1 = { culture = bendmarcher }
 	3382.1.1 = { death = yes }
 }
 
@@ -11629,6 +11633,7 @@ dovahater_1002 = {
 	trait = sign_shadow
 
 	3326.5.6 = { birth = yes }
+	3227.1.1 = { culture = bendmarcher }
 	3330.1.1 = { 
 		trait = one_eyed
 		effect = {
@@ -11646,7 +11651,7 @@ dovahater_1002 = {
 volkihar_1000 = {
 	name = "Harkon"
 	dynasty = dyn_volkihar
-	culture = westmarcher
+	culture = volkihar
 	religion = molag_cult
 	dna = harkon_dna_entry
 	
@@ -11676,7 +11681,7 @@ volkihar_1000 = {
 
 volkihar_1001 = {
 	name = "Valerica"
-	culture = westmarcher
+	culture = volkihar
 	religion = idealmasters
 	female = yes
 	
@@ -11713,7 +11718,7 @@ volkihar_1001 = {
 volkihar_1002 = {
 	name = "Serana"
 	dynasty = dyn_volkihar
-	culture = westmarcher
+	culture = volkihar
 	religion = molag_cult
 	female = yes
 	father = volkihar_1000
@@ -11763,7 +11768,7 @@ vittr_majorn = {
 	name = "Majorn"
 	dna = majorn_dna_entry
 	dynasty_house = volkihar_vittr
-	culture = eastmarcher
+	culture = volkihar
 	religion = molag_cult
 	
 	trait = education_learning_4
@@ -11790,7 +11795,7 @@ vittr_valeric = {
 	name = "Valeric"
 	dna = valeric_dna_entry
 	dynasty_house = volkihar_vittr
-	culture = eastmarcher
+	culture = volkihar
 	religion = molag_cult
 	
 	trait = education_martial_2
@@ -11819,8 +11824,9 @@ vittr_valeric = {
 falgravn_100 = { #Maybe for unlanded gameplay? Landed in Blackbone?
 	name = "Falgravn"
 	dynasty = dynn_blackbone #Maybe a Volkihar house instead? Also placeholder
-	culture = westmarcher
+	culture = volkihar
 	religion = molag_cult
+	sexuality = bisexual
 
 	trait = vampire_character
 	trait = sadistic
@@ -11834,7 +11840,7 @@ falgravn_100 = { #Maybe for unlanded gameplay? Landed in Blackbone?
 	trait = sign_thief
 
 	386.12.20 = { birth = yes } #Molag Bal summoning day
-	#387.1.1 = { effect = { learn_language = ### } } #If/when sea giants are added, he should know Sea Giantish/Giantish
+	387.1.1 = { effect = { learn_language = language_giant } } #If/when sea giants are added, he should know Sea Giantish/Giantish
 	426.12.20 = {
 		effect = { set_immortal_age = 40 }
 	}
@@ -12485,7 +12491,7 @@ hoagbellow_10003 = {
 jurgald_998 = { #Landed by Torygg because he didn't want Logrolf to marry a lowborn, a compromise
 	name = "Gjermund"
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	trait = sign_warrior
@@ -12497,7 +12503,7 @@ jurgald_998 = { #Landed by Torygg because he didn't want Logrolf to marry a lowb
 
 jurgald_998_wife = {
 	name = "Hrafntinna"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	female = yes
 
@@ -12510,7 +12516,7 @@ jurgald_998_wife = {
 jurgald_999 = {
 	name = "Eldfyr"
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	father = jurgald_998
 	mother = jurgald_998_wife
@@ -12523,7 +12529,7 @@ jurgald_999 = {
 }
 jurgald_999_wife = {
 	name = "Tova"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	female = yes
 
@@ -12535,7 +12541,7 @@ jurgald_999_wife = {
 jurgald_999_sister = { #Married to Logrolf in 3313.6.4
 	name = "Rikke"
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	female = yes
 
@@ -12559,7 +12565,7 @@ jurgald_1000 = {
 	name = "Terrfyga"
 	female = yes
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	father = jurgald_999
 	mother = jurgald_999_wife
@@ -12590,7 +12596,7 @@ jurgald_1000_sister = {
 	name = "Drusba"
 	female = yes
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	father = jurgald_999
 	mother = jurgald_999_wife
@@ -12611,7 +12617,7 @@ jurgald_1000_sister = {
 jurgald_1001_brother = {
 	name = "Avel"
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	mother = jurgald_1000
@@ -12734,7 +12740,7 @@ jurgald_1004 = {
 jurgald_1003 = {
 	name = "Kyr"
 	dynasty = jurgald
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	father = jurgald_1001
 	mother = jurgald_1001_wife
@@ -17333,7 +17339,7 @@ bolger_105 = {
 	name = "Kolbeinn"
 	dynasty = dynn_bolger
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 	father = bolger_104
 
 	trait = sign_warrior
@@ -17347,7 +17353,7 @@ bolger_105 = {
 helgr_1 = {
 	name = "Ingivaldur"
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 
 	trait = sign_lord
 
@@ -17359,7 +17365,7 @@ helgr_1 = {
 helgr_1_wife = {
 	name = "Thorhanna"
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 	female = yes
 
 	trait = sign_lover
@@ -17371,7 +17377,7 @@ helgr_1_wife = {
 skjoralmor_7_wife = {
 	name = "Sigurbirna"
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 	female = yes
 	father = helgr_1
 	mother = helgr_1_wife
@@ -17387,7 +17393,7 @@ helgr_2 = {
 	name = "Elinbergur"
 	dynasty = dynn_helgr #Family gets raised into nobility after Okto retakes his throne
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 	father = helgr_1
 	mother = helgr_1_wife
 
@@ -17402,7 +17408,7 @@ helgr_2 = {
 helgr_2_wife = {
 	name = "Rosinkara"
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 	female = yes
 
 	trait = sign_apprentice
@@ -17415,7 +17421,7 @@ helgr_line = { #Will be removed eventually, Helgr line eventually falls before t
 	name = "Elinbergur"
 	dynasty = dynn_helgr
 	religion = nord_cult
-	culture = westmarcher
+	culture = karthholder
 	trait = line_of_x
 	disallow_random_traits = yes
 	diplomacy = 0
@@ -18861,9 +18867,10 @@ gjukar_1001 = {
 }
 #Mayors of Dragonbridge
 dragonbridge_11300 = {
-	name = "Oengul"
-	culture = westmarcher
-	religion = nord_cult
+	#name = "Oengul"
+	name = "Kalien"
+	culture = doragoni
+	religion = reman_cult
 
 	trait = education_stewardship_2
 	trait = greedy
@@ -18876,10 +18883,13 @@ dragonbridge_11300 = {
 	3415.1.1 = { death = yes }
 }
 dragonbridge_11300_daughter = {
-	name = "Erna"
+	#name = "Erna"
+	name = "Eliera"
 	female = yes
-	culture = westmarcher
-	religion = nord_cult
+	#culture = westmarcher
+	#religion = nord_cult
+	culture = doragoni
+	religion = reman_cult
 	father = dragonbridge_11300
 
 	trait = education_diplomacy_1
@@ -18890,6 +18900,7 @@ dragonbridge_11300_daughter = {
 	
 	3339.6.12 = { birth = yes }
 	# 3362 marries berlinger_1001
+	3363.12.4 = { religion = nord_cult }
 	3415.1.1 = { death = yes }
 }
 dragonbridge_11301 = {
@@ -19127,7 +19138,7 @@ wayward_1001 = {
 #Nords in Morrowind
 felnord_99 = {
 	name = "Haknir"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	
 	3289.1.1 = { birth = yes }
@@ -19136,7 +19147,7 @@ felnord_99 = {
 }
 felnord_99_wife = {
 	name = "Temba"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	female = yes
 	
@@ -19146,7 +19157,7 @@ felnord_99_wife = {
 felnord_100 = { #Raider, captured Dagon Fel
 	name = "Hans"
 	dynasty = dyn_fire_eye
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	father = felnord_99
@@ -19168,7 +19179,7 @@ felnord_100 = { #Raider, captured Dagon Fel
 
 felnord_100_wife = {
 	name = "Agata"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	female = yes
 	
@@ -19179,7 +19190,7 @@ felnord_100_wife = {
 felnord_101 = {
 	name = "Roggvar"
 	dynasty = dyn_fire_eye
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	father = felnord_100
@@ -19205,7 +19216,7 @@ felnord_101 = {
 felnord_101b = {
 	name = "Ysmal"
 	dynasty = dyn_fire_eye
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	father = felnord_100
@@ -19221,7 +19232,7 @@ felnord_101b = {
 felnord_101c = {
 	name = "Temba"
 	dynasty = dyn_fire_eye
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	female = yes
 
@@ -19234,7 +19245,7 @@ felnord_101c = {
 
 felnord_201 = {
     name = "Skjort"
-    culture = eastmarcher
+    culture = dunkreathi
     religion = nord_cult
 
     trait = education_learning_3
@@ -19254,7 +19265,7 @@ felnord_201 = {
 
 felnord_202 = {
     name = "Mikkael"
-    culture = eastmarcher
+    culture = dunkreathi
     religion = nord_cult
 
     trait = education_learning_3
@@ -19273,7 +19284,7 @@ felnord_202 = {
 
 felnord_203 = {
     name = "Druwin"
-    culture = eastmarcher
+    culture = dunkreathi
     religion = nord_cult
 
     trait = education_learning_3
@@ -19288,7 +19299,7 @@ felnord_203 = {
 # Vassals to k_Redoran, formerly raiders
 ashenvoice_1 = {
 	name = "Lokir"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 
@@ -19303,7 +19314,7 @@ ashenvoice_1 = {
 
 ashenvoice_2 = {
 	name = "Lokir"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 
@@ -19325,7 +19336,7 @@ ashenvoice_2 = {
 
 ashenvoice_95 = {
 	name = "Daglin"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	
@@ -19341,7 +19352,7 @@ ashenvoice_95 = {
 
 ashenvoice_96 = {
 	name = "Thormar"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	
@@ -19358,7 +19369,7 @@ ashenvoice_96 = {
 ashenvoice_96_spouse = {
 	name = "Ondi"
 	female = yes
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	trait = education_stewardship_3
@@ -19373,7 +19384,7 @@ ashenvoice_96_spouse = {
 
 ashenvoice_97 = {
 	name = "Freyda"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	female = yes
@@ -19392,7 +19403,7 @@ ashenvoice_97 = {
 
 ashenvoice_98 = {
 	name = "Thorkild"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	
@@ -19415,7 +19426,7 @@ ashenvoice_98 = {
 ashenvoice_98_daughter = {
 	name = "Kili"
 	female = yes
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 
@@ -19435,7 +19446,7 @@ ashenvoice_98_daughter = {
 }
 ashenvoice_99 = {
 	name = "Olav"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	give_nickname = nick_the_kneeler
@@ -19456,7 +19467,7 @@ ashenvoice_99 = {
 ashenvoice_99_spouse = {
 	name = "Gunnhild"
 	female = yes
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 
 	trait = education_martial_1
@@ -19471,7 +19482,7 @@ ashenvoice_99_spouse = {
 
 ashenvoice_100 = {
 	name = "Rurik"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	
@@ -19495,7 +19506,7 @@ ashenvoice_100 = {
 
 ashenvoice_101 = {
 	name = "Olfwenn"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = ashen_voice
 	female = yes
@@ -19516,7 +19527,7 @@ ashenvoice_101 = {
 
 firemouth_100 = { #Lich from the TESIII Morrowind DLC
 	name = "Grurn"
-	culture = eastmarcher
+	culture = dunkreathi
 	religion = nord_cult
 	dynasty = fire_mouth
 	
@@ -19839,7 +19850,7 @@ keeneye_1003 = { #Matri marries snowshod_100 in 3379.3.13, potential heir for Br
 
 smokefrost_1000 = { #Daughter marries darkhammer_100
 	name = "Steapus"
-	culture = eastmarcher
+	culture = cyro_nord
 	religion = nord_cult
 
 	trait = arrogant
@@ -19849,12 +19860,13 @@ smokefrost_1000 = { #Daughter marries darkhammer_100
 	trait = sign_lover
 
 	3317.2.13 = { birth = yes }
+	3337.12.31 = { effect = { learn_language = language_nordic } }
 	3344.1.2 = { add_spouse = smokefrost_1000_wife }
 	3384.6.5 = { death = yes }
 }
 smokefrost_1000_wife = { #Daughter marries darkhammer_100
 	name = "Tova"
-	culture = eastmarcher
+	culture = cyro_nord
 	religion = nord_cult
 	female = yes
 
@@ -19865,7 +19877,7 @@ smokefrost_1000_wife = { #Daughter marries darkhammer_100
 }
 smokefrost_1000_daughter = { #Marries darkhammer_100 in 3369.12.26
 	name = "Alessia"
-	culture = eastmarcher
+	culture = cyro_nord
 	religion = nord_cult
 	female = yes
 	father = smokefrost_1000
@@ -19879,6 +19891,7 @@ smokefrost_1000_daughter = { #Marries darkhammer_100 in 3369.12.26
 	disallow_random_traits = yes
 
 	3345.4.12 = { birth = yes }
+	3357.12.31 = { effect = { learn_language = language_nordic } }
 	3368.1.1 = { 
 		add_trait = wrathful
 		add_trait = education_stewardship_2
@@ -19888,10 +19901,11 @@ smokefrost_1000_daughter = { #Marries darkhammer_100 in 3369.12.26
 }
 smokefrost_1001 = {
 	name = "Eirikus"
-	culture = eastmarcher
+	culture = cyro_nord
 	religion = nord_cult
 
 	3361.1.1 = { birth = yes }
+	3375.12.31 = { effect = { learn_language = language_nordic } }
 	3428.1.1 = { death = yes }
 }
 

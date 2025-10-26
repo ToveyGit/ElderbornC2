@@ -1,0 +1,1759 @@
+﻿#House al-Bergama
+
+bergama_1000 = {
+	name = "Ahlam"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	dna = bergama_1000_dna_entry
+	
+	father = phyllocid_1001
+	mother = nisewan_1001
+
+	trait = zealous
+	trait = honest
+	trait = ambitious
+	trait = beauty_good_2
+
+	trait = education_diplomacy_3
+
+	3344.1.1 = { birth = yes }
+	3360.1.1 = { add_spouse = ojwa_1001b }
+	3412.1.1 = { death = yes }
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_mena_02
+			custom_beards=male_empty
+		}
+	}	
+}
+
+bergama_1000a = {
+	name = "Aaban"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	father = phyllocid_1001
+	mother = nisewan_1001
+
+	3347.1.1 = { birth = yes }
+	3416.1.1 = { death = yes }	
+}
+
+bergama_1000b = {
+	name = "Adara"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = phyllocid_1001
+	mother = nisewan_1001
+
+	3349.1.1 = { birth = yes }
+	3421.1.1 = { death = yes }	
+}
+
+bergama_1001 = {
+	name = "Hodrah"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	father = bergama_1000
+	mother = ojwa_1001b
+
+	3380.1.1 = { birth = yes }
+	3462.1.1 = { death = yes }	
+}
+
+bergama_1002 = {
+	name = "Mazrahil"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	father = bergama_1001
+
+	3400.1.1 = { birth = yes }
+	3465.1.1 = { death = yes }	
+}
+
+bergama_1003 = {
+	name = "Zizzeen"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	father = bergama_1002
+
+	3420.1.1 = { birth = yes }
+	3450.1.1 = {
+		religion = tall_papa
+		culture = crown_culture
+	}
+	3471.1.1 = { death = yes }	
+}
+
+bergama_1004 = {
+	name = "Fanesh"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = bergama_1002
+
+	3418.1.1 = { birth = yes }
+	3435.1.1 = { add_matrilineal_spouse = hegathe_1005 }
+	3470.1.1 = { death = yes }	
+}
+
+bergama_1005 = {
+	name = "Faharajad"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	mother = bergama_1004
+	father = hegathe_1005
+
+	3438.1.1 = { birth = yes }
+	3465.1.1 = { add_spouse = danobia_1001 }
+	3471.1.1 = { effect = { add_pressed_claim = title:e_hammerfell } }
+	3507.1.1 = { death = yes }
+}
+
+bergama_1006 = {
+	name = "Maraya"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	mother = danobia_1001
+	father = bergama_1005
+
+	3480.1.1 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_the_jewel }
+	3550.1.1 = { death = yes }	
+}
+
+bergama_1007 = {
+	name = "Lakana"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	mother = danobia_1001
+	father = bergama_1005
+
+	3481.1.1 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_the_star }
+	3548.1.1 = { death = yes }	
+}
+
+bergama_1008 = {
+	name = "Azah"
+	dynasty_house = phyllocid_bergama
+	religion = tall_papa
+	culture = forebear
+	
+	mother = danobia_1001
+	father = bergama_1005
+
+	3482.1.1 = { birth = yes }
+	3500.1.1 = { give_nickname = nick_the_lion }
+	3554.1.1 = { death = yes }	
+}
+
+##al-Mashid Dynasty (dyn_mashid)
+
+#House al-Mashid
+
+mashid_1000 = {
+	name = "Hisal"
+	dynasty = dyn_mashid
+	religion = tall_papa
+	culture = forebear
+
+	trait = education_stewardship_1
+	trait = arbitrary
+	trait = patient
+	trait = forgiving
+
+	3338.1.1 = { birth = yes }
+	3399.1.1 = { death = yes }	
+}
+##al-Rahal Dynasty (dyn_rahal) Connect to Sahan Dynasty?
+#House al-Rahal
+rahal_999 = {
+	name = "Karifa"
+	dynasty = dyn_rahal
+	religion = redguard_cult
+	culture = forebear
+	female = yes
+
+	3291.1.1 = { birth = yes }
+	3357.1.1 = { death = yes }	
+}
+rahal_1000 = {
+	name = "Divad"
+	dynasty = dyn_rahal
+	religion = redguard_cult
+	culture = forebear
+	mother = rahal_999
+
+	3332.1.1 = { birth = yes }
+	3333.1.1 = {
+		effect = {
+			learn_language = language_cyrodiilic
+		}
+	}
+	3404.1.1 = { death = yes }	
+}
+rahal_1001 = {
+	name = "Fadiya"
+	dynasty = dyn_rahal
+	religion = redguard_cult
+	culture = elinhiri
+	female = yes
+	mother = rahal_999
+
+	3336.1.1 = { birth = yes }
+	3337.1.1 = { effect = { learn_language = language_tamrielic_yoku } }
+	3401.1.1 = { death = yes }	
+}
+rahal_1002 = {
+	name = "Azad"
+	dynasty = dyn_rahal
+	religion = redguard_cult
+	culture = elinhiri
+	mother = rahal_1001
+
+	3360.1.1 = { birth = yes }
+	3428.1.1 = { death = yes }	
+}
+rahal_1003 = { #Matri marries palestone_2001?
+	name = "Zaria"
+	dynasty = dyn_rahal
+	religion = redguard_cult
+	culture = forebear
+	father = rahal_1000
+	female = yes
+
+	3358.1.1 = { birth = yes }
+	3434.1.1 = { death = yes }	
+}
+##al-Chad Dynasty (dyn_owynok)
+
+#House al-Chad
+
+chad_1000 = {
+	name = "Zuladr"
+	dynasty = dyn_owynok
+	religion = tall_papa
+	culture = forebear
+
+	3330.1.1 = { birth = yes }
+	3383.1.1 = { death = yes }	
+}
+
+##al-Kardala Dynasty (dyn_jahannif)
+
+#House al-Kardala
+
+kardala_1000 = {
+	name = "Kardala"
+	dynasty = dyn_jahannif
+	religion = redguard_cult
+	culture = forebear
+	female = yes
+
+	3334.1.1 = { birth = yes }
+	3402.1.1 = { death = yes }	
+}
+
+##al-Bahah Dynasty (dyn_jamadin)
+
+#House al-Bahah
+
+bahah_1000 = {
+	name = "Juncan"
+	dynasty = dyn_jamadin
+	religion = celestial_cult
+	culture = belkarther #forebear
+
+	trait = education_learning_3
+	trait = diligent
+	trait = deceitful
+	trait = humble
+
+	3311.1.1 = { birth = yes }
+	3392.1.1 = { death = yes }	
+}
+
+##al-Corten Dynasty (dyn_rihad)
+
+#House al-Corten
+
+corten_1000 = {
+	name = "Qanliz"
+	dynasty = dyn_rihad
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = education_martial_3
+	trait = rough_terrain_expert
+	trait = cynical
+	trait = generous
+	trait = trusting
+
+	3332.1.1 = { birth = yes }
+	3381.1.1 = { death = yes }	
+}
+
+##al-Tigonus Dynasty (dyn_tigonus)
+
+#House al-Tigonus
+
+tigonus_1000 = {
+	name = "Yashar"
+	dynasty = dyn_tigonus
+	religion = tall_papa
+	culture = forebear
+
+	3340.1.1 = { birth = yes }
+	3406.1.1 = { death = yes }	
+}
+
+tigonus_1001 = {
+	name = "Eshir"
+	dynasty = dyn_tigonus
+	religion = tall_papa
+	culture = forebear
+	
+	father = tigonus_1000
+
+	3362.1.1 = { birth = yes }
+	3419.1.1 = { death = yes }	
+}
+
+##al-Nisewan Dynasty (dyn_nisewan)
+
+#House al-Nisewan
+nisewan_100 = {
+	name = "Yaghoub"
+	dynasty = dyn_nisewan
+	religion = satakal
+	culture = yokudan
+	trait = sign_steed
+	trait = lifestyle_traveler
+	
+	780.1.1 = { birth = yes }
+	810.1.1 = { give_nickname = nick_the_seafarer }
+	855.1.1 = { death = yes }
+}
+
+nisewan_101 = {
+	name = "Yaghoub"
+	dynasty = dyn_nisewan
+	religion = satakal
+	culture = yokudan
+	trait = line_of_x
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	
+	father = nisewan_100
+	
+	854.1.1 = { birth = yes }
+	1300.1.1 = { give_nickname = nick_line_of }
+	3281.1.1 = { death = yes }
+}
+
+nisewan_999 = {
+	name = "Farasad"
+	dynasty = dyn_nisewan
+	religion = tall_papa
+	culture = forebear
+	
+	father = nisewan_101
+
+	3255.1.1 = { birth = yes }
+	3323.1.1 = { death = yes }	
+}
+
+nisewan_1000 = {
+	name = "Ebrahim"
+	dynasty = dyn_nisewan
+	religion = tall_papa
+	culture = forebear
+	
+	father = nisewan_999
+
+	3280.1.1 = { birth = yes }
+	3354.1.1 = { death = yes }	
+}
+
+nisewan_1001 = {
+	name = "Fereshtah"
+	dna = nisewan_fereshtah_dna_entry
+	dynasty = dyn_nisewan
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = nisewan_1000
+
+	trait = calm
+	trait = gregarious
+	trait = deceitful
+	trait = beauty_good_2
+
+	trait = education_diplomacy_4
+	trait = august
+	trait = family_first
+
+	3323.1.1 = { birth = yes }
+	3332.1.1 = { give_nickname = nick_the_fair }
+	3340.1.1 = { religion = tall_papa }
+	3358.1.1 = { death = yes }
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp2_iberian_muslim_03
+			custom_beards=female_empty
+		}
+	}
+}
+
+nisewan_1002 = {
+	name = "Namasur"
+	dynasty = dyn_nisewan
+	religion = tall_papa
+	culture = forebear
+	
+	father = nisewan_1000
+
+	3312.1.1 = { birth = yes }
+	3349.1.1 = { add_spouse = gulitte_1000b }
+	3375.1.1 = { death = yes }	
+}
+
+nisewan_1003 = {
+	name = "Haldesan"
+	dynasty = dyn_nisewan
+	religion = tall_papa
+	culture = forebear
+	
+	father = nisewan_1002
+	mother = gulitte_1000b
+
+	3349.1.1 = { birth = yes }
+	3365.1.1 = { death = yes }	
+}
+
+##Al-Dihar Dynasty (dyn_dihar)
+
+#House Al-Dihar
+dihar_1000 = {
+	name = "Ozalan"
+	dynasty = dyn_dihar
+	religion = tall_papa
+	culture = forebear
+
+	trait = education_martial_3
+	trait = desert_warrior
+	trait = ambitious
+	trait = humble
+	trait = patient
+
+	3325.1.1 = { birth = yes }
+	3345.1.1 = { add_spouse = taneth_1002b }
+	3367.1.1 = { death = yes }	
+}
+dihar_1001 = {
+	name = "Baurus"
+	dynasty = dyn_dihar
+	religion = tall_papa
+	culture = forebear
+	trait = twin
+	trait = brave
+	trait = honest
+	trait = curious
+
+	disallow_random_traits = yes
+	
+	father = dihar_1000
+	mother = taneth_1002b
+
+	3346.1.1 = { birth = yes }
+	3412.1.1 = { death = yes }	
+}
+dihar_1001b = {
+	name = "Nadwa"
+	dynasty = dyn_dihar
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	trait = twin
+	trait = ambitious
+	trait = chaste
+	trait = curious
+
+	disallow_random_traits = yes
+	
+	father = dihar_1000
+	mother = taneth_1002b
+
+	3346.1.1 = { birth = yes }
+	3415.1.1 = { death = yes }	
+}
+
+##Hallin Dynasty (dyn_hallin)
+
+#House at-Hallin
+
+hallin_100 = {
+	name = "Derik" #Lore
+	dynasty = dyn_hallin
+	religion = satakal
+	culture = yokudan
+
+	900.1.1 = { birth = yes }
+	950.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = rockhand_100
+		}
+	}	
+}
+
+hallin_101 = {
+	name = "Derik"
+	dynasty = dyn_hallin
+	religion = tall_papa
+	culture = forebear
+	trait = line_of_x
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	
+	father = hallin_100
+
+	949.1.1 = { birth = yes }
+	1300.1.1 = { give_nickname = nick_line_of }
+	3301.1.1 = { death = yes }	
+}
+
+hallin_998 = {
+	name = "Asiah"
+	dynasty = dyn_hallin
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = hallin_101
+
+	3300.1.1 = { birth = yes }
+	3359.1.1 = { death = yes }	
+}
+
+hallin_999 = {
+	name = "Jahadan"
+	dynasty = dyn_hallin
+	religion = tall_papa
+	culture = forebear
+	
+	trait = education_learning_2
+	trait = content
+	trait = callous
+	trait = greedy
+
+	mother = hallin_998
+
+	3323.1.1 = { birth = yes }
+	3365.1.1 = { death = yes }	
+}
+
+hallin_1000 = {
+	name = "Ahdan"
+	dynasty = dyn_hallin
+	religion = tall_papa
+	culture = forebear
+	
+	father = hallin_999
+
+	trait = education_martial_3
+	trait = sadistic
+	trait = wrathful
+	trait = patient
+	trait = sign_lady
+
+	3347.9.4 = { birth = yes }
+	3412.1.1 = { death = yes }	
+}
+hallin_1001 = {
+	name = "Maj"
+	female = yes
+	dynasty = dyn_hallin
+	religion = tall_papa
+	culture = forebear
+
+	trait = education_learning_2
+	trait = sadistic
+	trait = calm
+	trait = stubborn
+	trait = sign_apprentice
+
+	father = hallin_999
+
+	3349.7.23 = { birth = yes }
+	# 3369 marries praren_1000
+	3410.1.1 = { death = yes }
+}
+
+##Ragad Dynasty (dyn_ragad)
+
+#House al-Ragad
+
+ragad_1000 = {
+	name = "Alahir"
+	dynasty = dyn_ragad
+	religion = redguard_cult
+	culture = forebear
+
+	3314.1.1 = { birth = yes }
+	3326.1.2 = { effect = { learn_language = language_bretic } }
+	3381.1.1 = { death = yes }	
+}
+
+ragad_1001 = {
+	name = "Khari"
+	dynasty = dyn_ragad
+	religion = redguard_cult
+	culture = forebear
+	female = yes
+	
+	father = ragad_1000
+
+	3334.1.1 = { birth = yes }
+	3348.1.2 = { effect = { learn_language = language_bretic } }
+	3392.1.1 = { death = yes }	
+}
+
+ragad_1002 = {
+	name = "Khezi"
+	dynasty = dyn_ragad
+	religion = redguard_cult
+	culture = forebear
+	female = yes
+	
+	father = ragad_1000
+
+	3336.1.1 = { birth = yes }
+	3337.1.2 = { culture = bangkorite }
+	3401.1.1 = { death = yes }	
+}
+
+##al-Ain Dynasty (dyn_ain)
+
+#House al-Ain
+ain_1000 = {
+	name = "Jalbert"
+	dynasty = dyn_ain
+	religion = tall_papa
+	culture = forebear
+
+	trait = education_learning_2
+	trait = lustful
+	trait = temperate
+	trait = vengeful
+
+	3323.1.1 = { birth = yes }
+	3372.1.1 = { death = yes }	
+}
+
+##al-Taneth Dynasty (dyn_taneth)
+
+#House al-Taneth
+taneth_1000 = {
+	name = "Falion"
+	dynasty = dyn_taneth
+	religion = tall_papa
+	culture = forebear
+
+	3282.1.1 = { birth = yes }
+	3343.1.1 = { death = yes }	
+}
+
+taneth_1001 = {
+	name = "Ahriah"
+	dynasty = dyn_taneth
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = taneth_1000
+
+	3300.1.1 = { birth = yes }
+	3356.1.1 = { death = yes }	
+}
+
+taneth_1002 = {
+	name = "Madara"
+	dna = taneth_1002_dna_entry
+	dynasty = dyn_taneth
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = education_martial_3
+	trait = flexible_leader
+	trait = temperate
+	trait = compassionate
+	trait = stubborn
+	
+	father = taneth_1000
+
+	3306.1.1 = { birth = yes }
+	3370.1.1 = { death = yes }	
+}
+
+taneth_1002b = {
+	name = "Mizareh"
+	dynasty = dyn_taneth
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = gluttonous
+	trait = sadistic
+	trait = trusting
+	
+	father = taneth_1000
+
+	3321.1.1 = { birth = yes }
+	3392.1.1 = { death = yes }	
+}
+
+taneth_1003 = {
+	name = "Nimirazan"
+	dynasty = dyn_taneth
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	mother = taneth_1002
+
+	3327.1.1 = { birth = yes }
+	3386.1.1 = { death = yes }	
+}
+
+taneth_1004 = {
+	name = "Kaman"
+	dynasty = dyn_taneth
+	religion = tall_papa
+	culture = forebear
+	
+	mother = taneth_1002
+
+	3331.1.1 = { birth = yes }
+	3395.1.1 = { death = yes }	
+}
+
+##at-Ojwa Dynasty (dyn_ojwa)
+
+#House at-Ojwa
+
+ojwa_100 = {
+	name = "Ojwa" #Lore
+	dynasty = dyn_ojwa
+	religion = satakal
+	culture = yokudan
+	female = yes
+
+	780.1.1 = { birth = yes }
+	835.1.1 = { death = yes }
+}
+
+ojwa_101 = {
+	name = "Ojwa"
+	dynasty = dyn_ojwa
+	religion = satakal
+	culture = yokudan
+	trait = line_of_x
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	
+	mother = ojwa_100
+
+	834.1.1 = { birth = yes }
+	1300.1.1 = { give_nickname = nick_line_of }
+	3281.1.1 = { death = yes }	
+}
+
+ojwa_999 = {
+	name = "Qasneta"
+	dynasty = dyn_ojwa
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = ojwa_101
+
+	3279.1.1 = { birth = yes }
+	3333.1.1 = { death = yes }	
+}
+
+ojwa_1000 = {
+	name = "Jair"
+	dynasty = dyn_ojwa
+	religion = tall_papa
+	culture = forebear
+	
+	mother = ojwa_999
+
+	3299.1.1 = { birth = yes }
+	3351.1.1 = { death = { death_reason = death_orsinium } } # died in Orsinium	
+}
+
+ojwa_1000b = {
+	name = "Saadia"
+	dynasty = dyn_ojwa
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	mother = ojwa_999
+
+	3301.1.1 = { birth = yes }
+	3366.1.1 = { death = yes }	
+}
+
+ojwa_1001 = {
+	name = "Yarana"
+	dna = ojwa_1001_dna_entry
+	dynasty = dyn_ojwa
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	father = ojwa_1000
+	
+	trait = education_stewardship_3
+	trait = generous
+	trait = brave
+	trait = compassionate
+
+	3316.1.1 = { birth = yes }
+	3367.1.1 = { death = yes }	
+
+		portrait_override={
+			portrait_modifier_overrides={
+				custom_hair=female_hair_sub_saharan_02
+			}
+		}
+}
+
+ojwa_1001b = {
+	name = "Munya"
+	dna = ojwa_munya_dna_entry
+	dynasty = dyn_ojwa
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = education_martial_2
+	trait = jungle_stalker
+	trait = zealous
+	trait = patient
+	trait = honest
+	
+	father = ojwa_1000
+
+	3341.1.1 = { birth = yes }
+	3411.1.1 = { death = yes }	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_fp2_iberian_muslim_02
+		}
+	}
+}
+
+ojwa_1002 = {
+	name = "Vhosek"
+	dna = ojwa_vhosek_dna_entry
+	dynasty = dyn_ojwa
+	religion = tall_papa
+	culture = forebear
+
+	trait = education_martial_3
+	trait = temperate
+	trait = vengeful
+	trait = just
+	
+	mother = ojwa_1001
+
+	3335.1.1 = { birth = yes }
+	3366.10.1 = { religion = redguard_cult }
+	3396.1.1 = { death = yes }	
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_mena_02
+			custom_beards=male_beard_mena_01
+		}
+	}
+}
+
+##al-Oritar Dynasty (dyn_oritar)
+
+#House al-Oritar
+oritar_998 = {
+	name = "Jahzd"
+	dynasty = dyn_oritar
+	religion = tall_papa
+	culture = forebear
+
+	trait = calm
+	trait = content
+	trait = gregarious
+	trait = sign_lord
+
+	3291.3.12 = { birth = yes }
+	3352.1.1 = { death = yes }
+}
+oritar_999 = {
+	name = "Ahala" # Spouse of Duke Fulvert Guimard of Bangkorai
+	dynasty = dyn_oritar
+	dna = oritar_999_dna_entry
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	sexuality = heterosexual
+	father = oritar_998
+
+	trait = cynical
+	trait = diligent
+	trait = patient
+	trait = education_diplomacy_1
+	trait = sign_lady
+
+	3329.9.3 = { birth = yes }
+	3347.1.2 = { culture = bangkorite }
+	3348.1.1 = {
+		remove_trait = cynical # interested in breton religion, she converts (influenced by Fulvert)
+		religion = breton_cult
+		add_trait = content
+	}
+	# 3351 marries guimard_1002
+	3371.1.1 = { death = yes }
+}
+oritar_1000 = {
+	name = "Shardaza"
+	dna = oritar_1000_dna_entry
+	dynasty = dyn_oritar
+	religion = redguard_cult
+	culture = forebear
+	female = yes
+
+	trait = vengeful
+	trait = fickle
+	trait = arbitrary
+	trait = education_stewardship_2
+	trait = sign_thief
+
+	father = oritar_998
+
+	3327.12.24 = { birth = yes }
+	3369.1.1 = { death = yes }	
+}
+
+oritar_1001 = {
+	name = "Muhay"
+	dynasty = dyn_oritar
+	religion = redguard_cult
+	culture = forebear
+
+	trait = content
+	trait = sign_atronach
+	
+	mother = oritar_1000
+
+	3347.11.11 = { birth = yes }
+	3398.1.1 = { death = yes }	
+}
+
+##al-Atuhon Dynasty (dyn_atuhon)
+
+#House al-Atuhon
+atuhon_998 = {
+	name = "Tarek"
+	dynasty = dyn_atuhon
+	religion = breton_cult
+	culture = forebear
+
+	trait = content
+
+	3278.1.1 = { birth = yes }
+	3328.1.1 = { death = yes }
+}
+atuhon_999 = {
+	name = "Jalienna"
+	dynasty = dyn_atuhon
+	religion = breton_cult
+	culture = forebear
+	female = yes
+
+	father = atuhon_998
+
+	trait = sign_steed
+	trait = education_intrigue_2
+	trait = diligent
+	trait = deceitful
+	trait = arrogant
+
+	3302.6.30 = { birth = yes }
+	3312.1.1 = { culture = bangkorite }
+	3329.1.1 = { add_matrilineal_spouse = atuhon_999_husband }
+	3359.10.16 = { death = { death_reason = death_cancer }  }	
+}
+atuhon_999_husband = {
+	name = "Sahmar"
+	religion = breton_cult
+	culture = forebear
+
+	trait = sign_lord
+	trait = education_learning_3
+
+	3304.3.19 = { birth = yes }
+	3314.1.1 = { culture = bangkorite }
+	3322.1.1 = { set_relation_rival = { reason = rival_historical target = character:praren_999 } }
+	3347.1.1 = { remove_relation_rival = character:praren_999 }
+	3353.7.24 = { death = { death_reason = death_hunting_accident }  }	# actual hunting accident, Jalienna believes Namvar al-Praren killed him because they used to be enemies
+}
+atuhon_1000 = {
+	name = "Trithik"
+	dynasty = dyn_atuhon
+	religion = breton_cult
+	culture = forebear
+
+	trait = forgiving
+	trait = shy
+	trait = just
+	trait = education_stewardship_1
+	trait = sign_ritual
+
+	mother = atuhon_999
+	father = atuhon_999_husband
+
+	3332.1.21 = { birth = yes }
+	3352.1.1 = { culture = bangkorite }
+	# 3359 becomes friend of praren_1000, they connect over the death of their parents
+	3359.10.16 = {
+		effect = {
+			add_unpressed_claim = title:c_fearfang
+		}
+	}
+	# 3362 marries praren_1001
+	3384.1.1 = { death = yes }	
+}
+
+##al-Praren Dynasty (dyn_praren)
+
+#House al-Praren
+praren_999 = {
+	name = "Namvar"
+	dynasty = dyn_praren
+	religion = redguard_cult
+	culture = forebear
+
+	trait = education_learning_4
+	trait = gregarious
+	trait = forgiving
+	trait = honest
+	trait = sign_apprentice
+	diplomacy = 6
+	martial = 2
+	stewardship = 6
+	intrigue = 3
+	learning = 7
+
+	3307.7.12 = { birth = yes }
+	3328.1.1 = { give_nickname = nick_the_wise }
+	3339.1.1 = { add_spouse = praren_999_spouse }
+	3359.3.7 = { death = { killer = atuhon_999 death_reason = death_murder } } # the irony to these families modern entanglement is that they connect over the deaths of their parents, when one killed the other
+}
+praren_999_spouse = {
+	name = "Corda"
+	female = yes
+	religion = redguard_cult
+	culture = forebear
+
+	trait = education_stewardship_2
+	trait = gregarious
+	trait = fickle
+	trait = arbitrary
+	trait = sign_lord
+
+	3312.3.28 = { birth = yes }
+	3367.1.1 = { death = yes }
+}
+praren_1000 = {
+	name = "Eil"
+	dynasty = dyn_praren
+	religion = redguard_cult
+	culture = forebear
+
+	trait = craven
+	trait = stubborn
+	trait = humble
+	trait = education_stewardship_2
+	trait = sign_lover
+	trait = twin
+	diplomacy = 4
+	martial = 4
+	stewardship = 6
+	intrigue = 0
+	learning = 4
+	prowess = 4
+
+	father = praren_999
+	mother = praren_999_spouse
+
+	3341.2.28 = { birth = yes }
+	3341.1.1 = { culture = bangkorite }
+	3359.10.8 = { set_relation_friend = { reason = best_friend_spoke_highly_about target = character:atuhon_1000 } } # they connect over the death of their parents
+	3369.9.12 = { add_spouse = hallin_1001 }
+	3376.1.1 = { death = yes }
+}
+praren_1001 = {
+	name = "Elusa"
+	dynasty = dyn_praren
+	religion = redguard_cult
+	culture = forebear
+
+	female = yes
+
+	trait = twin
+	trait = brave
+	trait = calm
+	trait = arrogant
+	trait = education_martial_1
+	trait = sign_lover
+	diplomacy = 6
+	martial = 10
+	stewardship = 1
+	intrigue = 7
+	learning = 2
+	prowess = 8
+
+	father = praren_999
+	mother = praren_999_spouse
+
+	3341.2.28 = { birth = yes }
+	3342.1.1 = { culture = bangkorite }
+	3362.1.1 = { add_spouse = atuhon_1000 } # Eil gives his sisters hand in marriage to his friend
+	3368.1.1 = { death = { death_reason = death_adventure } }
+}
+
+##Shaelan Dynasty (dyn_shaelan)
+
+#House Shaelan
+
+shaelan_1000 = {
+	name = "Zammel"
+	dynasty = dyn_shaelan
+	religion = tall_papa
+	culture = forebear
+
+	3332.1.1 = { birth = yes }
+	3396.1.1 = { death = yes }	
+}
+
+shaelan_1001 = {
+	name = "Lakhim"
+	dynasty = dyn_shaelan
+	religion = tall_papa
+	culture = forebear
+	
+	father = shaelan_1000
+
+	3362.1.1 = { birth = yes }
+	3411.1.1 = { death = yes }	
+}
+
+#Gaiden Shinji
+shinji_1 = {
+	name = "Gaiden" #Lore
+	dynasty = dyn_shinji
+	religion = tall_papa
+	culture = forebear #Ra Gada
+
+	trait = lifestyle_blademaster
+	trait = brave
+	trait = patient
+	trait = gregarious
+	trait = p_yp_diagna #Leader of Order of Diagna
+	
+	930.1.1 = { birth = yes }
+	947.1.1 = { give_nickname = nick_the_blademaster }
+	970.7.1 = { death = { death_reason = death_murder_known killer = winterborn_100 } }
+}
+
+#Leki Dynasty (leki)
+
+#House leki
+
+leki_1 = { #TO DO: add her five companions as her friends, all named on her UESP page
+	name = "Makela" #Lore
+	dynasty = dyn_leki
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = lifestyle_blademaster
+	trait = gregarious
+	trait = brave
+	trait = education_martial_4
+	trait = strategist
+	trait = saint
+	# trait = sword_singer
+	
+	948.1.1 = { birth = yes }
+	973.1.1 = { death = { death_reason = death_battle } }
+}
+
+##Hunding Dynasty (dyn_hunding)
+hunding_1 = { #Frandar's mother
+	name = "Narine"
+	dynasty = dyn_hunding #Technically not a Hunding, but dynasty tree is awful otherwise
+	religion = satakal
+	culture = yokudan
+	female = yes
+
+	721.1.1 = { birth = yes }
+	715.1.1 = { add_matrilineal_spouse = hunding_1_husband }
+	794.1.1 = { death = yes }
+}
+hunding_1_husband = { #Frandar's father, dies in insurrection
+	name = "Abir"
+	religion = satakal
+	culture = yokudan
+
+	719.1.1 = { birth = yes }
+	764.1.1 = { death = { death_reason = death_battle } }
+}
+hunding_2 = {
+	name = "Frandar" #Lore
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear #Ra Gada
+
+	mother = hunding_1
+	father = hunding_1_husband
+
+	trait = education_martial_5
+	trait = lifestyle_blademaster
+	trait = flexible_leader
+	trait = journaller
+	trait = wrathful
+	trait = zealous
+	trait = brave
+	trait = p_yp_hoonding
+
+	746.1.1 = { birth = yes }
+	767.1.1 = { add_spouse = hunding_2_wife }
+	839.1.1 = { death = { death_reason = death_battle } }
+}
+#Frandar had 4 siblings
+hunding_2b = {
+	name = "Taheer"
+	dynasty = dyn_hunding
+	religion = satakal
+	culture = yokudan
+
+	mother = hunding_1
+	father = hunding_1_husband
+
+	749.1.1 = { birth = yes }
+	774.1.1 = { death = { death_reason = death_battle } }
+}
+hunding_2c = {
+	name = "Ehshaz"
+	dynasty = dyn_hunding
+	religion = satakal
+	culture = yokudan
+
+	mother = hunding_1
+	father = hunding_1_husband
+
+	752.1.1 = { birth = yes }
+	769.1.1 = { death = { death_reason = death_ill } }
+}
+hunding_2d = {
+	name = "Izbemir"
+	dynasty = dyn_hunding
+	religion = satakal
+	culture = yokudan
+
+	mother = hunding_1
+	father = hunding_1_husband
+
+	756.1.1 = { birth = yes }
+	779.1.1 = { death = { death_reason = death_battle } }
+}
+hunding_2e = {
+	name = "Kayam"
+	dynasty = dyn_hunding
+	religion = satakal
+	culture = yokudan
+
+	mother = hunding_1
+	father = hunding_1_husband
+
+	759.1.1 = { birth = yes }
+	784.1.1 = { death = { death_reason = death_murder } }
+}
+hunding_2b1 =  { #Frandar's niece
+	name = "Lufiya" #Lore - cut eso content
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear #Ra Gada
+	female = yes
+
+	father = hunding_2e
+
+	trait = beauty_good_3 #Legendary beauty
+
+	781.1.1 = { birth = yes }
+	#History ToDo: marries into some Crown family?
+	830.1.1 = { death = yes }
+}
+hunding_2_wife = { #Divad's mother, name unknown, known that she was murdered
+	name = "Nanza"
+	religion = satakal
+	culture = yokudan
+	female = yes
+
+	751.1.1 = { birth = yes }
+	784.1.1 = { death = { death_reason = death_murder } }
+}
+hunding_3 = {
+	name = "Divad" #Lore
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear #Ra Gada
+
+	father = hunding_2
+	mother = hunding_2_wife
+
+	trait = adventurer #Was a traveling bard
+	trait = education_martial_5
+	trait = lifestyle_blademaster
+	trait = brave
+	trait = zealous
+	trait = vengeful
+
+	778.1.1 = { birth = yes }
+	800.1.1 = { give_nickname = nick_the_singer }
+	842.1.1 = { death = yes }
+}
+hunding_4 = { #Divad's daughter
+	name = "Cinsel" #Lore - cut DF content
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear #Ra Gada
+	female = yes
+
+	father = hunding_3
+
+	819.1.1 = { birth = yes }
+	880.1.1 = { death = yes }
+}
+hunding_line = {
+	name = "Cinsel"
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear #Ra Gada
+	female = yes
+	mother = hunding_4
+	trait = line_of_x
+	disallow_random_traits = yes
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+	prowess = 0
+	880.1.1 = { birth = yes }
+	860.1.1 = { give_nickname = nick_line_of }
+	3269.1.1 = { death = yes }
+}
+hunding_98 = {
+	name = "Nari"
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	mother = hunding_line
+
+	3269.1.1 = { birth = yes }
+	3317.1.1 = { death = yes }
+}
+hunding_99 = {
+	name = "Gibal"
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear
+
+	mother = hunding_98
+
+	3291.1.1 = { birth = yes }
+	3349.1.1 = { death = yes }
+}
+hunding_100 = {
+	name = "Kanet"
+	dynasty = dyn_hunding
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	father = hunding_99
+
+	3324.1.1 = { birth = yes }
+	3387.1.1 = { death = yes }
+}
+
+#Djen Dynasty
+
+#House Djen
+
+djen_1 = { 
+	name = "Sinia" 
+	dynasty = dyn_djen
+	religion = forgotten_gods
+	culture = forebear
+	female = yes
+
+	trait = peasant_leader
+	
+	3334.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+}
+
+#Lowborns
+forebearwife_1000 = {
+	name = "Zaria"
+	female = yes
+	religion = tall_papa
+	culture = forebear
+
+	3336.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+
+##Republics/Theocracies
+
+tall_papa_1000 = {
+	name = "Doletta"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	3314.1.1 = { birth = yes }
+	3387.1.1 = { death = yes }
+}
+
+myrkwasa_1000 = {
+	name = "Zafira"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	  
+	3330.1.1 = { birth = yes }
+	3397.1.1 = { death = yes }
+}
+
+satakalaam_1000 = {
+	name = "Shabhehm"
+	religion = tall_papa
+	culture = forebear
+
+	3322.1.1 = { birth = yes }
+	3385.1.1 = { death = yes }
+}
+
+devisar_1000 = {
+	name = "Sabrilah"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	3339.1.1 = { birth = yes }
+	3411.1.1 = { death = yes }
+}
+
+roseguard_1000 = {
+	name = "Khadora"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = education_martial_2
+	trait = forder
+	trait = trusting
+	trait = brave
+	trait = zealous
+
+	3328.1.1 = { birth = yes }
+	3372.1.1 = { death = yes }
+}
+
+chaseguard_1000 = {
+	name = "Tralan"
+	religion = tall_papa
+	culture = forebear
+
+	trait = education_stewardship_2
+	trait = sadistic
+	trait = humble
+	trait = greedy
+
+	3325.1.1 = { birth = yes }
+	3377.1.1 = { death = yes }
+}
+
+hasamir_1000 = {
+	name = "Aizar"
+	religion = tall_papa
+	culture = forebear
+
+	3302.1.1 = { birth = yes }
+	3371.1.1 = { death = yes }
+}
+
+nilata_1000 = {
+	name = "Kintsel"
+	religion = redguard_cult
+	culture = forebear
+	
+	3320.1.1 = { birth = yes }
+	3321.1.2 = { culture = bangkorite }
+	3372.1.1 = { death = yes }
+}
+
+damar_1000 = {
+	name = "Enis"
+	religion = tall_papa
+	culture = forebear
+	
+	3340.1.1 = { birth = yes }
+	3399.1.1 = { death = yes }
+}
+
+thieve_oasis_1000 = {
+	name = "Mamhua"
+	religion = tall_papa
+	culture = forebear
+	
+	3329.1.1 = { birth = yes }
+	3388.1.1 = { death = yes }
+}
+
+hall_of_heroes_1000 = {
+	name = "Marzya"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	3331.1.1 = { birth = yes }
+	3382.1.1 = { death = yes }
+}
+
+swordsong_1000 = {
+	name = "Tamarik"
+	religion = tall_papa
+	culture = forebear
+	
+	3329.1.1 = { birth = yes }
+	3373.1.1 = { death = yes }
+}
+
+lacryma_1000 = {
+	name = "RokDun"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+	
+	3340.1.1 = { birth = yes }
+	3397.1.1 = { death = yes }
+}
+
+rahniza_1000 = {
+	name = "Stanno"
+	religion = celestial_cult
+	culture = belkarther
+	
+	3327.1.1 = { birth = yes }
+	3375.1.1 = { death = yes }
+}
+
+kulati_1000 = {
+	name = "Kulan"
+	religion = tall_papa
+	culture = forebear
+	
+	3329.1.1 = { birth = yes }
+	3373.1.1 = { death = yes }
+}
+
+sirhan_1000 = {
+	name = "Phintias"
+	religion = celestial_cult
+	culture = belkarther
+	
+	3328.1.1 = { birth = yes }
+	3401.1.1 = { death = yes }
+}
+
+jirius_1000 = {
+	name = "Sura"
+	religion = tall_papa
+	culture = forebear
+	
+	3320.1.1 = { birth = yes }
+	3391.1.1 = { death = yes }
+}
+
+####################
+### Adventurers  ###
+####################
+
+#Redguards in High Rock
+amren_100 = {
+	name = "Amren" #From TES V Whiterun
+	religion = tall_papa
+	culture = forebear
+
+	trait = diligent
+	trait = brave
+	trait = arbitrary
+
+	trait = education_martial_2
+	trait = lifestyle_blademaster
+	trait = education_martial_prowess_4
+	trait = arcana_good_1
+	trait = adventurer
+	
+	3337.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #spellsword
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = moile_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	# 3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+shawiya_100 = {
+	name = "Shawiya"
+	religion = tall_papa
+	culture = forebear
+	female = yes
+
+	trait = zealous
+	trait = brave
+	trait = patient
+
+	trait = education_learning_3
+	trait = lifestyle_blademaster
+	trait = adventurer
+	
+	3337.1.1 = { birth = yes }
+	3356.1.1 = {
+		effect = { #spellsword
+			add_prestige_level = 3
+		}
+	}
+
+	3360.1.1 = { employer = moile_1000 }
+	3365.1.1 = { effect = { if = { limit = { has_dlc_feature = royal_court } create_inspiration = adventure_inspiration } } }
+	3369.1.1 = { move_to_pool = yes } #retainers don't leave :p
+	3371.1.1 = { death = yes }
+}
+
+# LAAMPS
+
+dynaheir = {
+	name = "Dersaja"
+	dynasty = dyn_rashem
+	religion = celestial_cult
+	culture = forebear
+	female = yes
+
+	trait = education_learning_3
+	trait = education_magic_3
+	trait = arcana_good_2
+	trait = sign_lady
+	trait = just
+	trait = honest
+	trait = diligent
+	trait = witch
+	
+	3335.9.21 = { birth = yes }
+	3360.1.1 = {
+		effect = {
+			add_arcana_skill = { VALUE = 8 }
+			set_relation_friend = { reason = friend_generic_history target = character:minsc }
+			learn_language = language_nordic
+		}
+	}
+	3380.9.21 = { death = { death_reason = death_battle } }
+}
+minsc = {
+	name = "Maul"
+	religion = celestial_cult
+	culture = westmarcher
+
+	trait = education_martial_3
+	trait = sign_thief
+	trait = strong
+	trait = dull	#head injury
+	trait = brave
+	trait = compassionate
+	trait = eccentric
+	trait = berserker
+	trait = loyal
+	
+	3333.12.21 = { birth = yes }
+	3360.1.1 = { employer = dynaheir }
+	3360.1.1 = {
+		effect = {
+			add_character_modifier = { modifier = prison_pet_rat_modifier }	#Miniature giant Oblivion rat
+		}
+	}
+	3380.9.21 = { move_to_pool = yes }
+	3423.8.3 = { death = yes }
+}

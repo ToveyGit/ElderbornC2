@@ -1,0 +1,90 @@
+﻿1410500 = {
+	name = "dynn_stonewrecker"
+	culture = ogre
+}
+
+1410501 = {
+	name = "dynn_ironhand"
+	culture = ogre
+}
+
+1410502 = {
+	name = "dynn_fluteandpipe"
+	culture = ogre
+}
+
+1410503 = {
+	name = "dynn_shipbrought"
+	culture = riekling
+}
+
+1410504 = {
+	name = "dynn_wagluz"
+	culture = mountain_orc
+}
+
+1410505 = {
+	name = "dynn_Moslin"
+	culture = hackdirt
+	motto = dynn_moslin_motto
+}
+
+1899993 = {
+	name = "dynn_jin"
+	culture = kitsothiit
+}
+
+1899994 = {
+	name = "dynn_Grimhorn"
+	culture = minotaur
+}
+
+1899995 = {
+	name = "dynn_Bloodwater"
+	culture = minotaur
+}
+
+1899996 = {
+	name = "dynn_Falconhoof"
+	culture = minotaur
+}
+
+1899997 = {
+	name = "dynn_Oxtooth"
+	culture = minotaur
+}
+
+ 1410506 = {
+	name = "dynn_Cracktooth"
+	culture = giant_culture
+}
+
+ 1410507 = {
+	name = "dynn_Longstride"
+	culture = giant_culture
+}
+
+ 1410508 = {
+	name = "dynn_Wallbreaker"
+	culture = giant_culture
+}
+
+ 1410511 = {
+	name = "dynn_zeptum"
+	culture = ruby_orc
+}
+
+  1410512 = {
+	name = "dynn_newculture"
+	culture = keptu
+}
+
+1410513 = {
+	name = "dynn_archein"
+	culture = archein
+}
+
+450000 = {
+	name = "dynn_Solais"
+	culture = galen
+}

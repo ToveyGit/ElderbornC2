@@ -1,0 +1,208 @@
+﻿##############
+#   Minotaur #
+##############
+### Let Minotaurs reclaim Ale-Shut Dynasty
+reclaim_ale_shut_dynasty_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	
+	desc = reclaim_ale_shut_dynasty_decision_desc
+	selection_tooltip = reclaim_ale_shut_dynasty_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_landed = yes
+		#highest_held_title_tier >= tier_duchy
+		#exists = capital_province
+		capital_province = { geographical_region = mundus_tamriel_cyrodiil }
+		
+		culture = { has_cultural_pillar = heritage_minotaur }
+		
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_reclaimed_ale_shut_dynasty
+			}
+		}
+	}
+
+	is_valid = {
+		# gotta have the Cyrodiil empire title OR Tamriel title
+		OR = {
+				has_title = title:e_cyrodiil
+				has_title = title:e_tamriel
+			}	
+		# gotta COMPLETELY control the Imperial Isle
+		#completely_controls_region = mundus_tamriel_cyrodiil	
+		completely_controls = title:d_imperial_isle
+		# gotta be a Minotaur
+		#culture = { has_cultural_pillar = heritage_minotaur }
+		# High enough devotion
+		piety_level >= 4
+		prestige_level >= 3
+		#legitimacy_level >= 4
+		# Can't worship the Daedra
+		custom_tooltip = {
+						text = not_daedric_faith
+						NOT = { faith.religion = { is_in_family = rf_daedra }}
+		}
+		# We are the culture head
+		#custom_tooltip = {
+			#text = you_are_culture_head
+			#culture.culture_head = root
+		#}		
+		# We're gonna need proper armies to gain respect
+		custom_tooltip = {
+			text = not_disorganized_military
+			NOT = {	culture = { has_innovation = innovation_disorganized_military }}
+		}
+		# culture is not pariah
+		NOT = {	culture = { has_innovation = innovation_pariah_folk }}	
+		#has_feudal_or_admin_government = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_landed = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1000
+		gold = 500
+		piety = 1500
+	}
+
+	effect = {
+		#join_aleshut_dynasty_scripted_effect = yes
+		hidden_effect = {
+			house.house_founder = { set_father = character:alessian_103minotaur }
+		}
+		hidden_effect = { 
+			ROOT.house = { every_house_member = {
+				even_if_dead = yes
+				set_house = character:alessian_100.house }
+				}
+			#ROOT.house = { every_house_member = { add_trait = dragonborn } } #MIGHT DELETE
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_ale_shut_heritage_decision
+			}
+		}
+		set_house = character:alessian_100.house
+		#save_scope_as = founder
+		trigger_event = {
+			id = ale_shut_decision_event.0001
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_reclaimed_ale_shut_dynasty
+			}
+		}
+		custom_tooltip = { #Unlock Hegemon legacy
+            text = unlocks_hegemony_dynasty_legacy
+            dynasty = {
+                set_variable = {
+                    name = can_get_hegemon_legacy_track
+                    value = yes
+                }
+            }
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	# AI should be relatively likely to do this
+	ai_will_do = {
+		base = 60
+		# Especially if they got something to prove
+		modifier = {
+			add = 20
+			has_trait = ambitious
+		}
+		modifier = {
+			add = 10
+			has_trait = arrogant
+		}
+		# Though some might not wanna do that
+		modifier = {
+			add = -20
+			has_trait = content
+		}
+		modifier = {
+			add = -10
+			has_trait = humble
+		}
+	}
+}
+}
+
+
+### Aldmeri Subject
+
+# Remove tradition_aldmeri_subject
+ek_remove_aldmeri_subject = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_realm.dds" }
+	decision_group_type = major
+	desc = ek_remove_aldmeri_subject_decision_desc
+
+	ai_check_interval = 120
+
+	is_shown = {
+		culture.culture_head = this
+		culture = { has_cultural_tradition = tradition_aldmeri_subject }
+	}
+
+	is_valid = {
+		OR = {
+			is_independent_ruler = yes
+			custom_tooltip = {
+				text = ek_remove_aldmeri_subject_requirement
+				NOT = { top_liege.culture = { has_cultural_tradition = tradition_ceremoniarchy }}
+			}
+		}
+	}
+
+	cost = {
+		prestige = 500
+	}
+
+	effect = {
+		culture = { remove_culture_tradition = tradition_aldmeri_subject }
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	# AI should be relatively likely to do this
+	ai_will_do = {
+		base = 60
+		# Especially if they got something to prove
+		modifier = {
+			add = 20
+			has_trait = ambitious
+		}
+		modifier = {
+			add = 10
+			has_trait = arrogant
+		}
+		# Though some might not wanna do that
+		modifier = {
+			add = -20
+			has_trait = content
+		}
+		modifier = {
+			add = -10
+			has_trait = humble
+		}
+
+		modifier = { #Altmeribosmer start not under Alinor's thumb so we really gotta make sure this doesn't happen
+			add = -59
+			has_culture = culture:altmeribosmer
+		}
+	}
+}

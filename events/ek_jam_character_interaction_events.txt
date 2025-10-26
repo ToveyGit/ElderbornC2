@@ -1,0 +1,66 @@
+﻿namespace = ek_jam_char_interaction
+
+# Offer to become Dominion Scion: Accepted
+ek_char_interaction.0005 = {
+	type = letter_event
+	opening = {
+		desc = ek_char_interaction.0005.opening
+	}
+	desc = ek_char_interaction.0005.desc
+	sender = scope:recipient
+
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# Offer to become Dominion Scion: Refused
+ek_char_interaction.0006 = {
+	type = letter_event
+	opening = {
+		desc = ek_char_interaction.0006.opening
+	}
+	desc = ek_char_interaction.0006.desc
+		
+	sender = {
+		character = scope:recipient
+		animation = dismissal
+	}
+
+	option = {
+		name = ek_char_interaction.0006.a
+	}
+}
+
+# Request to become Dominion Scion: Accepted
+ek_char_interaction.0007 = {
+	type = letter_event
+	opening = {
+		desc = ek_char_interaction.0007.opening
+	}
+	desc = ek_char_interaction.0007.desc
+		
+	sender = scope:recipient
+
+	option = {
+		name = ek_char_interaction.0007.a
+	}
+}
+
+# Request to become Dominion Scion: Refused
+ek_char_interaction.0008 = {
+	type = letter_event
+	opening = {
+		desc = ek_char_interaction.0008.opening
+	}
+	desc = ek_char_interaction.0008.desc
+		
+	sender = {
+		character = scope:recipient
+		animation = dismissal
+	}
+
+	option = {
+		name = ek_char_interaction.0008.a
+	}
+}

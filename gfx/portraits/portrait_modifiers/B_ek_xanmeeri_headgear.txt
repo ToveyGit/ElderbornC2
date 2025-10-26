@@ -1,0 +1,351 @@
+﻿ek_xanmeeri_headgear = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 1
+
+##############################
+#							 #	
+#			XANMEERI		 	 #
+#							 #
+##############################
+
+	ek_xanmeeri_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+                portrait_jester_trigger = {  
+                    CULTURE_INPUT = ek_xanmeeri 
+                }
+
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {  
+                    CULTURE_INPUT = ek_xanmeeri 
+                }
+			}
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+		}
+	}
+
+	ek_xanmeeri_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = ek_xanmeeri } 
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+			}
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+		}
+	}
+
+	ek_xanmeeri_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }   
+			}
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+		}
+	}
+	
+	ek_xanmeeri_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = ek_xanmeeri
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = ek_xanmeeri
+					}   
+				}
+			}
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+		}
+	}
+
+
+	ek_xanmeeri_commoners_fp3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+                portrait_jester_trigger = {  
+                    CULTURE_INPUT = ek_xanmeeri 
+                }
+
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {  
+                    CULTURE_INPUT = ek_xanmeeri 
+                }
+			}
+		}
+	}
+
+	ek_xanmeeri_low_nobles_fp3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = ek_xanmeeri } 
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+			}
+		}
+	}
+
+	ek_xanmeeri_high_nobles_fp3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }   
+			}
+		}
+	}
+	
+	ek_xanmeeri_royalty_fp3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = ek_xanmeeri
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = ek_xanmeeri
+					}   
+				}
+			}
+		}
+	}
+}
+
+
+ek_xanmeeri_war_headgear = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 4
+
+    ek_xanmeeri_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+                accessory = m_headgear_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # The Error log gets angry if this isnt added
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50 
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                }
+            }
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+        }
+    }
+
+    ek_xanmeeri_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+                accessory = m_headgear_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # The Error log gets angry if this isnt added
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50 
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+        }
+    }
+	
+    ek_xanmeeri_war_low_nobles_fp3 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = indian_war
+                accessory = m_headgear_sec_indian_war_nob_01_lo
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50 
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                }
+            }
+        }
+    }
+
+    ek_xanmeeri_war_high_nobles_fp3 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = indian_war
+                accessory = m_headgear_sec_indian_war_nob_01_hi
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50 
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+}

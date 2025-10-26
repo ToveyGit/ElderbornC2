@@ -1,0 +1,161 @@
+﻿##Stonewrecker Dynasty
+#House Stonewrecker 
+stonewrecker_100 = {
+	name = "Golthog" #Count of Dragonclaw (Warlord)
+	dynasty = 1410500
+	culture = ogre
+	religion = ogre_shamanism
+    #dna = stonewrecker_dna_entry
+
+	martial = 8
+
+	trait = giant
+	trait = education_martial_3
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_indian_03
+			custom_beards=male_empty
+		}
+	}
+	
+	3326.1.9 = { birth = yes }
+	3351.1.1 = { give_nickname = nick_the_ogre }
+	3379.3.22 = { death = yes }
+}
+stonewrecker_101 = {
+	name = "Bruuke" #Count of Dragonclaw (Interregnum)
+	dynasty = 1410500
+	culture = ogre
+	religion = ogre_shamanism
+	
+	martial = 8
+
+	trait = giant
+	trait = rowdy
+
+	father = stonewrecker_100
+	
+	3351.6.11 = { birth = yes }
+	3367.6.11 = {
+		trait = education_martial_4
+		trait = gluttonous
+		trait = wrathful
+		trait = ambitious
+	}
+	3417.8.28 = { death = yes }
+}
+
+##Ironhand Dynasty
+#House Ironhand 
+ironhand_500 = {
+	name = "Sharp_Eye" #Count of Cumberland (Warlord)
+	dynasty = 1410501
+	culture = ogre
+	religion = ogre_shamanism
+    #dna = ironhand_500_dna_entry
+	
+	trait = giant
+	trait = arcana_good_1
+	trait = education_learning_3
+	trait = one_eyed
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=no_hair
+			custom_beards=male_empty
+		}
+	}
+	
+	3310.5.21 = { birth = yes }
+	3378.6.23 = { death = yes }
+}
+ironhand_501 = {
+	name = "Grob" #Count of Cumberland (Interregnum)
+	dynasty = 1410501
+	culture = ogre
+	religion = ogre_shamanism
+	female = yes
+	disallow_random_traits = yes
+    #dna = ironhand_501_dna_entry
+	
+	trait = giant
+	trait = rowdy
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_05
+			custom_beards=female_empty
+		}
+	}
+
+	father = ironhand_500
+	
+	3349.4.14 = { birth = yes }
+	3365.4.14 = {
+		martial = 10
+		trait = education_martial_4
+		trait = vengeful
+		trait = sadistic
+		trait = ambitious
+		give_nickname = nick_skull_crusher
+	}
+	3421.5.26 = { death = yes }
+}
+ironhand_502 = {
+	name = "Zlob" #Count of Cumberland (Interregnum)
+	dynasty = 1410501
+	culture = ogre
+	religion = ogre_shamanism
+	female = yes
+	
+	trait = giant
+
+	father = ironhand_500
+	
+	3353.3.20 = { birth = yes }
+	3420.8.12 = { death = yes }
+}
+ironhand_503 = {
+	name = "Zrob" #Count of Cumberland (Interregnum)
+	dynasty = 1410501
+	culture = ogre
+	religion = ogre_shamanism
+	female = yes
+	
+	trait = giant
+
+	father = ironhand_500
+	
+	3354.11.19 = { birth = yes }
+	3429.8.30 = { death = yes }
+}
+
+##Flute-and-Pipe Dynasty
+#House Flute-and-Pipe
+fluteandpipe_100 = {
+	name = "Krakko" #Count of Reloth (Warlord)
+	dynasty = 1410502
+	culture = ogre
+	religion = ogre_shamanism
+    #dna = fluteandpipe_dna_entry
+
+	martial = 8
+
+	trait = giant
+	trait = arrogant
+	trait = deceitful
+	trait = sadistic
+	trait = education_martial_3
+	trait = viking
+
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair=male_hair_fp1_05
+			custom_beards=male_empty
+		}
+	}
+	
+	3343.6.18 = { birth = yes }
+	3420.8.17 = { death = yes }
+}

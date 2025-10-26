@@ -1,0 +1,32 @@
+﻿namespace = ale_shut_decision_event
+
+#Restore the Ale-Shut Dynasty
+ale_shut_decision_event.0001 = {
+	type = character_event
+	title = ale_shut_decision_event.0001.t
+	desc = ale_shut_decision_event.0001.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	lower_left_portrait = {
+		character = character:alessian_100
+	}
+	lower_center_portrait = {
+		character = character:alessian_101
+	}
+	lower_right_portrait = {
+		character = character:alessian_103
+	}
+
+	immediate = { play_music_cue = "mx_cue_epic_sacral_moment" }
+
+	option = {
+		name = ale_shut_decision_event.0001.a
+		give_nickname = nick_the_restorer 
+		dynasty = { add_dynasty_prestige = major_dynasty_prestige_value }
+		add_legitimacy = major_legitimacy_gain
+	}
+}

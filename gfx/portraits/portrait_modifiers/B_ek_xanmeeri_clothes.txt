@@ -1,0 +1,343 @@
+﻿ek_xanmeeri_clothes = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 1
+
+##############################
+#							 #	
+#			XANMEERI			 #
+#							 #
+##############################
+
+#has_fp3_dlc_trigger = no
+
+    xanmeeri_clothing_lowborn = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = ek_ashlander_commoner_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }	
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+				has_fp3_dlc_trigger = no
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+
+    xanmeeri_clothing_low_nobles = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ek_ashlander_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = mena_war_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+				has_fp3_dlc_trigger = no
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+
+    xanmeeri_clothing_high_nobles = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ek_ashlander_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+				has_fp3_dlc_trigger = no
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+	
+    xanmeeri_clothing_royalty = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = ek_ashlander_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+				has_fp3_dlc_trigger = no
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+
+#has_fp3_dlc_trigger = yes	
+
+    fp3_xanmeeri_clothing_lowborn = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = fp3_iranian_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }	
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+				has_fp3_dlc_trigger = yes
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+
+    fp3_xanmeeri_clothing_low_nobles = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = fp3_iranian_low_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+				has_fp3_dlc_trigger = yes
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+
+    fp3_xanmeeri_clothing_high_nobles = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = fp3_iranian_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+				has_fp3_dlc_trigger = yes
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+	
+    fp3_xanmeeri_clothing_royalty = {
+        dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+				template = fp3_iranian_high_nobility_clothes
+	            range = { 0 1 }
+	        }
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }		
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+				has_fp3_dlc_trigger = yes
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = ek_xanmeeri
+                }
+            }
+        }
+    }
+
+}
+
+ek_xanmeeri_armor = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 4
+
+    ek_xanmeeri_war = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ek_dunmer_war_nobility_clothes
+				range = { 0 1 }
+			}
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }			
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+				add = 60
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_high_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                }
+            }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_high_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                }
+            }
+			modifier = {
+				factor = 0
+				has_dlc_feature = legacy_of_persia	
+            }
+        }
+    }
+
+    fp3_ek_xanmeeri_war = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp3_iranian_war_nobility_clothes
+				range = { 0 1 }
+			}
+	        accessory = {
+	            mode = add
+	            gene = legwear
+	            template = no_legwear
+	            range = { 0 1 }
+	        }			
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+				add = 60
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_high_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                }
+            }
+            modifier = {
+                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_low_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                    portrait_high_nobles_armor_trigger = { 
+                        CULTURE_INPUT = ek_xanmeeri
+                    }
+                }
+            }
+        }
+    }
+
+}
