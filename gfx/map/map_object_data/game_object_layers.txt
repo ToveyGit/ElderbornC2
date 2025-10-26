@@ -9,7 +9,7 @@
 layer={
 	name="building_layer"
 	fade_in=0
-	fade_out=20
+	fade_out=15
 	category=""
 	masks=""
 	visibility_tags=""
