@@ -599,9 +599,32 @@ NTitle = {
 }
 
 NDynasty = {
+	MONTHLY_PRESTIGE_GAIN_PER_MEMBER = 0.1 # Was 0.2 per year, should be then 0.016 recurring but that is ugly so round to 0.015
+	MAX_MONTHLY_PRESTIGE_GAIN_FROM_ALIVE_MEMBERS = 8 # Cap the above number
+	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER = { 0 0.5 0.1 2 4 8 } # When per year was { 0 2 4 6 8 10 }
+	MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY = 0	# Dynasty members who are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
+	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER_SPOUSE = { 0 0.4 0.8 1.6 3.2 6.4 } # When per year was { 0 2 4 6 8 10 }
+	MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY_SPOUSE = 0	# Dynasty members whose spouse are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
+	LEVELS_PRESTIGE = { 300	1000	2000	4000	7000	11000	16000	22000	29000	37000 }
+	LEVEL_DROP_MAX_RETAINED_PROGRESS_PRESTIGE = 0.5
+	LEVELS_PRESTIGE_GRAPHICAL_STEP = 2
+	PRESTIGE_ZERO_LEVEL = 0
+	MARRIAGE_PRESTIGE = { -100	0	100	200	300	400	500	600	700	800 900 }
+	BIRTH_PRESTIGE = { 0	100	200	300	400	500	600	700	800 900	1000 }
+	MAX_LONG_REIGN = { 5	10	15	20	25	30	35	40	45 50	55 }
+	HEAD_MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER = { 0 0.01 0.02 0.03 0.04 0.05 }
+	HEAD_MONTHLY_PRESTIGE_GAIN_PER_MEMBER = 0.01
+	HEAD_MONTHLY_PRESTIGE_GAIN_CAP = 3
+	CURRENT_DYNAST_EXTRA_POWER = 0.1		# For determining who should by dynast, the current dynast is considered to be this much more powerful than reality so that it doesn't bounce back and forth. 0.1 means 10%
+	
     NAMING_CHANCE_CULTURE = 100
     NAMING_CHANCE_TITLE = 0
-}	
+
+	CADET_COA_BASE_PATTERN = "pattern_solid.dds" # Pattern used for in the background of a tiled cadet branch CoA
+
+	PERK_COST_BASE = 250		# Used to determine what the cost of the next legacy perk is going to be. It's calculated as: COST = PERK_COST_BASE + (Number of Unlocked Perks * PERK_COST_MULTIPLIER)
+	PERK_COST_MULTIPLIER = 500	# Used to determine what the cost of the next legacy perk is going to be. It's calculated as: COST = PERK_COST_BASE + (Number of Unlocked Perks * PERK_COST_MULTIPLIER)
+}
 
 NTravel = {
 	TRAVEL_SPEED_BASE = 0 # Travel speed base score value
@@ -615,4 +638,20 @@ NTravel = {
 
 	TRAVEL_EMBARK_COST = 15 # The cost in days added to traveling from a land province to a water province
 	TRAVEL_DISEMBARK_COST = 5 # The cost in days added to traveling from a water province to a land province
+}
+
+NDomain = {
+	ABOVE_LIMIT_LEVY_PENALTY = 0.2				# How much levies are reduced per holding over the limit
+	ABOVE_LIMIT_MAX_LEVY_PENALTY = 1			# How much levies can be reduced at most
+	ABOVE_LIMIT_TAX_INCOME_PENALTY = 0.2		# How much tax income from domain is reduced per holding over the limit
+	ABOVE_LIMIT_MAX_TAX_INCOME_PENALTY = 1		# How much tax income from domain can be reduced at most
+	ABOVE_LIMIT_HERD_INCOME_PENALTY = 0.5		# How much herd income from domain is reduced per holding over the limit
+	ABOVE_LIMIT_MAX_HERD_INCOME_PENALTY = 1		# How much herd income from domain can be reduced at most
+	HOLDING_GRACE_PERIOD = 365					# How many days do newly gained holdings not count towards the domain size for the purposes of penalties (but also not produce any levies)
+	STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE = 6	# domain limit += floor( <stewardship skill> / STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE )
+	LEVIES_AT_ZERO_COUNTY_CONTROL = 0.5			# How many % levies do you get at 0 county control? Interpolated between this value and 100% when between 0 and 100
+	TAX_AT_ZERO_COUNTY_CONTROL = 0.0			# How much % tax do you get at 0 county control? Interpolated between this value and 100% when between 0 and 100
+	LEVIES_AT_MAX_COUNTY_DEVELOPMENT = 0.1		# How many % levies bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
+	TAX_AT_MAX_COUNTY_DEVELOPMENT = 0.1			# How much % tax bonus do you get at 100 county development? Interpolated between this value and 0% when between 0 and 100
+	HOLDING_MIN_GARRISON_COUNT = 25				# The minimal amount of garrisons a holding should have if it should have garrisons
 }
