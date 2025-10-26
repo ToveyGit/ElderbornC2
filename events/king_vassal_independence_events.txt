@@ -1,0 +1,28 @@
+king_vassal_independence.0001 = {
+    
+    hidden = yes
+    delay = 3
+    trigger = {
+        has_landed_title = yes
+        NOT = {
+            has_title = title:e_tribunal_temple
+            has_title = title:e_summerset
+        }
+    }
+    save_scope_as = suzerain
+    immediate = {
+        # Get the successor (usually the new player character)
+        
+
+        every_vassal = {
+            limit = { highest_held_title_tier = tier_kingdom }
+
+
+            # Establish tributary relation to the new ruler
+            break_subject_contract_and_establish_tributary_effect = {
+                SUZERAIN = scope:suzerain
+                TRIBUTARY = this
+            }
+        }
+    }
+}

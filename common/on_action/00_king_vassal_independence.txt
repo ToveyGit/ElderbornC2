@@ -1,0 +1,3 @@
+on_death = {
+    events = { king_vassal_independence.0001 }
+}
